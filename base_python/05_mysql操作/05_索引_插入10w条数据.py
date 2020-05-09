@@ -12,7 +12,7 @@ def main():
     #插入十万条数据
     for i in range(100000):
         cursor.execute("insert into test_index values ('ha-%d')" % i)
-        #提交事务
+        #提交事务12
     conn.commit()
 if __name__ == '__main__':
     main()
