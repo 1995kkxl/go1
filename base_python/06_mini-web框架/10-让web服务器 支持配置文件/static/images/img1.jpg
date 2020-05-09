@@ -1,0 +1,1740 @@
+url -s "${info_url}" > ${var_file} && cat ${var_file} && echo ""
+F_LOG_EXIT " 获取参数 ${info_url} " ${log_file}
+
+[ -f ${var_file} ] && source ${var_file}
+F_LOG_EXIT " 导入参数 ${var_file} " ${log_file}
+
+## 检查参数
+F_CHECK_AGENT "${a_agent}"
+F_LOG_EXIT " 检查参数 AGENT = ${a_agent} " ${log_file}
+
+F_CHECK_SERVER_ID "${a_server_id}" && a_server_id_num=$(F_GET_SERVER_ID_NUM ${a_server_id})
+F_LOG_EXIT " 检查参数 SERVER_ID = ${a_server_id} " ${log_file}
+
+F_CHECK_IP "${a_telecom_ip}"
+F_LOG_EXIT " 检查参数 TELECOM_IP = ${a_telecom_ip} " ${log_file}
+F_CHECK_IP "${a_unicom_ip}"
+F_LOG_EXIT " 检查参数 UNICOM_IP = ${a_unicom_ip} " ${log_file}
+
+[ -n "${a_domain_name}" ]
+F_LOG_EXIT " 检查参数 DOMAIN_NAME = ${a_domain_name} " ${log_file}
+
+[ "release" == "${a_server_build}" -o "debug" == "${a_server_build}" ]
+F_LOG_EXIT " 检查参数 SERVER_BUILD = ${a_server_build} " ${log_file}
+
+F_CHECK_VERSION "${a_server_version}"
+F_LOG_EXIT " 检查参数 SERVER_VERSION = ${a_server_version} " ${log_file}
+
+F_CHECK_VERSION "${a_admin_version}"
+F_LOG_EXIT " 检查参数 ADMIN_VERSION = ${a_admin_version} " ${log_file}
+
+F_CHECK_DATE "${a_start_time}"
+F_LOG_EXIT " 检查参数 开服时间 = ${a_start_time} " ${log_file}
+
+[ -z "${a_combine_time}" ] || F_CHECK_DATE "${a_combine_time}"
+F_LOG_EXIT " 检查参数 合服时间 = ${a_combine_time} " ${log_file}
+
+a_hide_flag=0
+a_cross_id=0
+a_cross_ip='127.0.0.1'
+a_cross_port=10000
+a_cross_open=0
+
+#[ "0"x == "${a_hide_flag}"x -o "1"x == "${a_hide_flag}"x ]
+#F_LOG_EXIT " 检查参数 隐藏服标记 = ${a_hide_flag} " ${log_file}
+
+#[ ${a_cross_id} -gt 0 ]
+#F_LOG_EXIT " 检查参数 跨服战区 = ${a_cross_id} " ${log_file}
+
+#F_CHECK_IP "${a_cross_ip}"
+#F_LOG_EXIT " 检查参数 跨服IP = ${a_cross_ip} " ${log_file}
+
+#[ ${a_cross_port} -gt 0 ]
+#F_LOG_EXIT " 检查参数 跨服端口 = ${a_cross_port} " ${log_file}
+
+#[ "0"x == "${a_cross_open}"x -o "1"x == "${a_cross_open}"x ]
+#F_LOG_EXIT " 检查参数 跨服开启标记 = ${a_cross_open} " ${log_file}
+
+## 环境配置
+c_agent=${a_agent}
+c_server_id=${a_server_id}
+c_server_id_num=${a_server_id_num}
+c_telecom_ip=${a_telecom_ip}
+c_unicom_ip=${a_unicom_ip}
+c_domain_name=${a_domain_name}
+c_server_build=${a_server_build}
+c_server_version=${a_server_version}
+c_admin_version=${a_admin_version}
+c_config_version=''
+c_luasrc_version=''
+c_game_sql_version=''
+c_admin_sql_version=''
+
+##固定开服时间
+start_register_time=${a_start_time} #开启注册时间
+
+a_start_time=$(echo ${a_start_time} | gawk '{print $1 " 01:00:00"}')
+
+c_start_time=${a_start_time}
+c_combine_time=${a_combine_time}
+
+c_hide_flag=${a_hide_flag-''}
+c_cross_id=${a_cross_id-''}
+c_cross_ip=${a_cross_ip-''}
+c_cross_port=${a_cross_port-''}
+c_cross_open=${a_cross_open-''}
+c_cross_time=''
+
+c_dir_agent=${GAME_NAME}_${c_agent}_${c_server_id}
+c_path_agent=${GAME_DIR_AGENT}/${c_dir_agent}
+c_path_server=${c_path_agent}/server/${c_server_version}
+c_path_server_no_ver=${c_path_agent}/server
+c_path_server_build=${c_path_server}/publish_${c_server_build}
+c_path_htdocs=${c_path_agent}/htdocs
+c_path_admin=${c_path_htdocs}
+c_path_config=${c_path_agent}/config
+c_path_script=${c_path_agent}/script
+c_path_backup=${c_path_agent}/backup
+c_path_data=${c_path_agent}/data
+
+c_path_nginx_base=${DATA_DIR_NGINX_BASE}
+c_path_mysql_base=${DATA_DIR_MYSQL_BASE}
+c_path_mysql_data=${GAME_DIR_MYSQL_DATA}
+
+c_path_version_server=${GAME_DIR_VERSION}/server/${c_server_version}
+c_path_version_admin=${GAME_DIR_VERSION}/admin/${c_admin_version}
+
+c_op_lock_file=${c_path_agent}/op.lock
+c_op_step_file=${c_path_agent}/op.step
+
+## 配置类型
+[ -n "${a_ios_type}" ]
+F_LOG_EXIT " 检查环境 检查参数 a_ios_type = ${a_ios_type} " ${log_file}
+
+f_config_type ${a_ios_type}
+
+[ -n "${c_config_type}" -a -n "${c_conf_type_rand}" ]
+F_LOG_EXIT " 检查环境 配置类型 c_config_type = ${c_config_type} c_conf_type_rand = ${c_conf_type_rand} " ${log_file}
+
+## 获取操作锁
+[ ! -d "${c_path_agent}" ] || F_LOCK ${c_op_lock_file}
+F_LOG_EXIT " 检查环境 获取操作锁 ${c_op_lock_file} " ${log_file}
+
+## 检查环境
+[ ! -d "${c_path_agent}" ]
+F_LOG_EXIT " 检查环境 代理目录 ${c_path_agent} " ${log_file}
+
+! pgrep -f "${c_path_server_no_ver}" > /dev/null
+F_LOG_EXIT " 检查环境 服务器进程 " ${log_file}
+
+IPS="$(F_GET_IPS)"
+F_LOG_EXIT " 检查环境 获取IP列表 " ${log_file}
+
+#echo "${IPS}" | grep -q "${c_telecom_ip}"
+F_LOG_EXIT " 检查环境 电信IP ${c_telecom_ip} 正确 " ${log_file}
+
+#echo "${IPS}" | grep -q "${c_unicom_ip}"
+F_LOG_EXIT " 检查环境 联通IP ${c_unicom_ip} 正确 " ${log_file}
+
+## 检查操作状态
+! F_CHECK_STEP "INSTALL" ${c_op_step_file} || (F_CHECK_STEP "INSTALL ${c_server_version}" ${c_op_step_file} && ! F_CHECK_STEP "INSTALL FINISH" ${c_op_step_file})
+F_LOG_EXIT " 检查环境 操作状态 " ${log_file}
+
+## 创建目录
+mkdir -p ${AGENT_DIR_BIN} && \
+mkdir -p ${GAME_DIR_HTDOCS} && \
+mkdir -p ${GAME_DIR_VERSION} && \
+mkdir -p ${GAME_DIR_VERSION}/server && \
+mkdir -p ${GAME_DIR_VERSION}/admin && \
+mkdir -p ${DATA_DIR_LOG}/nginx && \
+mkdir -p ${c_path_agent} && \
+mkdir -p ${c_path_server} && \
+mkdir -p ${c_path_htdocs} && \
+mkdir -p ${c_path_admin} && \
+mkdir -p ${c_path_config} && \
+mkdir -p ${c_path_script} && \
+mkdir -p ${c_path_backup} && \
+mkdir -p ${c_path_data} && \
+mkdir -p ${c_path_backup}/server && \
+mkdir -p ${c_path_backup}/server/log && \
+mkdir -p ${c_path_data}/admin && \
+mkdir -p ${c_path_data}/admin/log && \
+mkdir -p ${c_path_data}/server && \
+mkdir -p ${c_path_data}/server/log && \
+mkdir -p ${c_path_data}/script && \
+chown -R www:www ${DATA_DIR_LOG}/nginx && \
+chown -R www:www ${GAME_DIR_HTDOCS} && \
+chown -R www:www ${c_path_htdocs} && \
+chown -R www:www ${c_path_data}/admin && \
+chown -R www:www ${c_path_data}/admin/log && \
+F_LOG_EXIT " 创建目录 " ${log_file}
+F_SAVE_STEP "INSTALL ${c_server_version}" ${c_op_step_file}
+F_SAVE_STEP "INSTALL CREATE_DIRS" ${c_op_step_file}
+
+## 同步数据
+F_CHECK_STEP "INSTALL SYNC_ADMIN" ${c_op_step_file} || { rsync ${GAME_RSYNC_COMMON_OPT} -e "${GAME_RSYNC_SSH_OPT}" ${GAME_SERVER_CENTER}:${CENTER_DIR_VER}/admin/${c_admin_version}/ ${c_path_version_admin}/;}
+F_LOG_EXIT " 同步数据 后台数据" ${log_file}
+F_SAVE_STEP "INSTALL SYNC_ADMIN" ${c_op_step_file}
+
+F_CHECK_STEP "INSTALL SYNC_SERVER" ${c_op_step_file} || { rsync ${GAME_RSYNC_COMMON_OPT} -e "${GAME_RSYNC_SSH_OPT}" ${GAME_SERVER_CENTER}:${CENTER_DIR_VER}/server/${c_server_version}/ ${c_path_version_server}/;}
+F_LOG_EXIT " 同步数据 服务器数据" ${log_file}
+F_SAVE_STEP "INSTALL SYNC_SERVER" ${c_op_step_file}
+
+## 拷贝数据
+F_CHECK_STEP "INSTALL COPY_ADMIN" ${c_op_step_file} || { [ -n "${c_path_admin}" ] && \rm -rf ${c_path_admin}/* && \cp -prf ${c_path_version_admin}/data/* ${c_path_admin}/;}
+F_LOG_EXIT " 拷贝数据 后台数据" ${log_file}
+F_SAVE_STEP "INSTALL COPY_ADMIN" ${c_op_step_file}
+
+F_CHECK_STEP "INSTALL COPY_SERVER" ${c_op_step_file} || { [ -n "${c_path_server}" ] && \rm -rf ${c_path_server}/* && \cp -prf ${c_path_version_server}/data/* ${c_path_server}/;}
+F_LOG_EXIT " 拷贝数据 服务器数据" ${log_file}
+F_SAVE_STEP "INSTALL COPY_SERVER" ${c_op_step_file}
+
+## 游戏配置
+[ -f ${c_path_version_server}/version.txt ] && source ${c_path_version_server}/version.txt
+F_LOG_EXIT " 导入配置 服务器版本数据 ${c_path_version_server}/version.txt " ${log_file}
+
+c_config_version=${ver_config_version}
+c_luasrc_version=${ver_luasrc_version=0}
+c_game_sql_version=${ver_game_sql_version}
+
+[ -f ${c_path_version_admin}/version.txt ] && source ${c_path_version_admin}/version.txt
+F_LOG_EXIT " 导入配置 后台版本数据 ${c_path_version_admin}/version.txt " ${log_file}
+
+c_admin_src_version=${ver_admin_src_version}
+c_admin_sql_version=${ver_admin_sql_version}
+c_script_version=${ver_script_version}
+
+[ -n "${c_config_version}" ]
+F_LOG_EXIT " 配置参数 服务器配置版本 ${c_config_version} " ${log_file}
+
+[ -n "${c_luasrc_version}" ]
+F_LOG_EXIT " 配置参数 服务器脚本版本 ${c_luasrc_version} " ${log_file}
+
+[ -n "${c_game_sql_version}" ]
+F_LOG_EXIT " 配置参数 游戏数据库SQL版本 ${c_game_sql_version} " ${log_file}
+
+[ -n "${c_admin_src_version}" ]
+F_LOG_EXIT " 配置参数 后台源码版本 ${c_admin_src_version} " ${log_file}
+
+[ -n "${c_admin_sql_version}" ]
+F_LOG_EXIT " 配置参数 后台数据库SQL版本 ${c_admin_sql_version} " ${log_file}
+
+[ -n "${c_script_version}" ]
+F_LOG_EXIT " 配置参数 脚本版本 ${c_script_version} " ${log_file}
+
+c_server_num=$(find ${GAME_DIR_AGENT} -maxdepth 1 -mindepth 1 -type d -name "${GAME_NAME}_*_*" | wc -l)
+F_LOG_SUCCESS " 配置参数 当前开服数 ${c_server_num} " ${log_file}
+#c_server_index=$((c_server_num + 1))
+c_server_index=${2}
+#F_LOG_SUCCESS " 配置参数 开服索引 ${c_server_index} " ${log_file}
+#c_port_base=$((GAME_PORT_BASE + GAME_PORT_STEP * c_server_index))
+calc_port_base
+F_LOG_SUCCESS " 配置参数 端口 BASE ${c_port_base} " ${log_file}
+c_port_gateway=$((c_port_base + GAME_PORT_GATEWAY_STEP))
+F_LOG_SUCCESS " 配置参数 端口 GATEWAY ${c_port_gateway} " ${log_file}
+c_port_dataaccess=$((c_port_base + GAME_PORT_DATAACCESS_STEP))
+F_LOG_SUCCESS " 配置参数 端口 DATAACCESS ${c_port_dataaccess} " ${log_file}
+c_port_gameworld=$((c_port_base + GAME_PORT_GAMEWORLD_STEP))
+F_LOG_SUCCESS " 配置参数 端口 GAMEWORLD ${c_port_gameworld} " ${log_file}
+c_port_chat_in=$((c_port_base + GAME_PORT_CHAT_IN_STEP))
+F_LOG_SUCCESS " 配置参数 端口 CHAT_IN ${c_port_chat_in} " ${log_file}
+c_port_chat_out=$((c_port_base + GAME_PORT_CHAT_OUT_STEP))
+F_LOG_SUCCESS " 配置参数 端口 CHAT_OUT ${c_port_chat_out} " ${log_file}
+c_port_gb2gs=$((c_port_base + GAME_PORT_GLOBAL2GAMEWORLD_STEP))
+F_LOG_SUCCESS " 配置参数 端口 GLOBAL2GAMEWORLD ${c_port_gb2gs} " ${log_file}
+c_port_gb2user=$((c_port_base + GAME_PORT_GLOBAL2USER_STEP))
+F_LOG_SUCCESS " 配置参数 端口 GLOBAL2USER ${c_port_gb2user} " ${log_file}
+c_port_lg2gb=$((c_port_base + GAME_PORT_LOGIN2GLOBAL_STEP))
+F_LOG_SUCCESS " 配置参数 端口 LOGIN2GLOBAL ${c_port_lg2gb} " ${log_file}
+c_port_lg2gs=$((c_port_base + GAME_PORT_LOGIN2GAMEWORLD_STEP))
+F_LOG_SUCCESS " 配置参数 端口 LOGIN2GAMEWORLD ${c_port_lg2gs} " ${log_file}
+c_port_lg2gw=$((c_port_base + GAME_PORT_LOGIN2GATEWAY_STEP))
+F_LOG_SUCCESS " 配置参数 端口 LOGIN2GATEWAY ${c_port_lg2gw} " ${log_file}
+c_port_lg2client=$((c_port_base + GAME_PORT_LOGIN2CLIENT_STEP))
+F_LOG_SUCCESS " 配置参数 端口 LOGIN2CLIENT ${c_port_lg2client} " ${log_file}
+c_port_cross_out=$((c_port_base + GAME_PORT_CROSS_OUT_STEP))
+F_LOG_SUCCESS " 配置参数 端口 CROSS_OUT ${c_port_cross_out} " ${log_file}
+
+F_LOG_SUCCESS " 配置参数 端口 MYSQL ${c_port_mysql} " ${log_file}
+c_sock_mysql=${GAME_DIR_MYSQL_ROOT}/mysql-3306.sock
+F_LOG_SUCCESS " 配置参数 MYSQL UNIX_SOCKET ${c_sock_mysql} " ${log_file}
+
+c_gateway_num=${GAME_SERVER_GATEWAY_NUM}
+F_LOG_SUCCESS " 配置参数 GATEWAY 进程数 ${c_gateway_num} " ${log_file}
+c_gameworld_num=${GAME_SERVER_GAMEWORLD_NUM}
+F_LOG_SUCCESS " 配置参数 GAMEWORLD 进程数 ${c_gameworld_num} " ${log_file}
+
+c_crossserver_num=0
+if [ "1"x == "${c_hide_flag}"x ]; then
+    c_cross_ip='127.0.0.1'
+    c_cross_port=${c_port_cross_out}
+    c_cross_open=1
+    c_crossserver_num=1
+fi
+F_LOG_SUCCESS " 配置参数 CROSSSERVER 进程数 ${c_crossserver_num} " ${log_file}
+
+if [ "1"x == "${c_cross_open}"x ]; then
+    c_cross_time=$(date +"%Y-%m-%d %H:%M:%S")
+fi
+F_LOG_SUCCESS " 配置参数 跨服开启时间 ${c_cross_time} " ${log_file}
+
+c_cron_file=${GAME_NAME}_${c_agent}_${c_server_id}
+F_LOG_SUCCESS " 配置参数 CRON文件 ${c_cron_file} " ${log_file}
+c_game_db=${c_agent}_${c_server_id}
+F_LOG_SUCCESS " 配置参数 游戏数据库 ${c_game_db} " ${log_file}
+c_admin_db=${c_agent}b_${c_server_id}
+F_LOG_SUCCESS " 配置参数 后台数据库 ${c_admin_db} " ${log_file}
+
+c_md5_server_bin=""
+F_LOG_SUCCESS " 配置参数 服务器程序MD5 ${c_md5_server_bin} " ${log_file}
+c_md5_game_db=""
+F_LOG_SUCCESS " 配置参数 游戏数据库MD5 ${c_md5_game_db} " ${log_file}
+c_md5_admin_db=""
+F_LOG_SUCCESS " 配置参数 后台数据库MD5 ${c_md5_admin_db} " ${log_file}
+
+c_iptables_rule="${GAME_NAME}_${c_agent}_${c_server_id}-INPUT"
+F_LOG_SUCCESS " 配置参数 IPTABLES规则 ${c_iptables_rule} " ${log_file}
+
+c_cdn_url=${a_cdn_url}
+F_LOG_SUCCESS " 配置参数 CDN链接 ${c_cdn_url} " ${log_file}
+
+c_update_time=$(date +"%Y-%m-%d %H:%M:%S")
+F_LOG_SUCCESS " 配置参数 最近更新时间 ${c_update_time} " ${log_file}
+c_update_time_server=${c_update_time}
+F_LOG_SUCCESS " 配置参数 最近更新时间 服务器 ${c_update_time_server} " ${log_file}
+c_update_time_config=${c_update_time}
+F_LOG_SUCCESS " 配置参数 最近更新时间 配置 ${c_update_time_config} " ${log_file}
+c_update_time_admin=${c_update_time}
+F_LOG_SUCCESS " 配置参数 最近更新时间 后台 ${c_update_time_admin} " ${log_file}
+
+init_config
+init_script
+
+save_vars
+
+init_mysql
+init_nginx
+init_admin
+init_server
+init_iptables
+init_cron
+init_cross
+
+init_special
+
+save_vars
+
+start_game
+
+flush_status
+
+F_SAVE_STEP "INSTALL FINISH" ${c_op_step_file}
+
+## 释放操作锁
+F_UNLOCK ${c_op_lock_file}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        #!/bin/bash
+#===============================================================================
+#
+#          FILE: merge_server.sh
+#
+#         USAGE: ./merge_server agent server_id_num
+#
+#   DESCRIPTION: 合服脚本
+#
+#        AUTHOR: xx
+#       CREATED: 2013/10/25 17:39
+#===============================================================================
+
+function f_print_help
+{
+    F_PRINT_HELP " USAGE: $0 agent server_id BACKUP_IS_DONE
+        agent  平台
+    server_id  服ID
+    "
+}
+
+function f_check_merge_file
+{
+    while read line; do
+        echo $line | grep -qE "^[[:digit:]]{1,3}.[[:digit:]]{1,3}.[[:digit:]]{1,3}.[[:digit:]]{1,3} [[:alnum:]]{3} [0-9]+ [0-3]$" || { F_LOG_ERROR " 检查参数 MERGE_FILE 记录格式错误 ${line} "; exit 1;}
+    done < $1
+}
+
+function f_ssh_exec
+{
+    ssh -A -o stricthostkeychecking=no -o GSSAPIAuthentication=no -p ${SSH_PORT} ${1} "${2}"
+}
+
+function f_ssh_check
+{
+    ssh -A -o stricthostkeychecking=no -o GSSAPIAuthentication=no -p ${SSH_PORT} ${1} "${2}" | grep -q "SSH_EXEC_SUCCESS"
+}
+
+function f_backup
+{
+    local line=($(echo ${v_merge_list[$1]} | sed 's/_/ /g'))
+    local host=${line[0]}
+    local agent=${line[1]}
+    local server_id=${line[2]}
+    local server_path=${GAME_DIR_AGENT}/${GAME_NAME}_${agent}_s${server_id}
+    local server_link=${GAME_DIR_HTDOCS}/${GAME_NAME}_${agent}_s${server_id}
+    local backup_path=${GAME_DIR_BACKUP}/merge/${GAME_FORK}/${a_agent}/${a_agent}_s${a_server_id}/${merge_day}
+
+    local agent_flag=$(f_ssh_exec ${host} "sh -c 'source ${server_path}/script/agent_vars.sh; echo \${c_agent_flag:-0}'")
+
+    [ "0"x == "${agent_flag}"x ]
+    F_LOG_EXIT " 合服备份 状态[$1] ${host} ${agent} ${server_id} ${agent_flag} " ${log_file}
+
+    f_ssh_check ${host} 'sh '${server_path}'/script/server_stop.sh '${agent}'_s'${server_id}' && echo "SSH_EXEC_SUCCESS"'
+    F_LOG_EXIT " 合服备份 停服[$1] ${host} ${agent} ${server_id} ${agent_flag} " ${log_file}
+
+    f_ssh_check ${host} 'if [ -L '${server_link}' ];then rm -f '${server_link}';fi && echo "SSH_EXEC_SUCCESS"'
+    F_LOG_EXIT " 合服备份 断连接[$1] ${host} ${server_link} " ${log_file}
+
+    mkdir -p ${backup_path}
+    local backup_file=$(find ${backup_path} -maxdepth 1 -type f -name ${agent}_s${server_id}_*.tar.gz)
+
+    if [ -z "${backup_file}" ]; then
+        f_ssh_check ${host} 'sh '${server_path}'/script/merge_backup.sh '${a_agent}'_s'${a_server_id}' BACKUP_IS_DONE && echo "SSH_EXEC_SUCCESS"'
+        F_LOG_EXIT " 合服备份 备份[$1] ${host} ${agent} ${server_id} ${agent_flag} " ${log_file}
+    fi
+
+    local file_count=$(ls ${backup_path}/${agent}_s${server_id}_*.tar.gz | wc -l)
+
+    [ "1"x == "${file_count}"x ]
+    F_LOG_EXIT " 合服备份 检查[$1] ${host} ${agent} ${server_id} ${file_count} " ${log_file}
+
+    local md51=$(md5sum ${backup_path}/${agent}_s${server_id}_*.tar.gz | gawk '{print $1}')
+    local md52=$(cat ${backup_path}/${agent}_s${server_id}_*.md5 | gawk '{print $1}')
+
+    [ "${md51}"x == "${md52}"x ]
+    F_LOG_EXIT " 合服备份 校验[$1] ${host} ${agent} ${server_id} ${md51} == ${md52} " ${log_file}
+}
+
+function f_merge
+{
+    local backup_path=${GAME_DIR_BACKUP}/merge/${GAME_FORK}/${a_agent}/${a_agent}_s${a_server_id}/${merge_day}
+    local server_count=${#v_merge_list[@]}
+    local backup_count=$(grep "[ OK ].*合服备份 校验.*" ${log_file} | wc -l)
+    local file_count=$(ls ${backup_path}/${a_agent}_*.tar.gz | wc -l)
+
+    [ "${server_count}"x == "${backup_count}"x -a "${server_count}"x == "${file_count}"x ]
+    F_LOG_EXIT " 合服操作 检查备份 ${server_count} == ${backup_count} == ${file_count} " ${log_file}
+
+    local all_server_list=""
+
+    for item in ${v_merge_list[@]}; do
+        item=($(echo ${item} | sed 's/_/ /g'))
+
+        local host=${item[0]}
+        local agent=${item[1]}
+        local server_id=${item[2]}
+        local server_path=${GAME_DIR_AGENT}/${GAME_NAME}_${agent}_s${server_id}
+
+        local server_list=($(f_ssh_exec ${host} "sh -c 'source ${server_path}/script/agent_vars.sh; grep \"<server_id>\" \${c_path_server}/config/local.xml' | sed -e \"s#<serv#!/bin/bash
+#===============================================================================
+#
+#          FILE: zabbix_check.sh
+#
+#         USAGE:
+#
+#   DESCRIPTION: 批量查询服状态
+#
+#        AUTHOR: xx
+#       CREATED: 2013/10/25 17:39
+#===============================================================================
+
+function f_worker_check
+{
+    local list=($(echo ${v_server_list[$1]}))
+    local path=${GAME_DIR_AGENT}/${list}/script
+
+    if [ -f ${path}/agent_vars.sh ];then
+        source ${path}/agent_vars.sh
+    else
+        F_PRINT_EXIT " 检查变量 ${path}/agent_vars.sh "
+    fi
+
+    if [ "0"x == "${c_agent_flag:-0}"x ]; then
+        ## 服 stop
+        local proc_num_running=$(pgrep -f "${c_path_server_no_ver}/.*/publish_${c_server_build}/EXE.*" | wc -l)
+        if [ "0"x == "${proc_num_running}"x ]; then
+            echo "${c_agent}_${c_server_id}" >> ${server_stop_file}
+            F_PRINT_EXIT " 服关闭 ${c_agent}_${c_server_id} "
+            return
+        fi
+
+        ## 服崩溃
+        local agent_status=$(sh ${path}/server_status.sh)
+        if [ "0"x == "${agent_status}"x ]; then
+            echo "${c_agent}_${c_server_id}" >> ${server_collapse_file}
+            F_PRINT_EXIT " 服崩溃 ${c_agent}_${c_server_id} "
+            return
+        fi
+
+        ##数据缓存占用
+        local monitor_file=$(find ${c_path_data}/server/log/dblog -type f -name cachemonitor.txt)
+        local cache_use=$(tail -1 ${monitor_file} | gawk '{for (i=1;i<=NF;i++) if ($i~/cache_size/) print $i}' | gawk -F"[ :/()]" '{for (i=1;i<=NF;i++) if ($i~/[0-9]+/) {state[i]=$i}}END{print state[2]/state[3]*100}' | gawk '{print int($1+0.5)}')
+        if [ ${cache_use} -gt 70 ]; then
+            echo "${c_agent}_${c_server_id}:${cache_use}" >> ${server_cache_use_file}
+            F_PRINT_EXIT " 缓存使用过高 ${c_agent}_${c_server_id} "
+        fi
+
+        ##跨服异常
+        if [ -n "${CROSS_SPID}" -a -d ${AGENT_DIR_BIN}/cross ] && [ "${c_agent}" != "${CROSS_SPID}" ] && [ ${c_server_id_num} -le 1000 ]; then
+            if grep -q "${c_agent}" ${AGENT_DIR_BIN}/cross/cross*.map;then
+                local exist=1
+            else
+                return
+            fi
+
+            if [ "127.0.0.1"x == "${c_cross_ip}"x ]; then
+                echo "${c_agent}_${c_server_id}" >> ${server_cross_down_file}
+                F_PRINT_EXIT " 跨服未配置 ${c_agent}_${c_server_id} "
+                return
+            fi
+
+            local pid=$(pgrep -f "${c_path_server_build}/EXEgameworld_release") ## 跨服进程id
+            local tcp_num=$(grep -v "127.0.0.1" ${netstat_tmp_file} | grep "${pid}/EXE" | wc -l)
+            if [ ${c_cross_open} -eq 1 -a ${tcp_num} -eq 0 ]; then
+                echo "${c_agent}_${c_server_id}" >> ${server_cross_down_file}
+                F_PRINT_EXIT " 跨服异常 ${c_agent}_${c_server_id} "
+                return
+            fi
+        fi
+
+        ##在线人数
+        local rolenum_file=${GAME_DIR_AGENT}/${c_dir_agent}/data/server/log/gamelog_0/rolenum/rolenum.txt
+        if [ -f ${rolenum_file} ]; then
+            tail -q -n 1 ${rolenum_file} | gawk -F"[/[]" '{print $3}' >> ${server_online_file}
+            if [ ! -s "${server_online_file}" ]; then
+                echo "0" > ${server_online_file}
+            fi
+        fi
+
+        local nginx_link=${GAME_DIR_HTDOCS}/${GAME_NAME}_${c_agent}_${c_server_id}
+        if [ ! -L ${nginx_link} ]; then
+            ln -s ${c_path_admin} ${nginx_link} && chown -R www:www ${nginx_link}
+            F_PRINT_EXIT " 创建软连接 ${nginx_link} "
+        fi
+
+    fi
+}
+
+function f_zabbix_sender_direct
+{
+    local key=$1
+    local file=$2
+    if [ -s "${file}" ]; then
+        ${DATA_DIR_ZABBIX_BASE}/bin/zabbix_sender -s ${zabbix_host} -z ${GAME_SERVER_ZABBIX} -k "${key}" -o "$(cat ${file} | xargs)" -r
+    fi
+}
+
+function f_zabbix_sender
+{
+    local key=$1
+    local file=$2
+    local file_bak=${file}.bak
+    if [ -f ${file} ]; then
+        if [ -f ${file_bak} ];then
+            local md5_file=$(md5sum ${file} | gawk '{print $1}')
+            local md5_file_bak=$(md5sum ${file_bak} | gawk '{print $1}')
+            if [ "${md5_file}" != "${md5_file_bak}" ]; then
+                if [ -s "${file}" ]; then
+                    ${DATA_DIR_ZABBIX_BASE}/bin/zabbix_sender -s ${zabbix_host} -z ${GAME_SERVER_ZABBIX} -k "${key}" -o "$(cat ${file} | xargs)" -r
+                    \cp -f ${file} ${file_bak}
+                else
+                    ${DATA_DIR_ZABBIX_BASE}/bin/zabbix_sender -s ${zabbix_host} -z ${GAME_SERVER_ZABBIX} -k "${key}" -o "ok" -r
+                    \cp -f ${file} ${file_bak}
+                fi
+            fi
+        else
+           echo "" > ${file_bak}
+        fi
+    fi
+}
+
+function f_batch_run
+{
+    local thread=$1
+    local count=$2
+    local worker=$3
+    local fifo_file=/dev/shm/zabbix_fifo ##避免与其他脚本冲突
+
+    [ -e ${fifo_file} ] && \rm -f ${fifo_file}
+    mkfifo -m 600 ${fifo_file}
+    exec 3<>${fifo_file}
+
+    for ((t=0; t<${thread}; t++)); do
+        echo > ${fifo_file}
+    done
+
+    for ((c=0; c<${count}; c++)); do
+        read < ${fifo_file}
+        { ${worker} ${c}; echo  > ${fifo_file}; } &
+    done
+
+    wait
+    exec 3>&-
+}
+
+#############################################################################################################
+cd $(dirname `/usr/sbin/lsof -p $$ | gawk '$4 =="255r"{print $NF}'`)
+source ../global_func.sh && source ../global_vars.sh && \
+mkdir -p ${AGENT_DIR_TMP}/zabbix && mkdir -p ${AGENT_DIR_LOG}/zabbix || exit 1
+
+##ZABBIX配置
+zabbix_host=$(grep "HOSTNAME" /etc/sysconfig/network | gawk -F= '{print $2}')                         ##zabbix上受监控的主机名
+
+##自定义KEY
+server_stop_key=server.stop                     ##服关闭
+server_collapse_key=server.collapse             ##服崩溃
+server_cross_down_key=cross.down                ##跨服未连接
+server_cache_use_key=server.cache.use           ##服mysql缓存
+sum_online_key=sum.online                       ##机器全服在线人数
+
+##变量
+zabbix_tmp_path=${AGENT_DIR_TMP}/zabbix
+server_stop_file=${zabbix_tmp_path}/server_stop.file
+server_collapse_file=${zabbix_tmp_path}/server_collapse.file
+server_cross_down_file=${zabbix_tmp_path}/server_cross_down.file
+server_cache_use_file=${zabbix_tmp_path}/server_cache_use.file
+server_online_file=${zabbix_tmp_path}/server_online.file
+netstat_tmp_file=${zabbix_tmp_path}/netstat.txt
+
+lock_file=${AGENT_DIR_LOG}/zabbix/zabbix.lock
+
+mkdir -p ${GAME_DIR_AGENT}
+mkdir -p ${zabbix_tmp_path}
+echo "0" > ${server_online_file}
+> ${server_stop_file}
+> ${server_collapse_file}
+> ${server_cross_down_file}
+> ${server_cache_use_file}
+
+F_LOCK ${lock_file}
+F_PRINT_EXIT "获取操作锁 ${lock_file}"
+
+server_list=$(ls ${GAME_DIR_AGENT} | egrep "${GAME_NAME}_*_*")
+
+if [ -n "${server_list}" ]; then
+
+    ##检查
+    netstat -tnp > ${netstat_tmp_file}
+    v_server_list=(${server_list})
+    f_batch_run 10 ${#v_server_list[@]} "f_worker_check"
+
+    ##在线总人数
+    sum_online=$(cat ${server_online_file} | gawk '{sum+=$1} END {print sum}')
+    echo "${sum_online}" > ${server_online_file}
+    F_PRINT_EXIT "机器在线总人数 ${sum_online}"
+
+    ##上报
+    f_zabbix_sender ${server_stop_key} ${server_stop_file}
+    f_zabbix_sender ${server_collapse_key} ${server_collapse_file}
+    f_zabbix_sender ${server_cross_down_key} ${server_cross_down_file}
+    f_zabbix_sender ${server_cache_use_key} ${server_cache_use_file}
+    f_zabbix_sender_direct ${sum_online_key} ${server_online_file}
+else
+    f_zabbix_sender_direct ${sum_online_key} ${server_online_file}
+fi
+
+F_UNLOCK ${lock_file}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          #!/bin/bash
+#===============================================================================
+#
+#         FILE: batch_deploy.sh
+#
+#         USAGE: ./batch_deploy.sh -t <a_single_tip> -u <a_single_uip> -i <a_single_pid> -d <a_single_on>
+#
+#         DESCRIPTION: 批量开服
+#
+#         AUTHOR: xx
+#         CREATED: 2015/08/08 11:11
+#===============================================================================
+function f_print_help
+{
+    F_PRINT_HELP " USAGE: $0 -h <hosts_file> -t <a_single_tip> -u <a_single_uip> -i <a_single_pid> -d <a_single_on> -n <a_host_rows>
+    -h 主机列表文件
+    -t 电信IP地址
+    -u 联通IP地址
+    -i 渠道PID
+    -d 渠道服ID
+    -n 指定主机列表文件开始行数
+    -l 获取明天开服列表
+    -y 获取明天开服列表并配置新服"
+}
+
+function f_exit
+{
+    rm -f "$1"
+    kill -9 0
+    return 2
+}
+
+## 参数判断
+function f_delpoy_check
+{
+    case "${1}" in
+        [0-z][0-z][0-z])
+            F_PRINT_SUCCESS "确认渠道pid为 ${1}" ;;
+        *)
+            F_PRINT_ERROR "输入格式错误 !!!"
+            f_print_help
+            exit 1 ;;
+    esac
+
+    case "${2}" in
+        [1-9]|[1-9][0-9]|[1-9][0-9][0-9]*)
+            F_PRINT_SUCCESS "确认渠道开服ID ${2}" ;;
+        *)
+            F_PRINT_ERROR "输入格式错误 !!!"
+            f_print_help
+            exit 1 ;;
+    esac
+}
+
+## 获取开服列表
+function f_list_pid
+{
+    local deploy_temp_file=${CENTER_DIR_TMP}/deploy_todo.file
+
+    mkdir -p $(dirname ${deploy_list})
+    [ -f ${deploy_list} ] && mv ${deploy_list} ${deploy_list}.$(F_DATE)
+
+    PS3=`echo -e "\033[1;32m 获取开服列表,请输入菜单序列号：\033[0m"`
+    select menu in "今天" "明天" "自定义";do
+        if [ -n "${menu}" ];then
+            case ${menu} in
+                "今天")
+                    startday=$(date -d "0 day" "+%Y-%m-%d 00:00:00")
+                    stopday=$(date -d "0 day" "+%Y-%m-%d 23:59:59")
+                    break
+                    ;;
+                "明天")
+                    startday=$(date -d "1 day" "+%Y-%m-%d 00:00:00")
+                    stopday=$(date -d "1 day" "+%Y-%m-%d 23:59:59")
+                    break
+                    ;;
+                "自定义")
+                    echo -e -n "\033[1;32m请输入开始日期（xxxx-xx-xx）:\033[0m"; read start_date
+                    echo -e -n "\033[1;32m请输入结束日期（xxxx-xx-xx）:\033[0m"; read stop_date
+
+                    for date in "${start_date}" "${stop_date}";do
+                        if ! echo "${date}" | grep -qE "^20[12][0-9]-[01][0-9]-[0123][0-9]$"; then
+                            F_PRINT_ERROR "输入格式 ${date} 错误 !!!"
+                            exit 1
+                        fi
+                    done
+
+                    startday="${start_date} 00:00:00"
+                    stopday="${stop_date} 23:59:59"
+                    break
+                    ;;
+                *)
+                    exit 1
+                    ;;
+            esac
+        fi
+    done
+
+    starttime=$(date -d "${startday}" +%s )
+    stoptime=$(date -d "${stopday}" +%s )
+
+    F_PRINT_EXIT " 获取开服时间为：${startday} -> ${stopday} "
+
+    curl -s "http://api.${GAME_URL_DOMAIN}/server/checkdeploy?starttime=${starttime}&stoptime=${stoptime}" > ${deploy_temp_file}
+
+    if [ ! -s "${deploy_temp_file}" ]; then
+        F_PRINT_ERROR " 获取开服信息失败或者开服数为 0 "
+        exit 1
+    fi
+
+    sh ${CENTER_DIR_BIN}/batch_machine.sh > /dev/null
+    F_PRINT_EXIT " 刷新机器状态！ "
+
+    local machine_file=${CENTER_DIR_TMP}/list/game/host.status && [ -f "${machine_file}" ]
+    F_PRINT_EXIT " 检查机器状态文件！ "
+
+    local a_list=$(grep -v $^ ${deploy_temp_file} -c)
+    local c=1000 #步长
+
+    rm -f ${CENTER_DIR_TMP}/deploy_done.file
+
+    while read line; do
+        local p_id=$(echo "${line}" | awk '{print $1}')
+        local p_on=$(echo "${line}" | awk '{print $2}')
+        local p_port=$(echo "${line}" | awk '{print $(NF-1)}')
+        if [ ${p_port} -ne 0 ]; then
+            echo -e "\033[1;32m已经配置 ${line}\033[0m"
+            echo -e "已经配置 ${line}" >> ${CENTER_DIR_TMP}/deploy_done.file
+        else
+            sort -n -k 2 -r ${machine_file} -o ${machine_file}
+            ip_1=($(cat ${machine_file} | awk 'NR==1'))
+            sed -i 1"s/${ip_1[1]}/$(( ${ip_1[1]} - ${c} ))/" ${machine_file}
+            echo "${ip_1[0]} ${p_id} ${p_on}" >> ${deploy_list}
+        fi
+    done < ${deploy_temp_file}
+
+    echo -e "${deploy_list} \n总开服数 ${a_list}"
+
+    if [ -f ${deploy_list} ]; then
+        cat ${deploy_list}
+    fi
+}
+
+## 变量获取
+function f_inquire_date
+{
+    a_deploy_pid=${1}
+    c_file_path=${CENTER_DIR_TMP}/list/game/${a_deploy_pid}/${a_deploy_pid}.1
+
+    if [ "${a_deploy_pid}" == "${CROSS_SPID}" ]; then
+        c_file_path=${CENTER_DIR_TMP}/list/cross/${a_deploy_pid}/${a_deploy_pid}.1
+    fi
+
+    local a_default_pid=''
+    if [ ! -f "${c_file_path}" ]; then
+        read -p "渠道首服不存在，是否为新渠道？(yes/no)" var
+        case "${var}" in
+        "yes" )
+            if [ -n "${TEST_SPID}" ]; then
+                a_default_pid=${TEST_SPID%% *}
+                c_file_path=${CENTER_DIR_TMP}/list/game/${a_default_pid}/${a_default_pid}.1
+            else
+                read -p "请输入版本获取的默认渠道id：" spid
+                a_default_pid=${spid}
+                f_delpoy_check ${a_default_pid} 1
+                c_file_path=${CENTER_DIR_TMP}/list/game/${a_default_pid}/${a_default_pid}.1
+            fi
+            f_add_cross ${a_deploy_pid};;
+        "no" )
+            F_PRINT_ERROR "请核对渠道信息"
+            exit 1 ;;
+        esac
+    fi
+
+    if [ -z "${a_default_pid}" ];then
+        a_default_pid=${a_deploy_pid}
+    fi
+
+    a_single_ip=$(awk '{print $1}' ${c_file_path} )
+    a_version=$(${GAME_RSYNC_SSH_OPT} ${a_single_ip} "source ${GAME_DIR_AGENT}/${GAME_NAME}_${a_default_pid}_s1/script/agent_vars.sh && echo "'${c_server_version}' '${c_admin_version}' '${c_client_version:-null}'"")
+    [ -n "${a_version}" ]
+    F_PRINT_EXIT "获取游戏版本成功! ! !"
+
+    a_server_version=$(echo ${a_version} | cut -d ' ' -f 1 )
+    a_admin_version=$(echo ${a_version} | cut -d ' ' -f 2 )
+    a_client_version=$(echo ${a_version} | cut -d ' ' -f 3 )
+
+    var1=''
+    if [ ${deployON} -eq 1 ]; then
+        read -p "是否开启1501服? (y/n)" var1
+        if [ "${var1}" == "y" ]; then
+            ddif_url=$(curl -s 'http://'${GAME_URL_SERVER_INFO}'?agent='${1}'&server_id=1501' | grep "a_telecom_ip" | awk -F '=' '{print $2}')
+            if [[ "${ddif_url}" == '' || "${ddif_url}" == "''" ]]; then
+                audit_info=(${AUDIT_INFO})
+                if [ ${#audit_info[@]} -eq 0 ]; then
+                    f_ssh_deploy ${a_deploy_pid} 1501
+                    ipvh=$(echo ${deployTIP} | awk -F . '{print $4}')
+                    v_audit_domain=${FORK}${ipvh}.${GAME_NAME}.${ipv6_domain}
+                    ${GAME_RSYNC_SSH_OPT} ${deployTIP} "sed -i '59,61s/${a_single_tip}/${v_audit_domain}/g' ${GAME_DIR_AGENT}/${GAME_NAME}_${a_deploy_pid}_s1501/server/${a_server_version}/publish_release/serverconfig.xml"
+                    F_PRINT_EXIT "渠道ID ${a_deploy_pid} 渠道服ID 1501 修改配置 serverconfig.xml"
+
+                    ${GAME_RSYNC_SSH_OPT} ${deployTIP}  "${GAME_DIR_AGENT}/${GAME_NAME}_${a_deploy_pid}_s1501/script/server_restart.sh ${a_deploy_pid}_s1501"
+                    F_PRINT_EXIT "渠道ID ${a_deploy_pid} 渠道服ID 1501 重启完毕"
+
+                    F_PRINT_EXIT "渠道ID ${a_deploy_pid} 渠道服ID 1501 IPv6 更改完毕---！服所在的机器 ${deployTIP} IPv6 地址为 ${v_audit_domain}"
+                elif [ ${#audit_info[@]} -eq 1 ]; then
+                    v_audit_info=($(echo "${audit_info[@]}" | sed "s/,/ /g"))
+                    v_audit_pid=${v_audit_info[0]}
+                    v_audit_server_num=${v_audit_info[1]}
+                    v_audit_ip=${v_audit_info[2]}
+                    v_audit_port=${v_audit_info[3]}
+                    v_audit_domain=${v_audit_info[4]}
+                    t_curl=$(curl -s "http://${G#!/bin/bash
+#===============================================================================
+#
+#          FILE: server_status.sh
+# 
+#         USAGE: ./server_status.sh 
+# 
+#   DESCRIPTION: 获取服务器状态
+# 
+#  REQUIREMENTS: agent_vars.sh
+#        AUTHOR: xx
+#       CREATED: 2013/10/25 21:23
+#===============================================================================
+
+cd $(dirname `/usr/sbin/lsof -p $$ | gawk '$4 =="255r"{print $NF}'`)
+source ./global_func.sh && source ./global_vars.sh && source ./agent_vars.sh || exit 1
+
+proc_num_config=$((c_gameworld_num + c_gateway_num + c_crossserver_num + 1))
+proc_num_running=$(pgrep -f "${c_path_server_no_ver}/.*/publish_${c_server_build}/EXE.*" | wc -l)
+
+if [ "${proc_num_running}"x == "${proc_num_config}"x ]; then
+    echo 1
+else
+    echo 0
+fi
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           }
+  m_Layer: 0
+  m_Name: Point light (56)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1615228450
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615228449}
+  m_LocalRotation: {x: 0.000000011593909, y: -0.9226264, z: -0.000000011202697, w: 0.3856951}
+  m_LocalPosition: {x: 35.536983, y: 2.46, z: 22.231855}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: -134.626, z: 0}
+--- !u!108 &1615228451
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1615228449}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.3455882, g: 0.72920895, b: 1, a: 1}
+  m_Intensity: 2.5
+  m_Range: 5
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1621475241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1621475242}
+  - component: {fileID: 1621475243}
+  m_Layer: 0
+  m_Name: Point light (212)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1621475242
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1621475241}
+  m_LocalRotation: {x: -0.00000002791989, y: -0.92133695, z: -0.000000027114465, w: -0.38876516}
+  m_LocalPosition: {x: 12.28, y: 4.12, z: 18.63}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 150
+  m_LocalEulerAnglesHint: {x: 0, y: -225.75499, z: 0}
+--- !u!108 &1621475243
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1621475241}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 1, g: 0.8980392, b: 0.5647059, a: 1}
+  m_Intensity: 2.5
+  m_Range: 6.7798386
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1638738368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1638738369}
+  - component: {fileID: 1638738370}
+  m_Layer: 0
+  m_Name: Point light (123)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1638738369
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1638738368}
+  m_LocalRotation: {x: -0.00000002791989, y: -0.92133695, z: -0.000000027114465, w: -0.38876516}
+  m_LocalPosition: {x: 54.41, y: 1.79, z: 50.87}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: -225.75499, z: 0}
+--- !u!108 &1638738370
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1638738368}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.34901965, g: 0.59945893, b: 0.9960785, a: 1}
+  m_Intensity: 2.5
+  m_Range: 4.1152573
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1641180772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1641180773}
+  - component: {fileID: 1641180774}
+  m_Layer: 0
+  m_Name: Point light (169)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1641180773
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641180772}
+  m_LocalRotation: {x: -0.00000002791989, y: -0.92133695, z: -0.000000027114465, w: -0.38876516}
+  m_LocalPosition: {x: 41.98, y: 10.46, z: 4.93}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 0, y: -225.75499, z: 0}
+--- !u!108 &1641180774
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641180772}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.62352943, g: 0.9921569, b: 0.9607844, a: 1}
+  m_Intensity: 3
+  m_Range: 8.167497
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1643377992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1643377993}
+  - component: {fileID: 1643377994}
+  m_Layer: 0
+  m_Name: Point light (265)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1643377993
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643377992}
+  m_LocalRotation: {x: 0.000000039874976, y: 0.92764795, z: -0.0000000029512215, w: -0.37345597}
+  m_LocalPosition: {x: 18.59, y: 1.4600002, z: 32.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 69
+  m_LocalEulerAnglesHint: {x: 0, y: -496.14203, z: 0}
+--- !u!108 &1643377994
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1643377992}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.22626512, g: 0.802373, b: 0.99264705, a: 1}
+  m_Intensity: 1.5
+  m_Range: 2
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1648162951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1648162952}
+  - component: {fileID: 1648162953}
+  m_Layer: 0
+  m_Name: Point light (200)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1648162952
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648162951}
+  m_LocalRotation: {x: -0.00000002791989, y: -0.92133695, z: -0.000000027114465, w: -0.38876516}
+  m_LocalPosition: {x: 19.4, y: 0.5400001, z: 52.07}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 136
+  m_LocalEulerAnglesHint: {x: 0, y: -225.75499, z: 0}
+--- !u!108 &1648162953
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648162951}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.31617647, g: 0.830223, b: 1, a: 1}
+  m_Intensity: 2
+  m_Range: 1.8217163
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1663371337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1663371338}
+  - component: {fileID: 1663371339}
+  m_Layer: 0
+  m_Name: Point light (218)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1663371338
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1663371337}
+  m_LocalRotation: {x: -0.00000002791989, y: -0.92133695, z: -0.000000027114465, w: -0.38876516}
+  m_LocalPosition: {x: 26.99, y: 1.07, z: 27.71}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 162
+  m_LocalEulerAnglesHint: {x: 0, y: -225.75499, z: 0}
+--- !u!108 &1663371339
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1663371337}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.31877163, g: 0.7922324, b: 0.9852941, a: 1}
+  m_Intensity: 1.5
+  m_Range: 2.307991
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1672540777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1672540778}
+  - component: {fileID: 1672540779}
+  m_Layer: 0
+  m_Name: Point light (267)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1672540778
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1672540777}
+  m_LocalRotation: {x: 0.000000039874976, y: 0.92764795, z: -0.0000000029512215, w: -0.37345597}
+  m_LocalPosition: {x: 20.21, y: 1.4600002, z: 26.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 71
+  m_LocalEulerAnglesHint: {x: 0, y: -496.14203, z: 0}
+--- !u!108 &1672540779
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1672540777}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.22626512, g: 0.802373, b: 0.99264705, a: 1}
+  m_Intensity: 1.5
+  m_Range: 2
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1673682791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1673682792}
+  - component: {fileID: 1673682793}
+  m_Layer: 0
+  m_Name: Point light (279)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1673682792
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673682791}
+  m_LocalRotation: {x: 0.000000039874976, y: 0.92764795, z: -0.0000000029512215, w: -0.37345597}
+  m_LocalPosition: {x: 46.25, y: 1.4600002, z: 40.72}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 81
+  m_LocalEulerAnglesHint: {x: 0, y: -496.14203, z: 0}
+--- !u!108 &1673682793
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673682791}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.22626512, g: 0.802373, b: 0.99264705, a: 1}
+  m_Intensity: 1.5
+  m_Range: 2
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1677014342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1677014343}
+  - component: {fileID: 1677014344}
+  m_Layer: 0
+  m_Name: Point light (176)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1677014343
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677014342}
+  m_LocalRotation: {x: -0.00000002791989, y: -0.92133695, z: -0.000000027114465, w: -0.38876516}
+  m_LocalPosition: {x: 15.01, y: -2.69, z: 3.21}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 48
+  m_LocalEulerAnglesHint: {x: 0, y: -225.75499, z: 0}
+--- !u!108 &1677014344
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677014342}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.62352943, g: 0.9921569, b: 0.9607844, a: 1}
+  m_Intensity: 3
+  m_Range: 5.1393547
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1683090255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1683090257}
+  - component: {fileID: 1683090256}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1683090256
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683090255}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0.9558824, g: 0.8038718, b: 0.6114836, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1683090257
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1683090255}
+  m_LocalRotation: {x: 0.10829012, y: -0.5803774, z: 0.632325, w: -0.501598}
+  m_LocalPosition: {x: 32.666294, y: 33.25267, z: 34.791363}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1713321760}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 141.293, y: -112.838, z: 103.101}
+--- !u!1 &1699350955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1699350956}
+  - component: {fileID: 1699350957}
+  m_Layer: 0
+  m_Name: Point light (285)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1699350956
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699350955}
+  m_LocalRotation: {x: 0.000000100085025, y: 0.9206232, z: 0.00000006031668, w: 0.3904522}
+  m_LocalPosition: {x: 40.22, y: 1.4600002, z: 20.59}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 87
+  m_LocalEulerAnglesHint: {x: 0, y: -585.96497, z: 0}
+--- !u!108 &1699350957
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699350955}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.22626512, g: 0.802373, b: 0.99264705, a: 1}
+  m_Intensity: 1.5
+  m_Range: 2
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1701714952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1701714953}
+  - component: {fileID: 1701714954}
+  m_Layer: 0
+  m_Name: Point light (240)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1701714953
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1701714952}
+  m_LocalRotation: {x: -0.000000014502558, y: -0.9998214, z: -0.000000036116344, w: 0.01889709}
+  m_LocalPosition: {x: 36.66, y: 1.74, z: 6.47}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 2092468794}
+  m_RootOrder: 58
+  m_LocalEulerAnglesHint: {x: 0, y: -177.83401, z: 0}
+--- !u!108 &1701714954
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1701714952}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 2
+  m_Color: {r: 0.08028765, g: 0.16208516, b: 0.99264705, a: 1}
+  m_Intensity: 3
+  m_Range: 4.567795
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1712608089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1712608090}
+  - component: {fileID: 1712608091}
+  m_Layer: 0
+  m_Name: Point light (291)
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712608090
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1712608089}
+  m_LocalRotation: {x: 0.000000100085025, y: 0.9206232, z: 0.00000006031668, w: 0.3904522}
+  m_LocalPosition: {x: 35.16436, y: 1.4600002, z: 48.

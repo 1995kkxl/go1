@@ -1,0 +1,8224 @@
+cter_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcharfriends`(in nactorid integer)
+begin
+    select rstype,friendid,friendname,param from actorfriends where actorid=nactorid;
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcharitems` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcharitems`(in nactorid integer,
+    in nitemtableid integer)
+begin
+     declare boexists integer default null;
+    
+ 
+     if nitemtableid =1 then
+         select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,strongdata,circleforge,typevalue,appraisal,thebestlevel,itemattr1,itemattr2,itemattrexp1,itemattrexp2,roleid from actorbagitem  where `actorid` = nactorid;
+     end if;
+     if nitemtableid =2 then
+         select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,strongdata,circleforge,typevalue,appraisal,thebestlevel,itemattr1,itemattr2,itemattrexp1,itemattrexp2,roleid from actorequipitem  where `actorid` = nactorid;
+     end if;
+     if nitemtableid =3 then
+          select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,strongdata,circleforge,typevalue,appraisal,thebestlevel,itemattr1,itemattr2,itemattrexp1,itemattrexp2,roleid  from actordepotitem  where `actorid` = nactorid;
+     end if;
+     if nitemtableid =4 then
+          select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,strongdata,circleforge,typevalue,appraisal,thebestlevel,itemattr1,itemattr2,itemattrexp1,itemattrexp2,roleid  from actorconsignment;
+     end if;
+     if nitemtableid =5 then
+          select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,strongdata,circleforge,typevalue,appraisal,thebestlevel,itemattr1,itemattr2,itemattrexp1,itemattrexp2,roleid  from actorpetitem where `actorid` = nactorid;
+     end if;
+     if nitemtableid =6 then
+          select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,strongdata,circleforge,typevalue,appraisal,thebestlevel,itemattr1,itemattr2,itemattrexp1,itemattrexp2,roleid  from actordmkjitem where `actorid` = nactorid;
+     end if;
+     if nitemtableid =8 then
+          select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,strongdata,circleforge,typevalue,appraisal,thebestlevel,itemattr1,itemattr2,itemattrexp1,itemattrexp2,roleid from actormagicitem where `actorid` = nactorid;
+     end if;
+	if nitemtableid =10 then
+          select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,strongdata,circleforge,typevalue,appraisal,thebestlevel,itemattr1,itemattr2,itemattrexp1,itemattrexp2,roleid from actorruneslices where `actorid` = nactorid;
+     end if;
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcharmsglist` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcharmsglist`(in nactorid integer,in nmsgid bigint)
+begin
+    if nmsgid = 0 then
+        select msgid,msgtype,msg from actormsg where actorid=nactorid;
+    else
+        select msgid,msgtype,msg from actormsg where actorid=nactorid and msgid=nmsgid;
+    end if;
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcharofflinealldata` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcharofflinealldata`(in nserverindex integer unsigned)
+BEGIN
+	select actorid,actorname,sex,job,level,circle,battlepower,viplevel from actors where (status & 2)=2 and serverindex = nserverindex  order by circle desc ,level desc,battlepower desc limit 100000;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcharofflinedata` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ALLOW_INVALID_DATES,ERROR_FOR_DIVISION_BY_ZERO,TRADITIONAL,NO_AUTO_CREATE_USER' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcharofflinedata`(in nactorid integer)
+begin
+    declare nhammer integer unsigned  default 0;
+    select hammer into nhammer from actorbinarydata where actorid = nactorid;
+    select a.actorname,g.guildname,a.level,a.circle,a.battlepower,a.gildid,a.soul1,nhammer,a.diamondLevel from actors as a left join guildlist as g on a.guildid = g.guildid where a.`actorid`= nactorid;
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcharroleitems` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcharroleitems`(
+    in nactorid integer
+    
+)
+begin
+   select idtask,id,value from goingquest where `actorid`=nactorid ;
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcharskills` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcharskills`(
+    in nactorid integer
+    
+)
+begin
+    select skillidlvmj,cdtime,reserve,mjexpiretime,miji,roleid  from skill  where `actorid` = nactorid;
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcollectpic` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcollectpic`(in nactorid integer)
+BEGIN
+	select type,idx,star from collectpic where actorid = nactorid;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcombatgameinfo` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcombatgameinfo`(IN nactorid integer)
+begin
+    select winningtimes,chagangetimes,nextchagangetime,refreshtimes,awardrank,addchagneTimes,bshowflag from combatgame where actorid=nactorid;
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadcombatrecord` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadcombatrecord`(IN nactorid integer)
+begin
+    select tagetId,tagetname,nvictory,ntime,nranking,nawardtype1,nawardtype2,nawardtype3,nawardvalue1,nawardvalue2,nawardvalue3 from combatrecord where actorid=nactorid;
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadconsignmentext` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadconsignmentext`(in nactorid int,in nserverindex int)
+begin
+    if nactorid = 0 then
+    select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,resttime,price,actorconsignment.actorid,actorname,typestatus,strongdata,circleforge,typevalue,appraisal,thebestlevel
+      from actorconsignment,actors where (typestatus & 1) = 0 and actorconsignment.actorid=actors.actorid and actorconsignment.serverindex=nserverindex;
+     else
+     select itemguid,itemidquastrong,itemduration,itemmaxduration,itemcountflag,iteminlayhole,itemtime,itemreservs,itemsmith1,itemsmith2,itemsmith3,itemreservs2,initsmith,resttime,price,actorconsignment.actorid,actorname,typestatus,strongdata,circleforge,typevalue,appraisal,thebestlevel
+      from actorconsignment,actors where actorconsignment.actorid =nactorid and actorconsignment.actorid=actors.actorid and (typestatus & 1) = 1;
+    end if;
+    
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loaddiamonddata` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loaddiamonddata`(in nactorid integer)
+BEGIN
+	 select `roleid`,`type`,`param`,`param1`,`param2`,`param3`  from diamond  where `actorid` = nactorid;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loaddragonslot` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ALLOW_INVALID_DATES,ERROR_FOR_DIVISION_BY_ZERO,TRADITIONAL,NO_AUTO_CREATE_USER' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loaddragonslot`(in nactorid integer)
+BEGIN
+	 select `roleid`,`pos`,`slot1`,`slot2`,`slot3`,`slot4`,`slot5`,`slot6`, `exp1`,`exp2`,`exp3`,`exp4`,`exp5`,`exp6`   from dragonslot  where `actorid` = nactorid;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `loadequipedgem` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `loadequipedgem`(
+    in _actorid integer    
+)
+begin     
+    select uid, gemid, level, exp, ss, grade, quality, scattack, scdefence, scagility, schp, 
+    smithcount, smith1, smith2, smith3, smith4, gemscore, wish, lefttime, upgradeval 
+    from actorgemitem as u, gemsuit as v where u.actorid=_actorid and u.actorid=v.actorid and v.slot1uid = u.uid limit 1; 
+end ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET ch#!/bin/bash -
+#===============================================================================
+#
+#          FILE: task_0731.sh
+#
+#         USAGE: ./task_0731.sh
+#
+#   DESCRIPTION:
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: YOUR NAME (),
+#  ORGANIZATION:
+#       CREATED: 07/25/2015 00:41
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                              # Treat unset variables as an error
+###############################################################################
+cd $(dirname `/usr/sbin/lsof -p $$ | gawk '$4 =="255r"{print $NF}'`)
+source ../global_func.sh && source ../global_vars.sh || exit 1
+
+log_file=${AGENT_DIR_LOG}/task/$(echo "$0" | gawk -F"[./]" '{print $(NF-1)}').log
+mkdir -p $(dirname ${log_file})
+
+server_list=($(ls ${GAME_DIR_AGENT}))
+
+for server in ${server_list[@]}; do
+    path=${GAME_DIR_AGENT}/${server}/script
+    agent_vars=${path}/agent_vars.sh
+    if [ -f ${agent_vars} ]; then
+        source ${agent_vars}
+        if [ "0"x == "${c_agent_flag:-0}"x ]; then
+            sh ${path}/server_stop.sh ${c_agent}_${c_server_id}
+            F_PRINT_EXIT "停服成功 server_stop.sh ${c_agent}_${c_server_id}"
+        fi
+    fi
+done
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              #!/bin/bash -
+#===============================================================================
+#
+#          FILE: synclog.sh
+#
+#         USAGE: ./synclog.sh
+#
+#   DESCRIPTION:
+#
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: YOUR NAME (),
+#  ORGANIZATION:
+#       CREATED: 07/25/2015 00:41
+#      REVISION:  ---
+#===============================================================================
+
+set -o nounset                              # Treat unset variables as an error
+function f_cd_file_dir
+{
+    if echo "${1}" | grep -q '^/'; then
+        cd "$(dirname $1)"
+    else
+        cd "$(pwd)/$(dirname $1)"
+    fi
+}
+
+###############################################################################
+
+f_cd_file_dir "${0}"
+source ../global_func.sh && source ../global_vars.sh || exit 1
+
+log_file=${AGENT_DIR_LOG}/synclog/synclog.$(F_DATE)
+log_lock_file=${AGENT_DIR_LOG}/synclog/synclog.lock
+mkdir -p $(dirname ${log_file})
+
+F_LOCK ${log_lock_file}
+F_PRINT_EXIT " 获取操作锁 ${log_lock_file} "
+
+server_list=$(ls ${GAME_DIR_SERVER} | egrep "${GAME_NAME}_*_*")
+
+if [ -n "${server_list}" ]; then
+    for server in ${server_list}; do
+        source ${GAME_DIR_SERVER}/${server}/script/group_vars.sh
+        if [ "0"x == "${c_group_flag:-0}"x ]; then
+            sh ${c_path_script}/mysql_synclog.sh -s
+            F_LOG_EXIT " 定时备份 ${c_ip_public} ${c_agent}_${c_group_id} 备份成功 " ${log_file}
+        fi
+    done
+fi
+
+F_UNLOCK ${log_lock_file}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           <?php
+namespace C;
+const LOGID_DATA='logid_data_game';
+const ITEMID_DATA='itemid_data_game';
+const ITEMID_PRICE_DATA='itemid_price_data_game';
+const MONSTER_DATA='monster_data_game';
+const TASK_DATA='task_data_game';
+const CONSUME_TYPE ='consume_type';
+const SHOP_ITEMID_DATA = 'shop_itemid_game';
+const GM_ACCOUNT='gm_account';//gm账号管理缓存前缀
+const OP_GM_ACCOUNT='op_gm_account_game';//联运商gm账号管理缓存前缀
+const TASK_RANK_CONSUME_XML='task_rank_consume_xml_game';//消费排行榜XML
+const TASK_RANK_PAY_XML='task_rank_pay_xml_game';//充值排行榜XML
+const TASK_RANK_ZHANLI_XML='task_rank_zhanli_xml_game';//战力排行榜XML
+const TASK_QUESTIONNAIRE='task_questionnaire_xml_game';//问卷调查XML
+const COMMAND_SERVER_STATUS='command_server_status_game';//指令设置中的服务器状态
+const game_SERVER_IP='game_server_ip';//指令设置中的服务器状态                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             RT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.27659988
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.27659988
+    heightLB: 0.27659988
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.27659988
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.27659988
+    heightRB: 0.27659988
+    ground: 1
+  - heightLT: 0.27659988
+    heightRT: 0.27659988
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 0
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 0
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.521637
+    heightRB: 2.5216293
+    ground: 1
+  - heightLT: 2.521637
+    heightRT: 2.5216293
+    heightLB: 2.8078918
+    heightRB: 2.8078918
+    ground: 1
+  - heightLT: 2.8078918
+    heightRT: 2.8078918
+    heightLB: 3.094139
+    heightRB: 3.094139
+    ground: 1
+  - heightLT: 3.094139
+    heightRT: 3.094139
+    heightLB: 3.3803787
+    heightRB: 3.3803864
+    ground: 1
+  - heightLT: 3.3803787
+    heightRT: 3.3803864
+    heightLB: 3.6666336
+    heightRB: 3.666626
+    ground: 1
+  - heightLT: 3.6666336
+    heightRT: 3.666626
+    heightLB: 3.9528809
+    heightRB: 3.9528809
+    ground: 1
+  - heightLT: 3.9528809
+    heightRT: 3.9528809
+    heightLB: 4.2391205
+    heightRB: 4.2391205
+    ground: 1
+  - heightLT: 4.2391205
+    heightRT: 4.2391205
+    heightLB: 4.5253754
+    heightRB: 4.5253677
+    ground: 1
+  - heightLT: 4.5253754
+    heightRT: 4.5253677
+    heightLB: 4.811615
+    heightRB: 4.811615
+    ground: 1
+  - heightLT: 4.811615
+    heightRT: 4.811615
+    heightLB: 5.0978622
+    heightRB: 5.0978622
+    ground: 1
+  - heightLT: 5.0978622
+    heightRT: 5.0978622
+    heightLB: 5.1046677
+    heightRB: 5.1046677
+    ground: 1
+  - heightLT: 5.1046677
+    heightRT: 5.1046677
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.27659988
+    heightRB: 0.27659988
+    ground: 1
+  - heightLT: 0.27659988
+    heightRT: 0.27659988
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.27659988
+    heightRB: 0.27659988
+    ground: 1
+  - heightLT: 0.27659988
+    heightRT: 0.27659988
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0
+    heightRT: 0.2766075
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 0
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 0
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.5216293
+    heightRB: 2.521637
+    ground: 1
+  - heightLT: 2.5216293
+    heightRT: 2.521637
+    heightLB: 2.8078918
+    heightRB: 2.8078842
+    ground: 1
+  - heightLT: 2.8078918
+    heightRT: 2.8078842
+    heightLB: 3.094139
+    heightRB: 3.0941315
+    ground: 1
+  - heightLT: 3.094139
+    heightRT: 3.0941315
+    heightLB: 3.3803864
+    heightRB: 3.3803864
+    ground: 1
+  - heightLT: 3.3803864
+    heightRT: 3.3803864
+    heightLB: 3.666626
+    heightRB: 3.6666336
+    ground: 1
+  - heightLT: 3.666626
+    heightRT: 3.6666336
+    heightLB: 3.9528809
+    heightRB: 3.9528809
+    ground: 1
+  - heightLT: 3.9528809
+    heightRT: 3.9528809
+    heightLB: 4.2391205
+    heightRB: 4.2391205
+    ground: 1
+  - heightLT: 4.2391205
+    heightRT: 4.2391205
+    heightLB: 4.5253677
+    heightRB: 4.5253754
+    ground: 1
+  - heightLT: 4.5253677
+    heightRT: 4.5253754
+    heightLB: 4.811615
+    heightRB: 4.811615
+    ground: 1
+  - heightLT: 4.811615
+    heightRT: 4.811615
+    heightLB: 5.0978622
+    heightRB: 5.0978622
+    ground: 1
+  - heightLT: 5.0978622
+    heightRT: 5.0978622
+    heightLB: 5.1046677
+    heightRB: 5.1046677
+    ground: 1
+  - heightLT: 5.1046677
+    heightRT: 5.1046677
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.27661133
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.27659988
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.27659988
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.27659988
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.27659988
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 0
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 0
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.521637
+    heightRB: 2.521637
+    ground: 1
+  - heightLT: 2.521637
+    heightRT: 2.521637
+    heightLB: 2.8078842
+    heightRB: 2.8078918
+    ground: 1
+  - heightLT: 2.8078842
+    heightRT: 2.8078918
+    heightLB: 3.0941315
+    heightRB: 3.094139
+    ground: 1
+  - heightLT: 3.0941315
+    heightRT: 3.094139
+    heightLB: 3.3803864
+    heightRB: 3.3803864
+    ground: 1
+  - heightLT: 3.3803864
+    heightRT: 3.3803864
+    heightLB: 3.6666336
+    heightRB: 3.6666336
+    ground: 1
+  - heightLT: 3.6666336
+    heightRT: 3.6666336
+    heightLB: 3.9528809
+    heightRB: 3.9528809
+    ground: 1
+  - heightLT: 3.9528809
+    heightRT: 3.9528809
+    heightLB: 4.2391205
+    heightRB: 4.2391205
+    ground: 1
+  - heightLT: 4.2391205
+    heightRT: 4.2391205
+    heightLB: 4.5253754
+    heightRB: 4.5253754
+    ground: 1
+  - heightLT: 4.5253754
+    heightRT: 4.5253754
+    heightLB: 4.811615
+    heightRB: 4.811615
+    ground: 1
+  - heightLT: 4.811615
+    heightRT: 4.811615
+    heightLB: 5.0978622
+    heightRB: 5.0978546
+    ground: 1
+  - heightLT: 5.0978622
+    heightRT: 5.0978546
+    heightLB: 5.1046677
+    heightRB: 5.1046677
+    ground: 1
+  - heightLT: 5.1046677
+    heightRT: 5.1046677
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.27661133
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.27661133
+    heightLB: 0.27661133
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.27661133
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.27661133
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.27661133
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.27661133
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.27659988
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.27659988
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.27659988
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.27659988
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766075
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766075
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766037
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766037
+    heightLB: 0.2766037
+    heightRB: 0.2766075
+    ground: 1
+  - heightLT: 0.2766037
+    heightRT: 0.2766075
+    heightLB: 0
+    heightRB: 0.2766075
+    ground: 0
+  - heightLT: 0
+    heightRT: 0.2766075
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 0
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 0
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.4144287
+    heightRB: 2.4144287
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.4144287
+    heightLB: 2.4144287
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.4144287
+    heightRT: 2.414421
+    heightLB: 2.414421
+    heightRB: 2.414421
+    ground: 1
+  - heightLT: 2.414421
+    heightRT: 2.414421
+    heightLB: 2.521637
+    heightRB: 2.5216293
+    ground: 1
+  - heightLT: 2.521637
+    heightRT: 2.5216293
+    heightLB: 2.8078918
+    heightRB: 2.8078842
+    ground: 1
+  - heightLT: 2.8078918
+    heightRT: 2.8078842
+    heightLB: 3.094139
+    heightRB: 3.0941315
+    ground: 1
+  - heightLT: 3.094139
+    heightRT: 3.0941315
+    heightLB: 3.3803864
+    heightRB: 3.3803864
+    ground: 1
+  - heightLT: 3.3803864
+    heightRT: 3.3803864
+    heightLB: 3.6666336
+    heightRB: 3.6666336
+    ground: 1
+  - heightLT: 3.6666336
+    heightRT: 3.6666336
+    heightLB: 3.9528809
+    heightRB: 3.9528809
+    ground: 1
+  - heightLT: 3.9528809
+    heightRT: 3.9528809
+    heightLB: 4.2391205
+    heightRB: 4.239128
+    ground: 1
+  - heightLT: 4.2391205
+    heightRT: 4.239128
+    heightLB: 4.5253754
+    heightRB: 4.5253677
+    ground: 1
+  - heightLT: 4.5253754
+    heightRT: 4.5253677
+    heightLB: 4.811615
+    heightRB: 4.811615
+    ground: 1
+  - heightLT: 4.811615
+    heightRT: 4.811615
+    heightLB: 5.0978546
+    heightRB: 5.0978622
+    ground: 1
+  - heightLT: 5.0978546
+    heightRT: 5.0978622
+    heightLB: 5.1046677
+    heightRB: 5.1046677
+    ground: 1
+  - heightLT: 5.1046677
+    heightRT: 5.1046677
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.9516144
+    heightRB: 4.9516144
+    ground: 1
+  - heightLT: 4.9516144
+    heightRT: 4.9516144
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951622
+    heightLB: 4.951622
+    heightRB: 4.951622
+    ground: 1
+  - heightLT: 4.951622
+    heightRT: 4.951<?php
+/**
+ * 错误页面类
+ * @author youyan
+ */
+final class ErrorPage {
+
+	/**
+	 * 成功页面
+	 * @param string $msg
+	 * @param string $url
+	 * @param array $args
+	 * @param integer $left_time 自动跳转时间
+	 * @param array $headers	发送header
+	 * @param string $page	成功页面,默认global::error.200
+	 * @return \Laravel\Response
+	 */
+	public static function success($msg, $url = null, $left_time = 5, array $args = array(), array $headers = array(), $page = 'global::error.200') {
+		if (is_null($url)) {
+			$url = Request::referrer();
+		}
+
+		$args['msg'] = $msg;
+		$args['url'] = $url;
+		$args['left_time'] = $left_time;
+		Asset::style('center', 'public/css/center.css', 'base');
+		Asset::style('state', 'public/css/state.css', 'center');
+		$view = View::make($page, $args);
+		return new Response($view, 200, $headers);
+	}
+
+	/**
+	 * 失败页面
+	 * @param string $msg
+	 * @param string $url
+	 * @param array $args
+	 * @param integer $left_time 自动跳转时间
+	 * @param array $headers	发送header
+	 * @param string $page	失败页面,默认global::error.401
+	 * @return \Laravel\Response
+	 */
+	public static function error($msg, $url = null, $left_time = 5, array $args = array(), array $headers = array(), $page = 'global::error.404') {
+		if (is_null($url)) {
+			$url = Request::referrer();
+		}
+
+		$args['msg'] = $msg;
+		$args['url'] = $url;
+		$args['left_time'] = $left_time;
+		$view = View::make($page, $args);
+		Asset::style('center', 'public/css/center.css', 'base');
+		Asset::style('state', 'public/css/state.css', 'center');
+		return new Response($view, 404, $headers);
+	}
+
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    nd: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    ground: 0
+  - heightLT: 0
+    heightRT: 0
+    heightLB: 0
+    heightRB: 0
+    

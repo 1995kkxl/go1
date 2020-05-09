@@ -1,0 +1,15 @@
+问题:
+1. recvfrom 在没有数据到来时 会怎样?
+2.socket是全双工?
+3.某些应用程序用的端口,其他呢
+
+
+1.创建套接字
+udp_scoket = socket.socke(socket.AF_INET, socket.SOCK_DGRAM)
+localaddr = ("", 7890)
+udp_socket.bind(localaddr)
+2.使用套接字收发数据
+udp_scoket.sendto("XXXX".enco("utf-8"),("127.0.0.1", 5566))
+udp_socket.recvfrom(1024)
+3.关闭套接字
+udp_socket.close()

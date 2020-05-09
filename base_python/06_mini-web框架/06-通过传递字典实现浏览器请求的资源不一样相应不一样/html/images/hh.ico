@@ -1,0 +1,40 @@
+
+	for rows.Next() {
+		v := &model.RatingInfo{}
+		err = rows.Scan(&v.Mid, &v.TagID, &v.ScoreDate, &v.CreativityScore, &v.InfluenceScore, &v.CreditScore, &v.MagneticScore)
+		if err != nil {
+			log.Error("d.ScoreList rows.Scan error(%v)", err)
+			return
+		}
+		list = append(list, v)
+	}
+	err = rows.Err()
+	return
+}
+
+// LevelList returns info
+func (d *Dao) LevelList(c context.Context, mon int, date string, mids []int64) (list []*model.RatingInfo, err error) {
+	list = make([]*model.RatingInfo, 0, len(mids))
+	rows, err := d.db.Query(c, fmt.Sprintf(_levelListSQL, mon, xstr.JoinInts(mids)), date)
+	if err != nil {
+		log.Error("d.LevelList d.db.Query error(%v)", err)
+		return
+	}
+
+	defer rows.Close()
+	for rows.Next() {
+		v := &model.RatingInfo{}
+		if err = rows.Scan(&v.Mid, &v.TotalFans, &v.TotalAvs); err != nil {
+			log.Error("d.LevelList rows.Scan error(%v)", err)
+			return
+		}
+		list = append(list, v)
+	}
+	err = rows.Err()
+	return
+}
+
+// UpScores ...
+func (d *Dao) UpScores(c context.Context, mon int, mid int64) (list []*model.RatingInfo, err error) {
+	list = make([]*model.RatingInfo, 0)
+	rows, err := d.db.Q

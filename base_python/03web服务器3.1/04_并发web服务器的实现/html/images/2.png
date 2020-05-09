@@ -1,0 +1,2272 @@
+icate_1_t3982011279_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparer_1_t361504741_GenericClass = { 163, { &GenInst_AnimatorClipInfo_t3156717155_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparer_1_t361504741_0_0_0 = { &Comparer_1_t361504741_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IComparer_1_t116015338_GenericClass = { 178, { &GenInst_AnimatorClipInfo_t3156717155_0_0_0, NULL }, NULL };
+extern const RuntimeType IComparer_1_t116015338_0_0_0 = { &IComparer_1_t116015338_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IComparable_1_t2525381568_GenericClass = { 9, { &GenInst_AnimatorClipInfo_t3156717155_0_0_0, NULL }, NULL };
+extern const RuntimeType IComparable_1_t2525381568_0_0_0 = { &IComparable_1_t2525381568_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t1009320488_GenericClass = { 164, { &GenInst_AnimatorClipInfo_t3156717155_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t1009320488_0_0_0 = { &DefaultComparer_t1009320488_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t2931648334_GenericClass = { 903, { &GenInst_AnimatorClipInfo_t3156717155_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t2931648334_0_0_0 = { &Comparison_1_t2931648334_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2190830510_GenericClass = { 25, { &GenInst_AnimatorControllerParameter_t1758260042_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2190830510_0_0_0 = { &IEnumerator_1_t2190830510_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType AnimatorControllerParameter_t1758260042_0_0_0 = { (void*)1592, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AnimatorControllerParameter_t1758260042_1_0_0 = { (void*)1592, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2665324159_GenericClass = { 41, { &GenInst_AnimatorControllerParameter_t1758260042_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2665324159_0_0_0 = { &InternalEnumerator_1_t2665324159_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3573579825_GenericClass = { 48, { &GenInst_AnimatorControllerParameter_t1758260042_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3573579825_0_0_0 = { &IList_1_t3573579825_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t291444980_GenericClass = { 49, { &GenInst_AnimatorControllerParameter_t1758260042_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t291444980_0_0_0 = { &ICollection_1_t291444980_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t738112931_GenericClass = { 29, { &GenInst_AnimatorControllerParameter_t1758260042_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t738112931_0_0_0 = { &IEnumerable_1_t738112931_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1968612955_GenericClass = { 25, { &GenInst_AnimationEvent_t1536042487_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1968612955_0_0_0 = { &IEnumerator_1_t1968612955_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType AnimationEvent_t1536042487_0_0_0 = { (void*)1570, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AnimationEvent_t1536042487_1_0_0 = { (void*)1570, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2443106604_GenericClass = { 41, { &GenInst_AnimationEvent_t1536042487_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2443106604_0_0_0 = { &InternalEnumerator_1_t2443106604_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3351362270_GenericClass = { 48, { &GenInst_AnimationEvent_t1536042487_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3351362270_0_0_0 = { &IList_1_t3351362270_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t69227425_GenericClass = { 49, { &GenInst_AnimationEvent_t1536042487_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t69227425_0_0_0 = { &ICollection_1_t69227425_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t515895376_GenericClass = { 29, { &GenInst_AnimationEvent_t1536042487_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t515895376_0_0_0 = { &IEnumerable_1_t515895376_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2960928990_GenericClass = { 25, { &GenInst_ScriptableObject_t2528358522_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2960928990_0_0_0 = { &IEnumerator_1_t2960928990_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType ScriptableObject_t2528358522_0_0_0 = { (void*)1330, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType ScriptableObject_t2528358522_1_0_0 = { (void*)1330, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType ScriptableObject_t2528358522_0_0_1 = { (void*)1330, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3435422639_GenericClass = { 41, { &GenInst_ScriptableObject_t2528358522_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3435422639_0_0_0 = { &InternalEnumerator_1_t3435422639_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t48711009_GenericClass = { 48, { &GenInst_ScriptableObject_t2528358522_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t48711009_0_0_0 = { &IList_1_t48711009_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1061543460_GenericClass = { 49, { &GenInst_ScriptableObject_t2528358522_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1061543460_0_0_0 = { &ICollection_1_t1061543460_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t1508211411_GenericClass = { 29, { &GenInst_ScriptableObject_t2528358522_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t1508211411_0_0_0 = { &IEnumerable_1_t1508211411_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1389881579_GenericClass = { 25, { &GenInst_StateMachineBehaviour_t957311111_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1389881579_0_0_0 = { &IEnumerator_1_t1389881579_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType StateMachineBehaviour_t957311111_0_0_0 = { (void*)1560, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType StateMachineBehaviour_t957311111_1_0_0 = { (void*)1560, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t1864375228_GenericClass = { 41, { &GenInst_StateMachineBehaviour_t957311111_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t1864375228_0_0_0 = { &InternalEnumerator_1_t1864375228_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2772630894_GenericClass = { 48, { &GenInst_StateMachineBehaviour_t957311111_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2772630894_0_0_0 = { &IList_1_t2772630894_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3785463345_GenericClass = { 49, { &GenInst_StateMachineBehaviour_t957311111_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3785463345_0_0_0 = { &ICollection_1_t3785463345_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t4232131296_GenericClass = { 29, { &GenInst_StateMachineBehaviour_t957311111_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t4232131296_0_0_0 = { &IEnumerable_1_t4232131296_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2751076455_GenericClass = { 25, { &GenInst_AnimationClip_t2318505987_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2751076455_0_0_0 = { &IEnumerator_1_t2751076455_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType AnimationClip_t2318505987_0_0_0 = { (void*)1571, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AnimationClip_t2318505987_1_0_0 = { (void*)1571, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType AnimationClip_t2318505987_0_0_1 = { (void*)1571, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3225570104_GenericClass = { 41, { &GenInst_AnimationClip_t2318505987_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3225570104_0_0_0 = { &InternalEnumerator_1_t3225570104_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t4133825770_GenericClass = { 48, { &GenInst_AnimationClip_t2318505987_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t4133825770_0_0_0 = { &IList_1_t4133825770_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t851690925_GenericClass = { 49, { &GenInst_AnimationClip_t2318505987_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t851690925_0_0_0 = { &ICollection_1_t851690925_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t1298358876_GenericClass = { 29, { &GenInst_AnimationClip_t2318505987_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t1298358876_0_0_0 = { &IEnumerable_1_t1298358876_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2925876436_GenericClass = { 48, { &GenInst_Motion_t1110556653_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2925876436_0_0_0 = { &IList_1_t2925876436_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Motion_t1110556653_0_0_0 = { (void*)1600, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Motion_t1110556653_1_0_0 = { (void*)1600, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1543127121_GenericClass = { 25, { &GenInst_Motion_t1110556653_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1543127121_0_0_0 = { &IEnumerator_1_t1543127121_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2017620770_GenericClass = { 41, { &GenInst_Motion_t1110556653_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2017620770_0_0_0 = { &InternalEnumerator_1_t2017620770_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3938708887_GenericClass = { 49, { &GenInst_Motion_t1110556653_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3938708887_0_0_0 = { &ICollection_1_t3938708887_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t90409542_GenericClass = { 29, { &GenInst_Motion_t1110556653_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t90409542_0_0_0 = { &IEnumerable_1_t90409542_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1577850092_GenericClass = { 48, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1577850092_0_0_0 = { &IList_1_t1577850092_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType UIVertex_t4057497605_0_0_0 = { (void*)1616, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UIVertex_t4057497605_1_0_0 = { (void*)1616, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType UIVertex_t4057497605_0_0_22 = { (void*)1616, 22, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t195100777_GenericClass = { 25, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t195100777_0_0_0 = { &IEnumerator_1_t195100777_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t669594426_GenericClass = { 41, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t669594426_0_0_0 = { &InternalEnumerator_1_t669594426_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2590682543_GenericClass = { 49, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2590682543_0_0_0 = { &ICollection_1_t2590682543_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3037350494_GenericClass = { 29, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3037350494_0_0_0 = { &IEnumerable_1_t3037350494_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t1234605051_GenericClass = { 183, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t1234605051_0_0_0 = { &List_1_t1234605051_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t1234605051_0_0_33 = { &List_1_t1234605051_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t1234605051_0_0_17 = { &List_1_t1234605051_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3123848928_GenericClass = { 184, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3123848928_0_0_0 = { &Enumerator_t3123848928_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t975106596_GenericClass = { 186, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t975106596_0_0_0 = { &ReadOnlyCollection_1_t975106596_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Collection_1_t3001853523_GenericClass = { 185, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType Collection_1_t3001853523_0_0_0 = { &Collection_1_t3001853523_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass EqualityComparer_1_t2227269941_GenericClass = { 175, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType EqualityComparer_1_t2227269941_0_0_0 = { &EqualityComparer_1_t2227269941_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEqualityComparer_1_t1869862327_GenericClass = { 180, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType IEqualityComparer_1_t1869862327_0_0_0 = { &IEqualityComparer_1_t1869862327_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEquatable_1_t653676036_GenericClass = { 13, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType IEquatable_1_t653676036_0_0_0 = { &IEquatable_1_t653676036_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t494155261_GenericClass = { 176, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t494155261_0_0_0 = { &DefaultComparer_t494155261_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t587824433_GenericClass = { 906, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t587824433_0_0_0 = { &Predicate_1_t587824433_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparer_1_t1262285191_GenericClass = { 163, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparer_1_t1262285191_0_0_0 = { &Comparer_1_t1262285191_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IComparer_1_t1016795788_GenericClass = { 178, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType IComparer_1_t1016795788_0_0_0 = { &IComparer_1_t1016795788_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IComparable_1_t3426162018_GenericClass = { 9, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType IComparable_1_t3426162018_0_0_0 = { &IComparable_1_t3426162018_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t1910100938_GenericClass = { 164, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t1910100938_0_0_0 = { &DefaultComparer_t1910100938_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t3832428784_GenericClass = { 903, { &GenInst_UIVertex_t4057497605_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t3832428784_0_0_0 = { &Comparison_1_t3832428784_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1890820889_GenericClass = { 48, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1890820889_0_0_0 = { &IList_1_t1890820889_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType UICharInfo_t75501106_0_0_0 = { (void*)1614, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UICharInfo_t75501106_1_0_0 = { (void*)1614, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t508071574_GenericClass = { 25, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t508071574_0_0_0 = { &IEnumerator_1_t508071574_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t982565223_GenericClass = { 41, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t982565223_0_0_0 = { &InternalEnumerator_1_t982565223_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2903653340_GenericClass = { 49, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2903653340_0_0_0 = { &ICollection_1_t2903653340_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3350321291_GenericClass = { 29, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3350321291_0_0_0 = { &IEnumerable_1_t3350321291_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t1547575848_GenericClass = { 183, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t1547575848_0_0_0 = { &List_1_t1547575848_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t1547575848_0_0_33 = { &List_1_t1547575848_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3436819725_GenericClass = { 184, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3436819725_0_0_0 = { &Enumerator_t3436819725_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t1288077393_GenericClass = { 186, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t1288077393_0_0_0 = { &ReadOnlyCollection_1_t1288077393_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Collection_1_t3314824320_GenericClass = { 185, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType Collection_1_t3314824320_0_0_0 = { &Collection_1_t3314824320_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass EqualityComparer_1_t2540240738_GenericClass = { 175, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType EqualityComparer_1_t2540240738_0_0_0 = { &EqualityComparer_1_t2540240738_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEqualityComparer_1_t2182833124_GenericClass = { 180, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType IEqualityComparer_1_t2182833124_0_0_0 = { &IEqualityComparer_1_t2182833124_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEquatable_1_t966646833_GenericClass = { 13, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType IEquatable_1_t966646833_0_0_0 = { &IEquatable_1_t966646833_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t807126058_GenericClass = { 176, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t807126058_0_0_0 = { &DefaultComparer_t807126058_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t900795230_GenericClass = { 906, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t900795230_0_0_0 = { &Predicate_1_t900795230_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparer_1_t1575255988_GenericClass = { 163, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparer_1_t1575255988_0_0_0 = { &Comparer_1_t1575255988_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IComparer_1_t1329766585_GenericClass = { 178, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType IComparer_1_t1329766585_0_0_0 = { &IComparer_1_t1329766585_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IComparable_1_t3739132815_GenericClass = { 9, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType IComparable_1_t3739132815_0_0_0 = { &IComparable_1_t3739132815_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t2223071735_GenericClass = { 164, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t2223071735_0_0_0 = { &DefaultComparer_t2223071735_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t4145399581_GenericClass = { 903, { &GenInst_UICharInfo_t75501106_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t4145399581_0_0_0 = { &Comparison_1_t4145399581_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1715619297_GenericClass = { 48, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1715619297_0_0_0 = { &IList_1_t1715619297_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType UILineInfo_t4195266810_0_0_0 = { (void*)1615, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType UILineInfo_t4195266810_1_0_0 = { (void*)1615, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t332869982_GenericClass = { 25, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t332869982_0_0_0 = { &IEnumerator_1_t332869982_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t807363631_GenericClass = { 41, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t807363631_0_0_0 = { &InternalEnumerator_1_t807363631_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2728451748_GenericClass = { 49, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2728451748_0_0_0 = { &ICollection_1_t2728451748_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3175119699_GenericClass = { 29, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3175119699_0_0_0 = { &IEnumerable_1_t3175119699_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t1372374256_GenericClass = { 183, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t1372374256_0_0_0 = { &List_1_t1372374256_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t1372374256_0_0_33 = { &List_1_t1372374256_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3261618133_GenericClass = { 184, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3261618133_0_0_0 = { &Enumerator_t3261618133_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t1112875801_GenericClass = { 186, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t1112875801_0_0_0 = { &ReadOnlyCollection_1_t1112875801_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Collection_1_t3139622728_GenericClass = { 185, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType Collection_1_t3139622728_0_0_0 = { &Collection_1_t3139622728_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass EqualityComparer_1_t2365039146_GenericClass = { 175, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType EqualityComparer_1_t2365039146_0_0_0 = { &EqualityComparer_1_t2365039146_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEqualityComparer_1_t2007631532_GenericClass = { 180, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType IEqualityComparer_1_t2007631532_0_0_0 = { &IEqualityComparer_1_t2007631532_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEquatable_1_t791445241_GenericClass = { 13, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType IEquatable_1_t791445241_0_0_0 = { &IEquatable_1_t791445241_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t631924466_GenericClass = { 176, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t631924466_0_0_0 = { &DefaultComparer_t631924466_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t725593638_GenericClass = { 906, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t725593638_0_0_0 = { &Predicate_1_t725593638_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparer_1_t1400054396_GenericClass = { 163, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparer_1_t1400054396_0_0_0 = { &Comparer_1_t1400054396_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IComparer_1_t1154564993_GenericClass = { 178, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType IComparer_1_t1154564993_0_0_0 = { &IComparer_1_t1154564993_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IComparable_1_t3563931223_GenericClass = { 9, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType IComparable_1_t3563931223_0_0_0 = { &IComparable_1_t3563931223_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t2047870143_GenericClass = { 164, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t2047870143_0_0_0 = { &DefaultComparer_t2047870143_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t3970197989_GenericClass = { 903, { &GenInst_UILineInfo_t4195266810_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t3970197989_0_0_0 = { &Comparison_1_t3970197989_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Action_1_t2129269699_GenericClass = { 900, { &GenInst_Font_t1956802104_0_0_0, NULL }, NULL };
+extern const RuntimeType Action_1_t2129269699_0_0_0 = { &Action_1_t2129269699_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Action_1_t2129269699_0_0_17 = { &Action_1_t2129269699_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Action_1_t2129269699_0_0_3 = { &Action_1_t2129269699_GenericClass, 3, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Font_t1956802104_0_0_0 = { (void*)1612, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Font_t1956802104_0_0_6 = { (void*)1612, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Font_t1956802104_1_0_0 = { (void*)1612, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Font_t1956802104_0_0_1 = { (void*)1612, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Font_t1956802104_0_0_129 = { (void*)1612, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t4137227493_GenericClass = { 25, { &GenInst_RectTransform_t3704657025_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t4137227493_0_0_0 = { &IEnumerator_1_t4137227493_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType RectTransform_t3704657025_0_0_0 = { (void*)1451, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectTransform_t3704657025_1_0_0 = { (void*)1451, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType RectTransform_t3704657025_0_0_1 = { (void*)1451, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectTransform_t3704657025_0_0_129 = { (void*)1451, 129, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectTransform_t3704657025_0_0_3 = { (void*)1451, 3, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType RectTransform_t3704657025_0_0_6 = { (void*)1451, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t316753846_GenericClass = { 41, { &GenInst_RectTransform_t3704657025_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t316753846_0_0_0 = { &InternalEnumerator_1_t316753846_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1225009512_GenericClass = { 48, { &GenInst_RectTransform_t3704657025_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1225009512_0_0_0 = { &IList_1_t1225009512_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType IList_1_t1225009512_0_0_1 = { &IList_1_t1225009512_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2237841963_GenericClass = { 49, { &GenInst_RectTransform_t3704657025_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2237841963_0_0_0 = { &ICollection_1_t2237841963_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2684509914_GenericClass = { 29, { &GenInst_RectTransform_t3704657025_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2684509914_0_0_0 = { &IEnumerable_1_t2684509914_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t3483198499_GenericClass = { 25, { &GenInst_GUIContent_t3050628031_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t3483198499_0_0_0 = { &IEnumerator_1_t3483198499_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType GUIContent_t3050628031_0_0_0 = { (void*)1632, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIContent_t3050628031_1_0_0 = { (void*)1632, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIContent_t3050628031_0_0_49 = { (void*)1632, 49, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIContent_t3050628031_0_0_22 = { (void*)1632, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIContent_t3050628031_0_0_33 = { (void*)1632, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIContent_t3050628031_0_0_1 = { (void*)1632, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3957692148_GenericClass = { 41, { &GenInst_GUIContent_t3050628031_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3957692148_0_0_0 = { &InternalEnumerator_1_t3957692148_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t570980518_GenericClass = { 48, { &GenInst_GUIContent_t3050628031_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t570980518_0_0_0 = { &IList_1_t570980518_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1583812969_GenericClass = { 49, { &GenInst_GUIContent_t3050628031_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1583812969_0_0_0 = { &ICollection_1_t1583812969_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2030480920_GenericClass = { 29, { &GenInst_GUIContent_t3050628031_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2030480920_0_0_0 = { &IEnumerable_1_t2030480920_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1244367767_GenericClass = { 25, { &GenInst_GUILayoutOption_t811797299_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1244367767_0_0_0 = { &IEnumerator_1_t1244367767_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType GUILayoutOption_t811797299_0_0_0 = { (void*)1636, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUILayoutOption_t811797299_1_0_0 = { (void*)1636, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t1718861416_GenericClass = { 41, { &GenInst_GUILayoutOption_t811797299_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t1718861416_0_0_0 = { &InternalEnumerator_1_t1718861416_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2627117082_GenericClass = { 48, { &GenInst_GUILayoutOption_t811797299_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2627117082_0_0_0 = { &IList_1_t2627117082_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3639949533_GenericClass = { 49, { &GenInst_GUILayoutOption_t811797299_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3639949533_0_0_0 = { &ICollection_1_t3639949533_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t4086617484_GenericClass = { 29, { &GenInst_GUILayoutOption_t811797299_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t4086617484_0_0_0 = { &IEnumerable_1_t4086617484_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t391719016_GenericClass = { 183, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t391719016_0_0_0 = { &List_1_t391719016_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t391719016_0_0_6 = { &List_1_t391719016_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType GUILayoutEntry_t3214611570_0_0_0 = { (void*)1640, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUILayoutEntry_t3214611570_1_0_0 = { (void*)1640, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t3647182038_GenericClass = { 25, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t3647182038_0_0_0 = { &IEnumerator_1_t3647182038_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t4121675687_GenericClass = { 41, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t4121675687_0_0_0 = { &InternalEnumerator_1_t4121675687_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t734964057_GenericClass = { 48, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t734964057_0_0_0 = { &IList_1_t734964057_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1747796508_GenericClass = { 49, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1747796508_0_0_0 = { &ICollection_1_t1747796508_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2194464459_GenericClass = { 29, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2194464459_0_0_0 = { &IEnumerable_1_t2194464459_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t132220561_GenericClass = { 186, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t132220561_0_0_0 = { &ReadOnlyCollection_1_t132220561_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t4039905694_GenericClass = { 906, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t4039905694_0_0_0 = { &Predicate_1_t4039905694_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t2280962893_GenericClass = { 184, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t2280962893_0_0_0 = { &Enumerator_t2280962893_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t2989542749_GenericClass = { 903, { &GenInst_GUILayoutEntry_t3214611570_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t2989542749_0_0_0 = { &Comparison_1_t2989542749_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Dictionary_2_t3261990503_GenericClass = { 167, { &GenInst_Int32_t2950945753_0_0_0_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t3261990503_0_0_0 = { &Dictionary_2_t3261990503_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Dictionary_2_t3261990503_0_0_17 = { &Dictionary_2_t3261990503_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType LayoutCache_t78309876_0_0_0 = { (void*)1643, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutCache_t78309876_0_0_19 = { (void*)1643, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType LayoutCache_t78309876_1_0_0 = { (void*)1643, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass Dictionary_2_t1968819495_GenericClass = { 167, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t1968819495_0_0_0 = { &Dictionary_2_t1968819495_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Dictionary_2_t1968819495_0_0_17 = { &Dictionary_2_t1968819495_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2899676600_GenericClass = { 49, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2899676600_0_0_0 = { &ICollection_1_t2899676600_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t71524366_GenericClass = { 182, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t71524366_0_0_0 = { &KeyValuePair_2_t71524366_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t504094834_GenericClass = { 25, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t504094834_0_0_0 = { &IEnumerator_1_t504094834_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t978588483_GenericClass = { 41, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t978588483_0_0_0 = { &InternalEnumerator_1_t978588483_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1886844149_GenericClass = { 48, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1886844149_0_0_0 = { &IList_1_t1886844149_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3346344551_GenericClass = { 29, { &GenInst_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3346344551_0_0_0 = { &IEnumerable_1_t3346344551_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IDictionary_2_t432670886_GenericClass = { 179, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType IDictionary_2_t432670886_0_0_0 = { &IDictionary_2_t432670886_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t3684863813_GenericClass = { 172, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t3684863813_0_0_0 = { &ValueCollection_t3684863813_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t2537713152_GenericClass = { 173, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t2537713152_0_0_0 = { &Enumerator_t2537713152_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3923002270_GenericClass = { 169, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3923002270_0_0_0 = { &Enumerator_t3923002270_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t2404408695_GenericClass = { 174, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t2404408695_0_0_0 = { &Transform_1_t2404408695_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t2448278169_GenericClass = { 174, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t2448278169_0_0_0 = { &Transform_1_t2448278169_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t3690794193_GenericClass = { 174, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t71524366_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t3690794193_0_0_0 = { &Transform_1_t3690794193_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ShimEnumerator_t1965540292_GenericClass = { 168, { &GenInst_Int32_t2950945753_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType ShimEnumerator_t1965540292_0_0_0 = { &ShimEnumerator_t1965540292_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t510880344_GenericClass = { 25, { &GenInst_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t510880344_0_0_0 = { &IEnumerator_1_t510880344_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t985373993_GenericClass = { 41, { &GenInst_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t985373993_0_0_0 = { &InternalEnumerator_1_t985373993_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1893629659_GenericClass = { 48, { &GenInst_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1893629659_0_0_0 = { &IList_1_t1893629659_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2906462110_GenericClass = { 49, { &GenInst_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2906462110_0_0_0 = { &ICollection_1_t2906462110_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3353130061_GenericClass = { 29, { &GenInst_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3353130061_0_0_0 = { &IEnumerable_1_t3353130061_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t922041433_GenericClass = { 174, { &GenInst_Int32_t2950945753_0_0_0_LayoutCache_t78309876_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t922041433_0_0_0 = { &Transform_1_t922041433_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t1364695374_GenericClass = { 182, { &GenInst_Int32_t2950945753_0_0_0_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t1364695374_0_0_0 = { &KeyValuePair_2_t1364695374_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1797265842_GenericClass = { 25, { &GenInst_KeyValuePair_2_t1364695374_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1797265842_0_0_0 = { &IEnumerator_1_t1797265842_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2271759491_GenericClass = { 41, { &GenInst_KeyValuePair_2_t1364695374_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2271759491_0_0_0 = { &InternalEnumerator_1_t2271759491_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3180015157_GenericClass = { 48, { &GenInst_KeyValuePair_2_t1364695374_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3180015157_0_0_0 = { &IList_1_t3180015157_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t4192847608_GenericClass = { 49, { &GenInst_KeyValuePair_2_t1364695374_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t4192847608_0_0_0 = { &ICollection_1_t4192847608_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t344548263_GenericClass = { 29, { &GenInst_KeyValuePair_2_t1364695374_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t344548263_0_0_0 = { &IEnumerable_1_t344548263_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t683067525_GenericClass = { 172, { &GenInst_Int32_t2950945753_0_0_0_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t683067525_0_0_0 = { &ValueCollection_t683067525_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3830884160_GenericClass = { 173, { &GenInst_Int32_t2950945753_0_0_0_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3830884160_0_0_0 = { &Enumerator_t3830884160_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t921205982_GenericClass = { 169, { &GenInst_Int32_t2950945753_0_0_0_LayoutCache_t78309876_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t921205982_0_0_0 = { &Enumerator_t921205982_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t94504683_GenericClass = { 25, { &GenInst_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t94504683_0_0_0 = { &IEnumerator_1_t94504683_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType GUIStyle_t3956901511_0_0_0 = { (void*)1649, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_1_0_0 = { (void*)1649, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIStyle_t3956901511_1_0_2 = { (void*)1649, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_6 = { (void*)1649, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_1 = { (void*)1649, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_17 = { (void*)1649, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_19 = { (void*)1649, 19, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GUIStyle_t3956901511_0_0_33 = { (void*)1649, 33, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t568998332_GenericClass = { 41, { &GenInst_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t568998332_0_0_0 = { &InternalEnumerator_1_t568998332_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1477253998_GenericClass = { 48, { &GenInst_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1477253998_0_0_0 = { &IList_1_t1477253998_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2490086449_GenericClass = { 49, { &GenInst_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2490086449_0_0_0 = { &ICollection_1_t2490086449_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2936754400_GenericClass = { 29, { &GenInst_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2936754400_0_0_0 = { &IEnumerable_1_t2936754400_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Dictionary_2_t3742157810_GenericClass = { 167, { &GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t3742157810_0_0_0 = { &Dictionary_2_t3742157810_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Dictionary_2_t3742157810_0_0_1 = { &Dictionary_2_t3742157810_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t1233662018_GenericClass = { 174, { &GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t1233662018_0_0_0 = { &Transform_1_t1233662018_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t1844862681_GenericClass = { 182, { &GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t1844862681_0_0_0 = { &KeyValuePair_2_t1844862681_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2277433149_GenericClass = { 25, { &GenInst_KeyValuePair_2_t1844862681_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2277433149_0_0_0 = { &IEnumerator_1_t2277433149_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2751926798_GenericClass = { 41, { &GenInst_KeyValuePair_2_t1844862681_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2751926798_0_0_0 = { &InternalEnumerator_1_t2751926798_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3660182464_GenericClass = { 48, { &GenInst_KeyValuePair_2_t1844862681_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3660182464_0_0_0 = { &IList_1_t3660182464_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t378047619_GenericClass = { 49, { &GenInst_KeyValuePair_2_t1844862681_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t378047619_0_0_0 = { &ICollection_1_t378047619_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t824715570_GenericClass = { 29, { &GenInst_KeyValuePair_2_t1844862681_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t824715570_0_0_0 = { &IEnumerable_1_t824715570_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t1163234832_GenericClass = { 172, { &GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t1163234832_0_0_0 = { &ValueCollection_t1163234832_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t16084171_GenericClass = { 173, { &GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t16084171_0_0_0 = { &Enumerator_t16084171_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t1401373289_GenericClass = { 169, { &GenInst_String_t_0_0_0_GUIStyle_t3956901511_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t1401373289_0_0_0 = { &Enumerator_t1401373289_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Func_3_t4119323734_GenericClass = { 1303, { &GenInst_Int32_t2950945753_0_0_0_IntPtr_t_0_0_0_Boolean_t97287965_0_0_0, NULL }, NULL };
+extern const RuntimeType Func_3_t4119323734_0_0_0 = { &Func_3_t4119323734_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Func_3_t4119323734_0_0_19 = { &Func_3_t4119323734_GenericClass, 19, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Func_2_t3450341358_GenericClass = { 1302, { &GenInst_Exception_t1436737249_0_0_0_Boolean_t97287965_0_0_0, NULL }, NULL };
+extern const RuntimeType Func_2_t3450341358_0_0_0 = { &Func_2_t3450341358_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Func_2_t3450341358_0_0_19 = { &Func_2_t3450341358_GenericClass, 19, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Exception_t1436737249_0_0_0 = { (void*)57, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Exception_t1436737249_1_0_0 = { (void*)57, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Exception_t1436737249_1_0_2 = { (void*)57, 2, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Exception_t1436737249_0_0_1 = { (void*)57, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Exception_t1436737249_0_0_6 = { (void*)57, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Exception_t1436737249_0_0_4112 = { (void*)57, 4112, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Exception_t1436737249_0_0_22 = { (void*)57, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+Il2CppGenericClass Dictionary_2_t3055005891_GenericClass = { 167, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t3055005891_0_0_0 = { &Dictionary_2_t3055005891_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Dictionary_2_t3055005891_0_0_17 = { &Dictionary_2_t3055005891_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Event_t2956885303_0_0_0 = { (void*)1627, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Event_t2956885303_1_0_0 = { (void*)1627, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType Event_t2956885303_0_0_17 = { (void*)1627, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Event_t2956885303_0_0_1 = { (void*)1627, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+extern const RuntimeType TextEditOp_t1927482598_0_0_0 = { (void*)1661, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType TextEditOp_t1927482598_1_0_0 = { (void*)1661, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType TextEditOp_t1927482598_0_0_32854 = { (void*)1661, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+
+Il2CppGenericClass Dictionary_2_t3274888882_GenericClass = { 167, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t3274888882_0_0_0 = { &Dictionary_2_t3274888882_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t4205745987_GenericClass = { 49, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t4205745987_0_0_0 = { &ICollection_1_t4205745987_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t1377593753_GenericClass = { 182, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t1377593753_0_0_0 = { &KeyValuePair_2_t1377593753_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1810164221_GenericClass = { 25, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1810164221_0_0_0 = { &IEnumerator_1_t1810164221_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2284657870_GenericClass = { 41, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2284657870_0_0_0 = { &InternalEnumerator_1_t2284657870_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3192913536_GenericClass = { 48, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3192913536_0_0_0 = { &IList_1_t3192913536_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t357446642_GenericClass = { 29, { &GenInst_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t357446642_0_0_0 = { &IEnumerable_1_t357446642_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IDictionary_2_t1738740273_GenericClass = { 179, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IDictionary_2_t1738740273_0_0_0 = { &IDictionary_2_t1738740273_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2360053066_GenericClass = { 25, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2360053066_0_0_0 = { &IEnumerator_1_t2360053066_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2834546715_GenericClass = { 41, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2834546715_0_0_0 = { &InternalEnumerator_1_t2834546715_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3742802381_GenericClass = { 48, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3742802381_0_0_0 = { &IList_1_t3742802381_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t460667536_GenericClass = { 49, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t460667536_0_0_0 = { &ICollection_1_t460667536_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t907335487_GenericClass = { 29, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t907335487_0_0_0 = { &IEnumerable_1_t907335487_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t695965904_GenericClass = { 172, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t695965904_0_0_0 = { &ValueCollection_t695965904_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3843782539_GenericClass = { 173, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3843782539_0_0_0 = { &Enumerator_t3843782539_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t934104361_GenericClass = { 169, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t934104361_0_0_0 = { &Enumerator_t934104361_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t3239041426_GenericClass = { 174, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t3239041426_0_0_0 = { &Transform_1_t3239041426_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t140567170_GenericClass = { 174, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t140567170_0_0_0 = { &Transform_1_t140567170_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t2689152581_GenericClass = { 174, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0_KeyValuePair_2_t1377593753_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t2689152581_0_0_0 = { &Transform_1_t2689152581_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ShimEnumerator_t3271609679_GenericClass = { 168, { &GenInst_RuntimeObject_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType ShimEnumerator_t3271609679_0_0_0 = { &ShimEnumerator_t3271609679_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEqualityComparer_1_t4034814616_GenericClass = { 180, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IEqualityComparer_1_t4034814616_0_0_0 = { &IEqualityComparer_1_t4034814616_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass EqualityComparer_1_t97254934_GenericClass = { 175, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType EqualityComparer_1_t97254934_0_0_0 = { &EqualityComparer_1_t97254934_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEquatable_1_t2818628325_GenericClass = { 13, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType IEquatable_1_t2818628325_0_0_0 = { &IEquatable_1_t2818628325_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t2659107550_GenericClass = { 176, { &GenInst_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t2659107550_0_0_0 = { &DefaultComparer_t2659107550_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t3389455771_GenericClass = { 25, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t3389455771_0_0_0 = { &IEnumerator_1_t3389455771_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3863949420_GenericClass = { 41, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3863949420_0_0_0 = { &InternalEnumerator_1_t3863949420_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t477237790_GenericClass = { 48, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t477237790_0_0_0 = { &IList_1_t477237790_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1490070241_GenericClass = { 49, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1490070241_0_0_0 = { &ICollection_1_t1490070241_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t1936738192_GenericClass = { 29, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t1936738192_0_0_0 = { &IEnumerable_1_t1936738192_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEqualityComparer_1_t769250025_GenericClass = { 180, { &GenInst_Event_t2956885303_0_0_0, NULL }, NULL };
+extern const RuntimeType IEqualityComparer_1_t769250025_0_0_0 = { &IEqualityComparer_1_t769250025_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t1958752525_GenericClass = { 174, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t1958752525_0_0_0 = { &Transform_1_t1958752525_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t1157710762_GenericClass = { 182, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t1157710762_0_0_0 = { &KeyValuePair_2_t1157710762_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1590281230_GenericClass = { 25, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1590281230_0_0_0 = { &IEnumerator_1_t1590281230_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2064774879_GenericClass = { 41, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2064774879_0_0_0 = { &InternalEnumerator_1_t2064774879_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2973030545_GenericClass = { 48, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2973030545_0_0_0 = { &IList_1_t2973030545_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3985862996_GenericClass = { 49, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3985862996_0_0_0 = { &ICollection_1_t3985862996_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t137563651_GenericClass = { 29, { &GenInst_KeyValuePair_2_t1157710762_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t137563651_0_0_0 = { &IEnumerable_1_t137563651_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t476082913_GenericClass = { 172, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t476082913_0_0_0 = { &ValueCollection_t476082913_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3623899548_GenericClass = { 173, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3623899548_0_0_0 = { &Enumerator_t3623899548_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t714221370_GenericClass = { 169, { &GenInst_Event_t2956885303_0_0_0_TextEditOp_t1927482598_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t714221370_0_0_0 = { &Enumerator_t714221370_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Dictionary_2_t1632706988_GenericClass = { 167, { &GenInst_String_t_0_0_0_String_t_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t1632706988_0_0_0 = { &Dictionary_2_t1632706988_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Dictionary_2_t1632706988_0_0_1 = { &Dictionary_2_t1632706988_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t132201056_GenericClass = { 174, { &GenInst_String_t_0_0_0_String_t_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t132201056_0_0_0 = { &Transform_1_t132201056_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t4030379155_GenericClass = { 182, { &GenInst_String_t_0_0_0_String_t_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t4030379155_0_0_0 = { &KeyValuePair_2_t4030379155_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t167982327_GenericClass = { 25, { &GenInst_KeyValuePair_2_t4030379155_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t167982327_0_0_0 = { &IEnumerator_1_t167982327_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t642475976_GenericClass = { 41, { &GenInst_KeyValuePair_2_t4030379155_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t642475976_0_0_0 = { &InternalEnumerator_1_t642475976_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1550731642_GenericClass = { 48, { &GenInst_KeyValuePair_2_t4030379155_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1550731642_0_0_0 = { &IList_1_t1550731642_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2563564093_GenericClass = { 49, { &GenInst_KeyValuePair_2_t4030379155_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2563564093_0_0_0 = { &ICollection_1_t2563564093_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3010232044_GenericClass = { 29, { &GenInst_KeyValuePair_2_t4030379155_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3010232044_0_0_0 = { &IEnumerable_1_t3010232044_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t3348751306_GenericClass = { 172, { &GenInst_String_t_0_0_0_String_t_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t3348751306_0_0_0 = { &ValueCollection_t3348751306_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t2201600645_GenericClass = { 173, { &GenInst_String_t_0_0_0_String_t_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t2201600645_0_0_0 = { &Enumerator_t2201600645_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3586889763_GenericClass = { 169, { &GenInst_String_t_0_0_0_String_t_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3586889763_0_0_0 = { &Enumerator_t3586889763_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t1293755103_GenericClass = { 183, { &GenInst_ByteU5BU5D_t4116647657_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t1293755103_0_0_0 = { &List_1_t1293755103_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t1293755103_0_0_1 = { &List_1_t1293755103_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t1034256648_GenericClass = { 186, { &GenInst_ByteU5BU5D_t4116647657_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t1034256648_0_0_0 = { &ReadOnlyCollection_1_t1034256648_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t646974485_GenericClass = { 906, { &GenInst_ByteU5BU5D_t4116647657_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t646974485_0_0_0 = { &Predicate_1_t646974485_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3182998980_GenericClass = { 184, { &GenInst_ByteU5BU5D_t4116647657_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3182998980_0_0_0 = { &Enumerator_t3182998980_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t3891578836_GenericClass = { 903, { &GenInst_ByteU5BU5D_t4116647657_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t3891578836_0_0_0 = { &Comparison_1_t3891578836_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Action_1_t2664391245_GenericClass = { 900, { &GenInst_VRNodeState_t2491923650_0_0_0, NULL }, NULL };
+extern const RuntimeType Action_1_t2664391245_0_0_0 = { &Action_1_t2664391245_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Action_1_t2664391245_0_0_17 = { &Action_1_t2664391245_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType VRNodeState_t2491923650_0_0_0 = { (void*)1687, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType VRNodeState_t2491923650_1_0_0 = { (void*)1687, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t3569898645_GenericClass = { 25, { &GenInst_UserProfile_t3137328177_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t3569898645_0_0_0 = { &IEnumerator_1_t3569898645_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType UserProfile_t3137328177_0_0_0 = { (void*)1700, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType UserProfile_t3137328177_1_0_0 = { (void*)1700, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t4044392294_GenericClass = { 41, { &GenInst_UserProfile_t3137328177_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t4044392294_0_0_0 = { &InternalEnumerator_1_t4044392294_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t657680664_GenericClass = { 48, { &GenInst_UserProfile_t3137328177_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t657680664_0_0_0 = { &IList_1_t657680664_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1670513115_GenericClass = { 49, { &GenInst_UserProfile_t3137328177_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1670513115_0_0_0 = { &ICollection_1_t1670513115_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2117181066_GenericClass = { 29, { &GenInst_UserProfile_t3137328177_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2117181066_0_0_0 = { &IEnumerable_1_t2117181066_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2175820419_GenericClass = { 48, { &GenInst_IUserProfile_t360500636_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2175820419_0_0_0 = { &IList_1_t2175820419_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType IUserProfile_t360500636_0_0_0 = { (void*)1708, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IUserProfile_t360500636_0_0_1 = { (void*)1708, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IUserProfile_t360500636_1_0_0 = { (void*)1708, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t793071104_GenericClass = { 25, { &GenInst_IUserProfile_t360500636_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t793071104_0_0_0 = { &IEnumerator_1_t793071104_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t1267564753_GenericClass = { 41, { &GenInst_IUserProfile_t360500636_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t1267564753_0_0_0 = { &InternalEnumerator_1_t1267564753_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3188652870_GenericClass = { 49, { &GenInst_IUserProfile_t360500636_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3188652870_0_0_0 = { &ICollection_1_t3188652870_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3635320821_GenericClass = { 29, { &GenInst_IUserProfile_t360500636_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3635320821_0_0_0 = { &IEnumerable_1_t3635320821_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Action_2_t1290832230_GenericClass = { 1299, { &GenInst_Boolean_t97287965_0_0_0_String_t_0_0_0, NULL }, NULL };
+extern const RuntimeType Action_2_t1290832230_0_0_0 = { &Action_2_t1290832230_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Action_2_t1290832230_0_0_17 = { &Action_2_t1290832230_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Action_2_t1290832230_0_0_3 = { &Action_2_t1290832230_GenericClass, 3, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Action_2_t2523487705_GenericClass = { 1299, { &GenInst_Boolean_t97287965_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Action_2_t2523487705_0_0_0 = { &Action_2_t2523487705_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t3650164995_GenericClass = { 25, { &GenInst_AchievementDescription_t3217594527_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t3650164995_0_0_0 = { &IEnumerator_1_t3650164995_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType AchievementDescription_t3217594527_0_0_0 = { (void*)1702, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AchievementDescription_t3217594527_1_0_0 = { (void*)1702, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t4124658644_GenericClass = { 41, { &GenInst_AchievementDescription_t3217594527_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t4124658644_0_0_0 = { &InternalEnumerator_1_t4124658644_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t737947014_GenericClass = { 48, { &GenInst_AchievementDescription_t3217594527_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t737947014_0_0_0 = { &IList_1_t737947014_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1750779465_GenericClass = { 49, { &GenInst_AchievementDescription_t3217594527_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1750779465_0_0_0 = { &ICollection_1_t1750779465_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2197447416_GenericClass = { 29, { &GenInst_AchievementDescription_t3217594527_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2197447416_0_0_0 = { &IEnumerable_1_t2197447416_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t34628215_GenericClass = { 48, { &GenInst_IAchievementDescription_t2514275728_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t34628215_0_0_0 = { &IList_1_t34628215_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType IAchievementDescription_t2514275728_0_0_0 = { (void*)1710, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IAchievementDescription_t2514275728_1_0_0 = { (void*)1710, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2946846196_GenericClass = { 25, { &GenInst_IAchievementDescription_t2514275728_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2946846196_0_0_0 = { &IEnumerator_1_t2946846196_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3421339845_GenericClass = { 41, { &GenInst_IAchievementDescription_t2514275728_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3421339845_0_0_0 = { &InternalEnumerator_1_t3421339845_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1047460666_GenericClass = { 49, { &GenInst_IAchievementDescription_t2514275728_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1047460666_0_0_0 = { &ICollection_1_t1047460666_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t1494128617_GenericClass = { 29, { &GenInst_IAchievementDescription_t2514275728_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t1494128617_0_0_0 = { &IEnumerable_1_t1494128617_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Action_1_t269755560_GenericClass = { 900, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+extern const RuntimeType Action_1_t269755560_0_0_0 = { &Action_1_t269755560_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Action_1_t269755560_0_0_17 = { &Action_1_t269755560_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Action_1_t269755560_0_0_3 = { &Action_1_t269755560_GenericClass, 3, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Action_1_t269755560_0_0_22 = { &Action_1_t269755560_GenericClass, 22, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t1309380474_GenericClass = { 183, { &GenInst_GcLeaderboard_t4132273028_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t1309380474_0_0_0 = { &List_1_t1309380474_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t1309380474_0_0_17 = { &List_1_t1309380474_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType GcLeaderboard_t4132273028_0_0_0 = { (void*)1716, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType GcLeaderboard_t4132273028_1_0_0 = { (void*)1716, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t269876200_GenericClass = { 25, { &GenInst_GcLeaderboard_t4132273028_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t269876200_0_0_0 = { &IEnumerator_1_t269876200_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t744369849_GenericClass = { 41, { &GenInst_GcLeaderboard_t4132273028_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t744369849_0_0_0 = { &InternalEnumerator_1_t744369849_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1652625515_GenericClass = { 48, { &GenInst_GcLeaderboard_t4132273028_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1652625515_0_0_0 = { &IList_1_t1652625515_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2665457966_GenericClass = { 49, { &GenInst_GcLeaderboard_t4132273028_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2665457966_0_0_0 = { &ICollection_1_t2665457966_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3112125917_GenericClass = { 29, { &GenInst_GcLeaderboard_t4132273028_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3112125917_0_0_0 = { &IEnumerable_1_t3112125917_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t1049882019_GenericClass = { 186, { &GenInst_GcLeaderboard_t4132273028_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t1049882019_0_0_#!/bin/bash
+#===============================================================================
+#
+#          FILE: function.sh
+#
+#         USAGE: source function.sh
+#
+#   DESCRIPTION: å…¨å±€å‡½æ•°
+#
+#        AUTHOR: xx
+#       CREATED: 2014/08/02 22:05
+#===============================================================================
+
+set -o nounset                              # Treat unset variables as an error
+
+function F_DATE
+{
+    date +"%Y%m%d%H%M%S"
+}
+
+function F_LOCK
+{
+    local lock=1
+    set -o noclobber
+    if (echo "$$" > "$1" 2>/dev/null); then
+        lock=0
+        set +u
+        local foo=''
+        [ ""x == "$2"x ] || foo="$2 $1;"
+        trap "$foo ret=$?; rm -f $1; exit ${ret};" INT TERM EXIT
+        set -u
+    fi
+    set +o noclobber
+    return ${lock}
+}
+
+function F_UNLOCK
+{
+    trap '' INT TERM EXIT
+    rm -f "$1"
+}
+
+function F_FILE_MD5
+{
+    md5sum ${1} | gawk '{print $1}'
+}
+
+function F_CHECK_STEP
+{
+    [ -f "${2}" ] && cat ${2} | grep -qE "${1}"
+}
+
+function F_SAVE_STEP
+{
+    ! F_CHECK_STEP "${1}" "${2}" && echo "$(F_DATE) ${1}" >> ${2}
+}
+
+function F_PRINT_HELP
+{
+    echo -e "\033[1;31m ${1} \033[0m \n"
+}
+
+function F_PRINT_SUCCESS
+{
+    echo -e "[\033[1;32m OK \033[0m] $(F_DATE) ${1}"
+}
+
+function F_PRINT_ERROR
+{
+    echo -e "[\033[1;31mFAIL\033[0m] $(F_DATE) ${1}"
+}
+
+function F_LOG_SUCCESS
+{
+    F_PRINT_SUCCESS "${1}"
+    echo "[ OK ] $(F_DATE) ${1}" >> ${2}
+}
+
+function F_LOG_ERROR
+{
+    F_PRINT_ERROR "${1}"
+    echo "[FAIL] $(F_DATE) ${1}" >> ${2}
+}
+
+function F_MUTE_SUCCESS
+{
+    echo "[ OK ] $(F_DATE) ${1}" >> ${2}
+}
+
+function F_MUTE_ERROR
+{
+    echo "[FAIL] $(F_DATE) ${1}" >> ${2}
+}
+
+function F_PRINT
+{
+    if [ 0 == $? ]; then
+        F_PRINT_SUCCESS "${1}"
+    else
+        F_PRINT_ERROR "${1}"
+    fi
+}
+
+function F_PRINT_EXIT
+{
+    if [ 0 == $? ]; then
+        F_PRINT_SUCCESS "${1}"
+    else
+        F_PRINT_ERROR "${1}"
+        exit 1
+    fi
+}
+
+function F_LOG
+{
+    local ret=$?
+
+    if [ 0 == ${ret} ]; then
+        F_LOG_SUCCESS "${1}" ${2}
+    else
+        F_LOG_ERROR "${1}" ${2}
+    fi
+
+    return ${ret}
+}
+
+function F_LOG_EXIT
+{
+    if [ 0 == $? ]; then
+        F_LOG_SUCCESS "${1}" ${2}
+    else
+        F_LOG_ERROR "${1}" ${2}
+        exit 1
+    fi
+}
+
+function F_MUTE_EXIT
+{
+    if [ 0 == $? ]; then
+        F_MUTE_SUCCESS "${1}" ${2}
+    else
+        F_MUTE_ERROR "${1}" ${2}
+        exit 1
+    fi
+}
+
+function F_REAL_DIR
+{
+    echo $(dirname `/usr/sbin/lsof -p $$ | gawk '$4 =="255r"{print $NF}'`)
+}
+
+function F_SSH_EXEC
+{
+    ssh -A -o stricthostkeychecking=no -o GSSAPIAuthentication=no -p ${2} ${1} "${3}"
+}
+
+function F_GET_SVN_REVISION
+{
+    res=$(svn -v list ${1} | gawk 'NR == 1{print $1}')
+    [ -n "${res}" ] && echo "${res}" || {
+    echo "è·å–svnç‰ˆæœ¬å·å¤±è´¥"
+    exit 1
+    }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             nericClass = { 48, { &GenInst_GcAchievementData_t675222246_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2490542029_0_0_0 = { &IList_1_t2490542029_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3503374480_GenericClass = { 49, { &GenInst_GcAchievementData_t675222246_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3503374480_0_0_0 = { &ICollection_1_t3503374480_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3950042431_GenericClass = { 29, { &GenInst_GcAchievementData_t675222246_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3950042431_0_0_0 = { &IEnumerable_1_t3950042431_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t997930452_GenericClass = { 25, { &GenInst_Achievement_t565359984_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t997930452_0_0_0 = { &IEnumerator_1_t997930452_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Achievement_t565359984_0_0_0 = { (void*)1701, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Achievement_t565359984_1_0_0 = { (void*)1701, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t1472424101_GenericClass = { 41, { &GenInst_Achievement_t565359984_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t1472424101_0_0_0 = { &InternalEnumerator_1_t1472424101_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2380679767_GenericClass = { 48, { &GenInst_Achievement_t565359984_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2380679767_0_0_0 = { &IList_1_t2380679767_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3393512218_GenericClass = { 49, { &GenInst_Achievement_t565359984_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3393512218_0_0_0 = { &ICollection_1_t3393512218_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3840180169_GenericClass = { 29, { &GenInst_Achievement_t565359984_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3840180169_0_0_0 = { &IEnumerable_1_t3840180169_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Action_1_t700338843_GenericClass = { 900, { &GenInst_IScoreU5BU5D_t527871248_0_0_0, NULL }, NULL };
+extern const RuntimeType Action_1_t700338843_0_0_0 = { &Action_1_t700338843_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType IScoreU5BU5D_t527871248_0_0_0 = { (void*)&IScore_t2559910621_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
+extern const RuntimeType IScoreU5BU5D_t527871248_0_0_1 = { (void*)&IScore_t2559910621_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
+
+extern const RuntimeType IScore_t2559910621_0_0_0 = { (void*)1711, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IScore_t2559910621_0_0_1 = { (void*)1711, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType IScore_t2559910621_1_0_0 = { (void*)1711, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2992481089_GenericClass = { 25, { &GenInst_IScore_t2559910621_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2992481089_0_0_0 = { &IEnumerator_1_t2992481089_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3466974738_GenericClass = { 41, { &GenInst_IScore_t2559910621_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3466974738_0_0_0 = { &InternalEnumerator_1_t3466974738_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t80263108_GenericClass = { 48, { &GenInst_IScore_t2559910621_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t80263108_0_0_0 = { &IList_1_t80263108_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1093095559_GenericClass = { 49, { &GenInst_IScore_t2559910621_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1093095559_0_0_0 = { &ICollection_1_t1093095559_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t1539763510_GenericClass = { 29, { &GenInst_IScore_t2559910621_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t1539763510_0_0_0 = { &IEnumerable_1_t1539763510_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2557880299_GenericClass = { 25, { &GenInst_GcScoreData_t2125309831_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2557880299_0_0_0 = { &IEnumerator_1_t2557880299_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType GcScoreData_t2125309831_0_0_0 = { (void*)1696, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType GcScoreData_t2125309831_1_0_0 = { (void*)1696, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3032373948_GenericClass = { 41, { &GenInst_GcScoreData_t2125309831_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3032373948_0_0_0 = { &InternalEnumerator_1_t3032373948_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3940629614_GenericClass = { 48, { &GenInst_GcScoreData_t2125309831_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3940629614_0_0_0 = { &IList_1_t3940629614_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t658494769_GenericClass = { 49, { &GenInst_GcScoreData_t2125309831_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t658494769_0_0_0 = { &ICollection_1_t658494769_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t1105162720_GenericClass = { 29, { &GenInst_GcScoreData_t2125309831_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t1105162720_0_0_0 = { &IEnumerable_1_t1105162720_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2401215796_GenericClass = { 25, { &GenInst_Score_t1968645328_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2401215796_0_0_0 = { &IEnumerator_1_t2401215796_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Score_t1968645328_0_0_0 = { (void*)1703, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Score_t1968645328_1_0_0 = { (void*)1703, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2875709445_GenericClass = { 41, { &GenInst_Score_t1968645328_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2875709445_0_0_0 = { &InternalEnumerator_1_t2875709445_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3783965111_GenericClass = { 48, { &GenInst_Score_t1968645328_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3783965111_0_0_0 = { &IList_1_t3783965111_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t501830266_GenericClass = { 49, { &GenInst_Score_t1968645328_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t501830266_0_0_0 = { &ICollection_1_t501830266_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t948498217_GenericClass = { 29, { &GenInst_Score_t1968645328_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t948498217_0_0_0 = { &IEnumerable_1_t948498217_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Action_1_t1082147328_GenericClass = { 900, { &GenInst_IUserProfileU5BU5D_t909679733_0_0_0, NULL }, NULL };
+extern const RuntimeType Action_1_t1082147328_0_0_0 = { &Action_1_t1082147328_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType IUserProfileU5BU5D_t909679733_0_0_0 = { (void*)&IUserProfile_t360500636_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
+extern const RuntimeType IUserProfileU5BU5D_t909679733_0_0_1 = { (void*)&IUserProfile_t360500636_0_0_0, 1, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1854623685_GenericClass = { 25, { &GenInst_DisallowMultipleComponent_t1422053217_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1854623685_0_0_0 = { &IEnumerator_1_t1854623685_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType DisallowMultipleComponent_t1422053217_0_0_0 = { (void*)1728, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType DisallowMultipleComponent_t1422053217_1_0_0 = { (void*)1728, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2329117334_GenericClass = { 41, { &GenInst_DisallowMultipleComponent_t1422053217_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2329117334_0_0_0 = { &InternalEnumerator_1_t2329117334_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3237373000_GenericClass = { 48, { &GenInst_DisallowMultipleComponent_t1422053217_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3237373000_0_0_0 = { &IList_1_t3237373000_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t4250205451_GenericClass = { 49, { &GenInst_DisallowMultipleComponent_t1422053217_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t4250205451_0_0_0 = { &ICollection_1_t4250205451_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t401906106_GenericClass = { 29, { &GenInst_DisallowMultipleComponent_t1422053217_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t401906106_0_0_0 = { &IEnumerable_1_t401906106_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2676882342_GenericClass = { 48, { &GenInst_Attribute_t861562559_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2676882342_0_0_0 = { &IList_1_t2676882342_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Attribute_t861562559_0_0_0 = { (void*)3, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType Attribute_t861562559_1_0_0 = { (void*)3, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1294133027_GenericClass = { 25, { &GenInst_Attribute_t861562559_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1294133027_0_0_0 = { &IEnumerator_1_t1294133027_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t1768626676_GenericClass = { 41, { &GenInst_Attribute_t861562559_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t1768626676_0_0_0 = { &InternalEnumerator_1_t1768626676_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3689714793_GenericClass = { 49, { &GenInst_Attribute_t861562559_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3689714793_0_0_0 = { &ICollection_1_t3689714793_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t4136382744_GenericClass = { 29, { &GenInst_Attribute_t861562559_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t4136382744_0_0_0 = { &IEnumerable_1_t4136382744_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1937814502_GenericClass = { 48, { &GenInst__Attribute_t122494719_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1937814502_0_0_0 = { &IList_1_t1937814502_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType _Attribute_t122494719_0_0_0 = { (void*)4, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType _Attribute_t122494719_1_0_0 = { (void*)4, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t555065187_GenericClass = { 25, { &GenInst__Attribute_t122494719_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t555065187_0_0_0 = { &IEnumerator_1_t555065187_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t1029558836_GenericClass = { 41, { &GenInst__Attribute_t122494719_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t1029558836_0_0_0 = { &InternalEnumerator_1_t1029558836_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2950646953_GenericClass = { 49, { &GenInst__Attribute_t122494719_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1#!/bin/bash
+#===============================================================================
+#
+#          FILE: push_cdn.sh
+#
+#         USAGE: ./push_cdn.sh
+#
+#   DESCRIPTION: ç‰ˆæœ¬å‰æ£€æŸ¥
+#
+#        AUTHOR: xx
+#       CREATED: 2014/08/02
+#===============================================================================
+
+set -o nounset
+
+function f_print_help
+{
+    F_PRINT_HELP " USAGE: $0 -r xxx -p yyy -l
+    -r æ¨é€ç‰ˆæœ¬å·
+    -p æ¨é€ç›®å½•
+    -l é”
+"
+}
+
+function f_ssh_exec
+{
+    ssh -A -o stricthostkeychecking=no -o GSSAPIAuthentication=no -p 18888 ${1} "${2}"
+}
+
+function f_get_push_folder
+{
+    local g_fork=${1}
+    local g_url=${2}
+    local cdn_list=${DIR_TEMP}/cdn_${g_fork}.list
+
+    rm -f ${cdn_list}
+    push_folder=''
+
+    if [ -z "${a_task_dir}" ];then
+        curl -s "${g_url}" > ${cdn_list} && [ -s "${cdn_list}" ]
+        F_PRINT_EXIT " CDNæ¨é€ è·å–æ¨é€ç›®å½• curl -s ${g_url} > ${cdn_list} "
+
+        used_folder=($(cat "${cdn_list}" | xargs -n 1 basename))
+
+        if [ ${#used_folder[@]} -gt 0 ]; then
+            for ((i=1;i<=10;i++)); do
+                push_folder=${GAME}_${g_fork}_${PLAT::1}${i}
+                if ! echo "${used_folder[@]}" | grep -wq ${push_folder};then
+                    break
+                fi
+            done
+        else
+            push_folder=${GAME}_${g_fork}_${PLAT::1}1
+        fi
+    else
+        for v_dir in ${a_task_dir};do
+            if echo "${v_dir}" | grep -q "_${push_fork}_";then
+                push_folder=${v_dir}
+            fi
+        done
+    fi
+
+    [ -n "${push_folder}" ]
+    F_LOG_EXIT " CDNæ¨é€ è·å–æ¨é€ç›®å½• ${GAME}_${g_fork} -> ${push_folder} " ${log_file}
+}
+
+function f_alter_task
+{
+    local t_fork=${1}
+    local t_folder=${2}
+
+    local task_path=${DIR_TASK}/${t_fork}-${PLAT::1}
+    [ -d ${task_path} ]
+    F_PRINT_EXIT " CDNæ¨é€ ä¿®æ”¹task æ£€æŸ¥ç›®å½• ${task_path} "
+
+    svn up ${task_path}
+    F_PRINT_EXIT " CDNæ¨é€ ä¿®æ”¹task æ›´æ–°ç›®å½• ${task_path} "
+
+    local task_file=${task_path}/task.txt
+    [ -f ${task_file} ]
+    F_PRINT_EXIT " CDNæ¨é€ ä¿®æ”¹task æ£€æŸ¥æ–‡ä»¶ ${task_file} "
+
+    svn lock ${task_file} | grep -v 'warning'
+    F_PRINT_EXIT " CDNæ¨é€ ä¿®æ”¹task è·å–ä»»åŠ¡é” ${task_file} "
+
+    echo "task_rev='${a_rev_ver_new}'" > ${task_file} && \
+    echo "task_dir='${t_folder}'" >> ${task_file}
+    F_PRINT_EXIT " CDNæ¨é€ ä¿®æ”¹task ä¿®æ”¹ ${task_file} "
+
+    svn unlock ${task_file} | grep -v 'not' && \
+    svn commit ${task_path} -m "æäº¤ä»»åŠ¡ ops task ${t_fork}-${PLAT::1} task_rev=${a_rev_ver_new} ${t_folder}" && \
+    ! svn status ${task_path} | grep "^[M\!GCR]"
+    F_LOG_EXIT " CDNæ¨é€ ä¿®æ”¹task æäº¤ä»»åŠ¡ ${t_fork}-${PLAT::1} task_rev=${a_rev_ver_new} ${t_folder} " ${log_file}
+}
+
+function f_push
+{
+    local p_fork=${1}
+    local p_ip=${2}
+
+    local push_path=/data/ops/cdn/src/task/${GAME}/${p_fork}-${PLAT::1}
+
+    f_ssh_exec root@${p_ip} "svn up ${push_path} && sh ${push_path}/push.sh"
+    F_LOG_EXIT " CDNæ¨é€ æ¨é€æ“ä½œ root@${p_ip} -> ${push_path}/push.sh " ${log_file}
+}
+
+function f_worker
+{
+    [ $# -eq 2 ]
+    F_PRINT_EXIT " CDNæ¨é€ æ£€æŸ¥æ ¼å¼ "
+
+    push_rev=${1}
+    push_info=($(echo "${2}" | sed "s/,/ /g"))
+    push_fork=${push_info[0]}
+    push_ip=${push_info[1]}
+    push_url=${push_info[2]}
+
+    f_get_push_folder ${push_fork} ${push_url}
+
+    f_alter_task ${push_fork} ${push_folder}
+
+    f_push ${push_fork} ${push_ip}
+}
+#############################################################################################################
+export PATH=${PATH}:/usr/local/bin:/opt/php/bin:/opt/nginx/sbin
+
+cd $(dirname `/usr/sbin/lsof -p $$ | gawk '$4 =="255r"{print $NF}'`)
+source './config.sh' && source '../../../function.sh'
+
+a_locked=''
+a_rev_ver_new=''
+a_task_dir=''
+
+while getopts r:p:l opt; do
+    case "$opt" in
+       r) a_rev_ver_new=$OPTARG ;;
+       p) a_task_dir=$OPTARG ;;
+       l) a_locked='locked' ;;
+       *) f_print_help; exit 1 ;;
+    esac
+done
+
+\mkdir -p ${DIR_TEMP}
+log_file=${DIR_TEMP}/pack-version.log
+lock_file=${DIR_TEMP}/pack-version.lock
+
+[ "locked" == "${a_locked}" ] || F_LOC#!/bin/bash
+#===============================================================================
+#
+#          FILE: global_func.sh
+#
+#         USAGE: source global_func.sh
+#
+#   DESCRIPTION: å…¨å±€å‡½æ•°
+#
+#        AUTHOR: xx
+#       CREATED: 2013/10/24 22:05
+#===============================================================================
+
+set -o nounset                              # Treat unset variables as an error
+
+function F_DATE
+{
+    date +"%Y%m%d%H%M%S"
+}
+
+function F_LOCK
+{
+    local lock=1
+    set -o noclobber
+    if (echo "$$" > "$1" 2>/dev/null); then
+        lock=0
+        set +u
+        local foo=''
+        [ ""x == "$2"x ] || foo="$2 $1;"
+        trap "$foo ret=$?; rm -f $1; exit ${ret};" INT TERM EXIT
+        set -u
+    fi
+    set +o noclobber
+    return ${lock}
+}
+
+function F_UNLOCK
+{
+    trap '' INT TERM EXIT
+    rm -f "$1"
+}
+
+function F_FILE_MD5
+{
+    md5sum ${1} | gawk '{print $1}'
+}
+
+function F_CHECK_STEP
+{
+    [ -f "${2}" ] && cat ${2} | grep -qE "${1}"
+}
+
+function F_SAVE_STEP
+{
+    ! F_CHECK_STEP "${1}" "${2}" && echo "$(F_DATE) ${1}" >> ${2}
+}
+
+function F_PRINT_HELP
+{
+    echo -e "\033[1;31m ${1} \033[0m \n"
+}
+
+function F_PRINT_SUCCESS
+{
+    echo -e "[\033[1;32m OK \033[0m] $(F_DATE) ${1}"
+}
+
+function F_PRINT_ERROR
+{
+    echo -e "[\033[1;31mFAIL\033[0m] $(F_DATE) ${1}"
+}
+
+function F_LOG_SUCCESS
+{
+    F_PRINT_SUCCESS "${1}"
+    echo "[ OK ] $(F_DATE) ${1}" >> ${2}
+}
+
+function F_LOG_ERROR
+{
+    F_PRINT_ERROR "${1}"
+    echo "[FAIL] $(F_DATE) ${1}" >> ${2}
+}
+
+function F_MUTE_SUCCESS
+{
+    echo "[ OK ] $(F_DATE) ${1}" >> ${2}
+}
+
+function F_MUTE_ERROR
+{
+    echo "[FAIL] $(F_DATE) ${1}" >> ${2}
+}
+
+function F_PRINT
+{
+    if [ 0 == $? ]; then
+        F_PRINT_SUCCESS "${1}"
+    else
+        F_PRINT_ERROR "${1}"
+    fi
+}
+
+function F_PRINT_EXIT
+{
+    if [ 0 == $? ]; then
+        F_PRINT_SUCCESS "${1}"
+    else
+        F_PRINT_ERROR "${1}"
+        exit 1
+    fi
+}
+
+function F_LOG
+{
+    local ret=$?
+
+    if [ 0 == ${ret} ]; then
+        F_LOG_SUCCESS "${1}" ${2}
+    else
+        F_LOG_ERROR "${1}" ${2}
+    fi
+
+    return ${ret}
+}
+
+function F_LOG_EXIT
+{
+    if [ 0 == $? ]; then
+        F_LOG_SUCCESS "${1}" ${2}
+    else
+        F_LOG_ERROR "${1}" ${2}
+        exit 1
+    fi
+}
+
+function F_MUTE_EXIT
+{
+    if [ 0 == $? ]; then
+        F_MUTE_SUCCESS "${1}" ${2}
+    else
+        F_MUTE_ERROR "${1}" ${2}
+        exit 1
+    fi
+}
+
+function F_REAL_DIR
+{
+    echo "$(pwd)/$(dirname $1)"
+}
+
+function F_CD_FILE_DIR
+{
+    cd "$(pwd)/$(dirname $1)"
+}
+
+function F_CHECK_VERSION
+{
+    echo "$1" | grep -qE "^[[:digit:]]{4}[[:digit:]]{2}[[:digit:]]{2}[[:digit:]]{2}$"
+}
+
+function F_CHECK_AGENT
+{
+    echo "$1" | grep -qE "^[[:alnum:]]+$"
+}
+
+function F_CHECK_SERVER_ID
+{
+    echo "$1" | grep -qE "^[SsxX][0-9]+$"
+}
+
+function F_CHECK_IP
+{
+    echo "$1" | grep -qE "^[[:digit:]]{1,3}.[[:digit:]]{1,3}.[[:digit:]]{1,3}.[[:digit:]]{1,3}$" && \
+        p=$(echo "$1" | gawk -F'.' '{for (i=1;i<=NF;i++) {if ($i > 255 ) print $i}}') && test -z ${p}
+}
+
+function F_CHECK_DATE
+{
+    echo "$1" | grep -qE "^[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2} [[:digit:]]{2}:[[:digit:]]{2}:[[:digit:]]{2}$"
+}
+
+function F_GET_SERVER_INDEX
+{
+    echo "$1" |  sed -r 's/(s|x|S|X)//g'
+}
+
+function F_GET_TELECOM_IP
+{
+    telecom_ip=""
+
+    IPS=($(/sbin/ifconfig | gawk -F"[ \t:]" '/inet addr:/{if ($0 !~"127.0.0.1") print $13}'))
+
+    #for ip in ${IPS[@]}; do
+    #    ip_type="`whois3 -h whois.apnic.net -F $ip | gawk '/\*m[[:alpha:]]:/{print $0}'`"
+
+    #    [ -z "${ip_type}" ] && F_LOG_EXIT " å‘ whois.apnic.net æŸ¥è¯¢IPç±»å‹å¤±è´¥ "
+
+    #    if echo $ip_type | grep -qE "CHINANET" ; then
+    #        telecom_ip=${ip}; break
+    #    fi
+    #done
+
+    #echo ${telecom_ip}
+    echo ${IPS[0]}
+}
+
+function F_GET_UNICOM_IP
+{
+    #local unicom_ip=""
+
+    IPS=($(/sbin/ifconfig | gawk -F"[ \t:]" '/inet addr:/{if ($0 !~"127.0.0.1") print $13}'))
+
+    #for ip in ${IPS[@]}; do
+    #    ip_type="`whois3 -h whois.apnic.net -F $ip | gawk '/\*m[[:alpha:]]:/{print $0}'`"
+
+    #    [ -z "${ip_type}" ] && F_LOG_EXIT " å‘ whois.apnic.net æŸ¥è¯¢IPç±»å‹å¤±è´¥ "
+
+    #    if echo $ip_type | grep -qE "CNCGROUP" ; then
+    #        unicom_ip=${ip}; break
+    #    fi
+    #done
+
+    #echo ${unicom_ip}
+    echo ${IPS[1]}
+}
+
+function F_GET_IPS
+{
+    #local telecom_ip=""
+    #local unicom_ip=""
+
+    IPS=($(/sbin/ifconfig | gawk -F"[ \t:]" '/inet addr:/{if ($0 !~"127.0.0.1") print $13}'))
+
+    #for ip in ${IPS[@]}; do
+    #    ip_type="`whois3 -h whois.apnic.net -F $ip | gawk '/\*m[[:alpha:]]:/{print $0}'`"
+    #
+    #    [ -z "${ip_type}" ] && F_LOG_EXIT " å‘ whois.apnic.net æŸ¥è¯¢IPç±»å‹å¤±è´¥ "
+    #
+    #    if echo $ip_type | grep -qE "CHINANET" ; then
+    #        telecom_ip=${ip};
+    #    elif echo $ip_type | grep -qE "CNCGROUP" ; then
+    #        unicom_ip=${ip};
+    #    fi
+    #done
+    #
+    #echo "${telecom_ip} ${unicom_ip}"
+    echo "${IPS[@]}"
+}
+
+function F_SSH_EXEC
+{
+    ssh -A -o stricthostkeychecking=no -o GSSAPIAuthentication=no -p ${2} ${1} "${3}"
+}
+
+function F_GET_SVN_REVISION
+{
+    svn -v list ${1} | gawk 'NR == 1{print $1}'
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          P_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType UnityAction_1_t2432286830_0_0_17 = { &UnityAction_1_t2432286830_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass CachedInvokableCall_1_t2423483305_GenericClass = { 1854, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+extern const RuntimeType CachedInvokableCall_1_t2423483305_0_0_0 = { &CachedInvokableCall_1_t2423483305_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InvokableCall_1_t214452203_GenericClass = { 1850, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+extern const RuntimeType InvokableCall_1_t214452203_0_0_0 = { &InvokableCall_1_t214452203_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass UnityAction_1_t682124106_GenericClass = { 1862, { &GenInst_Boolean_t97287965_0_0_0, NULL }, NULL };
+extern const RuntimeType UnityAction_1_t682124106_0_0_0 = { &UnityAction_1_t682124106_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType UnityAction_1_t682124106_0_0_17 = { &UnityAction_1_t682124106_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType UnityAction_1_t682124106_0_0_3 = { &UnityAction_1_t682124106_GenericClass, 3, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t584821570_GenericClass = { 183, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t584821570_0_0_0 = { &List_1_t584821570_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t584821570_0_0_1 = { &List_1_t584821570_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType PersistentCall_t3407714124_0_0_0 = { (void*)1856, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType PersistentCall_t3407714124_1_0_0 = { (void*)1856, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t3840284592_GenericClass = { 25, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t3840284592_0_0_0 = { &IEnumerator_1_t3840284592_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t19810945_GenericClass = { 41, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t19810945_0_0_0 = { &InternalEnumerator_1_t19810945_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t928066611_GenericClass = { 48, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t928066611_0_0_0 = { &IList_1_t928066611_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1940899062_GenericClass = { 49, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1940899062_0_0_0 = { &ICollection_1_t1940899062_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2387567013_GenericClass = { 29, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2387567013_0_0_0 = { &IEnumerable_1_t2387567013_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t325323115_GenericClass = { 186, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t325323115_0_0_0 = { &ReadOnlyCollection_1_t325323115_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t4233008248_GenericClass = { 906, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t4233008248_0_0_0 = { &Predicate_1_t4233008248_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t2474065447_GenericClass = { 184, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t2474065447_0_0_0 = { &Enumerator_t2474065447_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t3182645303_GenericClass = { 903, { &GenInst_PersistentCall_t3407714124_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t3182645303_0_0_0 = { &Comparison_1_t3182645303_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t4176035766_GenericClass = { 183, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t4176035766_0_0_0 = { &List_1_t4176035766_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t4176035766_0_0_33 = { &List_1_t4176035766_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType BaseInvokableCall_t2703961024_0_0_0 = { (void*)1848, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType BaseInvokableCall_t2703961024_1_0_0 = { (void*)1848, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t3136531492_GenericClass = { 25, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t3136531492_0_0_0 = { &IEnumerator_1_t3136531492_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t3611025141_GenericClass = { 41, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t3611025141_0_0_0 = { &InternalEnumerator_1_t3611025141_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t224313511_GenericClass = { 48, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t224313511_0_0_0 = { &IList_1_t224313511_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1237145962_GenericClass = { 49, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1237145962_0_0_0 = { &ICollection_1_t1237145962_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t1683813913_GenericClass = { 29, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t1683813913_0_0_0 = { &IEnumerable_1_t1683813913_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t3916537311_GenericClass = { 186, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t3916537311_0_0_0 = { &ReadOnlyCollection_1_t3916537311_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t3529255148_GenericClass = { 906, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t3529255148_0_0_0 = { &Predicate_1_t3529255148_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t1770312347_GenericClass = { 184, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t1770312347_0_0_0 = { &Enumerator_t1770312347_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t2478892203_GenericClass = { 903, { &GenInst_BaseInvokableCall_t2703961024_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t2478892203_0_0_0 = { &Comparison_1_t2478892203_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass UnityEvent_1_t3961765668_GenericClass = { 1863, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType UnityEvent_1_t3961765668_0_0_0 = { &UnityEvent_1_t3961765668_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass UnityEvent_2_t614268397_GenericClass = { 1865, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType UnityEvent_2_t614268397_0_0_0 = { &UnityEvent_2_t614268397_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass UnityEvent_3_t2404744798_GenericClass = { 1867, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType UnityEvent_3_t2404744798_0_0_0 = { &UnityEvent_3_t2404744798_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass UnityEvent_4_t4085588227_GenericClass = { 1869, { &GenInst_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType UnityEvent_4_t4085588227_0_0_0 = { &UnityEvent_4_t4085588227_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Queue_1_t1200778106_GenericClass = { 1064, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
+extern const RuntimeType Queue_1_t1200778106_0_0_0 = { &Queue_1_t1200778106_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Queue_1_t1200778106_0_0_33 = { &Queue_1_t1200778106_GenericClass, 33, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType WorkRequest_t1354518612_0_0_0 = { (void*)1872, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType WorkRequest_t1354518612_1_0_0 = { (void*)1872, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerable_1_t334371501_GenericClass = { 29, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t334371501_0_0_0 = { &IEnumerable_1_t334371501_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1787089080_GenericClass = { 25, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1787089080_0_0_0 = { &IEnumerator_1_t1787089080_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2261582729_GenericClass = { 41, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2261582729_0_0_0 = { &InternalEnumerator_1_t2261582729_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3169838395_GenericClass = { 48, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3169838395_0_0_0 = { &IList_1_t3169838395_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t4182670846_GenericClass = { 49, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t4182670846_0_0_0 = { &ICollection_1_t4182670846_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t1862690208_GenericClass = { 1065, { &GenInst_WorkRequest_t1354518612_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t1862690208_0_0_0 = { &Enumerator_t1862690208_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t786831177_GenericClass = { 25, { &GenInst_PlayableBinding_t354260709_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t786831177_0_0_0 = { &IEnumerator_1_t786831177_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType IEnumerator_1_t786831177_0_0_3 = { &IEnumerator_1_t786831177_GenericClass, 3, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType IEnumerator_1_t786831177_0_0_4 = { &IEnumerator_1_t786831177_GenericClass, 4, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType PlayableBinding_t354260709_0_0_0 = { (void*)1893, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType PlayableBinding_t354260709_1_0_0 = { (void*)1893, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType PlayableBinding_t354260709_0_0_3 = { (void*)1893, 3, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t1261324826_GenericClass = { 41, { &GenInst_PlayableBinding_t354260709_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t1261324826_0_0_0 = { &InternalEnumerator_1_t1261324826_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t2169580492_GenericClass = { 48, { &GenInst_PlayableBinding_t354260709_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t2169580492_0_0_0 = { &IList_1_t2169580492_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t3182412943_GenericClass = { 49, { &GenInst_PlayableBinding_t354260709_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t3182412943_0_0_0 = { &ICollection_1_t3182412943_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t3629080894_GenericClass = { 29, { &GenInst_PlayableBinding_t354260709_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t3629080894_0_0_0 = { &IEnumerable_1_t3629080894_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType IEnumerable_1_t3629080894_0_0_1 = { &IEnumerable_1_t3629080894_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ScriptPlayable_1_t818619019_GenericClass = { 1899, { &GenInst_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType ScriptPlayable_1_t818619019_0_0_0 = { &ScriptPlayable_1_t818619019_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEquatable_1_t1709764746_GenericClass = { 13, { &GenInst_ScriptPlayable_1_t818619019_0_0_0, NULL }, NULL };
+extern const RuntimeType IEquatable_1_t1709764746_0_0_0 = { &IEquatable_1_t1709764746_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass UnityEvent_1_t3832605257_GenericClass = { 1863, { &GenInst_Int32_t2950945753_0_0_0, NULL }, NULL };
+extern const RuntimeType UnityEvent_1_t3832605257_0_0_0 = { &UnityEvent_1_t3832605257_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t3157010512_GenericClass = { 183, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t3157010512_0_0_0 = { &List_1_t3157010512_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t3157010512_0_0_6 = { &List_1_t3157010512_GenericClass, 6, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType MessageTypeSubscribers_t1684935770_0_0_0 = { (void*)1912, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MessageTypeSubscribers_t1684935770_1_0_0 = { (void*)1912, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2117506238_GenericClass = { 25, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2117506238_0_0_0 = { &IEnumerator_1_t2117506238_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2591999887_GenericClass = { 41, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2591999887_0_0_0 = { &InternalEnumerator_1_t2591999887_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3500255553_GenericClass = { 48, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3500255553_0_0_0 = { &IList_1_t3500255553_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t218120708_GenericClass = { 49, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t218120708_0_0_0 = { &ICollection_1_t218120708_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t664788659_GenericClass = { 29, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t664788659_0_0_0 = { &IEnumerable_1_t664788659_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ReadOnlyCollection_1_t2897512057_GenericClass = { 186, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType ReadOnlyCollection_1_t2897512057_0_0_0 = { &ReadOnlyCollection_1_t2897512057_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Predicate_1_t2510229894_GenericClass = { 906, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType Predicate_1_t2510229894_0_0_0 = { &Predicate_1_t2510229894_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t751287093_GenericClass = { 184, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t751287093_0_0_0 = { &Enumerator_t751287093_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Comparison_1_t1459866949_GenericClass = { 903, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType Comparison_1_t1459866949_0_0_0 = { &Comparison_1_t1459866949_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Func_2_t2172606577_GenericClass = { 1302, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0_Boolean_t97287965_0_0_0, NULL }, NULL };
+extern const RuntimeType Func_2_t2172606577_0_0_0 = { &Func_2_t2172606577_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3129926735_GenericClass = { 1294, { &GenInst_MessageTypeSubscribers_t1684935770_0_0_0, NULL }, NULL };
+extern const RuntimeType U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3129926735_0_0_0 = { &U3CCreateWhereIteratorU3Ec__Iterator1D_1_t3129926735_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass UnityEvent_1_t2052235288_GenericClass = { 1863, { &GenInst_MessageEventArgs_t1170575784_0_0_0, NULL }, NULL };
+extern const RuntimeType UnityEvent_1_t2052235288_0_0_0 = { &UnityEvent_1_t2052235288_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType MessageEventArgs_t1170575784_0_0_0 = { (void*)1906, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType MessageEventArgs_t1170575784_1_0_0 = { (void*)1906, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+Il2CppGenericClass UnityAction_1_t1755411925_GenericClass = { 1862, { &GenInst_MessageEventArgs_t1170575784_0_0_0, NULL }, NULL };
+extern const RuntimeType UnityAction_1_t1755411925_0_0_0 = { &UnityAction_1_t1755411925_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Dictionary_2_t3851719731_GenericClass = { 167, { &GenInst_IntPtr_t_0_0_0_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t3851719731_0_0_0 = { &Dictionary_2_t3851719731_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType Dictionary_2_t3851719731_0_0_17 = { &Dictionary_2_t3851719731_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType WeakReference_t1334886716_0_0_0 = { (void*)889, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WeakReference_t1334886716_0_0_1 = { (void*)889, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType WeakReference_t1334886716_1_0_0 = { (void*)889, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType WeakReference_t1334886716_0_0_6 = { (void*)889, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+
+Il2CppGenericClass Dictionary_2_t1301971883_GenericClass = { 167, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Dictionary_2_t1301971883_0_0_0 = { &Dictionary_2_t1301971883_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t2232828988_GenericClass = { 49, { &GenInst_KeyValuePair_2_t3699644050_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t2232828988_0_0_0 = { &ICollection_1_t2232828988_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t3699644050_GenericClass = { 182, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t3699644050_0_0_0 = { &KeyValuePair_2_t3699644050_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t4132214518_GenericClass = { 25, { &GenInst_KeyValuePair_2_t3699644050_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t4132214518_0_0_0 = { &IEnumerator_1_t4132214518_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t311740871_GenericClass = { 41, { &GenInst_KeyValuePair_2_t3699644050_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t311740871_0_0_0 = { &InternalEnumerator_1_t311740871_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t1219996537_GenericClass = { 48, { &GenInst_KeyValuePair_2_t3699644050_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t1219996537_0_0_0 = { &IList_1_t1219996537_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t2679496939_GenericClass = { 29, { &GenInst_KeyValuePair_2_t3699644050_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t2679496939_0_0_0 = { &IEnumerable_1_t2679496939_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IDictionary_2_t4060790570_GenericClass = { 179, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType IDictionary_2_t4060790570_0_0_0 = { &IDictionary_2_t4060790570_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEqualityComparer_1_t2947482199_GenericClass = { 180, { &GenInst_IntPtr_t_0_0_0, NULL }, NULL };
+extern const RuntimeType IEqualityComparer_1_t2947482199_0_0_0 = { &IEqualityComparer_1_t2947482199_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t3018016201_GenericClass = { 172, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t3018016201_0_0_0 = { &ValueCollection_t3018016201_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t1870865540_GenericClass = { 173, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t1870865540_0_0_0 = { &Enumerator_t1870865540_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t3256154658_GenericClass = { 169, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t3256154658_0_0_0 = { &Enumerator_t3256154658_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t789842019_GenericClass = { 174, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t789842019_0_0_0 = { &Transform_1_t789842019_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t833711493_GenericClass = { 174, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t833711493_0_0_0 = { &Transform_1_t833711493_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t1409379905_GenericClass = { 174, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0_KeyValuePair_2_t3699644050_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t1409379905_0_0_0 = { &Transform_1_t1409379905_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ShimEnumerator_t1298692680_GenericClass = { 168, { &GenInst_IntPtr_t_0_0_0_RuntimeObject_0_0_0, NULL }, NULL };
+extern const RuntimeType ShimEnumerator_t1298692680_0_0_0 = { &ShimEnumerator_t1298692680_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass EqualityComparer_1_t3304889813_GenericClass = { 175, { &GenInst_IntPtr_t_0_0_0, NULL }, NULL };
+extern const RuntimeType EqualityComparer_1_t3304889813_0_0_0 = { &EqualityComparer_1_t3304889813_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEquatable_1_t1731295908_GenericClass = { 13, { &GenInst_IntPtr_t_0_0_0, NULL }, NULL };
+extern const RuntimeType IEquatable_1_t1731295908_0_0_0 = { &IEquatable_1_t1731295908_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass DefaultComparer_t1571775133_GenericClass = { 176, { &GenInst_IntPtr_t_0_0_0, NULL }, NULL };
+extern const RuntimeType DefaultComparer_t1571775133_0_0_0 = { &DefaultComparer_t1571775133_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t1767457184_GenericClass = { 25, { &GenInst_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t1767457184_0_0_0 = { &IEnumerator_1_t1767457184_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2241950833_GenericClass = { 41, { &GenInst_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2241950833_0_0_0 = { &InternalEnumerator_1_t2241950833_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3150206499_GenericClass = { 48, { &GenInst_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3150206499_0_0_0 = { &IList_1_t3150206499_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t4163038950_GenericClass = { 49, { &GenInst_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t4163038950_0_0_0 = { &ICollection_1_t4163038950_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t314739605_GenericClass = { 29, { &GenInst_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t314739605_0_0_0 = { &IEnumerable_1_t314739605_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Transform_1_t2011406813_GenericClass = { 174, { &GenInst_IntPtr_t_0_0_0_WeakReference_t1334886716_0_0_0_DictionaryEntry_t3123975638_0_0_0, NULL }, NULL };
+extern const RuntimeType Transform_1_t2011406813_0_0_0 = { &Transform_1_t2011406813_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass KeyValuePair_2_t1954424602_GenericClass = { 182, { &GenInst_IntPtr_t_0_0_0_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType KeyValuePair_2_t1954424602_0_0_0 = { &KeyValuePair_2_t1954424602_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2386995070_GenericClass = { 25, { &GenInst_KeyValuePair_2_t1954424602_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2386995070_0_0_0 = { &IEnumerator_1_t2386995070_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t2861488719_GenericClass = { 41, { &GenInst_KeyValuePair_2_t1954424602_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t2861488719_0_0_0 = { &InternalEnumerator_1_t2861488719_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t3769744385_GenericClass = { 48, { &GenInst_KeyValuePair_2_t1954424602_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t3769744385_0_0_0 = { &IList_1_t3769744385_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t487609540_GenericClass = { 49, { &GenInst_KeyValuePair_2_t1954424602_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t487609540_0_0_0 = { &ICollection_1_t487609540_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t934277491_GenericClass = { 29, { &GenInst_KeyValuePair_2_t1954424602_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t934277491_0_0_0 = { &IEnumerable_1_t934277491_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ValueCollection_t1272796753_GenericClass = { 172, { &GenInst_IntPtr_t_0_0_0_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType ValueCollection_t1272796753_0_0_0 = { &ValueCollection_t1272796753_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t125646092_GenericClass = { 173, { &GenInst_IntPtr_t_0_0_0_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t125646092_0_0_0 = { &Enumerator_t125646092_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass Enumerator_t1510935210_GenericClass = { 169, { &GenInst_IntPtr_t_0_0_0_WeakReference_t1334886716_0_0_0, NULL }, NULL };
+extern const RuntimeType Enumerator_t1510935210_0_0_0 = { &Enumerator_t1510935210_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass List_1_t3491343620_GenericClass = { 183, { &GenInst_BaseInputModule_t2019268878_0_0_0, NULL }, NULL };
+extern const RuntimeType List_1_t3491343620_0_0_0 = { &List_1_t3491343620_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const RuntimeType List_1_t3491343620_0_0_1 = { &List_1_t3491343620_GenericClass, 1, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType BaseInputModule_t2019268878_0_0_0 = { (void*)1968, 0, IL2CPP_TYPE_CLASS, 0, 0,# -*- coding:utf-8 -*-
+# Auther : Icehero
+
+import paramiko,configparser,logging
+
+class paramiko_ssh(object):
+    """ è¿œç¨‹æ‰§è¡Œ æŒ‡å®šçš„æœºå™¨ï¼š
+        é…ç½®ä¿¡æ¯ï¼šconfig.ini
+    """
+    def __init__(self,host_name, ini_file):
+        # logging.getLogger("paramiko").setLevel(logging.DEBUG)
+        paramiko.util.logging.getLogger().setLevel(logging.DEBUG)
+        """è¯»å–é…ç½®æ–‡ä»¶ hosts.ini"""
+        self.config = configparser.ConfigParser()
+        self.config.read(ini_file,'utf-8')
+        self.host = self.config.get(host_name,'host')
+        self.user = self.config.get(host_name,'user')
+        self.pwd = self.config.get('key','pwd')
+        self.port = self.config.getint('key', 'port')
+        self.key = self.config.get('key', 'keys')
+        self.private_key = paramiko.RSAKey.from_private_key_file(self.key,self.pwd)
+        self.client = paramiko.SSHClient()
+        self.client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+
+        self.client.connect(hostname=self.host, port=self.port, username=self.user, password=self.pwd,pkey=self.private_key,allow_agent=True)
+    def run_ssh(self,cmd_command):
+        stdin, stdout, stderr = self.client.exec_command(cmd_command)
+        result = stdout.read()
+        if len(result) == 0:
+            print(stderr.read().decode())
+        else:
+            # print(str(result,'utf-8'))
+            a = str(result,'utf-8')
+            return a
+            # æ—¥å¿—ä¿å­˜
+            # f = open('runnning.log','w')
+            # f.write(str(result,'utf-8'))
+            # f.close()
+
+    def ssh_close(self):
+        self.client.close()
+
+class paramiko_transport(object):
+    def __init__(self,host,conf_ini):
+        self.config = configparser.ConfigParser()
+        self.config.read(conf_ini,encoding='utf-8')
+        self.host = self.config.get(host,'host')
+        self.user = self.config.get(host,'user')
+
+        self.local_dir = self.config.get(host, 'local_dir')
+        self.remote_dir = self.config.get(host, 'remote_dir')
+
+        self.pwd = self.config.get('key','pwd')
+        self.port = self.config.getint('key', 'port')
+        self.key = self.config.get('key', 'keys')
+
+        self.private_key = paramiko.RSAKey.from_private_key_file(self.key, self.pwd)
+
+        self.ssh = paramiko.Transport((self.host,self.port))
+        self.ssh.connect(username=self.user,pkey=self.private_key)
+
+    def trans_run(self):
+        sftp = paramiko.SFTPClient.from_transport(self.ssh)
+        sftp.put(self.local_dir,self.remote_dir)
+
+    def trans_close(self):
+        self.ssh.close()
+
+def Fail(msg):
+    print("\033[0;31;48m {0}...\033[0m".format(msg))
+def Ok(msg):
+    print("\033[0;32;48m {0}...\033[0m".format(msg))
+
+def Print(msg):
+    print("\33[91m {0} \33[0m".format(msg))
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ÄåK”{Iä£×¬•¤ÄõßTÇ„u‡É³lº-“1¤/“èû…|¾°Èf"«"ÍÇı·\ÿi±Ajøÿí<Ÿú·(ÿŠ¢øøğ3ÛÀ,/OŸ<)ÈÿB:ÿË·ßb¹­o¿ıvóOêÉá-ÿçYjıwƒËğ dšdcöavç6çÿÙÜşöé#?ÿÏöÖãí­¯ùşˆ¿?§r÷lÃRQî­ªjMƒş0ÔYT0·IpÒ}Î¹™zş¬à¤ÇŞz>F(Jã©Æ¤1ÙQ7ñ½6‘Kë´+!:qH;”2çÀD3'F:Õ˜üA/NÔËpNƒ¡:Ÿ£¾:ˆúáU¡e|“\ W?E0X/ĞTGg	Úf8 1;ŠR¹ #ÛÖ°PÁPlÚ°ï"„|
+¾`V8ÕËÙ|X¨İì¾ÂÜœê‚R¼Ù1™\PmKø2v€g¯i0¦äH  ¦è¶¤(JuBRÊCı“uFÓMÉégìxôX ¹¾ÀÈ{x§KIiv¸¹u F0ŒÇç:â›Ã´nÇ³*%¬1V×Şú@m»B(kõ7ªêÉ
+Æ—@TªïGg z£ñÚ‹[Pô°®­ÍÚÖ£Í-uÒ©—ËœŒ¤Ñã4.­v³ÑYûË¯»‡õ½Në¤½KŸ>>”ó\F^yŸVVÊåúŞ^o¯±ß<jbª•ÎZmïUı§Fo·u´ß|Ù{¥j{G-ÊOIùC+…=;iwşx\ï¾ú(Ğš/Úõö›5M—ËJéŸ}O  ¿Af†ßÉF~£=#JÄß˜á1¿g³ú%|\}»éG¤-1á7 şdpiÌd~»½!Ÿû2f=êOùÜ¹¡`8D‡WzĞrôğU¸ô[ßnèßN?HÃÿaHñô0–>9ÅÉş‹†2#õ¤ıÜ«Ñ©ÎDÀoÀ}¾G†GX‚?«½°?h»pZÏ>Ò—$Æ<½‘t˜ÔÉjDŞz™Üw(_‡	¬kèc¹‡F3^ş(ø`*Ä$ œø"ô9şß:~Ó<zù©m,æÿmm=Mçÿ{
+Ÿ¿òÿ?àUÃDÊGvı xÈ‹ƒæ®‚ÿ7:}9¯ÔOšSVÕÎ#·şö·­rÙv1õß_ÿV¥O…<—)z9EÑ¡ğrT½Jd]5pË¡y‹I©‡Ş°È¡0x…#\@ÙSh{„#L¾«/Ò‡ÂuÚ8¾½¦;mºH'?f4@ÚtV¦ÃæÁV‡ ì·)šÌlRB¦’şÓ*¸nPš–Q:`²·¨•›kõ¯ï_ÜpN¹ -òoYst4 Ï8QSçó %	XlJ-j
+¿•uŸk5²€~&ó)ßî›áhŠÖ	(âÎ‘Ä¥r‘d6S³˜çG¤Ÿõ[4YMœÓh‚ñ+h‰ìú"FÈs¤¦	ix"4;.Ï^>èÒZ'ÆÜ}T­%½Áõc@õdD§SÌjX024‚R¹QQ$:¡l‹ƒ%ÏdèM½ô8ŒãÄš×İ8™„¡xbrUçu&£0dB8²€d˜‚Ù€ú!Œ°àó{–dpÏ]S`QĞµ2‰x”]Ñb‡³wxËdú§Öw¦ç„
+e1ù˜^AÓ(ä¡”bx¥jšÒ‚¤—­C7À„‡(?—uÅ mTfNU,ãØš˜n@uŒO}ìëŒe (˜îšú«ç}G"J8¼20p$„&ty€W´§1XiyëğI§jÌhô\NIDàde&ã4”YcöÏA¶º4"g&L	(\ò'´’AÍ§>ïp©r—ëx­À–N†KÏıpJ‰>¡Ä>F§p>›EB‡2Ïh9wEİ™¬RØ~>‚áşÁ©Ø‡á‡ %Äª.‘.™÷/àŒ S^ÅÜvexšE4b¢ê,@Ôº©œG‚€€Â<±Æê‰ç
+ç·G6x—Qİ:C•Ú`UƒjzáqÈÁ<L6(aú'k,3ÒÈ@'Î„pã†~EÓ²^ÜÃa–È±çÖtN’gjm«bs¦fUÒkÛ˜?¼)d4q8ÓõE“Šs”ĞÇaxf¶&Ë§fyUw…½“´×õº>L`†p-Â WŒÈçj¢‡¢ÓİÂ€ái7j„„+Ó„‡šÓA$)Ì’§—‚Éé8¶çÙ3Ê—*Ä0LØy–á1œ9—è0¼…Ø
+Ëa×&AÂ)ê±e¡‰‹A³X/6käàó¬ğt²nƒ%Á#^ıñÉÀD k/åäµÔb"	Ÿñ æ!.}<ö`•…­¢kàœSÑ2ºìãçáM•qÉviv"°n²Ñã\Î†7<zaü<C>û:$ÚJ„îm)‰-RÇ)ØÑ­ g$GštÃ9q%ç*Ì±S*>%BÂyÓ¬«p³O»øĞ…ÿ
+A„¾Ù¢IVh´Ì„<4ã£`@*ş0¤‡02 Ş~§F†0j
+j­Š¸1ç„¹œâRÊ$˜mhÏ#³s‰?ÙÂ#hr#¨ªtjç²›§YÒo”ÿ¿ò­Ò1|í6Ú‡&yîşI3#§¦*æ¦ål³MJ´º‡áÁšûÍİ:¾ÀÎon°¢)GTt¤É6©Œ¯ãé¥P”Ñ
+¿HeEqÎ	_É·Ù4j¢§ˆ¶’•ØQi•sõmĞ±|ñbƒ§}å˜û·ÒsW-“ÌbºOlÁö¾ÊiMÔ
+å4àİL-khe¾©w²0[—R%sH:‚"kfÀÃàúïéˆÍPÜy\V¦MĞÙƒ¬&ñ”ÃH¡0Q-KÌB'2pQ&Ñ$×ğæ[ácZ±òöæ<8Ç)[Cs\ ¥¹j*`ƒ$¼“j`”ƒt+ŸÇe½2jÅm}%ÏF@aiaˆÄƒ´Mµ¼c6JÈû±Ì+
+VEûÂ$	“(xZ	™±CĞa‡I,IeóYÑ–
+Ğ5ªH-ÏÊÓù83õB”µ¤ª&í·˜ KJlS¥ìë"e€›x ‘Q`/Ëî"ZY·¼dP:t*Š…;EO9"\0ÎœW6Ê¯YÀQÉ¦s­B#ÃwÌ qÈœ`kƒ…˜àf™«–ÕÌjâÊ1¸¼®pbs4¦2.0AÌÏ4â NÍ$êÏãy2äÖæ-Ü…7¢CÇAŒ tK•íNÊ#ƒĞ‰Ù¡Óšóï¨Ë0œà–@é®ÌÕÍ±Pş!}°K	ùäÇ©ã“r ÑØè2–!!ÒAÀŸ:O…mÛ){êjS–Ê¬ŸtHx9HíÅMBnOŒ×¼™õq[bïF "'Æ¡0gljÅâ‘#!Óı OæZh&ÌÙ¶˜#òAäQMóFSL¡le¦lPbN|qÄİ-$ÅUá¥Œ§® I¤İ'„Bàó®n:2¸­rp
+û6/5@à…!#	"	>ş¬Lú bı`ğ	ÂÈŒ¨&šß‡¹¥‰…1âö”#”}›ö´>cÒ|3Íašğ´%ˆÇ¥6¸§™~nâ°Î|ÁäÈÎ’£­$5ºærÜBTĞÏ[§w	³ºp!²°ƒê‘ØŸá!È“¨4hãVœÏ³Xvc„q¦
+"P‘$`®Ç¨t¿¢Ew3õšÑ¯H®D-rbr“z
+=Œa<Ã<Z °Î™§q”>¢ŠYª¦Â¸#õ¨º„D¹–cÓt œvŠÔ‚†Š’ã¬É})$|ã9P²˜a&L›Â£x*—â@^Ÿ}ÖP¦…óKUK`?dp?L…ŠUXvv¼weÊ‰@y¶i¹BzÃ‡CÍ¿œ¢Ãn¬®¢ğ:E	Š•ğÖú!‘«gÈ`=–=KÂá™Ö9ê5€¾äuÄÒ&ğä³–`ìMy•‰˜Gôh²Â?çÑ”U01l£’»Ö›PÙ+H''ÜÄà+µi·FËÊğ.s’P/4AÁLª°0T¸5«Ä—P÷pŠı’xĞH•‹¢Ñ”$D+w`á$„İ‡x†$"ï`¯ğF=İ=È+‹mÑ*ê±HWmÇk3İ§­”"H¤ï’TÓ¨tÏL…r
+é$*€Åw$=tÆdÃG2¢µKZN3"¬®À)L‹aèC¡ÔÒT¨ìÏ +€­:„Ïy,haÎP%.K_Ó_jF™sâ¬Á4Pt¡GÃš†çÁt Ì€Ö*©kdÓ¬ë^ É¿½& [|’>Á”y"f„‚‘£ÿ#A5™•]ÕãÓİo4Æ’y‰PnGÁ*]ĞÁÁ6EÇ›rø!œòñ×äé&İª0†¹“í â)ˆsCÔfèãT’+
+À˜›c<ZD|•3BJœŸã,i°ræáqà¬ä*§e-"ôr$RÁç@]a´	dÈpêÅ›b8X	M·ãcÙ×R¡Ó©¦Nï˜lNã)%—Ë=Z,ª§‡î=!™™jñg»‚<*>ıêT´Ü¹<F‰,‡ÿ–;zÇmQ¶IQEBT™Éb•Ì€•Ÿê}ºëß°İŠ¬†¶€SÖ)#S)¬!3ÇN² e!UÙóz×ºv2Å’ ó8´À²x}€‚iø?×Š!«$D¦ÃÒØÂPZ"Ë,0û)f¯­«`18¼¨ÑTõo<®›‚áı™>V€Dá¦*¹HPã˜Mhè Mz$É—>! ÷§ZÖ–‰sñµJ\˜ç ¤gÜ3½ñÇ[ü˜/·ÅóÏ#ù„5èaW4Æ)`JáœYI>ÆLÄ¼?uU0d”QH{ææ(1F®mY=ÀšÇö(%Û2ê­F@¦ÇÎ+Ò?WÖº}óÒx€¬Ãc9ÌË”Õ;ª3?ÕÜá”gD”\¼²3KTX#Æ}¡kA^‘áœX/ãDSëŸÌ`>éFtŸn§Y#g¶>·^¦Ö¹I}“é¼‡FæxVŠì©NvÃyB'“ Iâ~¤b°8™Æub]+³¤<Óái4áedØeÍ¿Ø1)0+…w®Ğzà
+vDèôÎñJª$Û•)"¬x¨…Ùjf<îv¡+>äÚ*†B—ƒFÕc„Z·ÚÛY](aNéRÆuªØ0
+ş!Aëã1I§kÚõªª.ÑºœdB$ãaxÔ”­Éú³’)W}gEá¤³:“ÜB}6M•Eld‡røoö€ÉŸe¤:ŠXÎÀÛÑ“¢CÿÊ šƒ’¹Š&l 5µHµº–BqH3ö2 ƒ}ZÜ&aTr{RDXğrXéQI±¹ŒççmäÆœ•œ£	š£HJ]äLŞ(õØÊˆE¬buMójµüêJ-,QfLEì?LP‘K(aõšœ;¢
+Şf¢‚	]ğfe’q®IŒ›/né'Ş+1Ò]Q0G60f&¦{³Ğ»÷ÌéVÙìC=Á(Bûf¥¬³¢ÉĞ×ì´¼È!´„æèÍı›¶\ˆ¦ÖüÆtŒ¶-oëÀy0 êl>dÊ2Œ0‹‰{OxéôñÎ=m"JNf©3X¡RR_Nêˆ¹[3|Š	Åñóø¬¶õ¯rE¥$¼`aÄ;u÷Á¶7xâô©lJ—tÑ)%ƒ­9®Íí½³ãa8S
+’_Eîepì”ò~MŒ…Jö
++wLZÂn?¥®·Æ3`ñš5ÚÌè.{ÜcÓırjSG1uøvƒïQfÑ(e‘¨Ëˆg®QCj	òãYïFMÒÊú"Y¾°¥ob_—è\ğë~Áî&Z4Ãëì°à2T›PyŠ€3ˆæòl>¥û*ÏàDÎ`V©¾ªÌaSˆ« Âk{DW\e'‰…
+KIp²…ÿöqì”+%‡Ó8R'²§ªyÆŒÔ)°EÍÍ 28µÿc>8çHq$¤8§S¾s.ƒ$Š'Ô…Îd=õıêkÔß6sŞET7rŞNæaR©–,$a˜æ‘qgMì_pPÜ+üH"ã²nØRêŠæÓhêÛd&’¾i"µGª|İÆ{Ù*?±]Ã‹ë²É…Ø?auW§‹4 Õ WæCØ¦!_ñğs‘+-Õ/»×6µ^kIêw§š°şÌ"¢è­³`ïÉµÖ2)Ğ«k¬gÈ‰A±¨šÆ7pL¸©‘I³¹9A·ÄÅŞ˜ÌpbsÁ&W,0ix£ÓÉ#Iª€qğ‰òĞÁBL>%r’ŞS˜$qñi wş‰!Ş¨SP(£¢E^Ğ}–áœKŸŒB
+~^„C”¤ù0Œ–tcŞ”!IyÌz	nÆş| ¥¦ıù(!ªÍî4ZºàKÔ2+%õ}Š.ä\K¤,WÅ€rÌ(Tv›ÅÔ¦§r›Ì§DÁrtn°2sáÏôÄ»Ş±>I¬Y*úUoD{Fê:m¨'º:VDä›C@H›Í%wüÆ/9Ñàèœê[>±¤ÁAŸOâLÌ0íÛ[bú«F¿ZF!¢$Ìâ'l¡±B*yœ0¥iÃÊ[“œò9ÚuP>2¤:ÒŒ9Š_ãş”î Ñº/Ó¥pPÖØN¤KÎ$d(ôœü®è'D8É®¥ïœÙ–¨Ò(QmP~6¢z8ˆÇ¼ à>²,%S+ôìÀ
+({÷”¦¯º–I'ÙüÄØKNÈ„˜’‹‘’×ß5.š’Iv[Aí>8]Ë!ñ¦!¼âpf¹sU'°›árxˆøë†¾\Kë)ŠÕkŠbE‰c>×Ú8”FS$Zr:E\±Øzco¶Üs:Óh+dl‰*ÒÑ+ñú‘=EÖ; ÀrŸ‡X|rA7èŞ£àk|WfBl†ReÓÌ`æWõÜXC	á‚Êv"˜tÌi  Kóå†ªú´„üv0^‘$DĞ.Â>¬Ô
+F¹~<+^ş¶A–0…¦è8SÚú#ŸĞí-/95‹¿bRÖNx}$ ‹Û	şE—@›ƒ6"&pø‰;ô=™DS2[×j¦7®Ô`÷ì!ùV¦]‰Ä³Á5a,(ùš‘L I¸Ö.—01¨_E}#.!¬ñtQ—ÏG§áÔÚ‡ê³±¯‰ÜÃ/›9H0©tê„Ó® ñFC­©†°Rµ§8bÙÚFÃ*Ïª/Pk#1}C¨;OµÕ€×”ç¢J@Ê9è»½ĞàI¸É›‚Ô%Ù±a‰µœ¯«àÙ4¿7y>lº´¹¡…Gmƒêì’2ö'dÇô×µBMäşÎÛÁ)¡Ú„“O¹Œ2(‹=Šïö$-¢¡áæ>Ò%s·Ìü"UÏƒ]8âQˆ›,)?0JÆÄX<‹›21šwí'(?°}A“ñó8Òî°WµF;(ÈáÔ·J z¥=|<¿†c„?lÛ0 #lÄT9gz2¼±®NG-ã´Lë¿µ¡^4vë'†ê¾j¨ãvëe»~¨šm»§öÛ†jíSÒš—*–k7°„md PªEÏŸ»£®:n´›İ.@{ñFÕxıÅACÔ_Ãl6~ŞmwÕëW£rÁ¿nB:İ:Vh©×íf·yô’ ¢!n»ùòUW½jì5Úd­ûZ§Šì?İè”¡?5÷üA­Ô;ĞíãÁ­;ƒCoî›G{UÕh ÆÏÇíFÆ_ØÍCèq>²'/¿ ˜Já 	#ƒ~v[45º¬†øå´ã7Z/áùMS@`ÂÛÍÎªŞ)ËÄşı¤n ÁìŒÃúÑ.-Tj!q¸êMë¹Œû`”uœ¨†Úkì7v»ÍŸ`y¡$4Ó99lÈ|wº4Aê¨±ı­·ß¨N£ıSsç¡Ün×›0ıh#İFççfëˆiËö.`Iã'Ä“£m»ñ÷O& ŒúKÀ6œLgİË¯›Ğ8®Pzñ«T>ØÅhÔR‡õ7l˜ıFĞºi,·}¬ ¤°ØYÑÂ9xıiR· #8!¸D{õÃúËF§Z6H@M‹1yUu»Müßõ`­xV`ııW^U‡åÄ¡!Ê’áD\;Ò8m§÷åšm;…ˆ­"4Ò­+ê1üû¢¥Û#˜/ÚNõİİ“6l-,5 7ØlÍ#Z”2—vs³½§÷Í³Ú¯7NÚƒ–[0…’pÍ,ˆF²N¥J8 šûĞÔî+Y=åíÚ7ê,Å‹«ïıÔDÊÃí”a/tš2'- óH„<Za|T>Ç€mÿë‰.úğ•¸Èêt&e=k—¤ xùÉîˆ<ÂëÄcá`¯Ãx,Zd"kMéx¹‰­°ÌsòIfe8‰°²l.Ä<9wãÁU
+¤™¾Àƒ†Ò‘ùõÉ$š•}ÀœĞ¸ídÂp8¡æÊX+µ_œVÌÎf\<YÉ˜ôjù‘•0#t J‚3öØÔéÂdåG7MøEnZ(pºve?¶1á*¼‘›+áÖ¬É1ò (‚á´Ğwş$É¯¡`…# óÑpÓ9ˆr$²`Èbê‡nL(ˆ)äw1»÷‡ÆnÀ™€UÙğŠAŸÂ	äLãØ¤ˆC‡mø÷+íS}sğ	 r~|¾çV¿H¨²¢üÁV´Å^±°d)r£®àAYó-¥+Yz#î …LF>/D‚ø¼ -ÆÉhÙ0-TãóÃ´°‰Ä§jÁú·…jYìØŸöë/£o"i
+\SÔ¦1	&ö¶D¡9D‹µi<†1±[ œ€òECVzV•jUÓGí\àTNaï0ºdjZ&#ÈhÆÔ)aÏ
+ÏŞ#«ˆUÕË1ÚW,ákÿöoÕ¼ıìïæLí>œ(Ä´ş¢Ó: 	äà+=ïVB¨Ù ø{ò`½^İ°#M,ï!f±œ× âOetHúX¶ã6×_u;²Áæ+7<ìÑ]—µüÖı£>˜Ú‚ÁÚûÖó0ñÎ’…>h­3º^‘Û]'¨é¼A%Ş»Ñ­0œÕHËà8@åvMü™X[Oà4,b YëC.I¹1
+Çs˜°p”ÔjHÉé@Ì#¾İ5~ÿâI"ƒ%=tI¦"!Ğ”øª­iïwc’,µGá´¢ØŸ{ZNğ?äû1[µã…3:ÓYuÃY±Ş*ZşˆÎÊct—OØkó•X«hK1Û K*ªƒhÊ>oâ›xpƒñÊy—#O<½1±í í0Ñ™&tã è½ƒç«xIFvƒ°vëM”X« 1LR1Š5hì?±7êUĞ¿§D¿cst ,éŞÀN‹ÇßWÕÈjÓhHáHPháUŒÚ‘DÚÏë'À Ñî^£k‘Û#«ç@üq×—4eÇÖ0WmS—xQ;ñ‰…—0Šš²¶'/M$üÌ­è
+’{‚q„°n‹v=1¶)e®IL®µ©¨ví€@§½hr"^”ó#^dœÿÛál¾şİño©øOÍ#8ë|j‹ã?=ÚÜÜŞLÇúöé“¯ñŸşˆ¿AûºéXS–ŸgşÊâNÃ¿á%>Lç}«ëlÊ Fm‹0Ğ%¥=«
+i·1Ñ"f0[ê}°ª%M¾PÇ´4)_mSÏóÅ‹eJ8|ßû‡Pé,:Æ°*b#?ÙÚE_2½*r­âBïûÉÅ*E1+”ÕìŸ©ß$ş$t›ıÂ$6ŒÓ—äByİÑ´sfƒ%p#|g3½‘X?lo©¡¸ È~Sª->qn‰qÓ„d;¾ûyMÑºÅ<VÈuŠ1 
+”U|Å˜3Ÿ…Ä_¹ í_„ıKñÁÓş¨]‘…¯æ.0.Îé<ô1Cå1$é“†yO
+ëLæ4a@‡p­¾FW@¸ÔdP¦º9ëaÛ3ºäÌEa
+<f¹ú×JfÅ6ÀEİû
+Ô¸ŞLhXùº0Wù~ YU>ÙöòPl‡Q 4ÃÕ€¡6qaHæê„µF46í§bBoÓU¾¡ßy³¿`úªşnÓ%Å`›¦A¢¦Éé@‘lI`–_5g½ËÖt–µ£Xô(}ÒŠ¹sEæúlëÆ¾ºÆ|Nñ™ñÍ¼aq—	/êÇ«³„ÄqÛb”Ü­¥;²UL\ª4ÂŸÉ‰n6u6dØ5$0aiØ×S4´ë…(eû$¤„ÄRMW‘†Ó‡Í>=g:ï,.n¶æ`º)êÉp*N¢r:aíˆø(ô9hrw8¯(ëk£ã„#Îá09kôÉZfÎ±¨ÊW°lhiÂä¶f=ñÚ‰Íÿ`>Õ6bïOÚÃòœ¬{éºP "©¡ÕÀÉÁÕ¸d«æŞG vÇÔ¥]ê=àğj‰4`Ö*OÃ{ÙoÉj„tAèÓiåx™•$à¹éhnUÎÕú= ,='<wfË8ßû­*/Ps=Œ³9è /s‚ˆlSäòÂéÊ=ÕÀûuM1O©.üùp&!Õ)$¼ÀÉYÜ|‚-	Xb)¬ÚDÀ¦×Ãh Ã½MrÑ¹¬É±†‘”°dÎÏÏSü¬²¡Hƒ×v+Ì¶0Èy}|äqô+	1/pUT:‹€=<â{ûZ²wÓqË¤TQ³2*–hC³[¾Ë: èwĞóšnù?ÎÇóxzş½	 +FZëş«÷#f¬F‹)ì)³<\dŞ¤ƒ.§ÖÉ„Ğ+ÄİãÕ™9Ía°{šÊ†¶’˜íÍÒyC»X “°)ó¸ŞèÍåÎPÑÀÄ~…Ê{4lÆ2«bVLV7´NiØìX¥{ib\’áÈ7Ï©Y£û«úÅ;m¯Õ®KÕRŠ¢t…²Q>o<ÙTlVƒF&åò®V:2·ø
+?G&‰˜ÂJòOt#%cçúßõ\Š§æäNÆo³4Ye‚jôÂ,8„İ°±%érÁ©U&š­ZjëU ÎôíÿHSŒp|Mã1ùË+u’Ïz1ï™.ŸˆUıP‰	y&º6%±/C²<m¨Úİ}ŞÿëßÔîşAıeçy­µ­š/àÇsO;Rq¹Üš*cà(l×Xâ¼‡Î®Zõ•ÓÒ„ˆ¦V·
+…Õîñ±4Ú|8O¦‡1 «ñ­öäcâ÷aWd=r›+BsÉú´¡É&ŠÁùèÁ7DÇ_ïŒÒr
+$Ta â{•Ìõ†Aß80{b	ãçtSV9š–ãë±e‚úş£³™p·Ä=Úha4Y’c¿÷?a@òUƒ_U	çÖˆ«m(÷ W¶2ß£YµSz(tag¼ÌXœˆÙNe>.Ø+şÙÈw² r®p¼àzØÎe$½H”ıtô~ccuÃ0!ÆÌXæÍ™,Ç:+gÖÊvÖ\(¹8‚˜á­(½—É¢Oºîû.Ú®c`1Û€ÿá ¼>«ÿÒ²(È‚è	Töx½øJğ¹È…AlÚU¡¾6WŸğÃ·QBÅjúÀ"‘	í‘Å	®…ÿh\~ïll–İè~Î=¥¤‹ÉG£×’:@ÁàxwÎB¡[>¬²ÜÈ ÏbWùpÏâU‡@Ë¼qÙÓ– Ó.Ğ=÷ŞÁB!æ
+¤=%û”SÄ÷µƒxÎ›MwÓ†7Ì&‰|ßktº{Í¶Ù¬&ÒÎØƒô´ãÚ¥ûo‚‚äŒB¤zwùkb–Ùw¶³÷İwBE QÙQi¦üa#UğÆ^U0ÃÊõ„=ˆÊXLÖ[&^ø§ìêöÜã,Ÿ/i¥Á,Pôd¦Ûà>œ“c·ÓØáéÓÔZÔDx6_À<H"›†:(#‰Fõâ	ª°@H`¬,[öˆ˜²CdhLo8ÌÅÚSÏtÚ:I8"hºYi’€¹9)è^Y´IÖ"9a&u‡ùdÈòn:RåuDªÕğËóî›ãÆª,>r,x$ Úv=´—µ”ã1–<ÏWs¥÷É|üxµÊ^ƒ¤DåŠí?Ï¢p8HÜpRÛm×ŞÔ:o:İÆ¡Z7Î7àŒöè¯ßÖæcÈÆä=tšolÓÑD®ñıSWíÕ›¶åM¹P»ÀW:b“¹Ç41K3ëÑÂ3Ètš‚ºr_–A&&Ú{µlúØœàÕ¾w–×B½ÖF1ˆË9mZY“d±÷»»x¢¦ÓJär¬ælÔíä0…C¿?n7ö›??¤¾>ôÚ'Ñ SˆS•.ÎúÅeñrxjÆD‚@¿—œ,fÍ‘„-¥%4RfÏ‡œæ‹r]'I}æ³©üáneÙ¤ñŒ\Ìòm€Aâ[ìîíïr„|fêÖGN}>ş%.Ö2KIœ˜@x†½ÇAHı[Ö­†ëö|¿yĞXe¡úDœú-“;ê¶JØ8ë8×ƒ)}¼œaI;ã²ĞŸ÷áÕÃñ\Ô• ~pÀŠ€r^µê´\í wpx"}=æ `@àp25v0Î8µ«"u’0Às\8[Å_I„qğç?ğ»MsĞ1£.J'áxYâÄ‹’Óç`L ‚7íƒ˜ö²€; Ü°"è_8ÊzàI©VB…š–8g¯èHdÈ½xÆèº‹àşˆ¸ïMöÄ9ÔåÈlTæŒÆEç+¸íÎ¨+›““|¾år‚ø+¹Æ“¯G˜A³,½X´ğĞì}á†Ù-ÀÚŒÜıçlÜ€ãó!ñ$ıµãúîõ—†Õ<£Y¡/œšgÕÚÑà•Hb[ĞÆdÌE>Ä™ï}›É˜œ Gk³ópF^Ûr£¢ÅxIdl 8¾‹‡ÁØ´ÎoA_·)ÑÚ^˜Ö™ÔèsI™UüãK¼B×@U…×¹hªr0	İQÔaÏ™!>Úh/Œ¢î¿_‘ôÒÓ3hçÄ^º^ñ;îÎ!¼“æ¡£K.¯c51L_XÛoÔ»'mƒ	c‡|äÛÆöb+}sj9¤ÛĞ7"x–Ÿ¡q›Dmà`MR&ãıàŞ†×]ÚdÚã«œ¼öD'–ªHÔ€>èZ9¢†¾~Ğ]&"EútŠ<Ã Œ™ñc´W;å¼«¼.é‹ô=¬7ŒŞ[‹ğ:Ìµ¨ä•£‚¿©ê{^{~‘¥`ÉœnÙÊKt0{÷ä^§•V‹„°”Š€=ØD|õÑCP§jÌNuplês°5Uz‘ »‘“t£âÓÔˆz£0Cğ¢×vJ*
+·å^
+ñË³­J fğ³ì‡ZX+úqL\Øù©İ–è´õòš{öòlJæ <™Yà÷ù8;~Q¬ò¡ÅÄq5' ¹ë,RÑL(voÎ¬ TÁfYx#sÉPX¹*îohºÚòr ˆ;Æÿ
+V­…A&j;²²Yv†¬Òñ²™c}PëÅ|šşË¯»»ñXcøü€wµÂ›üŞXé@şùh®û¢³§à¤"ğß? ~Şï“KÂR ¶ò{{¼©AõUú($†V<²š¹â™Ñ4;KeºCÿÿ+²·3øÃ³@ÁãÒv^µ^ügow·„3³kïÌÍ„hÌD#@  …¥’«[Ü°±&rbåÍ6Í0ÔugÕ»¥€¶²äxÃ!£7LŸI³\Ú|#…ºg kÑC¬8¸S*¡b÷ §*‘ w‚›™â”ÃÚ°—2T”Ş¡Û-E™Eï}íl¼Ãôğ`f•+Ş±w½¾óµ×>ÚÄ1' ­ŒŞVß‰Ã¤™qåtªR—;İïá…ĞnÓu´~uz[0¡ú3YÊŒ9N/÷Vãr¶ÍæOİ{C¨EéÂ
+G‰ïfd¡>[?Ùëq:YQä*H$ğc¯PÙvÆtĞ|ÑûYª.aTa#œÂ-zëàÂ”ÀúŞD™ÔÚF¤’ƒ,,7fˆ7NÉS`¢‘GÍZãÜ|\C3TÔ¯9µ&í§ºj:ŠGÒ¼èşPÜNÈÛY0ÀÌ+«f.ğB¨DËì\8<™®¤Ó¬Á¬õk|‰ã8ÇQ‰X<ÓY(/İÆPk@ø/*AQâS=áqÆáÏb¥o7ƒ‹–µ{sÒ2‹äïû7çşhOö¹ÉüL:€Ş¸Q®ÖL³ÆŞˆ ²J]Ä´L'‚‹P”üI½|u\;ùY:™½>şÔhw0Uus¦sÏä§Ê4Ì1V8ª—s|Dú[Ğ¥æÌ.!æ™1ıeÍ›¢J KkÎnŒfßDpüCXøÀS
+Û.”JuÕ0|•¿ÒÜlÿ°Yç¨Âš'şõhë˜=g¥bƒ„§Uwó|Üê ş 	ÿ ”NWÂºiß“?Ùõ ¡ô–²ÔÊ¿OOÛ†~qXÿÏV»bšGğD«3:$mz&„™¶j„³%ÛN<ãê9õ×.±é'áÕ-Yå[cg0Ø‰¤'cØFbŸ'ß?ˆFáˆÔSmïàÀÅĞTôƒ½4„ÄM‰ª7‘ŠÊ57¦ÌC0»Æ”/æœ`º£o€È!†®Zãj³Ñ“DGA=í}¼LM.®ş_œY ã8¶Íá1}Í40
+FÊN‡Ãwği€ígìÀ@Î=¾™ V—HF(ú3Gp27:3ñí(Ü6¾&Ó)œƒœ­—C7VwÌôˆJX("k›LOr€ºÍkÆCÕ¾B¡-Z„‡ª¡Tf0ÀI§ÔqÊ¾7‡‰UŸ.IY,•lCˆˆÛZğ¤T<ÇhmCµ:7ïH'*+:aYIB„~æŒ¹êêğyAed[YÌCZà–V}#ÔB‹YkÆ‰b‘,OJÛüÓy¨’
+Î‹pÉ‡¢Aî©hÖğÉó]¶ZGu¿¶èæ‚õè´hÉØ^¦³¤§àC[î¬Iİ[/˜a›4?ú5íç¢ã¹wƒª¯x0iPwOjC4±LÛ"n8VÛ.c»˜¦(PeEò±u17†_eÇÒ—òÔÈÔ¥GP¥‹>oN´‚	&âÛáëßû·”ÿO»Qß;l|r‹ı¶¾}ºù8íÿóäñÖWÿŸ?â¯)N3?â±rñåxn/Ì]…æİÖÙ']F‡¬¦ë—Ü.ÍÍñõN}ßÅ²ç%õW_Şš&bÜÁG=ä1È%0s0ğrcôYp»Š¨®„ÃÖ\ šs øÜnËi#);çRÛq
+¯ÁvøDPr=`¸6Š‘ZÉûu ;\¦WÅ>›	ô ]9/‚	ŞwĞàX2–’ò‚û÷“‹ÙVj¥uøaŒqŒ×­¿gíƒ-…Ï‚>Ê·zàÈA$C('¨´’˜YVä´¯<ùMÕMó33æõ°º($É,¦ê”E­bœ	ĞîºmıIR«,†	ÚÑF³¤Ü&Îf]„]YÿöÅI/HµúöåÑÉ»—_‹ÓÛDŒŒ5á´
+–¹‡$yÅºZ};—SëxâºIø[W
+*ûâ¿Ì-Ùøöe™ï u˜fö²F2+U¢‘¹ëİmæŒ:'÷f¬wsnØj"|wvFÊä„ÎxXO®÷ÙE¬nÅÜ·ï[ÔFiÅ›11Nf7ÚºØWRÌ	Ïtğ¥g¶-2òÍ¶×›¾O‰Û*KUQâ\‡Ÿå,,ÛY£QJRœö$úW¨#ı™,J>æ;–ôÓ!ödÃæäU»¸;¥$I8#ÂÅ©³Yq&Ù„He­C-˜%Ó`Ú“R’XpĞQrûQïÓşfYO;ëjfÍİÈÕŒvƒÑw İê(ã‚F1åg9}aH·?¢ØÏ\×êDvÙÁiÙ^7á›+ãÅÚt¸êúÎSo£ÑØK(âpÒD	kBgtÖXUİx•B4è„-:m acY[à`*FJ+zj…VÅPkéÛÓËp‚x}—kÔrÛ½¥|uÇkÔ²wªî~Z¶×¨E÷¼‹;Xv®Q‹¯/¿^£~½Fızúõõë5ê×kÔ¯×¨_¯Q¿^£~½Fızúõõë5ê×kÔÏ¼Fı·¾÷¼Ûm'ùÊ_o;¿ÛÎ²çóYÎjrüGÆ[g±„x|0MŒ);™ño­uŒÉQ„„€ ÖÃ˜|gËHÎES:
+ÆXı”QIÇÜS#¼°†ŸÖÚ[­TKkÌıÆ´L@™ÈğÆ…lømìÑÕDšÇûª{xQ
+Ég¸n<;n<t_“Êuµ”™ñb~V¤•Ëğ¶ë"İÈrÎ®§Ô4³ØQç…`)—_“Û³i.Àb&4Œ¼§rvÉ¨~İ|„Srfós˜îŠÿ(j¤T%O2}sĞ‘ÒÎE˜ÍIö ¦­b/œf¡]„O?‚¢”°lÌz6F‘ĞÅ¡¥œ`»nŒa&«½Ï½"”’%;‰9¤ññ”Vnˆ´şÆ«¢}°u¡È‰¦Ã{ÖÉ•©7Eö°1Ÿ½gã`™D|x33¦WCÒÉEÍK4> k£œ­ö**1¡°n<l„PÕ½­á“†A  CK±6Š¦ÓX’ÄbqeÆ!*8®“ói<Ÿ(¬†õ7 &sÆx¶ú–ÀîÑSåÈÍÓ GTm`İ7eâfSüù˜¦j#Ì?Ëfc©û¼mì%3x8İ¸¸{‹ïÿ7·Ÿ>IÅÿÜŞz´ıõşÿù{Ó]]U«©úXÕ:MÕIiL©ÊÇµş°5êx‚‰Fxµ¡«9a¾Â É¡/jL7Y<·H¢u¸1H$ğ?/ıo
+S
+p8j"Ñ¤™ä»{Wai^˜}Ì—ªzÕy…œˆªb‰OMŸ`R'ğ€>9{§lT g©ä	Ö 8SÂñ’%èQŞ1GB:?‚º[Š„œôdù	·$1ÈOğÙù˜ (b8};xûoo˜õí?	¨KdKpñö.iÒyx§üè=}æZƒ£ÚØ^õ*å?óÛ’}§¶hguf]q¬±ÈìG‚){—ègq¤Ö*;eırÏéÆz‡ïı×€R³xÀ ¡ÃpDòŞĞ„Pğ‚"/EÓk2­Ày‰¾Á¸`?©ãn»×åaÚQâv{8F%o¹\	óÕ«õòŸ1Ázú#áéã¶lYşUĞ	şŒ³)Ãá#ê¸;L~,1ıÚ%Â¡ÇÎº˜Q”ôÀpŞäüi¦ªÁ)Ş§¢ÿ¼û’@>äW™ÂÿL4gdfí¶XDÿ—âÿpÔlô?™Ç,äÿğêÉ·OÒöOŸ<şÊÿÿˆ?@^]dü—á=éô€”óÄWN äX1 q›f–Üû¯OkÛ€ ŸÌÂ5‘6rò±IsïY°>ö	;Ï‚XckõvS¶DcJùâø‹‰ îE~ƒËK%_H¸‹„@P
+„„å%„²l:¥E#_Rj@0‚Ã]¤“+8Ü1¯ÒÓ*u‹d„Ç·ä"šLt”d¬àåØAHhÖ¢³iÂÖšP.‰½+a–D~ÀaIîLW×¥vpÎ2OhjsÅ¥’”Rš«/ oKEsğƒæQo(Úõö›‹îÖö‡Ä¢µzå»³aœ$ß[ìÖyUÿ©Ñ“°L¯¼Š+¬»èir³q±â€ĞĞáÅİ¾ºI¢H‘ø¯ÏúãÙ_¥Ûï¼éô0&Qª‰ŒnLï‘¿¦ª‰Ì‡yrÔ>œ†8ÃfäÀÓÅ i–êŸÂ¾·Â™=ïp·’é¾¸90œNÇ4›)“ŞW\!‘Şì8`ïÑŞ
+Å{EİvÄP6s±ÙĞ-‘7p"j Ó!”ND
+Ç«¬&gØÉTuqÉ¼^@İf&”e7Ux:dÛUïå‚;s@:ûÓŠºß•Ø,ë	y\Ä¹*ı–o’¥BÓ@4÷ıÉØ’…Ää‹Ø†0Vš‰Ã›Q0QÓaO¸}ï’Ş€ü(6£Ü“”À¹¢0nHjë‡µ5şVUIô¯°7Sëè›T#iká*R­^ˆª1[7Fû†àÔCT2™º¹µªX8Uõƒ•âzxÑ£K.¿·©
+´©wÇTï*(îŸ™ç=vñß”õôµV/”—)ÙöQİÚL{ñYÙŞMfŠ] ^ŒDwŞôDì±3Çç¹¹RÕĞ4«€ ©iG+èæäÂœb<Àçj‹¡¬æŸöJòGº`yñBDMX¸$ıÍ/üE:p`°Á`Ğƒ-8+™fD—*~»áÕ±õ™P{Išûú` ê‡kÄÚx3pÏy|É¹rDùÁ“0ê/@¥Däfş?6Ş°İLÕ¶ÄO ÷)En‡q`Lx<Û]İUå!–Úá×+%dÄ;å_á¨Îî=‡1d¡¸éè›m¾‚¤ğÈJ°ˆqª›\.º?V›;å´>ˆ40¹zæÈ‰‹áœŒkÿ
+§1öH¦	¥H˜ı)ºÓSÔ»ÔğnŸw¾S›2|î7¾Ä]É%İzSó{$Ï=Ê–löYĞÃ¥Hz³¸$ı(b`¿Ê-	ÂÀ
+LŒß6:»ï6(^ëóçªÙùñ°~\)—~-Ã¶&}¦ÚğŠÃ¶ÕÓÖë¶z0GPË…ZU º5p@ÏÕÉv[Ä zÏºuhf¾ê9‚vºJvr6àGœ?cøæ#Î›3Ş¼³rUY^ßmUÕ¨WÅÈ†¤¦,ç€Aã%fÄ±HÊ‡úyh´¸‡½ğ±ÓNî‚TBÖœFC89IN, _ãá€1BÉÏÌ4Ø'ød¦ÁÀó-»Ú««›²3Ë`üéEHIøÏyˆ7n0WÆßqº÷ûõ“ƒn§]63~ÁìãSÊª€:û8¾§w4¼^76I…X~ñ­Ä¼4¾&®‚i*±a9rzº²·ëa^¼ÜïÈ68oÏzÒ!AÅR‡Ö
+èíVÕ­é¯ì¥YZ¢×ØÿğŸo·ßÑjÊÓæ;˜ùµùó^†”ª{Z‘æ¤Ä–XıesÕ[;$(S0*ø’;0^Ğâ™É™’O›Œ«¡[\¯Œ&†ƒÏæl)À×íZlÇ¤Ä!¡ş£NªÅ´„dù îLÏå¯ùƒ“UXË™åÊÑÉÁÁ­£@ª÷}õ÷GÑ†H±œø€
+ÇÃm˜APGÈö×S1fæöLç5‰33Ø!ĞæÂ!ƒDÈÎ™*ÁXá1Òµ©,¼6wTóè^§ù_xñàAV&@Ş¹¢ QM.äƒe‰Ìµ”ù\<›Ì·¹_[†k´+Ä£°t@æNÓS'Ïîì¹"¨|.š¹¢yÆÉƒÌ HÎ6‹fš$…³Å%Ÿ§$µÍM¸}í}>†{ÜãeèØ¢’ÕËŠ‘·ártã'èWeez–bh2!ÊoN„<¯±2"OwÇ¥7Ë¦ S–Œ¥$]wú¹È²B¯3[â”Aª5FÀªÒ-ê3¶•ròˆç™ÆÌ4Ì©q%/ÖgONNè%rb"^RDÁc)‘'Æ}ÚüŞFï:áşLıËë`: ˜ Ö4{Ga–*ØÇl6§r»Vqæ"	g†µüŸš€ÿû’çİÅ´»¯Æ2¢è"š,§bhÃçY–VòŸeèÔ%F×KŠ„²ãk¼jö[{m.‰­İ#Ğ¿ı¦4‘‡6qo_‡S”QzúæË/’ğŠ(Êï¸¢ïJEòåRò47L}Ğ€¶ô¡8¥Yˆùí|6*HfŸ-?pŞc¶4í”‘ ßm·1ÚÉù¼áŒaô§±Ğ#=dz·˜VÕ:•* y\”ac…9ÙÛ7= ×´İì+”ä„~Ğ–*kÛjçJ£ÄE+õ@mYõŒa6Æ	ŞûšİhF aWÕ}¿íJjs“¥‹-b°Y¦æ"r–ãbY:î6‹“X¨ü¤	¦§ÑŒƒ‰¥Ñ^½[×™…¤é×¨ˆÕ‰ø(ß'ßå
+ì¥|CÕ@çDß@ç‰1ˆR`x£æVºuxŒzèIE$Z”5Qëb/(”lî€½ş:p’$³qaÀé#–Ø¹…ğ+¬½¹]´¶>(‘‹B£nûº|®~U›U…¬A}$,l ;;>âÆøKæR¼2pi¹Ë è@€ô}İyÎ´ì‹«\blÇ!ã¹( ò6åì@oc
+»¬TôxºzGªÖ;»Í¦Åm“{H)±i¬ø²Hg×±¤Mfó3ñ°’ê!ŒªqÂƒŞœÏ.üh‹õGÎæÃÆ™f,¤‹éO„–ÙˆPè‰bézfÓr6¨•=D{J#5GáKÃáXwŠP¥zÄ"óşƒğê;F!øõıs÷Øn:~5¿RC/eÆmÆ®pn¢şr—|Ì§Îj5>T¥Ö´Ş ÿÛ,¾-p¯	¼.Ât#Gq&ÛôA«)úÒÚ½Tk¿ò?´Ô¯C‰î†¡BĞÉ
+¡JdM!˜Q"¥r©d|¼èÚŒÌŞ'Á ¾F?oëàg1Ú÷ ñÅº—Ö´­ª®CÈ* ’¤mŞhĞ><zÓê¾j´aF°2†‘ø Ïíˆ–úÀN¹2á„…™Ÿ0_uŠ¼Ñ=¨‘J™A¦g9€†Jâ09S!—Xy„ é^Ğé‘º†İĞGcú±Äœ8§‰á„7XíÑ¨wXÿ™¶ŠLü%ëûq‰øÆHÀ®™^²ôWGƒ$hØbkk$]†½Ó`ŠÌ·V©”¢‰Z„ki‘æÏ©l¾ÄÖ½‰ˆĞ†ğ0])K“œ,kçëZÖ8–‹‚ÃñCP}L$f½ı®DÖ­y¶¨¸Ê¿VyÂ( Ã0ôaÛr³÷Ái_Šå ³@U itaYŸ|ou[&Xyî	²{Â6?¬VÔœUôD°$ÌÒ<Ô8BÌÒ.5ĞŸ5xÎ*2÷ŠÏIH(İÚÄOÓ´ ñËAlTß_ä»tÑnÓb“¾PäÓS>õqY¸¥Åš=§ÑZî=‡IX )-‰Ò†›8ã4c1JÚÛ÷˜ˆ ¥Ì–eAÍÒé¼‹P¹§c¡<Å’Óâör	H#¨ÑD§vñú“„DBÑÌó‹¿VXñå0Øò})(`‰I¸¾¹‚eEŒ½ø'ÒJD©>™M€/bG [®Ğ›•ZHd¡á¾ÈÓ‘¦Å[*ìE¬“ôš§è‡Cï°ªP)ä«ûE×¿†X€×TÑ»J¢Ÿ4«¿ü²ªÙª®òàA$DÛÛ„Ä`'—ü­ú€vCõËn¨È/‡5“¯×İçÒÒî*nSş}¸J2u¹ü;z[[ÍáßÒˆG¨/‡NÚ‘U8.óÁFA÷Gpè¹Ï³PU+»µ_ ‹+Uõ¤¢Ç„‡J4ío‡ Q Yd§Ã¿HÒQ’lÀÔJ=x®ìd«îvÛlÿ bÓèî” ¡ÂÅ©kô†g‡Lİj5,òQÂP3c¦»°œ;%ì¢©¶ª{ïşùgUSñix#Î7³ƒ0Ğ¢Ç!& Ä>-^.²¡ßqÍğh ^<Ø~§ñÆ¼zä ŠÆ½è¸(wÌ3n<%9sô`İª}òMÄŸ-±Z™q±Ø‹ M‰f8™.‘„Æìq˜`(›p¦.‰K¤@Ê_àHÌ‘6FFò(±8yCvYl‘=¾qc7Â İ9ø*	%7’ØIE|v¦#İ q¢ójÜÇ‘ ü"ü°¡×‚¦pjÑ˜5-qF]„ª».ªâªlïhÄìÈ.¾DA½[ûacÃtÄk÷3VÎôE£ñ<ÔLP^kfÙ'ßF¢ÏÉE-LúÁDÎp†t)¤GQĞòW‚æŸ\ZÙã…q5]Á(ñyUg%ò}¶Ê!+Ñ[Ä@BŠªM“©#k!¥ûe jßËØ)„—é¥Ô ¯!»Ñ8ácLP4Œi"ÓQ"gSr%Ğô26íÖú>é%2»¬>+ç¡Ğ­Í§«Fä®àT<-¬xº¨Ú  (Š‰­9·¥ûY€a@¤OÅµÎ
+{¶¨÷ã‚jG×èÀ° æ´hÜîIûhAÅYAÅnıÅ‚ZWµ6?l.ªÄ¹h^~Y4/›«Ïä×–ùµm~=Ò@ùñ±ùğÄüúÖüzj{À‹“ô#d#U{Íî ‹jívë†: 'ÁrÀkY( ,ü ıZWEE6Ôú©~pÒpé4U1Jv-÷§tÑƒ'ìœÆ'Bz³ÔW÷Õ '3b²fìÃ’Ã$Q¯Ùùy¯ù²ÙAË·WZ~Ì[ßâ _5~.ô™nN€ÎşQ“#w>Ï°	C1nPxS0ïqÍˆ‰(Å¨ÌAÒ¦P}¢¢,l>Õ¶@¡8t+.é4@ˆÍ8,Æ‹Ò°¹0üƒò<
+éøJ
+å™‘‰Õ¨ø“IîéÂQ¡ÓIÅ{×§â’Õ¾}§âxnà>å™_›³8jÁ~J¹zÉ˜³ásŞæ¿®™×®ö°_±çD_„@uàR†«9pPDøœ‘ì.3‘@H!¡ÖğøŒrI¿R80fd¿Ww@LrpíKÎ¦9+Ú#ÜÊê2@ùÂÂù”¢Q¼;.µ¨—Ş	—„›SBå^jKğÍ»Ä8ûÂ9cÛ¢)º"®OÑİIoŞS´"gy7+OK/WB‘ÙCQ%é£6N*7E[5»Éøğ½>}ğÀe¥úùĞ¬ñczyzªÔÊçÃ7k­šÚ:‹û·[Ø¿›£ »fw@“*İ¦J5ªR­ª’»	ü«„Ï˜ŒÌ/y ¤’¼K¡xßî§õiÅá­cÆ.ÕA*â”&eúN·^¼FM–!móLĞ§MqäÕkÇœŠœ|¾ë”¦Æ £Èé Çr£œcÉ7áyÊ-ú§¾âıÆ{À­Ñµw8¬„İÆ_ğúÌê±´æ› -)Tû¤WÎÕ«e¯Ná<ÿ µb³æÔJy‹³¦o€*g©œê¯u¹h|cğã«(ÀNé«Ö3«a7.!°¢¨á…Uaä™V½û¶œb<€†bbePå»ŠqëQ–
+£v¦•ñ}ÅªÑæc¤ß×o	ÌmM Ö˜>‹’~ÍLaU4B¤ïÅ~RÊÂ¬°v\Š,Â­E&\¤éÆ¾İfqä0	@M*«®pQ4ñ¶d½YRh)İÃ;
+vğ4ÿ28Ò—Á\<÷B¶·ßj÷N>éjöÖ[ØeïŒ×õ.ïÆW„_£k”ĞG×!ËÜ²“ˆÂ ıwÙ@èN%s•´ 	QªDºf…š×im3Ú¥u¹ğÆkoõN6ŸıÛ¹Úq¦¿ğæWfóÌ˜f’ECĞtîúŒú§j/[:ïæKPÀª¾Y|ëpõ•iŞ8³—L²Hv*—ºFÒ,}®JNPÚ–í–²ƒÖ‰y‚V#Ç;Â^@²ºoÍå»Cà0±Å4 ©‹j%f³d•áqê|‹ wƒ>ØzW±¶”‹¨¼'Á¥ ³Ñ®±ÙŒ²z$8øªAñ2.ZÂŒcD~§•Ç›º.z;-N<u8…MÄÇ!Ş
+Âì´¡ÓGÆëˆ¤ƒáøNã‘×ëÁUsŞÉñ;O“ =Š¼Dyü…¡#˜w…a4È¯ZòÒaà°áğ¦&!ÄĞÎo±Ì%àªáöü–$.
+®Œ9»LÌRªàHQHÖÑfÇõğ$šØŒ)ì])bœÚ)â}›’ùeW©ìÇGXÓÁü94ÂÄ;òèo‚È:vÔZ‚éø:¶€¢gd1*å(’şŞ1‡&›£F¿¹à#0NîÈ
+y0£Ü¼&øOğeËµzí½ÖÑÁ›ªÚüöÛo+•¬Ë³‹"êŞÑõ¸BÍm s¯ËD¼¬<l?C Ç0kš$±1<#`ñÙZ|v Õ÷J¥Üî^;PBÊê"ÿÃ£U4ÛO ò00óœ½‰¥Ùùo$ûCŒ[I¯Ò&êıÍ—Z–åÈ'pªÁ—:\GJÎMMÓ?wm‚'ûû¶PVAæœ³°7.öƒ¢ƒ3À£oU©[uFLˆäLæ<²+îñ1Œ´_áˆ¸¸¯B ËE»5ûá»œ>¢iHöÒ9ÍÈ<2ê^úOÃt‘5ÚÃÀLÏÇñ4t4tô^õzÁL"[õz¨±EÁ½RÑå‹¾;^Ø;ZW‘‰`’Šb&É:× “á¨%‚Œ¼èÄe£zöâ,%—pR|4±T“´™ÖÏr°UrdšÌè02ÃIÃd ›§(¡ˆÏx–¶6JR!r~ÑàlêQ@D.¿½aAlRŒ'¢Ã¤¨÷Í£ã“n{w•k<ÚPÿópƒì‘¦}~õxC=gı‡ÎËæ™İdè'9Õúú‡tLŞM)7å¦KöùØƒÎu(Ï;5}¸6øã¯ {ÎÇõ_yKº
+oÎCZ3öPc_©¦¿³Tåä‚bÒ„ã+­t[‘y^©äB cè˜fÓ[ØÚeJ j
+@·µ7œÔögº”:Cg\T×Sê–7ıişY1à“‘µú hö«È·ÄDÄuéLuÕiÆĞ¢Tp²ÃÎ^«ƒA—îÔ¨Cò¨]§Í•ÿyØT]qÈ¾&g·5Pqµ©ˆƒ‹+xrÖBœ4d.%šå¸}©¢ªÖq?qƒëœ0s=d¿İ´DÂ× Pz„"n¯–‘'ø†zºKhôáåA8;tÇe“)áÌè¾Ï™»éÏ–j@éå—(hXU³L¿ë¸¹H2¹W¸µı·ßn4ÔZQQìÅG4iJ„#/ˆÅ^ßLÃğNå3‰n46)Z5¯9°YlÉ©Yr
+ÿyUI˜cE)XQºCù|¶”¬İÓĞ¤ª–ì&#´¨%%Ñ†E‡îµ"ÀğÛJÄx ÖÏ yÒóõ¡ÕùKú‹ °¯ÍµÍ¹šxâ8t¸®Ú‰@= ™«ÀÚã+}î¡ì3^e-ÔN†í¾yùºyÄ´HÿşET¥Ø“”ì‡Cwª ß'³ÕUŸfê–sK¶ñšVcLQÁïTM912tEÓöa0½ÔƒN×4#um¥Îe4Ac:jÂäÎÂdôİº2ãDG°¶¼¬¸%nLîØÉOüè4Û<3è©ÕÆ:Ñ[ Qh¨ƒfÙ3ıà¸DÆ)Â8hX£‡yv“¢Î¹ƒ=Œ¯L°Í1†–Í™&4¯"5’¹Ã[€Â8L3´Œœ½xÇz!6=6‚qøÊyqøÖFIŞ½ ¼µ®´*bÛLá=Ã ÀVm@Ågê›äÏÂ7|øe¼R]ÀªÚ¾mÑUvšöµvÚ]Üj”ë|üCØ#ÆLÕ¥ ‰€ş
+ªşşÁìP]…AÒM?ê‰Ö@e£²ªˆND¹Ñ\Q½ßåÄæ«„Ãé ‡’40ìIúó6%~‹„ ÑeEê£	ïÊ.ÿ·Û>ÀÙƒOø
+Û -z¶Cx`À¤˜ÓcøÒI#¼©’IBîf<»` 0šK:¿z»ù.3"@>jYXÙÊÓGáÓ‘ëƒÁs†r4óÄ©Ó4èÅó™«Hò/#Ö£³^B@ÓW–FãçèÕtáŞ ÃEş'Ñ¾` ûyra¥ g’¢óÁ3^#È“Ò	j¬êí—w (°
+ê!í€©L<½¾(¼ãÑİr[sKş IióıslYÍÍ=ıHú¢é4Úšqm¦ôB1	t©ªßA2¶İ4b˜2_ßú£cSŒ[ÖÇq‚ÕˆÌ¬ÙŒÏÎ„ñé NèšLÜ!šñ9,F/9#ÊFˆ9×7ND%÷Ò$ RAî·ÑÎ\¡ÿgg¥néwúø$£Hb2ôe… 
+%ZËñîDBáÃİºÂƒ¼¯ñŠ;£_S£ü`ldWuãâÃ°òt(	§£çgq¼BèO¯Pó<ıd…%êfÅ7‘rE3¾Ñ%™®N®İ¶¢,ë<)i¤qö£3ˆëxJJiÜWú&‹˜ƒÄÑ¤``bV^§iRÊM—R(l ï)Ñï‚¯äq2€–R‡]§w1bÏÂùf|dsÎû_ÌäW‚ ¨}»¹BB½\?­8’ÑLë)œCJºÃfßaæÔçJÇAñ±]\›(„F\6-•v¡š¿÷˜ÂEL½“‹x:£„ò6ú¾î€dÆŒ	áñ’ìŒîÆbd.ĞÓ³^kıÑ€aá)	˜‹Ğ°­›ƒúÖGÕõÕ‹RFò*aËmÙ	f6Uïfš†µ{*°,­0sfø–=(ÔÅ˜g . I}Rå¥Aez™ä”‚R…‹ÅRëÌ;mÅq17ƒ¹xI{§/)(ğ®èúºÂ;×(ŒH«
+‡3|Ûc –À/te P0„ù6{^o_ªÈ~”’ƒÂşÑ‰ù-³ÈëÂM]¹¤p×–¤+ÅTÍTqWíöozıíå·òœ›dá]x’‹ñÄ6¾‘›nI;ŠÌ·@”¡aç3‹¯
+YR’L»sÏj+¡~°³Î˜a˜4Ğ‡•ômÌ¦§ôÜô0ÅUØ¯QPQ¤±2´¥œY¬8gí|ÊòÂ¨B¢qÈğ4Lkd-‘DgHÍ ´.¦9:SQGÿ÷:i:hîñÜ¥¥ËV%³"İXÔd\Œ¡íŒL7â	Mzsû¸w«|˜ãÏËD{ÆDL•ªšÄ“‰ç¼+Á@në†Mi½hÙú””İ.ËR³2µšà]†Ôäm5êqñ.óæ5çğ#9 €Ü³e<øW<ü:Ôúø)+e™­*®à(š«x5ø	ò7©ŠÊJy=@§ˆÖ*İŸÂòÚ¬Ce;\X'«êñ™*7ÍE–ûÖC×v×Uù^À2°l×L ¬…·ÙE[¬NMÚò—™ºät#¬%âL’¸‘³~øa616a…|Ğ§7~æ9Á\16Ic¥¾¢É*”œĞ…ÇöVëe6¿ªØ1Ueu«üš6˜ıÂûÍ|„İé|C¶§?É<80e«I­ãÚü°Yµ;Áé9~–(š"9øZP0ƒÀàIİz·qØ8ê›Âhl®±MAÄ=M'(–(¿ßÿe5MÙ‹´—/Eæ9ä‰åûEè·‹/éœª¦.şšÜUyñÑ¡RÌjì3šz—º‡lÓ§ÔIÛæ¹ºï²f¹;Ê}Ÿ9¾AæXÎ7š"çMê4_ĞÖ2M;Êë?ßƒ]Î',[ê¨Æ”–öŸÉÓTd6Æ_¦MµÀPŞYÎÂú¾Õü¯åÒÚznYcª(ŒhÇWZµ–¶8Âà6ÃàÆ†Ña€­óSRÎYt™/Çñõ8³Y¬Ä’e¥Eu<>º¶åøˆuÃ$ÓÍ’†¸Pàó$œâÙ§GR÷òêJ}‰ÕÏĞì'ï™¡5|üeS"ó“”E0Pj
+’œ$ÃëZ2»†n)[S­ü²[û€ÿ_y†Z·LPR#«ı´QÓK×ì$}÷äûpd¼7ä²®/é/5éöˆF¿ÊtCBïU­’¦Cx.ws¢‘I_ÎIôÄ¼°’=zOjıö›º·nëŸÏåb-W8¶¦ÛYB\Íl1º¶sÀş%åèVHfïs¥·[ïŠOJÖ¬ÕXxt L—å÷44R»Q|Šfímñ8ü,M¨qütæå’—çƒ8Ã„íát1¢·pô™âÉ`şsÃºUyÁà*s`Èàl&7ùF¤e³?ª #aQt+	geTÖÓàPq?¦ 18·*X¯´cbDçô$éãü3„tKËáÅ³ñr¬7ÕN›ç; ‚Mø!t$ÒN†ãà}„@;E§Mõ­ˆS. ¹ÇY¡é¬Jî_-i¤.ªÍğ­;‚Rš(ó—O„AşÔm½ÿe…â~9ÔÒ*tôº›£nÑ‰¹á}«UPßíĞv_JÂ	f}Y€š]Çâ°”¸ì2³ÀHzútÿlÕşVÎï_flF¡˜s;„ŒLbi¸®†j]9¯šx›dãršĞdİÅdçUL¶½tè`Ş,ø ¦ 	Ş±)B‚Ò¶½PøÕp×˜:Ğ¶àf‰6,åÔ'-àÌáhB¡¬ÎN‘'#xp+Uµ•WŠï hÿ¬¯J'TùŠyóô¢ı‹cH)F~ª·ÙKú7“l¾†—:ZFüÓV"5Í‡à]¥‚5…ûø­`|„¼vXÁ9µêî4¾~Àv2-ã§´”Ê¯©yøWÛkãoåÒº|tÎ£¹¶#Ã4í€5Ó úf5,É53²'Îahf•bâ„£	%Œì4â5TMŒ´Øw•Ly5Y6á½¨#u©Yì¥R$®á*¸£´¼vÈš†#²Éé¶xÑÄã\<0ÎÛ<¤Ä"2ed|Ÿ?m¡#Rx.ø×ÄŞÂ­¦N:°­­ãìµNPmÚ#Èê¼xz&Ã#Kf´¸Şb¡‚ZxBtúrÎ®Ãpl8<É¹,ÅùÒRÿÌYÆçŠdÃ8×–‘÷ÍgM1âk rÕ*-q·÷ã©CeœfYƒ@>ƒÉôÌ£òâ6È ì%6Ls¢¬zû©s±¼0ÛƒàèØÖ;7sëìDö†êŒ½U¼¨ÃÕ–nÄ¾€3‡Ñ:<`&Ö¬;ÄH4FÚ1•r„îäi<Ğ±‡u1’›Èv#·ä,ÔçºdªŠR"QÅ¸QvB¶†éË5>=ÅÔĞpô”¸ædhö–a•âµlè°›g4£¨d§˜<7‰¦DZMWì€q´|ùé@ÏÔŠÒ—ØØO«g3U>É#~W¼3(‡[fu•ÍÉwy2Ÿ˜ä,Còìä?wyŸ¹bÄ-a¥»ÿeé/£–‚aÆU %RA4Tñì ³"WŞ–*$÷SM 'aï»Øšu'õØ§#æ™R¸™qRaÆÂœšÃŸÍjdeB¾‡½6¼‘ı û>Ô¦ÇtŞâÂ!’[*cm/®|‘(õëBí‰SŞ‰¾f¢E[QÊj
+PÿWÖüÁKÃ„±ü[zCcQÔx8@Ò‚ôb€l˜4´…ÜôæI‡&õOùÿ¨ªËô¢÷ùéMØ9İ{»ìˆİU
+íl8Yú¼ÛQÿ°[ñ4EfrNŠè}6£ Ä„#$Š”·`CöQR9|ša„l¹õ„—Y:Œ‰j
+ólpŠ+Á2Î‘@ÚÃo˜† &êˆ¨¦§:qO6âSÅõ!ç	CçJ3_†¤)	ú(_²xo'7MfîÉšŞFküæÒgR|(hîcÙéMu·NÑL\ì‡”!õ2,€1åÜ.¡”¨˜˜µmQÇÎôÒœÅË-à`)diÿäÜÜyÿ¹[0Ø·ÿ#÷ç¦/:tª€k‰ö°›İ…b[Ü×å·ŞyÉlvÒ¨Ó€jçeÑ½±ål9ƒÑ‹Ë‘/…†ˆNß”¼ı‘!*BQ.µ½•N ¯{ÚŒŠ4x—Ö±Í©@JFçÆ”>Éå’’ç%\_»´ş3ÄÁÈ®DL‡IÎ¥€·§ÑÌ¥×Å¹ĞMš"‹r’»•„¾Tœ{…;6çY%{m¹Y“E"„sW<å$-Âê[B³D´‰M3˜Ïª8Ÿ…Î•*[óÛó7—˜›tªĞ«~ôr§ê`œO9[+óÕ§!©­5¿eo1Ú{æcÇíÆ~óçEcyUßı±Â³}r>¼aÖrO)_È…œü.Ãp"Q¯9Ær0uTä[4EúŠS±X'âd§ÕäÓÌ§ó.3©9	‘0nEUyYíÄNQOâÈ›$c–!;ĞrJB‘¤ª‹©SÖ†¤¡Z.Ñâù¡V=ÿ-£ƒPkÑF¸‚*šå,GaÜÉJ2–;ÕëX;*ŒÈCl¥5^A¾Å.ÆÓùŒúJëìŒ>lâtÀèøNóÏŒ)ê§^ç¸±Û¬”6?l•—¼è¦8DÔıt6ğFõ£rtèí]qã|Öf³Ü²FáVª¥û==Û	|æ¨@ÕRiÓÜfŸÂT]ÖôQµ6Á+¬‡ÕğSOêÑ§jÉË‚¸™…µxQò+¨Ë•áeO¿ôZäëºıb‡ö¬u_í×åo8’UõjÛ`åÔÖ-‘ĞñZ×D	âCÍ¶!#Æğ§q¯Ç!Ô®ªN‚i”ßöø­_ü@käªçC@‡=$¸=Ç_4¡xk¶2Ÿ³xzS£ĞmÓ+¹¢ÓÓ#_{úk¾ºt“ş/`J€	Ğ¹á°†ö›¦¾ùÚã¯dİéÖ'C^ziZá…Sok|¹…8Ë!cÅ=§D5]Î¢pP#_LİIª¦?‘ÁJ¶fr3Bô„ª^TN¤(v$qgš0»vá¸F‘>làK¿Ğ5†ß>†ªÇé¸m‚âù,3—üÎÁTs&Á¹‹vJñƒƒ©ZÀ"Âií*"¡v‡z$ü©'Ÿzø)o“ûšÛpÍ"ÊğFO+•r{ÑsK¹S›\Ä×(§Õ‚Ñit>çIj‹‡=,Õ°G¥üªó±Æ‚üºö»¬OÊÎ»Ó|qĞè¡M§ÂĞõ!5NôŞÔ³C/ug\Kgó²_½¸G^ÖPš2îqìn²Êë‚6zCå®kÙ‘âËØu°@QP17bä0_ÌÆÜ÷Ù`gè›’HLåŒúµ‹hïLÚU«ÒÃA"·Ù«a§úíÜÈ`1¬(%ÉdÁ&º¡ğRüÒ5t"gÓrxânù39W¢¬!¤q1‘óGÑD»¦©)ÎgªistáôÑpYÎošÃx¿ia£yT ×qA[dIˆÏ$/ÀOùLaÕ›-ğ¢>îi3¿|ıd/Uş#"OÚG4¹Êø‡ºÆ‘ÆKs*¬æÉl–j
+¬oó-ãŒsdoaZ&˜L¦1¬`FB§hq4jÁ‰h­{ÏÏ/"¡óE“±şd”zÚŠs8˜N÷ÍA£´é¼İm¾h¼l•¶œ—½f½#JÛÎËf§½ûªÛh–9o9¼^é±‘<“‘±yÔ-4œıxŠim€Ğõ‡xµ”Ø·óS0±´(|Ö+š\¿ÖS 9ãå‹Oş9ÇPYË•Gor.Y®x”Lûèà³dy‰tZˆGË‹ß"p«†®c|$NGüQĞÉĞW‡iç#öJÕ¬dµä/ˆ#
+ã¥|æ=]Ş¬GàL_‹fáeÂ]GÅÈ¢ìÄ£…@¯³$FöKÂ ¦½&U T1x§]]‰gy©WP$eK²´YUŞßš7Õ\ª€‰Ú™ÿ|šZÅ¥Yh~½;pĞºÃ(ñJYI‘j…vLnx¥ßª±­@KàéÙ qFã,A'0~ŒÓÀƒ8ö>¯ÂÄÃ)ª“&(º
+9áïÊÖ
+æ‰ßğ]B’;| ®0
+z°	‡p<ÕVÒFÄØw<_á¤Êuyväû«şš˜:èXOæğ¦\*ù“-+±áRŠ>‚ã9&A¿r"¥Jz§Ge÷æ\bR}
+Ç D¥„5VÕ@.oZ…–k¶`]›eÖÖsDîï4êüsFn n#™±¨i~fN%o^
+0Ü¨OÄ¤Ö3ÑáË(Ø›LA^êø”ùï©"<sRÒVèğ£tõû®Š×†%ÅÔ¾p•—95‰Õ¨ûVUØ"ÁuZ~ğÄì‹d4‹F!ç°­sêÔ:²
+LÖ}ƒ¼¸}6oZy/¨h¶o$FáÀQ"G:Oq©4KÍiWxe¸^\¯âÎ³Ô¼J;D¹Œnr•uÖ„è*n¸íËÔEÅZÊ79/¯¢Rá)©¶tÀp£…u}m]ŸŞÛ<$(ôfÖİg'äwf¯¯¬ğ…9@Ğ¼µ·Y?ælß¬MgfuŒ ³ìê;¬u§‚G-]JW=nöNæK*ÀbCªÛ"Ò×R#21†g¼àŞÜ4çÉ…ƒ“ò ™Ey$†>S¸Ô’”t;î)W©Ÿ=’ ÑOJ/r*´òÜ2#“èú—:&ş%c•°‰1zz#×tv÷¯¼1{¡I¥À'-#€ßÓòE{’¿ıü›p×sCq°™|!~Jƒm÷¨µd“Á|€§ş[[Íª->w°¢oXnZé`/ûğk*ËnG U¼×¯òÅ¿õp»JmÏ¿2Ñ
+]Ÿ7.KÑ&‹d4ÓñÄíµ¹gÕtUH,e“sZÏ9§™t¥ãº®5¿¬¦îjiˆÈk „gr³ KÌÂ­ø?ÉK~İ;²,CÖ7>òZÉ@L¹ó1LF†,@œnÔ7ñê:‘h‚é,AS±+õ ­h–Ÿí‚ÙÌ3UÚv2<]ÙüN¹f8Ò—jüªº‘wŠ{5g\eîCyšSg“I;ë£%Yª`Ã²8(vp-Vl‚~^L·%´&²“>¢¯AÜï¡¤fOïö	”d¨¤5'{N6?<µ^¸Îî
+ºZo>z´j_R&Õìûƒı½öË6¯Âk¼=J¿n7ºôjê¼¢¡gŞÎÑñ0İ«Î1õJÙr4©wİà”*nş-×18ç’ ×ˆÅ=¡ŞM»‘šé¥µùõòÓ$eËjråœû×3QÊø\R›aÌœnÊr[€|¢)™ˆ†Q "•qçXcôuÍ-—Sğ¹‰>J}šéÄEE-)çÊÁVµ†_kúë’Åù2PeL*RÅú³áSœbEG_å„B‡‡+rN¿ŠjøéÖB¢lºµŸh¸Xút“¾Ds/i'y^Ç/_”$ÆÏÕûyË¾ô¾È«•¿+Ò%µÄjRÈx¤,VEå˜Gkbyó5!w¥ä³ÊëojHz½r'Á›ŸY€CĞ…\JŒ/•tÌJ†æXÊ»6;ÔZÅS6zJP'Û‡l–Ó|æˆëqs:Vp^¾5êXN;ròÏi$W»ÁrŸ)¬ú¼±Ë™üãÔ |ª<ÒÒ?Ÿš~÷ˆº„ŸÆìeù}­õjÑûŸîß~ÿğº §VÇâq£}zäälL0¬ì`Ş§èè¦c6tÎ	üäæ+/Âú@`±m1£c«t‚‰ È4ş:¸ÁætÂ?Åv-@/Ã`ÄA)"ôï£Õ;”åûÈXİrš)vC½›ç¡q¹—?P©˜0ºÇSò­¼0ÚÊ³Åı‡jz÷£”"y$™†Y²‘	mâì u·
+³©6RPmT÷ƒ‹îY,muhµ	/íOôŠ„–NU¬8ç¯ñ‚4¹BÄh:¼qì#È~Ô†wRZæ7¹¢uíœSÓ_%Œ‘5F%ûM“éşw‹ƒÅ©äsAoÉi„˜:ŸIş4ÊïVÓËÌœÑ”/üµy4{âP4¼BÃÿRTJÅY‡®):Âª	’É`1ùDj²Ğ…­ÔÇïÇÆ1í„İ*;În“p¡p5µÜëPÈ†ÀØÂÇ4V¶çÌ2E5>ßòÍG;'6ë4V!}ìé.;$=š&
+²£Ëÿt“ëÃ!ËKÓçä3s´øi¢yáÙØØËL-Øâ8Ì¼ßÎX"K6g‹aÖ¦X'¤¢Ü¿|*îDéÀ‹<çÿ²[ûÁö™ã2j/×ñİ‚×2ïÑû2ï/7Ğ²w}dqôi‹2‰’ŒGÚ“Áz6™èŞ!ñ%¢uJ©]gM%@—îç%O}ÊÎÑ'fB·+t·îYF·!ã1Ş©wv›MÅæØJ5;-u ”n¬¶ÔÚÖö_ÑàÉß*Œ&qËnÒxTû—íÍM(øËö£§Ù2<¡4w‰7y}¼DÀâ»çşSçpÛ™©-(	Í>TEíÓê¦7»ğá›Ô=£G!F"²ZÅkƒ'î¶i?µjNÀ†iŞsÇëã³Dh©êˆÃ¢(Õ®.N&EãŠ˜™€›^òeé–JœM¶%¦ù˜ÅgÒ‰D4f&w¶î3ÉOUæi†ÅY›MâT“£Cø³Q&Cs(…b0sµ^ôèğb3oÛƒÑ4›ÇÓ½£„Ân¥u¶ëĞœ›Ÿ õAø¡ªŸLfD±1Ü\ÇúW^={lE9‡$vIâC¨úN±[ó\Ò«t
+ä0æœœÂgÎ}Ê¾zh¾"Ù¡Ÿ‰Ş!úï$¬ÓDÄf¼GrvĞ—\Öì:öƒ¡uğœ'ß¿£4…˜ ¿ìcn%JXIBw—Yw§)¹>Ø@Dœz›9ş8”€NÄ€÷xZ•‘G¯Ş:p0Lš6q$Íi|¦4úPäzš‰3½€ib¯¥\=S²œ~m…¸\¡Ğ¤‹Ô¶úŞE†Š.ê´Ê¼ÏâË¼öÜ¡|+Y|³iø›‡£¨‡§¼›ÊI'bZùèd>Æ*oİ®21C/.øN¥SÛÚdÉÆU=¦d¬2ÜßR-£¢·nj'½ÂB‰¢„Ò13A"W%C^‚ÄŒ˜°Ï0_éº,™uèÕ™N°ÜntNºw
+°Ç¬õå¹ÜåHXaöhñ}äh)&å´ç,n‘Ô.GsÉ)âñAQ{Z*¬+yhw4ùÖõ=g(dáT*9Â#‰¼%^\½j°ãQh–­-ĞˆIÚcvI¢øfèæ¡q¨Nk€‡„t@åD01B­‰¨7°‹Çÿ€ló¨_k®{?~B¾°æ‰ğVcëãìAKŒfÊoñ£B1§8s¼F}N•Y‡#ê/ĞE´T+9‹¾¨t¨ÃV+’#©Q‰Üú»µoú+Õa“ê|9uFX ÷‡•ÜšZÒädîàKÎIÃÿ°åˆ5Ä³ıÏÎIÉ–â6ŠAmeAÁÿ0®1æf6£Õ{K—p­XàÍq+ùw:W@ô¿Ù/1Å/-AìóÊĞyËFì0ár9@Nòu†]ù=¥NÜû§Å‚ç<ÑAÔäÄ°soE-_FütUíË1G!o¦‡5y”‘Ñ¢X+ÉœÍ(*SŠFJ~ƒ]=n7º½v£¾Wqğ†³ïkÿ
+§±N¼g†ì}çk'ËJ¹
+Ê´vÒÓêşõóyó³K–N‡®æÌÿP?ÙU2Švq;ÒUc‘Šğ—±Ø	»<sMX¢ÕZ]£cvuËéC÷›1pšØ8FÍóì6WF<U\—‹Ş¼Ì+é…°Á—îé6tÜ‚™ú³úó;Ä3uŠÂR…T«ÒÙ’+¯üjåF7èMàLã ;±jJLWÕº+:o`™¯0¶S%Mœ¯ôŞÊÀş÷Šcı˜!w¬oåòTK–¨vÄu“^ôO›¾â6e²4ÈdWè–¹Gñåp}r§Eø Ü©Ï¬Çôü;Bvù¼ßÜ%àˆ0 <ÁN¸K…üµ ı´,Nå!Â’Hğ±ˆkrU.3µğ	3©«?L†Q?²¹ÔHÛ]…c—03ıÍ§Í·fq)@rÜ³İ\ë‚Ìø¼aI2½,JöA…oÏ‚mEÉD\3ßÎü2å%T*sà¨ÌOæG—ƒãğšœŞ‰´ßšQ•£™0Ôi=0‘WŠ’Z©*§”\Š>¸Z%‡ÎsåÛMFŠ\—ü/ÜVíÁIëPİªÈ€26à„1ßã¹-fOÇ;&ĞU†ë,Ä 'LÚ™ºƒ‘ƒãúĞ&ú%s^3#Ê¼ÇQü@ÿÅjiB[LG’ònKtvÚEİ(¥š/å5Ë4FJº¯0Èø+4§Uh©÷F›b‘c¿éşé» 2ô€ã'fì«Y x$Ü6e5I¼¼¼_ø4¹qIòi'ÕÂ[Ê9ï‘ˆĞ|A¶¨”{ÚËR—Aıìà˜ò–ÈÌp½´Şt‰,še†(m«ÿ‹W¹ªtÉC!o/9A¾êÄš»ı[¨“òz’‹ËéŸcQävà‚;ôßÊ½U•±±òØàˆÕãÿ†<ĞŸ©Ïd€…Ó-îŒ·ºF˜i~ööG0óò/‡3Ëèf£ÉâÖ<ÏßJó³×}x!‚(Ï´"Ù³}Ò…\O‰TIína»îTxóá,UQ{ˆxj…(|oöJÖI"ë•=ûî™Be_ëõ(¶Bo¯±_?9èŞ£ÀG>w4Êò‚#cDƒ×B7©´Ó‘Ô3××·ôÌsÄÏ›œe¬ônŸ€<şEQ@rXñî;W>šÜ&3-rNÑ­áè£H¬A/|«-ŸÌ/e†tè2Ö§GÙ¨\Ü-í0Kÿ˜+56l2øó’ëÉë”;· .ãîÆL86Oß¦ÍœIÏ­›Å…4:bÍ¨ígÚ¥,Ç/'EL53ó“øX®>ëêb¹Ø™Ûƒ¬ïP¾1mA[úwğ³wè¶n°fD.tŞ“¬şNİùxçhzr¯ñğnşÿ.Î^1Æ¢G‘C;é¾éòÜÄşR«œßÏªºúkvğ[õ&6ò€Õ›˜Tÿ.Z'Jæ¿ŸÄ˜!KŸ*4Ú»}7@IoÑR’âî’q½İ®¿!@™À¼8µÖ&e‰Ø½ô˜›3_¹ê*Ës¦ó´8ÕÓ|›ààí›iKJ[Æ½¶ev}²1ıÓÓó§Ÿ¿ÑMòÏaíÉÆ“Ç}ØqdÈÚ|“‡:²ëCŒ‡ø¼Ñÿ¤66áïÛÇáß­'OŸnÑóæÖ6ÿ»¹õíÖ·ÿ´µıíão7Ÿ<yºùèO›Û›O¾İú“ÚüÂcÍı›ÿÿØ{÷¾6’ca8ÿÂ§³É"a	{KÌÚŒ±Í	p¼>¶£¤f-4ZdL6~>û[·î®îéÑÅŞÍ9Ïû˜_²ÖÌô½««ë^èÑš$mÁ1Õ–»¾Ì²şb@ÿÙ?8¨nw“vÛ÷ûC£ß7%›è“ŸL…U8Ìhª™—WÖY`·ŞpD·Æn3ÙüËŸ¿koml|“<BZò¤8_ãy„
+…”5Lûƒî:i–Èô“2íÂ¿CIã„8÷ñásë^ägcÎzÒçŸ&&ğHò°R Sª‹‰S8Ñòù)'$uº!$¸k"¬‚E¼CÄ¥Lb;¹)&„òGĞ@)®lš¿ƒ	51\æ^˜¨OâÁÀ]ê©=ÆˆĞi?y69Dıu³_¢°âC|Y^r’?¬Q·6ˆ²1tßj‰qn.'ê()†œ”’Ö¦cWvöÌİ{Æàî²föæ£$@g4h€™óIŸï_ìŸ>AòÃ—ÉD÷‡§/·mx›ì–L0”M±ˆ7cRÃ=İ;Ş}UvììŸ¾Ä09öO÷NN’GGÇÉFŸ;İß}~°sœ<{~üìèd“øf6«Oıê%GFû½lœ²ó— ¦Rû6†A——ùph,x±‚
+²Ä–†àFú¨¦9È·„àÜ=zöS›ÂHöw÷iô@“ Xõ
+TöaCd‡†©Ş†7hú<œ–xmˆÑbí	ÃV¾Ù„ïéàmoW¸ú3 ;åç0úGı¢µ’œ8Ow’dckss£½ùÕÆf+y~²³®Ã2¢Úÿ`ÿp¯s°ÿàxçøå²ïödç{İ£ÃGû;OšË_$‰ÉÖŒ‘¤Ïó›øzırÅº|aúX¿ùíÚnwwììşí¤©ª}_Ş”wPAQ®_Ş§šèEOc99…z:OôP¾/Ç0„3,ûÑ«z˜!ºc
+D†ˆ•ó‚úAÏš›rœ]qğs€”ó,¥ é.¡U)şY\›‚ó‚ª9Cé’:sïô*©’@Ä½ƒ“ë¿Ù1­ÓÇX&íOÙsAğµ¨‘8„¥ÎNgF„Bh)´²©Ç9Õ‰lªœJG—5Æ•—l±ì½6±ğ²*ĞØÙÄù÷ô6\Ú5Kc‘q7,¡àïì`ÈÉsØ€ÈŞ²ÈYäã‰„•h¾èZt1J¯(Õa„«Iœûó%Æ^çR’›cúÜ.#£Äpœ‘ó*y—µõ³î˜rá
+„û-ÇĞÿCM7šÎˆr5äë3u†'ĞuWÚÁhÁ”ÂÉ$®»4ê|õæ%ÍöF<‘êJ0Ø,›]"™¼]ş`$ØöU+‹«Ìµ™¾€ää—8ºZ¦Ù@ÔËX°ZºÉØ¹šñÓ#-AŒâñ±—’F¹m
+;ŞO(‰ïT±tSÈµ€qÒ~)ÕKÌp>-Luzb„p€¥ÁîÁ ™ŞB­;4'ü-ÅL¥|ˆ´²öğÛùù¡kóÙn®dfĞQ#·Ã–ı½”Ó«Dd7&Œıdˆ–9:C¡-¡oŞ¢Ji8–ˆuå$·Òœò÷tãI]ÕG‰d˜ºÏ(eˆİX‹a6ĞFÇ7ßáCZ¾ÿøpçàÄúó³¼Y?·Ü(V¦d–Æ*£°ÆdHe™“ŞçcÈ<KÈ¬Z²ÖŞˆGpYN2ud=»ºº“ò!,ÜJ$EÔ8\DX]-ü™=ÃÉÊ¦‰G>>èœìb€÷=¸Û(Ô»»Û”Á´{ç–ˆrU0ñÒÉ£ÿ‡rÛÔxĞœ(°‰@ÀÂ¦”~"æÊZ¹[P`’—+Ã‹¬8o%?w%2ŸÀ6¹…ŞÁú}À^}ºŞïqt
+|­Ìhló°tÁ]6Q'$&¡²¹F·œ°‡¤”}º¡œWÙ)8ûd­É#n%æÙö:.†ùfôv¬6¡eÀàZÙøg”ãW«ÚZTÔŸ:Cb¬†ıôFC/² ºáºb. _u&±‘‡³¬™	Á¹øÛ•ê¡œˆ yÿ$„êı“½àcšF	ƒ=Üód¸E‹>§û^L8(¡!Ç˜q_~9£‰ÙåâÅŸ=?}¶wøx“®¼%-šÌÙÓêL™éaíLÑ™ÜLk»ªéé9ğ†û»;Ç#5to\SÕÁoº¬KÊ™ÊKJ+„¶Ÿ–ck
+|–·Ì[‘a—<Êó.öéá<ñrÅà€:]TÈMó›ğôùÁéşßö^F¶ÀàÚ`Şò†/ItÜP¿<!Àšio¢‡‡yØª_|;,a{ mµOíû&ìïßNöşŞy¸òlçt÷ÉŞC›GzÎaè™1µäÖNhúÚ«B|f2Í~ˆìJ…ÅR‰9uRM%ÒCqD6KDÔ¦äIkÚ—9ßå¹hJæpŠÓäªb–è³gÆÑÌÜB¨E©ÒéëÁUN<	_*ˆo)™<›pc4Ë´”„¢·aÕI1Ê/êß˜lœÊ*+cÖ±\˜ÆšLŸ(«¬Æ¨?vû—cH€Ó¨²ºÍ`opföğ‡ş«?ÁÕ.c*WŞìíG5u-Kc–a‡RDkŸÔÃÄJI[²dÍÒ*éT`"·øœbUø¶ÆcsÁÅFW·J»+Ê#æ{Hò¤^=JæhL¥+–ê‰
+—^õg%
+46Ö1\{=ƒ˜MÙ±bı,Ê~XÚ'úˆilÇß>°º£×±ğDlÌÙĞ¼cû@åg€%nR"¦	u”0g×+¦<Eù•†Li¼s69?ÏF¯6Şx7R>æ¯,©áú=¶; Ğ]fÃ¼ü*ÜKkD™dÔÑ8	éÁü"B‹¼Y”ÅP¶Yrg!·˜‘m~‡QœÄöNPjÏï:çA#X ~…ìì9ÑTÌŒÍkY>J¥ZË|çË]EFWğ‚u:ëÇ‹¦ølÅv™80Æç‡³86u§0â–FŸ~>åÑ>å$ğ6Â*×K$—«¸PŒté¦	•öÎÆ4Şü‡>Ü°©WPCRW–ùøÑ¾Ï—ß=3ó:ßÄøåôkËÆŒm4HŒ’¦á}ìh9©œ‹êäŒı­Àdl8 ÉÒÿOë<?ÿ¹¿ùôÿpå²â£ú˜¡ÿßÜÚÚ¨èÿ¿ûæ³şÿ?ñ‡ú»»¨ÿßµT¿Öaá­nuRuºş¿|ıYÍÿYÍÿYÍÿ±š©ª*Ï)úÇÃ½G''«ü÷^*•xuïFõ>Õ üÊ–~ò•¾ßr%NNîvìí<Ü;>!	_÷éŞÓ£ã—¶®Òï_I;º!ı>ñ“Du|á‘¬\ÄFÀõÆDZúÚ1Ÿ¸Aûm–S=‘VC«=[ï–·~Şî¸ŒvoÜ«²pü/ÆGIV‰ã°Ï¯Ç«Í¦2k S	×‚ã™Ü“¬àˆ.®ˆy–fĞ•±:ë0{åˆÄOìØ2ñå(+/18çÆ{¸óUŠ´/áĞt`cqJİí]¥å[hjóœx8hkãıÆÜÔÕl¬È¾³50¼S0ˆ§PsÆ0¶ĞÆû¯7Ü ˜Æi±‚ûµàşªÃá6şl[t¯>%Æ(Ùúæ›%o
+¢´ã=![h9æRÛúa ÿ|?u£P²JÅ¾„aşyC¤MÛŞÓ½Ój¯¨»óÜkù~íÚGêS­šÖp8Ò{Şä›ş¬l·_Ö@Šß©-şïÈ–¨¦Ÿz¥a$ÿ'R¾©Ê›ÁHˆ¤	Ü(#ZÃGá§Ùô±¨F‚toYl”—*Šä–£öO(<g“P”eÿ°³{úòÙ^çáÑÓıCÓ¦CEõ…¤ø©ÑF¢Çñ¾—_ÀĞ£ùñáşãıS=SO°:?alR‹ªîªJWÕV¯¯ú_w¼¯¬æp6Oçğè°ÃK¢‚/÷ïœîÿc/¾a‰†Ÿ[£)X•â¹†È°$Û°Ò45Æ´ÊÛ2Œb#¥¦(l>ÓŒ\÷O(Äµô Ã{şnÂÕ9êâu1zË4	šaîé 8«N«: ÄÁáó§0Ğ¥F°Ç‰œ)Øçş`r%“Qõ=Ù™Uox™†õhÛ§×£}ë½Ø;^OÂŒùõhÍ¦×ãÀDA½çÏÍêÎlXïÇ9&ø^ÍĞQQ(cÃ {hgH-„pµİJ4½ª4˜YUÍ¤üª4®¶dÏÑ†wş²Œt8eÚà³lœwë»4pâº¤7ö€vçkª1X6í©0¥:‹5:!“€LëÔ.†.àÑ…R¶Ay©A.Pß Ã:vø¼Òtáª/÷ˆPŞ£å*æ·‹5”—N5hDŞÒ İz2¯ioÿäh÷tç@c{~C›‡‡ï\;f[¡Ê?vïÙZ2|[àÉŞ¦@òØ’ÆŒß—~ÀWmøz{sƒßĞÒFÑ|"…w¨ğ]~àîeš‡{/ĞTØG)'UeM÷NŸ*óf|dbõid9p¡+Ï1Ò1_U¥(0´¶ü&Ò;$¼wŸ‰c¿~ã¯»û"ã{,³ÆjÏvï™&ø·_ßIµUíäÙÎ®­'~Ez‰lÄ’5\ÀRDZK‚u÷NvM3ôÓoÃwrç¯¨sæqJÕ,%¶÷?-ûío>ùoq5LÇéı5Kş»ñ|å¿_m|öÿúü¡üWv¥¿¨Ø‚³WÊÛü,ïçãí,şnÁ>~ş~ş~şş_,üıÏøx)*íÙo»¡·“äC%ß¨e8èæ›Ge5ÀxN;0ÿ‚óœ˜ì<=ak_ÔŠKiJ¾€‘nÎ²¦ùeŸõyJ¹¿PùQ6ì§İš
+Aî¨>£QBsÓ‹8®Ì„/º;“ŒÂ‹±c’Óš:Ú¶ßÆãîbtc¹Tßš	¥mœ®2İ´5j‹·-£[Âóq-±»[ñ¸!wuµÍÕÇ¦Á&„¬ÄD!¦m›âñòFæ1L9“˜Ê,²÷~fÄ8|TZp°VS]êjH­©í±õ	È*Uä­-EĞZ)%om)®¶Ù*úU:Îµå”6ÊVrñB)J^ÏÃ>kÖÙ@§B4Ï§ŒCbòøİÎÑ¢ÀÔƒğQ˜£Åÿe)>ÿıGÿææÿĞò÷ˆÿ±¿6¾	ù¿o·>ÛÿüGş„ÿãİ¥ø‚1‡1æ³şùéã3ø™üÌÎËêîõyw0îã+ôƒÑ?8y˜|³şƒZô÷²nŸvØ{=QµhÕ×/%Ù"@+Ú¨ğ¼<é<Ú?Øƒqku£Ó‘;¦o]pË÷ã:fjöùáşÉéÃ`1¾Ÿà@õ|Ë¯¸ÍtZqà’æ§E.QHÜt7…ÿ>o‹VóÓë¦æAéÎ ~‹ŞÔÌèÙ^ÛÏğºç¯¨™É°(ó÷½|äËè-:4˜@'¿[ğ•şÕR@¶ÒæK¶y{ ±áı6Ü¢B´Ô„s1Š”N‡,>:Ë"ü …ş;…oO„	f¯åV¢ŸÈ±!"VÍy=x±qĞ‰Cié9éãW!ø›|²vÏù{Y9…›¶×´I§%[Ï0Óò9E[ÆÀ$IA·—˜Gx8çÉşÃ‡{‡t8çs©!?(Šì½duH~Ğ˜3± œÌ5\dãáuÆØA€­ø:pmìÿØ99z~¼»‡Şt‰™]o=(ï>{±wxÊ&G·";÷vNHój¿zı4í×EôF¼†³ƒe<Á¹5cà!„=“·‘×Ÿ!Ïàz	Ò2;6ò™ìõFYYò…a\Èa“±	¤VŠV'pÒ†²s\wÚAË¤T´ÉÁ…Ñ^wŸMÙYš›=·(^Œ£;p£…É¨%ÍSûãdœ¾¥ 6xı§Ïò®Mg&ı‘pcw¼W)Á¿_Íu’'ğ‰]•0K=ÜL¯•>Úñk`KÅÀYÕ"²‰òÕBsì¯õtçÇÎÁŞáãÓ'¦/‹\ôØN¿½ƒé!ø1.Štø¢ãÕ(ï\Å[t5ŠÕ”ôk>Ô›ÀæxØOŒÅ®ƒû;G£W9°øÍ¦Œ‘­
+,ƒ?Ù*ÑŠğl9ƒBTña:¾ì IĞ(*ò#iŸS'd+ãú¡moEªÂÄÀ$zå8&{
+RÕ 1|ïM§uS
+y®ÃmHã…M(xKW‰ª.”jú|p÷ bêVÇ+Ê–NsåxÀµKX·ø€¾SeÊzè?Q9+é‚;½	ÆŸåĞç±NôŒhkÙAKOPt9Ò!:s¢UĞ¬êşvê‰Õµ®kªœŞ)Ód—Ã«! îw{wF‡S  îQŠwR–u¬Õì:¡òìéö•¾ÑêÎáïÑm×	-®$ü10£âÊÊ/VKV æ}—g×ë^<¸ß)ÒÛ?lĞç·t'3N@˜p!,×£78şVâ—‰Ì`„‡ëô†¢ˆ\{—°¹{%ú´Éú@r–F(uöæéª®V2ô‘–`yˆ¤©³T ÌX\Do9°ÙJ¨DnÌ,5ñâ.Å‡;PY”ÄGmŠã9e]÷pÆFá«Ë~Z^ÊŠ¯ÒÕU:zÛ1õsÊÿ¸é‹òüŞ\Áßzı©ÙeĞm^PÆ®QÑ›t‰Ø1Â+²~½¾•ŠÄa£Ç”‚´+´ƒ*®¡Nˆ„FÁœ’F99û9ëhqtùâ|ú$›Bƒÿ¡´·#]K,’.C¶r[ÆÄŸ²¢R;-§oõ(ã{	¦t	ü«Œ‰2DÁŠU4EšHêAJ~ê—Iûıª7¾ßTëİ"äĞ„(¿ÊÒÍúÊR „e4ûD3e–""!­òÎÓ“‡G'N`ßé<ü¯ÇÏ¡„!X+¼FÉîôu”xÌ„M+·­¹1oA™%â[L1e˜wVÆ_&”ÿe€Ô&‰·Òä§õUÀM¸ ÈÙ59rÓãu³6££:ÜS‡{²‡çq¿8ƒíRñùm<Œê2äöŞ†¹^%$juû€µñÃÙ(è7ÚÉÈ›‘$Oâ."~£ø‹î4÷Z§Mëe%†ÉŸõ‡ÄXR¦àÑ-,ÆŞpI,x–™~"ÂHzœ<ˆBaÈAqÜ 7ñß‰ËC´àO	láİfhªaOÂÁ4tn¿Ñ¦.Î°6yw¨#YÚòz­?£‹VfZ+£ŒD¨³š¨‚“½µ>ÄTf£s`†“qŞïe˜J…pêdhTˆëÕ¡‚[ĞaÃg.Ì®‹”aènå)”oDÍø›²~“Àí³Ô¿M¾É„÷±‡BÁD6Òœ§O»ûÉ}“LÄh%µÎjÂiŸ8&RÚx`
+‹?ö	âp˜œîıxÚJàlŸò=ºwø*Ğ+ó†®:—±éÇq?xşèÑŞqR¦7„ñÀ•¡\»)Şr¢§À^°–Hœóa³#ÎŞÃ‰f‘#kàKÉCçÒ†›5—ò²3^ˆ¯!BÂˆÈDZ€ËÍ®ó’bñ±AEfÁ]bñ;P[—ÇÙÕ)÷h¸íjÖŸ&úÉà31Ubz>fí˜(FF|‹~ÕFA¾Î2Y?[F§P¼3!fHrË)fRuV6"&ƒ—=Ò?ÊÉæ›áìÆ;É†Ão©‹O'nUšjÛñÍh}£§ÑØÑ?26 »BM¥E3
+8wu! Ã²T\ál±'C·5a…kø|Gö ¶ìó:¼u82NyIÄÂßè±Æ[Ì*·«DZJÙŸ[k‚ºK‰ü€¦kfª½!°S¶4[z¡1–"$ğ&:KKà@âüİLp;Œô;N$1lâ5B
+/Ù L@Ï"8#Ç—{}2)
+z!§Û-¸„¨á’[$†‡5›°L} ˆ|ZZI^_^¯¼~½úÓ_ÿxÿû{+¸^jÃ~‡æÑÁf:ÔdGMå^µ‰íùkce)VÈ{ «Àk‚¬8.¾`´_ù]¾^Y]qëü±+ìã5wXdÍmCÍ¢]jOYœuaÎiZkwÜÄì–Ö.j#¬¥ĞÙ$4î¥à‰D¤¨ãLG`¬£ƒSÄpèĞ­ˆêò,;GÍ³¥!v$`³Ä§0ğ¥Z¢YÛ½Œ8:8$uÛµ¨}ø.~«Ğ2`W\Mü ºÏLËJ6«‰O$ˆñ25Y%õ€/D%|)º@ø•HOb	˜H˜ÄÔäïmsxÌ— xê¶¯ñ1=¦$oD©äb>ÓıÂ‚	øH¹_«qëlÏ ‡±câ†9*¾DuêZò™¹4Š0—i6²4ö>ÍÇRr¿Áhpõ¢pÅ¦n°ıì|,((ä9f«T3rsËq'´ˆ0Ä\®8æ) 6	í1(n]ÆxõmÎÑô;B²£ØjÍÀ1êÏó÷Ù´E¨rH(o¡³m%Ë¥Aâ¡Ø¹„ f|ÏU³SL„ÀÂ½’Ô
+rTÍNğ‹R‹…‰u'Ù9x±óò$¡Ö‘ÈD"‘P’$QäÁ·#Ğê]a;èóœl“¼$2Íi¬­%H>z–õÄÜ3u0Á+•^C1W5u:}s§ÙLSMTIÉ%®ÌÁ8ÍŒ	¸ç¾¬;;j±!Yc›«næ:Çy™BÍÌ»Î21µÈ–ÆQ<EK…Ÿi)'D|4–úÁº8iÉÑl‰¨?Ã)¹–•"½ÍŠT÷¾>ô)«\×Öš"ÎNK»çr(öûY§Ì(oñx{D"<Ÿ6g.6i¸‰öKXbX Uóœì@M”Æ/›pæ³>ë2Œ0jH‹«ô}~Å-¸‹‹mÙÈÇíÊ^öîğûÊj¶ûk“ÁÚEf—`”ı2Á­d,Š-ÊÀìÁàYJ Ú¨Q–5š«=é:2½ŒäØë4¿«4'[›l0¶$©’ÅQn3­Á£ıÇ‡GÇ{h3™&'“ÁÑIÒ-/5/(MòÓ©x’Ò;TVxÖ²Zš†24ƒH<25'ı<-/ÉB1á¤4†³gKÊ÷cÛ^ËcÜXÂyœ:ÆËÄxhggòã4ÅFsèø–
+µ,¸
+é–@^ f –ß#HÇ’N®Y[QF»e­uµåµ	‰
+dú
+ë(Ú6j­Rù¬àr«¼nhR&A}L`YçVRòj`FÍê'³Y"›Ó¢å¹XB„!çÄšl½[»Ò^‘•d™S f¦<E¶!åm &V9a#Xy¶tn/«_\ş,o#RIÁjlu{ †=$E2"$)<ıØ˜½„’<¾Õ$‘¬÷U>µXÂ5 ¶¸‘zNÔÌWîlrî	Ú0dv^eëP¦–œBöÄÅ—Â¥“şÈîICäÉ’n¿ Ñ<A‘'’Åw£NFbÌd1s•º?q§kA”˜Œ
+ŒÀ©#3°„Šbiuc¸ÕVEÈ›@w¦0’ÊI±e§¼=†_ÅSÃ1âk#¦(øÚ§ìF°æZK7ÏªG—œĞáo´êŒİ+Â68qKa`°·d™‹4’e)â¾•ÖJha ¥j…Jo\L–ºcQ•Š$.×‡Á¬06äF(€3HŸ9š«·M»ŸÁGŸFÁ“ˆ€Ñöù_²WiX="}n®ÎŠ>‰ÍHµ\„JòVR§:,E
+à˜Ú7iğUª›GˆT¼,˜tJÇ³Ö‰™£ w„Ùˆ&ÑpØ=´"íÒ¸ü(¨‰s€¾GÅ^ÈÚ7÷Ïl•¹§ÅvI+G/±“¦EÂ:èN6´`¶«b¢n©µ!\m—‡y¯Ë‰µ:h«Ì)sùà2Ç„j—H9#XÓşMÓc”¹¬êb;°}é¨´7"m66‚LúdaŠÂÖ‹¼õ’ í,&##µÇ9Vé™ c¸Ö–	”4²yşŒYPâl‚àïà.gz“H­ùúb·*Išh1fs¨""ÖËbÂÌbcr©Ñ´ª=jD|ã'Ïãä*ŠíãL´†ı8/ãË+<XYU;åôÍ@”Ë2 ñ¦Ø(M f#¾Şo‘v{›İ(—áØg/»}Ö¸¶I³Îf˜dÇéB¢Rğ|›Mg$©—Lê=`4á¨&¿ë(Jh¬ş°tµÈš«©[³›rÖRsµøWÕâåOw¸$dDs”¢c!ÅI8¥î(ÅKÀ…¦†Ó†§ı™Z’*Ùs­ÓÁhmÈÈ5›~µºRßôô=wwaÿÇº¶ê¶è˜‹2İ9Â‹Q®9”±¤%Şh3¢®õxº5Yâá*™Û^RN¡´'ëNH3hó˜V¨ÏÕ2J'AQ¯Ä Š[Ñ2-À@Ğ¯CCÏà1iÃÀÚùy;½:Ë/&ÅD{„Fm"ı
+Å[®JÉß)g›áÆº.f¿Ğç0€ß‚0ÅÇá	@1t ç^@jÁ›Ó^œJC„V^d©àŞœ÷Ú¼c‰|slû)ø"Õ·^`eÆ"êK·ßåbD*oWBf~Õœ¶u~¤mĞÎ¼W(ôà^2ÜÀÌÈTØgEÊ¬%”2ŠKƒHæ’ê'³eÒ! 6
+z¨a‘*_>)ië¦MZvm&sP;ç¼tSFáJš¿z²Ş`ÌÓK—šZVnVp£W+ëN"'ƒõ!X‚Ê
+Íí(Ñeå<Ò Àd×µñöà›¿ŠÛÛ~6%•>W¥::ŞãìQF–Øå…§”xŸ¸Ô©^>§xRñ¡«Õ›Ut6ãß/Õïdµ¹¼dn£MÛ…«8P…İo©ênTëº—P2ybÊZuÏyUì"rÄPÊ©+±?m§ß³©zİšÕÄê/jü_mFG¬£æà3e–Rûñ¢,k¥‚zvûŸóş›ÀĞ ğƒ%ê¯ZÉJ»ı‰v›³ùŸ÷'å¥_ˆsrhØãıÁÑd#´!fÍ¼‹$Y¼T*m™k{Ó»J¨Ä–O\r4†v²¥%7¶ƒ%Q_Ö$9ŞÆ	ÈqaÄ‰›A	Òy¡óY5èµm¬•|IEš6ÑÛIÃRcx¿—1^äB(Í°2ÖD”•k±èãİö˜Æ…Ÿ	z¯î<İ[çÉüô×U:Å¾F¾İáoJ\!ÖøCö©({3Á‡{ÒZÑ}›ÍËóËGûÌ«?ñ+•‘uæ0Ğwhş(Å¾àbgÀ›¿‹8Ì9ôUök¾¼æÒrªIÔ[²Ÿï7îàğoØÊUû5m,æ¹Ô”Bl2/tgœõayƒ1 æn˜ÓQEËf)¬ø÷Îj¦«î>9nê£$ïæhîO«ÚÜÔ=ğıƒƒ¿Uú€wsôñE¥¬ëCöÃëŞÍÑÇ_+}`½X'G»ÕNğå½Ü«ôBcİà¹©tƒ/çèæß«*¥ ×ÀñŞãx}•3¼‘vÑóNƒ)9ÙšÜ­^Wk«ærq€j›á- pØîQaÇŸíœ>A|š*ÁM‚ñsHK">¾FÈãó÷ÏÉ–Åi÷mÇÚ›ç6’Tt'f¥
+6s×/„æy|¥ˆÿHlJù.I"Ëh2h•µ!é!¦[@Q>›. <"ñ1]¬¤îºb·YY÷.Ãp8dÉ¾•1®³UÔÏ²Ñ	"ªçat/4Ê~Q¼¥V˜)EÊñ]L¨8uY+òÚ…HÇ´îÂ›ĞµqPíPW?#;mU¢—Htcr/k…ğû²¼eŒÏïPÛJÖŞo[ü:ƒA@ÇØâ¬ı2Y©•Æ˜I{òv,ÔöGÈ~4ê^Ü×¢ß0M¨óÊ’Áqm!$‡A%É‡i’ìJ œ}ŞäwWyYd(æsr›}¸ôeãú’rÍ<­¾ŞXmÖÍQçàÕ@…º^Úİ+
+Â%^¶sòˆ[½3)GwÊQ÷ÎªP#dæŠW€# /(C«ÄZäv|8´‘ÇYŠå'nÄ T×Ê,¸].ƒI‰KzkO+
+$èvò>¹o›†§vÛ€.oÄÚ{jéÎª{-ö»–¤—­PE“ YØÕänâm£äâ½}GcXJ}`Ô0vâ´ËÁÄÅÎÚòÃ:ªÏnBç|Ÿ3ñ ŒSb‘!éƒã(¨|x<{.å°ğòtÛº:#%LØßÒnh
+ ‡˜™¶Cy øxM
+Ğs­X%|·#äMgW¨qk|9,[ÉF+1Ynm—MHãiŞÃq2Lr/s»¯àÃ›êÍjS[Áf›à¡0ÍRoîæ6°5”½}{;LJşë¬…[¢ôìhƒru6×]˜æu·e|ânc»-^Ÿ6ÿ†UàÔã8è§:û‡ÿØ9Ø¸û.wh©fp§qÒĞøÙ”ŸæZ[“p]/èÊ‹°[9Kf¼¡àÀ‚1˜á¡l¨+ yİmn{ãÆâkLì±§éNÒ¦Ï¦=E™É_nòo;ˆ
+‡Ì¥‰€Ñì9æ“; âtÜ ¢¬.|dt}¾:6céAÊëÈ1bÙ™' 9PvVy¤ÔDÍ‘*UOêˆ­•3NVÓ!Ğ_í/èa2Ğ_ıç*Eşğ…~ÎFMM+«FÌgÔ}c ™y.Y#Ó´>ı|o”UÌQ?W÷ñ‡øÇÊ¬–~—é|G±X‹`²LÇ[ãŞ’7„ ßüÈk</òš¨¦à)øçœ2båÍM-¶½„Ç;›-xË"=”µ2ÚA†®‰éHÑÃdL€1;wzÔ¡Li¢ô³1ñæ³yi„v,ïÆ^ú9…uÉºBP¢÷‘Jb:Å)c‰ŸD¾´ª™§’ìE-‘é¢ii$ÃŒ²½ˆ"ú’EŒ­ä|ÒGI«Ç¶øx¸¯Pô €?ÎÈW›d_ ”ôÖ`p¹`! ¹Avİ	šôoŞ€ñº×¤ÁÀ>R®Ş`3‚uÍÃl¡P»g CÈMÒ4bµùz˜Ş˜Æ°æÂÇÜs·îù»×rŸ„™¶|¨-=î˜ü}qîÂ8Ä#‰#5ùİ3nà 25e¥ I|!|9‰-0®nTø¹º1›»•IÆÍÁïW¢+@sK¬ª1m½jo¾¡Ó®_$Ìö ,™õBK;Ï Šù8t-Ó#aãGÀÖM'ªóË±ßsTVÁşv7â“e6×´BÁ>D|3*
+ìÁÊ…ÈÌ …ÓİïR˜î¤3y4ú/¶DâÛ–B,»™¥ãŒ†œ€Q¼!¥ŞÄB?İY5kOzo%,ƒ^}-7KèÊ•mïòŠcÀÊ[Âbº:z¨¯Í¬nĞt¸„²™´'iŞ'3.ÚzX€ŸîÜY•yMm†…gÕÿ´ëSºdñáé;wî š,à‡êjê$‰ºt¡/ {õz˜ïCÓ˜¤	4R#ÔãOË{r7cÿ­Bªğ±‚·ÉŸ=	%r+4D÷67t;Ù’‹y<êo’F¥¸'ÜüÊWT¹Øµ—Yáëv; P*mQí7F¡o¥Dí¸‰àl:´:ëjqÛäİ2‰Êm¦E•ş›n²†záÆµ:°Z«®+š/d´®» ‘v#l}FÃ¦~Ÿ5*£kR]•Ò¬Bİ:,}0Z{^ÒSmûu|Ş%¤q¦r*J,2äôÊ‡'¢GhLÒJ~é=
+M§4¡"õ¦pª´¢Ñ#VG²År’(§û}o/»s5âTZ•¹c®¦L’CŸ?Êæ %¯ÖgĞÜfdÁä‡ ‚Í‹­÷\û™Ä…#CJ\;e×®ü[°¥õ0$où6·%lÃ:K–JÇTÚhîu4«ñ©õŠi|uşhAüjm†!hÒ#êÃ¤hâ7¬BŒg©Œ3Ó"¹FõH¯¯ÉŒG$qŸwÛµğ'¶ü$BÁõnŒÊâ°Æ§Œ´O±;éc4‚¸‡™L~›}Cµ€	.Dœ)Rw­ÀB!ğ>K£»Oû%bõb˜¬ß‘Ñrì,£v*6-"W]È"Üğg¤_À#ØR~L©¤r &lˆw¹AáÚ¨Ëh†£)İXŒß§¸‡²w¹…Ÿ™Ï§İ·D$5+î=<`àÃÚÒ^1è§›_åcu"‘Øv“v;ËŒ+–#S ¸0^\7C»Á„x~×ğÍZoè8Ó²›HÓJ”·PË¥E¤vg Ç6zk¹Tw¡Qø@~ğJÎhĞ¹Æá‹›©°ª®)Ç— ¸…ÛÔÆSã’ğTUµÆô8&Me£äjYS%ÕĞì"Z?9Q…|ê‹ÌhÚ"ñqªqS ÄE-	+ÔjxLåšœ*t(üç9ô›¯œ9×˜bLñ29z~ø°ó÷çG§{ŠÑ©(#‡}?Ş†8üšÃ¤Ú!­B)5ªhs	“ïpä÷½…p{?²\XœSÅ¹%p7&”z´CÛ9|Ù44:Ò~(6ô;6o1àC>˜dV&'lñ‰Å0ç+`öò.¯²Æ%æ9gK
+b‘ƒc$Åsİ¨ 1ÏˆnÎ ³ú7„^iÙ]S1²û&ÏöG#CÑD‹¢Ù'ìâ%R.‡ÓÆs+fƒ&5Çª r™¯W‰Ÿó×ı.»¨L_¯N[Y'ƒÕ'ÿß÷ĞRôï:vvÿvr°sòdúÄÆµQé¥ì‘¡•/ğš"R +¬ofoÚº¹º@Ïa”''h£/íTˆ¼È?MX1‚éğµ%±îÑ€wb‚i$Ñ(a*iEw­"?·S „Àa4¢H@Ê{#õ`÷RM†Îòmş™²±ŠÁ;45>újWt·—¸Q¨:Ù?|a)Û¡]» ¡•úv=m§®ÂÑé“½c)Ï¥íæ)¾F`L–†6X8ÁĞ/‰^ŞÃóµUŠv2ôiZ§×ÒVEeab>Î¦b]qºÙ¹ìXL/Ê>5]DÔÏ÷şGç¦\€ÏB—! :SéÍ¶Eæ|˜››/Š¦–B9D#(~×„®™I~9ô”¡¿rÇƒ>ææ@ÜÖy£¡X¤86¿“Åi
+Ú¾üÒ€b#Â¡Y¿ªÍÚ©Ã±+ú”šìp ™n1t5¡€ºƒn)GNŠ³AîWîbóÇaæd4e
+üYÈ,Â_tˆA(–õqË'1µÒŞ»tĞ%9/H@k6(ã¦1oó°UÀ%<ƒq4‡h®×rh‹Á^Öb×d]­kâx]¤ŞJ`–»eƒ9L÷šæ H‘!áŒ˜&ÛÆÃTàê“‹KYo:Rx€**û ./€d·Gî³ğpçÂpËç– ©îhßæÀáh3Šé5Ôd¨‚R°ˆq\œPæ5†4÷˜œ
+c£u•‘Véóz¨	¦éÎ¾¢ âeÍ,º`»[ÕûÉ¦É+F«iu¿yi¬)ÅÒÛÃ0OLs	+ı¦gÅdÅÇÇN¼A§œx·.Õ }¢RQë–‰ ³¡È‘´Fàvò6/v0¬40Ğš‡õ<F­XZ®-×d¹iŒ‰½&BL¸ñb2"ÏÎ€/×´¨…54ü|?V2N×Ğ´¤Ö¦U±¦/-5i±xÚuñFª+85²JrÏëM£qö›³ƒO_jšƒ¯, [ä"'4ËdHØÚP:Æ¡3â~Ùâpi‹•kÛè£á­¶œUÔÇ¤fÿEP1½fJ|¯:ÓŠº¶0ŠÁsÓÊXÖØ€µ´İ¬Üè?şø£—ä×FÏJ0¶XÕz5*~{5¢(K/FMœ¾Ú¦’yºÛÈ¾1<qÃ~PNI·f–£,³ás]º5œ¢-Ú²¯-×&’²ë¤Ï¦;0îõ‹ë¬$GŞ«Âîå­äçêâ´)H-Ë~1vÆ!dæİ¡Øæ¨œ#¾Ïs›QÄ-9ËWL$ÃüÍv’ß¾Í¬Ôæx‚&TŒ‹~ˆ–Sˆ›ì!{úÜÈ0ñ>J)
+ekBí+„ªá}u.$Ñü/%ve–éöf+ÉÛ›Î.Kô*­¤!™&×š(İ¤ZŞ‚  ›fğÇær%†ÖÕÄaìeƒ‚,%
+¶ÊÇ&„§#’ñy›aú.3)'THç>‹kÊÛ,.rºz5Å„ÕÕĞµ˜ÃªúíMõ«S@ºÒ¬6sÏJõ¥’@ÉÃÄëNŸZ#tDc¤h…Âfl¦dJ¿Ú¾ıcªn[k@ñ¥¡&Ş.93•]«dƒìÍÀPë†®th¯`x¸Íd-	öJ5‹ÿ3I˜â@ık%âjİŠ-¬µÕ«ŸoßÆUU­Ê¢é±¿úY¯¼ÄÇó{Û¨ío_\aş
+:AÓ¡‹xÚ ^eU)¡i`–*C„J-n6¿g“ü”c„ğÜÆT’k°v46AL–ì>4¦TÖÇPÓDa‚ŸÉÓ™[s"¼)´ôŒÜ™Ğ;Ë+è3€÷¶²Qf;ÍµæJ7+ZS™/“G
+R•áâ™iF°_v—ºÙ"e\Ø-¢)ö:ØvËµ<&Ùuå¡bŠb³——ÔæèDrh—L42·LPnwÑ®uÄ(®Ù*gˆ6™áû¶QÊj’öQŒ©6æÉ„9æ´)¨ôbN¡š·jæxGFçÊŞ†8,·|vxwİİÒvçÛäù‡p-yMÈ2‹‰>riSŞ|r{PÖ&^2¹=ôÛ0±¬õB9É¼Øy‘#|Ü˜ë¯*­±…rKÌÜK6#4í"Xõ¼ùf»Z¨Œ-o*Ôn$¬ê!(üzL¾wT’Â•37Ç Ò§:»Ï;Ow~DöQTg7°[h†I©Õôí¥,¯7§š^«‚[S
+~ğéƒè3¹Naf/PÒ6åšrS‚vŒ‹b¶‘:}€ò_•pÓjæjlM«A77×r½”´Â³mâ]Zn5ïSúÍVâÍãv™·¬qZø¥IÆöVaiI7²å7r{³¾şÆ‘éÚÒ5­,´Ek„ğ›ò~+xÏåqæXçZÍo5Ib¤†KVhÿN„(ÎÑÊıyã™¥%IÔÔ‰Û¦¦¹°/“ôLµ¦ÀJ<ªĞˆÿ$<hÔÙA*WQ~¢¶µÜ4k~Ëœ›t$¡ë Á#È Rûi«Y·awrZ0Jan‚/+ËHíĞøšÍße“ª@\xÚ†RŒùæóÓL ‘Ã¨‰õí.c2ìƒ™(•
+h¡tNHJøgLÃI‚fg=',kÙJD‚Fæ !áæaœ‹)„9ü»æ…º+¦Ö^ª"ÀZúÉØ£yM1ñL»G9÷ã´Z$;`õ	»oÙ¥ LÖşãaRZÜ<	Ã-Ë¤5§[ ˜x¤U$k}1£†Fï˜Â¦lœråK¢˜¥p«L$òTu®€"8<ÏLjul00åŸu?†¢ø«ô-GaH('WÖ¡ñ.‰ıG"°7M©@eH„M¨¿¢4gÖÕ&&±ÂÛD½Ncz7˜¦€#.Øn¬8|éôÉŞ¡m¦'@Ïù_h”B:†şéfà»ULx:Z.¥Ù·­Ğ)–¦®3®ÌÆÒ^Œ‡böEàLTm…är’èéÎ*J>-¢¼W°F‚o,©*õíègÄ´o&6+<‹Õ¦ŠgİU&Í3éØÊ”FŒD«‹‚ØÌ¦é@“ÇtP^bÉ—ê¸½©Ø&•ñ¢Ìòoí0PÁÄ!‡«æèf¢”ï¤2_œĞæÀIpÜm)RÙÜŠo–øJt:ˆáÓ 	Ò¶T±Wª½øhqáápğîàë†#Úù&9\vVIš³YƒØtƒ°7®s €îÇB)îÊ$Òğ§3à¨ë˜WŒûÃ’÷ö’FÏl–GŸ%†„Zd±[é|r^Oöò$ÈaL±H2{ÃÛ[–ñ³'-üÑï0dØ½:^´“–·Œ¨WñøØÂ@€€º9±¹ê­Ê…úÑ×l|Ä}4êÆœ‰˜TP3eÅîÛ{’LùàRîõ9¤Y1 õÏ	³Å°õ••‡›>3'‡ÌTÜãDI¾¢åCâ+
+ L6H«Z¦åÒòI"½¨a˜)Á7‘'®kzü9µnPÌØÁÚˆÙ-Ñ™•ÉMÈæÉ³.½Ã  .Fàëcr†¬~kùÀzêQ¾9kÅ"«Ê;bï+Ñ`ù+é¬gÂPØFó)¥bkp5‘ÀŸ\¸ÅùƒH¥ãråcIWß‘úÔ?@±Ö/ø
+¹/çåwo¶åj6;Ò@“•fcôCÍê~†‡•hJœ«%Œ¬”B,qO¶=šµPğ# x&hŠµf8tw2Vå’×ê¬"'\l/ÁÜ0•(â…¬xÖ+)ø†3ë›*¾ÄæÈ¶h;rk¬î¥>ÔË¦NıÉ2Ù±Ì‰ğòWK ¢-Uç+òºEr5HIt…±ï6Œïji<Ì­Ïº¨ıŒ4›ÄF\«-Â£‹wÒ^+9Ø;4Å·¹ƒi’2H"İŠŒ½i>\pô–û#ç36"t­®„m¦ğ¿ä´HSî¸ÛMmù’_¥ïk4ö2åTxX”üBhÔĞò=Ö%¨ÖR¾…·N#Éq‰í=NOe†©á|e¢x ŸAâræ¾88Ñu>è×?0.qÙ˜4)pY§p‡G/|1ºu[×¨{•ª`„
+¡¯${——’zI4ºó~ÁY9{yŞ'Á8œ  Í–¨J¨c“PeCò„õòwp±µÏnØ¯†m¨»ØhŸgk¯k3ûÍØê8©•®_CYIÚTÄJì¢)ícHÕ&¬ =™–_¾E7™·KäNækqŞå’ öñ`ÿéş)_d<{"{|qçƒ]]jHë„6 ëà`§ÁP®9TÚÁn®g_Ql{iíÈ|®Gù†Xâkâ@-±¯’f7<‚úVJ#+5êŸ“o	Ağ ó\X(%5Å™Ğ·Óe1Êÿ…i'Ñ ªôB! CCÓå5f`Ø@k÷(sbx™eDDõoZìĞ/•h¢ÂëĞ²›«ÂICQÇºÀ?ùvò3nKò³½S~ÕLGNn¬º9ûöæ\r‘SÜİ'¦ô&Ê]!Ğ5"¬‘Î¢¨ƒÂz•¨«1ÆšL )|Mò-+ğß’vä=FĞRN§É[fşxÌw'‰ÄİY²ŒZŸÂWÑ‚*NJÄ’ „`±ğ¦(<Æ€sÿ—`ls™‘¤O°¹Ã©»pGĞÕÇ‰Şö6ŠÏ{ÅpõÊÈı¦@eÚ£!Iû}LVÉšÔ(1âöE€ÄÔA´ŠÖD€¥$ŞõLc)©ó ûAY$Ú&no¾‰†\İC÷e¯àåŸí±øÕ88øğ d^‰ˆ€î¯„çŠ:¨p`aàÂ½õ˜ÿHM9NØù«ÃŸ˜*|Èt%¯Xe¸¢Mì¿°=ælÅv“‘t¸İva‡˜!;·Q9Va)ñF¼*FâLi}­ú:K4İ%­´,u®ÓhB“GÔ¢e—ì½Bb#*k¶˜Qj±­5•¶^QÑJ:ªŒàP—YÿœB¥”ÔÅ€mGOŸìîvîŸ<;ØyÙ‘­è<9:ú›²!I{=Êx@.FÎâRé‰l è|lâ»¬Dä "ôÊ ‘Y†±¼Cj×«%9Tåj')°lTT
+l³‹"Å—9ÕMAo`—E¿giù´|ëÄ_pfĞ8Ü,n™e®›Ü@	Š‘åï,èøKú÷ç{Ç/;û§{O=Db¼iÎgv¨i~’ÅH÷§˜V$/ H"Oâàİòø¦mÔ!mú&©j¥#~!ùÊ;íö‚–:gÅ
+[{§'{úÌ™ãõ‚ÄPÑ’Xx°ù‡Š¡…o£¯§—Æ†³
+‘L2ãî¨©ê^éÒ›{(^2°ÛĞµÌ6¢±zÏùôQP-£»e“ÉÄá‡lxA(üÇKK.‹`áM¸ÊtdÌ›(õäÊ`g…u,Ö#Ñ²¶%%~
+‰Âº«zµÏİšød:+ú–ÍXà>sµK<±•ÕárV/{ş˜ qhÃÌfp$(ÄqÒ^„ºAqí³šğÏr97“ıÍ£5bìúvtç—í4om'T^ƒl„AEÜ¸à£+”îÖÎñ—I6ºé0·uŸ5Í´ü¡U¶*ç/Aõ$Õ¥18®ıŸz‚ZDfüCÒ¸!©æ
+­’k¬.3‰dÃ7©õNêÒŒcºT{F—Ü6yakæÍ&qŠˆw]‰‚s•¾ÍŒ'Õ(#l•¹º3ñp¼«>j•–
+Bßl£Yß3—á¼’%œ¬ül4	rq´1$
+3&wİ¨AnWääœTygÀÿBÿV±¹ÄÕÊ¾)eƒ¿±¡V¦ûÇ™ã3m‘|§Â¦ t•MQh^IŠ^Õ7ˆæL]]5*çAS.uMm”“îeS<úl4#È8Ë.r§x½Ù˜"ö|ºw79”°ö’ÃgíÒlì4´†Å¸
+{Éf`ú9¢<¦2Éq¡²!İ´¤AY_ÕÒµYÁŒR¶NY'`êOY:4§\ìçv…ĞB2rÄju±'4D‹ˆ˜€Fƒ™ù fRõ^ñìE¸4‡ß/(Ü­nM‚OW0,ïù¿[¿tQ:rkş5œÖt_~c'=‡Ó?4Ûl6§Œ/ˆi=d=.§E×ï¶ÉÀSÈõ?şInFCV[Ÿè¸ét‰Š,r4 m7”ç07,d¸zÚ¸[?ˆ€d<¢ã§Á}Óª±(±µw•3¨ÃXáşıÀH2“wÄlÎ¶[Í¿S‘1İ»b•ÏŒp„¦Æ=`Ø`!âã"±ÑZ…¯4‘ÀªH¦`#Ğ_Zçv¶ä&ß>$b"‹èº£[¤jB¯šõ<‰Q‘„¦|@M“â¿6ßÕ¤‡7”Í¦¯yYüÂAÏá_t/ìÂâÉ»k- Bô2ïUj.®C ´E}mãŒhºJ­LxşØ1›ãJ!`ÔÈ
+öşJï¹ÆÿpÔHˆzoBCraq~u¥&¢Œå%ªšê–ƒo Fïš€ï#1¦ógE~&n¹(âM›»hêÁ©Y»à4çNÀ¶´9ÿõk mUÖ ñ‰í¹BÃ?Ù•6ºE;ñóê»%”kÏ&şÁác%êNNr‰wº½M, µ–€·3Ôá½¬lNê‚TIÛ^şS-²Ev4‡‰ã\Ì
+q;rİE‰ıéÎj+‘œœÅ@,*1ÈÚ=ÃiQIx#®·¶jö ÂZØÈİ¡2Uáû$‘9.ó9 ÀÃÓãıìï*äğT¥%gœœF²r&+$G',ü£®®š´¢Â©Gk——_™üÚtàldP ãÛ;‹±—÷vÇ")¡ÙÒWùgŠÚÍ8àéeæ¹OM>Š$ï¨ÀTÈxŸe—é»œ7òñjiR´÷otÜÆk#ü²ĞÅ Z»GÊ1#NÄ†¬9òô4§l -¾•&0ÁÊ|š›¡§o1z\ÈİÁ&c**>ç6 £ZÔ5~Î&ÔåB>’æë7-—›T:°ˆÙ{@Û3’[²RZ«U, ÆjŒ_<Ú6–ğ–mÂÂøğÖ½J=ÁÊèØ'2pÎ'BÄ,äÜ¨ˆ	
+³×LÌdúkw¿”€‡³OwÓ›	÷§® p¶Ip`Ùd¤‰a``e_Ïqƒ!@V!’XhÚJyÉU¹ŒônmKw•3SœªP{Sãó#9Q¾z—×îD"”Ÿ÷û“«’0.Ùi'ªf!£$ZıyBĞìŞ,Ñ07–Aµ	Åüë+K²Jˆ8}"£QˆL¯)e‚ÈİKÕ`eµÛğK¤Ä#úš)”•;+öì‹ün]“3¤=é–³ÑÏ­½Éç.=NX¨r¡úPw`•Vó'’ÂS;P}lŠ]´üó\•=]h~K¬µÊvqa¼µTå´E2Sn6Yí‡˜Å†0½{îDñ\Õ&ê8/¸ı#vzj-`½"Vb6|k²]’PÚò_C#Ô$Vøİ¢s1*&C‘gR+ªªaw¶k¹ÒwÈÊĞÆä¯x-3ª;¡şÑ[3Ó§×Lú£Ô5#4Æû e#'IÒN–g9ÔDEÌY§7Œ†3P‰!!‰Òft©
+¾£aüıJ²¢’$-oÂú>
+Âu¬—€Ï7äø-Ruü\-oì8v5n3h>t!0ÂI¡#Bq“¡RLZ?E“ê;ÓÏ4µ÷£†ÔEb‰û¨š»¼¢‘@›Ö‘ñy"˜äÀâOvN;§G‡Gà®ÊŸÂœ[spw'S•Ÿ~XM®²tPŠÏeÏÎK¬ÊÎ)êÁ8ç½Jƒk¦AáüQ×cìëZşé–©Ä£4.êÉrZŒ5•ä.‘mEmÊıüõwï‡ãC`hv´¥tŒD•7í&C¢ESRÆB'iàÎ!/Ô+T,o÷2k _~¨0½òåÔïö´ù òek2§§‘­-pÇ“½S¤N÷øX³‡ÃÇ,[+³±OJ“ì ô‚†İV‚C&?xá|üÍän%²‚YŸ
+³à–‘"Ü#•=£ÀİY¯äb|¶¬×”¿™îµk€AÊ[Eç5mİ±"¾Ï‰m›˜ëšpah3TxÃØ~4­®)È’˜Üäâ¥ÌL& ñ×Föe†›¨ç,ú4±­…–ôFVŞşKH¿t)Ã­›¿"êî¦ØxËÖ¡‘¶rx#×bM{ûü–ñûd÷ı“e‚«ççM
+‰\¸E%Lâõ%J¼AöÚôCğ¼{Æ-6¬¦	¶Cüií]§”ÿ*Å)ÿÙ¤rPíwí!Í¢ew”­×`Šç‡3ğ†@HäM7ÏãŒ•Ø`x1 ÜÁ-nÑM"ÇÀ2§€i,M(nç²Y¯©‘ñH?Œâ=Cëê°j¿v“¢®‹_:_Xd¥ÿÛW¹‚2ÀğäQ“á#wİÓê­UıôWyb@pÖÑ³t…("X®a62j@ù²æQ›Í–‰”'+g—öC‚Q>D:}7 ‡¿ô0‚g½ °#ÆNóãQ£ÿ¥HnÑÃB…A$ïr”ÆÚyV”ùûõ-&¡^3R*/‹ë6;íü¼^å“bR®:¹´°sÓ%ë.j­E¯®²^#êßøá—r±§¾–˜KlÙ'*61MÉøS’&b.@“Ô ä¢§F‡òg’–…ÀñJ¥ÚJ*µ
+õ+óaÁ?&²ÌÊ	±1X/3<œîÔøÉË¶§ti.ÑI+h“TèV%ÇA­É§i?i@Ğø_+c¡ğ–Qâ§ô‹ìW/'Å2B!^)ïrßX©‹A7KÖÂ—İ~MŸ£ì*%W–Æù”M>‹³…ı0Wwìd*
+u¬YÔ1U "gşËàv·ùƒmsÊâV+lêZ£ºrÜËF0©•×£×ãØx.™hoşÄi¾øáÃ_VZ‰GYìe°0×±Ë¦²ãFå¾Ëx 0‡ß
+tY‘eTÓ#ŒaîxMäÊÒA>œôÓ \ou.Ş}8ív3¤Ó(ÌLSiÒQ.™ôjÖğƒğHs,£ó,&¹À§ıİ–ø‡™Ğ«uÑ6v>Ú”¥>÷+·'Å+¢åRJ‘F?u¤Ëô•&!sÈ¡]ùé‰‡‰°mJ%Å®ãYÀà3$ğnÙA¡¶Ì
+S®Û¬d#«¦Õá7L®Zª€6Æ4(­ÚòñÄú,ÛŞO© 7>5å ƒS$/Ö{0É€{Æ`Ğ-VØ;<=~ÙAßEt-à¥±$&ëcÄ´ÒñpfIÅîËÍ
+OHĞMÙÙp2ëƒh0$™-¼MÎ#Ö €ÈbIP$‘³RÌ‘CàÖ,íŒÙa1ÌĞ€K•²ÀTÏÙ¦í%ÛonëZ•ºÖ$àÊFw}Úgò˜°uÓ ĞªüÅo€E7hKä¼ƒ(şn>PÑKÂ2ÑCèeıS^<­z³x¡:½Ø¡afŠÖTAçíòbŒJgÀ'#4J±Ê*!F^‡ü%P²a™i7ŠQé¿‡ëa4±š8Á®h,zæ²KO#ãGs¸`c–¸Ù¬.L¾¥÷î…ó"W…èŒÈ6¿è"	äE~L×¦Y?SŒšîíÛ2ª7|CÑTJ©‘×ÅÈ]ö™
+‹§l®…Î%‘•¹nÉµ@ÇJÏŒ Lq*ñûÏ0ÌEVúQ{ª!Uy#¥kŒğ:²Ä&ÍkPg&5ìmVWSïm<Ê°WİE´¨
+ğr@³’J0ªÇ(ibÚ.1[H”lJ¡d¨k\ Ód„©Ç®°¢²NŸ”|ªú?«MæFÄy ğ“i'*|pR-cA\‡éDŒ‰‚²Î‹ıÃ¯¶:&š>«×GÏöO›j™<(ü‚¸X©[¶”Wİ²%!ö†°‹Ri)'9˜¨îº'¸X}¦x	Ÿà~wàÀ:¡7ÑÕÛa<Ïìuï>{±ÇÓRmâ ÈcÉ.æ€bé8‹Ha˜Ì6³qçÜƒ=©åŠÎTª(°|ÿgÕ6¢IÆ¿Äæ^ùí júéšæÉ© kjä†˜ìá5©µ;½}ÁÓLd¡ôÕ6P±¨=œôİ±(Á6LD+üLÑ‹¢¤•Ï§ÛiI4 ÆÉéñŞßİì„hß^wøYªPÚ2áÜx–ş¶ËlÔ¶Ï^dhÀ-·¨æôhˆŸf˜À<a$Bçfr—ôg¦®š5S]ÀÏì¬Då¯·xWÊwî«€*ÛCL­V]%¥ë¦¿âSğn6£â£·ãJ”×£\4«>=@¨ÙšÇ(%'Ğ¡6,sA6fÊ!;¤^¾õS e<&ld¡Wl	®BL6EZ­™¬ñ%7y….GgèZ€	G‘ø7÷1ç 4cÒ×™²jO]wLBä=`Q šï¬YéÂ½	‘3·¦Läj¸ŸÏgàzw'”™…óËèô+â-¶£ùH¾ÉE‚“ŒíE²¬TlK,J®^¡šPÕŒ¾Ä>7ÿWE*Qs1ØÆ¯9Û4\ï£ÉPÇN#q`öåBäV„"ù˜í‡aä(^¥Ì¨ù8ô51MQ%çœÌGú‰şjw×Jë$Æc>R–Sæm`P¥o@»wú´¢o0Ï„’ö¬ÚcA¦¨ùVÖWL‘V¤Œø0ÃGöÀ’:-2ÁÛ^I§'N€ÔqÛeÂ(¡8›à;?ŞY_¯®36+N(€Te^nê—û';Ïì ºŸÊüb Éš¦ğE'·u¿rF†I2uJ€´¿2Ór×• ¹d›\œ‚ëÉŞíÛâ²¡ğ¤}Élûa%ÊÒÑîä(ÙŒèH)èeŒÙåp”ªÆ†³VdÃ_YÍ»jE~µ¿b“së³e¡K¬¸ST_?j¨²vz£“ÕõÕmıró^7·@/HfÁşBƒ,¹ÉtP´¤5!²Vş˜•¤¼~á½	¢%­œ¤úú*#÷ñĞÄØóp¡\¹‰‘êCS9¢tülYs«ë8>¾ù³k`Éğ\Ş+×-£c?º;	ªeQFw¸øæsÊÉš¯@õVF.²·*êÅJ†°”Ü…¾“Æfqí¡7
+uÉR›äÙ4­„ªŸ*Ä‘Kóî”§F‰âû‘¨gÄ³V!ÍÙ~Ò¸”²W™gK¦t¶§(˜#Jµ7›¹ÂTÏ½0–ì‰¶w¥˜{® è÷'ñÆEÅ?@æÃÌ#Øy{]¡ª~øß¹ŞóÍ½Ôêú^ò}üÖ–bUuCÓÏAş3¢eŠkgÌJ¶í¹ÎÌ!Å\#Š
+àäé_‚ôFÃ|˜¨›Ğ+×e)±ÊîLÊÑ ™ñÿß¿Ø?xxÿÎ8ûştçÁ}çMç@kZ™¥6ıâìÌsy3â³³	ôí)1”ŠZIÂ©ğU:L(7#áiÎSDì±s½ÈƒY[[Kî£Âè)°‘{éªˆLÍ;,¢G…FE7ÿ”c¤ú“37ŠaÇl‰jaÛİª ‚3µ°İ€„¬ró'*ü$ÑMƒB¯Šc//Q1d+ÿ‰oíË¼×Ëm²$pV-ÊÂ­„‘áúÀ†yøi}m"v\&m´QÏp8P¤$é´­¬Ã˜£¶í*
+‰q™a± àİùM<Ùøpï°óhÿ`Ï2ã½Aÿº\*o+V0ÅÄ·HŠ4 ”‚ƒÂDŞÛº‰ÿ	èK3‚)Ùt«l>²ÒDQãÌ)c/ø­C:ê2^ÎI—ªÅ­ú…‰5Œ”YCC'nª.RÓÄ‡uEÌXğ«¤†•k4Ğòaçpç)Bå†0qÍ=­¹
+‘`“’ØMĞA+¨L`†Ë‚ñûÓ«ìú=7 ¡}?r6İÁ'=È²\•~¹Ùü–ü¦â«|Š©†°Ò}|ˆœd¿Ú[oJK>Q²(!Wi8EÔ8ñ¦IDËÆŒÁRX€Ø$:F”I¥JŠq˜Âñ1w 6iGÌÚQ¤)áC1á<xgé‹"¼Å¢{R¨œ˜hSjßN*GÀV7ÌGz«´æ')P{[Gd6À®1¬!B&®,vCä´EÌ©áyBßhN­Ã´ÓRe‘_ÉhÇ.{ü™{íW÷“ç,ÅÅ9õÎêvMÅ`š¯¦ã˜ÊšGÀô7_ùš>0@aúí)F"W¥^/ÉøÏÆàåGå^¸¶^³ñ^š²šœæFÔÎ-ÀŒ!wÅIfN,¬œe‘¨pÇ¢3‰!…Ì&O«Ô˜pÀ5™&Q­bšôa}ºèÌj¢1°½Å8Ç¸†ÆŠ
+ã=ó1#%&ËJ²rÚ·'¹‰d¢“yU KmÀ]4şƒx½Ápy?uFô¢D}_ÚmÑ@;Ã‘Fu#9àÏòä¡¹.xzò5@’CùR </ĞªNŞzUâ·ªh ËR‰Ô ¹¹$C´¡«R´š°°y8ëKz.E~…‰i®«¶g)`€GP¼E¶-	gL÷×›‚bbœ|jé2¯XŸòèYñMŒËq!†DÀN\jšpºÄB(Ñ§E×FÀÆş‡ÂEĞæLŒAâh/%otpî9y ‡\WNJŞû¤ƒçGù*î;(°ƒ#ÙC4@~uóx+ãıâÒçl?œüçŞ1
+?»³KÑ9;<•€2ÈğB5Ä‹ˆ9KX‚† ¢ô›\OüÑh/)¯²Š™°l¥SêøŠñíù´³ÈPGûŠAôx‡˜wGàÊ
+‰(}¡nİ«BdHTìö3<8C–ã:Çz2êâPŠCb	¿İOpo=–fÛ„â_d—jvÅ–ö·İÚÉTĞ&İw¦×"Uä]0</÷_­÷ÚêŸVİ ç÷3›íh6§™'OşÜÍhÍ—U’Ìô=Ã¿¸ÿ™çƒ¶ô›8 á>Ûûlé7q=³kóAKÏÍa]1ê•C$Í*X×ù¨Ù†[Q”ÔZ&KİyüÖBuä'ºU-ıf>UK;TÙ¥ó.•ù¼¬|eMEfx^U»SQj±Í%ßö~)šs*~{-Å0ë’T†H—ƒ¸4§—¦N7ššÿ”ØĞUŒk ‚o¶CmüàñoÛ—óå Ô3èy^Áí÷1cËÙDH–|Ô }É€¹…	Ôœ{¡!ÇÈEtÉÏä\+½?(é¨Aq²öX"0M6»³l|™<8AØ	wØŞ0}UÚéËe}˜_…7Û	~Û«‹‡[kÄ´1Ğ¬ìñùŞU^çöú¦Ô‘Oø7@E}ı*w¹Ë§¢f¤|o$I±ªsi%©”ÿS¤|]¯FRÆY.•¾ë`Vvƒ1·¢xÈ™¨Kb„t?Óœ¹ÙZ«HËq+›SÄúÌ¨I×¶ÖÔ`1 6•7Ó‡å?|şûŸú»º)é·¿Yÿfıë?ßé^õ(?DØÛ~yÇˆî Ï{`×/ëcş¾ıúkøwó›ï¾Û¤çÍ-ş}õí6·¾ıúÛo¾ùnã«?llmm~õõ’ßgÊşßOV’üax¶…§Úr×—YÖÿOè?ûwgm™. Üà¶Ûà$yšæ¤e[õK²AÜ5:Röá“„$%y4x7¦AÔæúåzNf”¶ø×ë_-ãWµ¢İ=:|´ÿ¸ó¤¹ü¢Çn¤À÷¦ûÖĞ	Çü¼?åï“³‚o54i§—¨%ËJöA'ú–ÆbÁ’\a@îqæû\£–6K)Œ;HË0÷–?àÓ½ã§ûG'0b
+|Ü}¼wºszzì›ÒOhà4E~—˜VîŸ z·Óôèäôx÷èà óàøèo{‡TÈıì<¡¾äk¼j>?ÜE“~4¬òÆvÍŠËpï=Ú;–Oêıó“½Î?váå	›ûÓ.…{(%¤É°Q[_}òÚ%Ói˜Läútüÿÿoü?ep–?¢éøóÛï¾İ
+ğÿææwß~Æÿÿ‰¿Ş ¿ÿGÔÎ[Œ^ó!‡a¶8»ŸŸ¡á²)=ÊÈŠñlrAâo@Áã¿‹õîõh²õ&¶Ü3f«ÙÜ‡BA°Óëd\ La]à¼{“nF¦îşÖÁ¸†7#J‘×Øm&›ùówí­o’G¨…=)ÎÇ×È>BÙGÊÀö]ªI2(hıb”^!;JzÛRjl'7ÅDìfzy)Rn”HÁEw¦NQ‘o x…ˆÖ¤B]Ù®Ÿ'Å‡àÙä¬Ÿw“ƒ¼›YO>+ø¦¼¤ëšÁ
+ucŞN²œlVÌ³…DÒ€éSC6"û‚¸È~:vE£3uê]Êe14Ùâ]Â[€÷óI¿- ;şbÿôÉÑóÓdçğeòbçøxçğôå6í:fïØ#WÒ¿¢ªi4Jd›<İ;Ş}5vììŸ¾Äá?Ú?=Ü;9I';É³ãÓıİç;ÇÉ³çÇÏNö0Í<g8‚úSÖòœvÓÍd@|ôKšòKØ=ßnuù;J…¸Ù[„‹‰YTŒ–È­à6^j@D¼KŠêæAíäZÉ7›P(¼…“œŒ¡84ñ(?‡æõ‹x¬E9†â¸\;	"¹öæW›-¸w`V;»ã½ìŸì6^á¬Íñûf ÂÇú·Œ‹ïîŸ6Ì!mq18“–ûëÅ`²^Œ. 4Æ+«!à¤äDÜ¸zƒ±;–Òv÷ñŞß[ëßlpŸB¤ï>Ü?n8Š±©>î<ÿ±ƒ_×ïˆ½³şødoçáŞñIÃĞu28N«Ä&Ï&Šùñ¬ÈÎÃƒıC  yÃ;RÈTqÏM4‰rù`ÿ½ëÁCŞ9<:Üßİ9è<9:9åî²1ÿe8f.&+,ï
+zNF€ğ‰êÏxÆy¦ì‰(<?®ßJàİ“½ƒgH˜I×xÕn#œµù3pŞ¯Ğ]ˆ`ôÆ XˆßÀ/â›n:4Ÿß4[‰å±MX¬¦7tíø3Á-¢a'•àJ\Nz”•p=.£½„WşèF´‚.7ğï¶†a ´ldÆ_–Ïó°*7Uá»©8bÿÑË{+òq™õòò–ÁaÄˆL2~Çı<KÇ07ŞVÊ~xv3Îhø†uvXØÒ½»„CÑsïÌ²îî<8ØkØFbk›PãÒ¶epù]bß)‹RÄ1G'Æ€“˜µvƒı#· ·XÆÂC2.€£`«U~@B»ÈW¯ğï½Ü;yóÆt®×`J÷´zÓº§ª{V‘Îî^m‹îŞÂÌ½ 30–‡{ U40ËÎóƒÓı/OÅyşìÙÑñiÓM¿€óÅw	å<nÓI‹Ù„™NÁt²½_<h±ÈY*@­°hªpqëÎ‹ğ²0ybod¨yF†4³ñBJ2ß"pãKÈqHÇÒ¯œTƒûa÷øèä„ÂÊììİs§èıi¤ö £:†ïÕ9$/šæ®üñWÖ‡±áHÖÚİ›‹ë|°æäùÒÎôŞ-Gİ^>úpG­Ô®²Î‹aÕ ÛÒàŒàz¡ö¨F¼¹üÕ«¯¾şæÛ7oşüm{­}–åB-¿‡jX©f¬M`7»—E²bQá]	»–„TşH{)A`åÌf½•äş—[a›Y™r¬@³=í®º*,>…Ço£Ê7µcÔA–àÓMMÃjĞ„­¼|¡pğŸÉ õwê+½õAlµıP¿€¾J¥à¤<prÚğŠó	ã¯È¿¬‘¶YáÔú¶š[¼ıGweójŒvºÃÉ‡¶üâ³WŒìcQ~X±=9õ‚³øŠİ²8WÒù¦dg- ûÕ#‘ıLßãÛ|Ä–¼)ÿ‚MÙ}t°óø„vŠŞk_}Ôé÷Ó‹òŞæ2SGG;Owş¶‡Qrí‹İ]:¿ˆ2÷Ä·OPûºo’%3åuÑíÚ˜wÆ8Ç\’îœcİµğ¢æ7f¬\wwHá5P=3-hiÅªwNwîc°¡û~ÿğätç€wŸìíşŞ6va0@Ëâ›4Í“llÓáöíË˜9Ÿš%*mîDÖå#bT3ÕaK’¤®_\1CŠÈáUÇLé&>4¡±‘µj9¤ÿ”ºÉï{+İÑŠp6 qËË¼opÜ»s–î”—Ë²İ7¡z‘z=9åŸĞÊéÑéËg{'òéÉÎ1† Û|¸÷ŠãÇ>ÃzªçÿŞëœºõÄ—ÕP´¹BÛ‰eºP‘>&™ÿ¼sª¼Ş;<]v­a¸¨“Æyw0î'o‘Áëã]Ú\eWÖ£±ŞÁâö³.åç§q¿è¦°î¯——–Pû—j€L®¾qn24
+KŞ•hWé!/Ó²›ç€.ß÷ò‹¼:‚~€g¥“¼Ç€¥¬DÓU6|MHÿÉ ØÜü€ÿ½ ?Şu5º(ùü¢”ŸÒüÀo85R{áO~¯±)Xtœ¹4„·üÊ‹Òş2œ7¦ò¦¼3c;ø‹³ÜšZay@tMO]P«Õj-¿zE"\–Ñ¾<ÁÕØÛyÚyâ	ÆuWV8şYÃ;'O¸`çûÀ™?Şsï÷ätc	àÛÀ¤-?0èû?"Rû¯§ÏÔkÊS£Í.¹7»êÀoíœìîïK“<U
+’Á0 ĞÎîã0ÿ–ÒæğÈ¸ø%‹Ô¡¨½zHyDİÑÉ³½½‡)C|¾{ŠA%ğüyïøuª;Š@øFØéfÒ}»,T”ÜBDF¥ù{$$’
+¯ƒ$‘jh€xHk°»óL±Aò¿í¶~ úÀ ş6à˜ZÎÊUöúØ¨%Õò½vŸË,/17|”>–¾d¾¼÷9^éjø–¬^öV®jZŠµî(½Yk.!³m.N "v^âb¬•_ıeÖÊÿ|Înàm²J0K[è¼ìVÛ†—_ıù[WïŸÓ¹	@gd„÷<á‚ÅÙÏˆ£åØZ©‘Çú3f›"Øs„§†p@“mlº±dàùÔ’Ù‡4ÃÉc^td¬ªÔ“åYBÆÎ‘ÇÈ9%?éMÖ€Ã1¢¼æÚr~˜:Ì¤½‹ëî.±í®¦Ô’v‘8ê,i¿K|Òí'Øš%ÙÔ“'xàÿ'´¯_,­1`®ı{M€P~Á¤`Çao¡HsiiÉU¼§[IüDå	–ô‚òÅ~òäèÁ…Ö¬ıDUûùàá”ORu)øğ£ıRW&QûŞó Uœyİû£ãÀ/N«/áÿ¨œ‹~8yş(şAÈõHµß*³D?Ş;œÒø£?§å%8êò^"#ÿÉò_«HüıŒŒ}aÌJWKlÀûÔJÈàÄøş‚5@æTiüªÇèuU7km(;„?qA"\¥^¾0©´IÈı5ò)ûÄ xĞ¹*tûiIˆ›Çòtç¿ï½ú){?DÒíÇ
+eËm¼ÚhÿåÍëæëõõµÕŸŞØZpËÕ×â:ë¶²T¶z®î,5İŒÈö”8§"ÄİÒxçƒ{\Ò¾5ä‰|E±(F8—RĞQĞ[ùj?@#9 ıPIû¶®.…rSÕãmª÷ºıf¥¼ßCµ^ø=vó]•½¢ìı|1|ğ|ÿà!’(÷~B¢5{Ÿı(@‰”i¨§'wîôî`*"8—wúµ~ª\´ö;_ä¯¿'f¶u©ÃÙKVË»Éİ×ğ—Ü½X¥VasÛv®,¸U“·5U)ƒzí}×W^[4¼¸÷èD·ºsÜÔRÉ½2WX3xU”º”Fzî­ºwøõÑóÓgÏO¯Ğód3½¢{Ç>dïS´‹+İ›ò)=óø(Ô™¯“R¬ŸÉy@ójhê£ÎMÛMw£MALÉ~"=Ê0@w?¡ºíËeà|ıï\ú	|¾Şı8óTıÿÖ&|
+õÿ_÷ÕgıÿâÜ‹ewQèmUş¤Ç÷ÉyÚ¥(l¨L)Íb:ùogêäq0$F…«¸®M­ÕwğUÙ¢p{|ks¦d	ŒFAäYæÜ¤°"D¸/Ñ1/',|‡şÈï\2˜QÄ;œßL [ñ,>ÊN€ZñM>ÂP [	m¢–3f>§Ù 6#–Ÿb7€ÍÀ}šá ´±˜å€Z‚šJ˜ü|Œ&„—ùphÂ´c6Ò•’ı›ä-F¡ü¶ŞÍ¼—ì={	Në`wïF4*‚Uòº(KDµåBŸ‡3ÍAŸ0le^û´>¨˜àÙşB,ò¬Î®µãã—sÛj®T…W”I¢–[¡½f‰b«HÓÏ÷ON†f FÜw_õŠ'lTj†2Ä:H/â "½@$]ƒ^Œ,ñ¾2q4-büƒ)°Ã´çD™á}Bœ'7å8»jƒY££æ‘åœï ‘–©MJFŞ;ŠQJ—4 õîê¯lš*E|÷ÌàöŸœŸíŒI¼ÉåO$œ§S4µFp~Í†Ğ›kß
+•ÅvòwHˆx…%Ş€İg9‹2çËYªŞª°.²ÏF³B"6[ô[¶u0Y)Â‘d¹Ú•zWOÈÇ‘ÍÎÓœ·•˜)­¬÷twĞ­Pò ôºÈŠ¾m&RNòÕbÃå´râ‚‚Âá˜Âšİ‘-ŠÏÍJàK–«:Y^sY90s°~ç:ïâ°}ªø±Ñ±êÖ½¡
+çJÙv‡H0‹×z.²•dÍ¥F£‘5“ï1DU³™ül`¢GxÓ¦…è¾òÁ»NŸB×@kïòÒ<yCâR¨bi%\FÜ„ğÔf“ -”D·v¢˜áXx’š§¥øÔ“Ş„ÌÉwŸã‹Ã½ˆwáÒ>“àd@y£Êdl§è¸6ÊÓ“m„Î7´$ªetæ…Š%1£ÜôglƒøÎ Jc$¡ÏÊ¢ÄHÙT?p=T¾{Üy´slJc]·ĞÚ¨‰±…àAò|¡¨ñ-¬5¾…åÆÅéòn¦ÀN×%Šë
+7Ê~aM2X¥Âˆ,¥õáÑ³#¥ø\6Ú«‘k)MXdÚŠì%;a‚#K°ÑJ÷¥¡W®ò^¯Ïq˜Ñœïj869/$¼J]ğæ 4pDqk’ã­Û³ã£§ÏN;{‡áöıáŞÉëeŒËôôAv«ótçGt“Ø8ñ† ñÄ^z?È:ÃË›ıäß5ïi}íHn“#-ş'¦ÜYóRù/—yñPHzºÂ~éßdËÆÜäÖÁ~… Ä#‘|Q¸da¼¼2Ë®ğt1ásQDkfÄ\J¸ã»Pë ¯–”^ê²¸†6z…c˜-ÃÒxöâY3yyóÖ×“ÇĞ¤D×.)2§¤â{`$¾©Å˜¨:„Añ(&á¨€­bÒyfDĞ’”CıI¼p>“„æ˜êÔ·ŒQù“«+G§@"ù˜tÙD“Qw¨G¿BÄFã"4k!iñ` ÌÉ‹{@gƒñğ4ù¦yÏ“°ØÔœ;H&p@iWîoY6¤|C|ˆËmÊ’Ì)› +Tm–Æq$áQ(HµĞ±Ø3/†ËîÇñùßÒkNs}Q NhÈ5ÃF¾„FÄw|@Ş…ÆŠJÆÅ­“+6H€d‚ğtİH0˜vÖ?·¹hüF]éß´¸×º)‰MüŒÜ{#"Ü/´¤4¥OZçœ,˜íš“SÉµÖB»äG"Ê³ÁKAÌ)&›åĞ|HĞš¦øN¢Rr@J ;ŒñR3şõ_ÁF6õ1FÓ®4Ì\i™ñ}&£?>è<Ü?yv°ó²óhÿÇ½‡rVGÖÈ³ìh]@]'AĞiÊ,5¬$2<*èébmA'€ Ø÷|Á?îg İ¨ñ^é“(Ş†›Âğ8ù—GÏE?0à+ù3âÊĞñ9ŒÃîˆ¬6Â	±ÃnÃ2&Z3rœ^6*F_À5AÌwÜÌğÛ²DQ8ó"£™zN·r×ÊÔ‰³A±<De¸\·Rºb9µ9°KJbôg§ûˆS(BOÍIîRôWL è³2›ôŠöÅì%7Ó²°™;ö˜æÉ‘NÙõ8íÑá³Ñ Ğõÿètïn„X!Z‚yÄm-š ŸÎ„
+FÖçàŠÄŒuÅ‹
+t-ÊÛSŸu/mãê8PØØq~MÚXŞ'‚s}Ê@hÓv)L‡äÀš,oÂ±bR 	ª!`¬„côş{¯éä.¼íğúb°Œğ/bÇL—·Ü%$ã;P]ŸBÀ¦½Ê“2ÙôÆ‡t8Pµ(¥°pş0´s”d68·!³ß§&òY?;'Yï"³2@AŠ¥Ab]¾Ğ–DJ¸x—@®ı‰Â>¶è÷) /¦©+/óó±”9ÆÚ!r’gÄ7:F­­lÿ*]äwnéf6'Z®)Ì®;È5Ä¡Ûì²ÙÃüÁÁ½JĞ¾8uåôŒwÑ=¤æí†'	ø¬1õ¦ôJZr4^–saÉ™BÜşúÎbÑU âÊøœ²ÒıUyôjsëÏotLHh¢›wb³V$2ÌÏ™(@OÜ±I<Xkëp¨¥^Ç» Š’—E*ŠOÆl ÑKƒäbT\Wv~Øtw[_‡P
++ş–(£&ŠãÌÑñaû<Î£%„ÁUzÃ‚e µˆ¿„Fı¶üÇg™÷N«÷rŸ¨òÚn0…óm%^kòÖAñÀòØˆ]¨>’)±½¢Ú	¤=xö—Û	©ÚNq~ÔÆ¢#ğÖ%Ä’A¬a=’Ig™ÑÅKüh 0Ñdº?ÆèØøZ)THÆÈk†è7å	2áØË_GÓôÌæhĞz,6 . ]2¤İkšC°àîpæ':Zş%İ/_¨áƒ½
+í#¤0npŸå=›ÿSm¾­]»÷é[˜FAx2û…H¢¢ÉDX=—Õ§90›®fë_•z£¸ÅúB>çA"%‡5ëÙø2ö
+a°Ì˜¹Âå(3±FcÂ
+*\¶Ù@²;’Òfµ”¸ƒÀ(Œ2Jï*É"ÈF²+²=­@ûÈç „+|) ¢j4€ÚÏu»Xí'²={œâ¤r^“•l7 M™¡8×Q,ÅƒgÆy3O(ºÄ¡LÔSµ‹Q ƒ 8e®ğ²è÷äªµ˜Qê±ÏÛdy]øH +K”oœp”M‰l°Ôáş#˜µsnC¹µêú›¬a#(—˜¦ql JöOe2éq+U¢šfÄBbÂS5FmNU-¸÷îòÒëÍ¤ñÏ¦DPÄ©ULå¶ Üƒ&o­)…ûÕ÷0“d ^n¸ÎşÆraüÔ¤Yv‹aNh³6Á&l×4Äy»ğUfºÂF¨7l:-KÀ=¡’¡¯âò,‡™ÉÃê5†W@pô‡˜Uş3ÈÏñ÷»şĞd”£JPH¥’[Ã"kT~M*¬A+<%¼¡br?æ´ø&Zl“˜´F%-ÑO%Ô8¼;ïË?%¶çWîG"Ú€TÊ1x£Ë™…ê/àÆm
+E‡2ÿsI©¡¢«j©ï÷@¢oI(ö%¥•ÑIÑêtD|rºs|ÚÙ|xt¼×ŒDÓÑ¦¡ºb—}	–WEöùr.‘uÈ6JŒ‰ßèGøõ{G_à??à&¢öÕ;Õ®ıT¨¯¾“öˆò†èà…6ÂxŸÔ¨7’„!C}|AèÓ'k0%Ë5Ã€­}1Óh¤bä4Díè„$ö.L€OZŠƒ8ÂXÃ5H)E0Ãü°0†µ zğ =üÀ8øCøab!ªØº.Œ6nèœÖ•ıÖñ-a›!â>í>4¼ÿnínmˆ?kÀÒ*ÿøãI›ıâì*ü@‘U9!€[˜Ím~a–pHÏ.¯I5A•­‰›B³ÚÆÄ&†Ê¸a:EÈ‘¸ú²M£¤M€Ö–áÕ»˜!¤Ãyµ;AÜ}D*¸&0B‰&Œ=½µaiÙûqçêŒcˆ!¡¤ÍVı>Ú‡59<:üï½ã#EŸÀšiâ’×’²§ßn«Dk£Û·1×+€ä¶¤Ë¬-†Ìÿ•ÂûØß†·Øoß4Áz¼9Å±]Zú`:94aÃ²Díö6§òæ°á%£xÙJ	øâ]Ğ6€Ëq ÈÚ_r;ÙÙS…åàÍnÊ‘0 ìV/­aÍ©ÁÎª4(XR€Ëa-9Ÿ°÷ï…¼I%- IîzÛ{Í(p³6{tğ}µıX«Ë¸¢*5¢¹uh©évõíûÜ~ û£ù&×}57õ%äÊ¡ï|ë¨[Ü]0Èds…ÿB	(¡Q’x/Š Q_½={zğÈsáÅŸtz]É”5)T¥zM“qfe¾ñbdT#·ù¶æ|hFc9™Â )ÌáSFDAÏ[1àÌ±˜årÍÅ, ¾›Õ<Ÿú,¤ê¶ı$Í ´AIˆHŠ9,ÎÇb	ÉIVÙ5IÂ¾„ÕC(š¢Ñ ¥ö]é±E].¹¡¾ËSí±¯¨È¡>äİÆMQµã1¦6#•eÁO=-\^{A¢V†¨¼¤DÒ…µÇm4Y8‰i(“(b®™jéè,£ÿWŸ2mdFò+4æ²réŞÚ£p°*Os,L`CÂVZI“'fr}Ú<áé ıÃ%‚w¾S°<B×$VÀüdjÃùš‘¡7~üLqd½t¨ª¯eg˜(NBX½Ü¡ÌÕ—Q‰Bú4YSP¹¸q“Ö£É$C—Òkê™×Y‡ŞÅtva#h^}=Xm”~k!p-öA{Ù)}ĞôçÂ
+øZ"¼'«2G	ª
+ãÅ9d´’/ãRëek¬òet#â)è/®å}æ …J1o¦?XnÉMà¹*‘¶£SŸRÚß™åE¾%‰£‹~ûö06îÈvLß	!@§í…Ñ^¬jÍâcŞ@ğÿ }³™²\TÙÜXìãk!Ã’;±Œîšdtmrö'õlÈ:˜¹Ş¥!à¶[	z;´Õí*Ñêt?Hô¦¤»ÚgêÌp0İƒ4!?dêlÿĞ…)TyJ>BYUÑÅM$ÂâïF»ÌÙ+Ÿ7áSvç7÷lU~5¹"µÖÑ]ÃJ å-</H0.Ö[d÷M·ÜO($ª;(Y’byßYX”b¾ßÇ«ú†ífHØSi±ØŒEFRy‘òİJ
+å».ò°™U TÖ½Ë¨Çd‹ñ©ÙÌ§n¼k)Ñ¿’dMÙE^2›d•½+Bm/ŞÌ×Ø½ÌÇüuæG§ı>±}/i­©í+Õh•XÈTUa÷­cPbíqj¼8-»üzÕËp¶®µ{ÉÖöï± 7<!] •,²$¶	¿HµâIğ5PL0[C™–nôå%ÜˆŠ?ê|Ï$etæÙá'ìŠËÇê+›×špCÃÎ†¶¾ùvÛ+$ÔhE5±F(¢8OŒÍ½ß”úª×Jı™‚güãíƒå•©RşX=v~±ás’ j~€Év”EÚ¿(Fùø’ó‡ZñáfiäƒÛ­¤Ë@œBKÌ :ò¼­ëˆù)ŞŒôıØı@gú§m¯è ¹‘© ×2&ö†·­„³M^=¼°¶E“
+±­ñ=˜G%@İ6dÑ®±­Pªt‡rd&x  <“Eê\Qn(8´Eô~ıÕ-ú“+áœêˆkÃàuĞSÓ5™¾íÊ…°‹é­¬LÃğÈL?ñ;fÃiúbĞíáF· ÙšõZ«+–Pš¹$jV#oo2ÆgÄ<v‚ìŞ=I–ó¡d££·Ê2ªdC9Ô¬Q>rÎíÊ¼Š1GD(KËÛY Í(—|ô¶cšî0ğå—F“Û1ş¦¦15%åIñ×˜%LGÒ–®Y‚Ö|xºn8›şr)‚F’ÅÀ™KYƒ^w¦Ñ|JlYUö%£~^ÖXó´ºĞ”<å®„Çs¬^1w/Œ)·CÚÆ.n€-»ÅÓ@s×(¸­Â.åe¥Ckà`ïw«pââàªÙxS9ÚöÖ,âC9C=ş$B’Uçılˆù±‰‰Sb/•iRş[‘»QŒ ›­NB#¡Zç†ö%¸4ÖBSõÕÒ–ŒIÖjwu=:Ù;•sKNXWK×ÛÙ”}!ê¸çÌMx|A•ŒpC ó¾%d…d—(íÎ«ŞŠr$F>ã2ÙUzÇ:÷%%Û’Mo\)r›Èm¤ãD$O%ïßStR }×ôœÉ"Œä0EÏâg+˜ÿ2OõYA“{N‰B©á12µs›ïqß²0\*IC‡«U]G¥]«ÃVÊZ.¶í¸€kj¶¬1ªÖ¨w~ŞøZU;‘– [aMŒW]i³Ò”iÃ(—ªCı×Ií\³íH³È@½Kòˆ²Ù‡ÇÉÏš³™?¦&=·ÄƒGO$¦TÈ:—qY”ŸjŒ²ƒ•—zhªd.|!-6ÉMúâ™HLqƒy”ªNVçûd‹’0Kôª½Å‰¾_(Ówwd’+ŠË‡‚Š@Ô®½µMwÛì£ © P„jKĞ,†>3üFXÁœÜ(R¨lƒ‚®&(Á?Šóa¹ßD×XïU
+:¸øÎÁƒã½¿ UõZÚîWŒåIJGáp4·×N¶šXVïWşÇã'‰£÷ß‡, ^Sço<…¡äæ>Øa~0ªzLŸ0%zÁÌÅ¦Œì 3{|Œé‘Ã‰Ï·P„^(Hjl¥–~ÃeZšÂÛÃ2s,>/{u[_İ¾mæ€
+ğj+„½¼Òk¸9[¹o\j¦í½xÂÿ?´½µs®¥2ŞÓíæ”w–½'™ùdëNK
+{<¨®iWú
+Öe;$D|mßà¡R¤Dü*ºí$Ñìl1ÉÄºocÀ¿¡ãR. ”+ÜY›k+ÚŞ)Æº¹î~ã·?jÜ¯qK frĞ+a6åC“?²p?çÕÏU=*Æ¨àÚ¤KGÇcåÍš„ºh2®¶Ôå-Æâªæ4†Md†(VÄÃØ®ä¿ŠËA	Óù¾‡M»xZ‡nî“Â×W¹ÄÂrpª{c\è§:“EµkhúnØ¤ñ]#Š½J{"¾!ßÅQzãÚ*Óv¢»†bƒ›ºAâADÂ-€Yô€l¯7°³ôŒLŠä
+ı'¯‹Ñ[›âş,Àa'”fõÄô*Aâ‘İ§)KÄ>!äÁîoùƒ«°Óëå’4†ØnïözŸ#ÙMÇW“Qò}Öûk—~ÂÆ­OŞŞO$+äLù/¢Ñi‚r~3C"3ll¢s{×ğ¸ºˆ€,bˆï©|È=ü+	Íü|¾E£-ì¸éÙı]5Z[²Íâ£%kúˆfıÖô1èE°Æşqçğ¥ëÿ?W,ñd÷êŒçtM;kù¡ºŒ´¸¾Í¨
+#î+q2R³án]
+¨²V’[H®ò´K&‚œú`ŠK›‰`ññmì8ª–Ø#jXA8’øù_Vñ?ĞşÛ«¾‰Õ5j¿-6åDXz£RzÃiZä/¢Ìğ‰œåœÚ•Å!ğvÅ¼µì+ á· öYIek|ÄÎdŠÛ¡¬Ü#ZvÃÙĞÅ<áâ¹C?Tñ¶Lœ?*Ó@*¤Ü˜Ğ½Ù
+.açÎéEÌItc§´‘úÎPPZjX^‘}ÓÈAÑ–-—|Âæ‚ñõı, ·Z),¦2£c±v)‚Vº×Ó3¿®ò§#{ûlœ†JöDi¢8C¤•sƒ £`,Cé}9,‰¸3d´Õ*¹“côP¨·=‹k Ç¿¼î¢Ï+kxgé9C3mh3f,¤Ú!M‚Ü9Šb¸jÓR¶¤)–i&ª> Xi&ÍŒĞR§1pPZä¦?ÀWùàÍìds´UVüû‡ÿØ9Ø¸û$i˜	7ÃëU£u!ûe’¡á%’bT˜x‰nA“;äHe+ê†bÊ˜,¿Gù :R—–{ùkï†¡›×ŞlE·;æEhD!ï´É8L·9\ùföfåĞ¢èElİøBeKz
+=I²	KC½å•òº+(öºë®v5h+]£{ƒîú&í³10Á2º?û29åĞòg‚Ü×cçÉÚq|²8îÓ¥ó5ZN'Ûd®ÑÊ”!ˆgS£>ENšZÖ˜Ì]9ØòüÇnït‡2ÁÄH—©DÍˆ?¤ÕØ‰'Q?ÃèõC"-Ê‰´hq‡;µS: «äÔC¾ìråõë?+­¡LS«t]ßN¾»Zˆ“ˆÀjÈ8¶‰»dç˜Š0’ÒK3DĞ5Ó2XR$_CÃæeèaÂÃ…2n"sı:<±U•S)wíYÓÂ&ïXiP0áœNw\’‹º¸«¯Ç«ş|{²ìš O$&È¯Ğ<øÏ¿Y*ôE4R]Êœf^íäOÉŸ·•Ï¡Ğ¹tÛ¹Ú[ƒAfxÒx£Æ:[ÛWmM ½”`›\
+4ôvğM®d¬ö½L¼IY«<›du@,ØŒŒé¶!¾+8ƒUƒ\H‡ÔA;‰Ìz;aTu&ì<©µ>EU	·àÍ
+ßûrãÔîÅtIãò’’2F¼wOŞû÷¿šæñóGÏOk†ùO^ÁÊ9ó‹ùÿ<?Ä7ôp7Yı!ÚÆÔ‰Ñ·÷règª5“Æ´ááù^ ÊŞö}LR¢äV’WÔà%Ò–ˆ/9[+o
+²kÓ—2ŒÈJ±ÊUØ–FÓ¸òUö‰ ½"ïWSbŸ¿Î\’CV{+Ë52õ^r1»[À.O>àÅB›Ğ§5C3«ãO.¤±ßlWZÜàÍfØ†â÷Ã§_1ÑÇjù5¶_ˆ@Y/ fsÆ|KssT Àh¨ÈœOÒ¦æ­üó™$æ@8ÒDë‡å¸”°hd¾ùÄi€%[-î^´ÖhÎ1ç~Ù8N«Jno¾q#ğ-A¹y°[°×Ï=Ú;¦ô‚˜nwHG–gé…œm0Å1vT°÷'GÇdËøü)6¤ÅùG¥§HxöâÙ]rü`İ…}\`ldÆÎrÌXšcÄ1/n¡H5\è!è%Ò‰½‰¸	\pL@°kb!4´0ˆŸúØlzrŠä1Z.È¯*K»—$*œŒ  QÊê‹j(úi°z1pÁ­8p L†õ8£„•+ÈQ c\\©Ú718¶ZU¸ÉI´R\ÄÆÍÚ‚ùŠj®sLiĞÏÆ¤¸÷	èÈ±¹ÖŒ„9'‰k’¨¨}°®LdĞl$Àƒ\BŸBˆèSGÔ-†l%d,kªez0í÷ÖI	@ Æ7h8ûŠÎÇ¯ĞåÏpM[ò²½"+ÂYş[wáÚ=!CÃ+¾“l”BÜşºµäË,2ï’ m¶…5"2W—-eåÄ¨˜²,å“ÈµÒ5²
+ÂõD.!ÙéÑäìÑÜ(‹aò%fjÔ
+´A5ªa¶\sªŠ&a|÷…úPáHPİ8Vr‹Ã6BM3©à¸SQcâ)'g,t2¤Y/™=L{ø¦%‘Ş0Õ$7"v Æ!d¤«ºi¿;éSTÑôk“·Ä¼CRY,G®AÏ™HS%å·5ÿ±Ò98Ø;lô1^¿): ÍSâök„>^mÏE¡ÿ¦é¥›Æ4ª§.½WoüÁ )}"ãöD5p_{Â« *^¦¦üÎ)t{”aZAşTsXè¶?ŠÀÔ#ê…HœAJÃM‹MÔ3‡²M’&9`DÔiiµqÊÀğDîª·¯‰ÒóS“bhèn %˜+"bÂ-Ùû¬;¡€qÃQq1J¯X<)Qµ‘œ%”Àù¢I]š’!²‹fK¡¹Üc!j,#Õ g9~.h­=¢^LÚÄD…Á?¤±áí'+$¼=áWò‹ü'¡Ì~%ÿ•RZ8FÖM÷?,(Ò:İG&à¸?!ÖycöóÁê˜–Í.k¸d¬4ùÓıÆ°şìdi%çL¢Úç. ©ğ)Ô¸Ä`ÍÙ{€Ân¡ÒÈ]2ã+ó½à`êŒè¸%4•§¬‚ù€I¬éÅ¿§M×É„eoPÌN‚K4¸ÇÊäwØ¬#dæ(‡y¾`­0)®±½onSÍâêj2@W¦0(ÌĞ¡™{ĞÅ×&^»iJ¿~`iãÂĞ˜²M:ÕÔ3†^ôËzjIÈ*éscLF´Î‚Æ)Ù;9-FH0³aİìÁKbIk^C“[‹0„š?™Å—_:şÖIn†¾Kuëqüû}OA,e¤Æ÷ñĞ	M±T­´ïùYØˆ:§äüá’OĞP6/§TmápxYQZ~?BÑ4%=&+`ıÃÂÇ¯>	ıèÈ4< ¦Üät2)Cš	ïOFHCL„Á€AD`ènÓïy¾:$+1?lÃy),eTPƒĞî›ª3‡®(mCb=…¢ıQÄ; *+7¦"ºuhr–ŠJù†††û±xÀACß×Ä§m:©Ì‚4&‘µ`<&®ÜVVR2µâíÀ4.Ö™pb}3
+²QÀe7‰¥ä3KŒ¤ŸĞUavÍ'T‘³µ~XpãÆ³ÃÅ´½ÄAÄ—6ëRÙáû¬¹Ó„owc“>Qı"£p6t¿p^¬Çû'š˜‘rY´òøãââaAŸõÓÁ[<O¥`f^±ïuÅ‹”ê}}µtkñÆc_~æÑW~k>eôI–f´+²D{Ÿa
+–Úáe×Ø€[c¬JiĞˆiè-¬R´^XÇ1Åz¨Z+Yi$ıS	Ù¯¨K³‘˜ÁññŞÃÎÉîñŞŞ!x@ô“‘Ëİ¦¦#Xd‹d¬¯ó0ÛE‚ÛŞdÄšĞŒub4;aÃ5ùÎÜ@¡{² C¤zÌ­FmßçCÃtÏŠãŒÔ]5@`ã””°¡eˆhÛ: å¼¸ÜÈ$ŞH¥ôŠ=qŒ'g!ŒÓş„ô#.±jİÍâ:ïM‹}Ê ñk$^½Âo‡Wxˆ!„ú$ã
+ÒÛ©ĞCçLî‰‘“Æ-Ù“lx0-Mñ°ñ.vi;ş†SbéAj‹Í\÷Äàh«¼jŞ’J¤d+†H3cçè²¾U–Já‚Ë"Õ
+#¿ä®xÜ¨Û•5¦s0s¿µGîn~ëÔ½æÄè[ù^4…´åû”~á”Õ6æmBG‡ôÔÎÓ“‡G'˜9RºNÆİ¤Ne$Ğ‡kÖ1K¯šÛşPÌ¥A'µ;BÀEÃ„Ò{K‘;•Õ‚İ*›—¨¹í¯Ö_/°>4—¼ËäK%ÌTKÇÓ]ôª¶¤M¥QªT9®DïÒJÇb<Ÿìz"'æÅ~b™—…w…Æ~ æ4]áƒ,ë¸ _~¯&G…àI4Û™r± NÛ?‚º—•9æŒ¨xÿäE54í„ˆ;æáÁŞ£SC’¥µƒMğğ2‰øJF²õ-´ÀGíAk®ŒÒŠí…H&¦Š%â±æn–£ä?MÎ'˜”³”ãÍ±R,¤_Rô*ùrRë6šv$””ŒSÛL™Œ ²l×(#ÏÙÇ®S
+‡,j	Z†©r¬ÅõI]õÀĞ"…a¬Œ3G@ÿFS˜>;[w2°|lVL4Gw-óµ´A$éfxu/€5Æï«˜âK/ÜtüÆÇÑ´->Ş f5®p¨Õ»PÆï+ŞªWª´±Š5qÓÜ#÷HE£¨ZG\˜h“ç<&=3şÑ½,í[¥X_éTÙ‹%û«¢ÉŠ ‘Dxœp/­tBÍê¡­'Êà˜:p]ÌD¤%íØ—Ah„¾À¬]ƒş­PÜû©=|°
+vìi‰­S5é½lp/#¾jô!œ½KkDøMT'’˜ôM½ò(-«-„Ck¤¿cíÿ±Ó¿F™ÕbzvD³´Ùª»€¹¦$9¤¾0ù²aMøveõİk’q–ÚØÎ<İ9~¼h§ëx ¡»™©ë:R´+ï›š-Hı½èá©A2/kıÂªú)qh˜™Od8rº3<?Ú™ØûOŸ¸ -³Ó¶A';¶Sv»^?ï†N`å=Şõ˜%  "Nº“|¥aCÂÜD÷î2í©X4è—õÔZP{¨ÍõFbf	¤~ #ÓºŠÄ×qRO×%Á!öJ·ñD¤š©ˆå¤•…‹cäØ%3´„}m—Ëàe¹¤ËÒÛi/C‚Ú¡ŠyI?Y†úmÜJÖ¡ÑIp&¾·8Ó5±aÈT4ÁÜ¬³±J©O`­.›ŠGU!ŞZO/5Ñ™ ÓÕR)fŒÂæ¹I)¤?sWl&ù¬WùhE•U>Æ joÒp¼Õ	ZS›ô}²i¶ÄÊZ(-&_¡¤Ôè¤YŠ«(4:` ò(yÅÔ“ƒtO´¸9ı¢ÛqPIAO´ÚÒº·Û"ƒ; uòû¬¿^Ê exdY,¬œK<áRÎôDµŒB€Ó€Û ÁQ—Ã€¡á
+»R¦at’¶à ªK°ÌWòŠìâ¾_Æ­±F4W ˆËU†sídJŠCF—…I£­‡œk‡œXÖ‡Ú4£úş€±™aöÄ[jr,é£—YgZ…sèİ,ËmKØ¥jyw”ˆºJœ 6ò¦•¥¼(´®÷W5A¢ğ_2ª[>hM³NZ
+´ó>¡[yÓZvÁŸâ.RdCı®êV"œÈÔòwo·®î³©Í­ÆÊøo–’Í…Øã{Òë"-Ø ÄÌÇºpLN'§0˜éİ:Q’IVX”?®XW DÌ€0{¥5fâ=¯_È³±ÎO—×«ï¸^!ç8Ë)ê2üLü_­F‹µU.æ_¦šcò8ˆÚş+ÇÚ(_âlQÍõcÇZw¤Ä3AÓzıxìÔùyR^R(1-%e‹Ğ“k@kÚVG í!8¶¤dÚ;ñä	ƒz2'µ–»Ï.ÆÌÀ{ÉÑ”—õ:Šò§*4â¡÷ıZL}èFÉm]ı¹RQb~¹8ºš|¨Z„k	®Q>Ê…²†µF°şÆå$ŠG,`lÏ±¼U;uÑ9ZH`ãµ9Ä¦9À&ö¦ša\‹ô‹wIp‘ÖİÜ•Ù|¼\Àñ™Xód±íû|‰ç7¶Ğš 6ZÆ.İädŸ“ˆÁ¶Gmã@î./›HwĞÖ‚	"×ÄòÒĞ¤f’äßF|‡uØT6½Êõrïè`yé4ıNŠËó»e(qw)ëõòì~rÌÑRZã1Œşb$C?kŸM..nØR;¹Bˆ(“şV“d.Ã­PS«•¤<ŒT\ú§ŒèŸøşsyéu|†¯éî1sÃ²ôFÌF°˜]º×ÎA-.ûğ–”øRÙÏæV³IÌ—I(Ì94ÌÈ<ëÄi°ÇT
+Ûªå’fu¢Ş”ÛQƒnc¼`>t×ÎL0ÜuÑ®ó†â– Çt!óM$n1z+=H’İ 6¿Gù KĞ²¡Åäö*}è¿Ú
+Ö,ŸMm¬A#*Éæ<­Aÿ¥±sl¬è—øßÛ¥záÂts”í>i­Î· ¨£	8MÃ#£PÁDì§‚róru|˜3”‡¤İ¡…ƒaT8pCÚ!‰¥¢p©¸W„JWíäSğ©ó+  œ1qH™¼ÇÛë™m@a	œ"ßÓ:»¾£,ŒôyIÁ‹úÙ•p@¨ºğÜ0²÷ á©©&ã6üÛ^e,Æİl„ªl;Jn&»BSÀ‚ü?ö‹Ê@°•œî=}fŒÜ¬º@D-Ô‚³'ĞÚg
+x¡ØÊWZ[0)t-Ô‰µ>÷%­(!i¤¸±*å§9ÒÉ¸ ½‚—·ê/©å%­Ì~gˆR}¤ˆ…7BâßÉM‡™_
+#È/¹c(B2ç°&é9áÜ’³áfH”ĞæXÈ¶¸hêëñ˜Xˆëch'‚4Dõ¥v°âuiTÆ”F<hÅR% .{b²$ŒwT°=e†å…YÔ+ÿF„qJ~zUaÔæzÁ™ú|Ÿ?Â8n#­‹_,¢Ô¯±æÅá…	kbm¨uCV‡RıæÇÕ0u%îW=|=-aÇgüGY`ğÆ!ªÈ³€~/pÈlëÆÖ°r¯èå›ŠMEÜ°ã›GµJ•ÀtşH&ñ}¥;4º¯æôb­[¢ åõ¸%JQÏ|´ºÿK2>òŠÃÿ6U§>ooº`æôØlVlEëªR‚l]™úãêP‡¢ö:ò‚c´„f{ç]±}Iª¦/uÛ´9{{ÈÓ«ßÃı¨ßPÀ°üKKòî¼ÒÑ¸¢RËÆ ±¸ó«Ø˜İ§N­fZÑ)ÕLû¨ÎH%[Å?¦@aîÛì]Ÿ+TàGG‘B<Ëv'öÃx©±«Ù84êniõ
+ÌîñîÀj=b *!²ÔåŞ@ÒEÕğš–Òã]zÔ"I„W(¯à•z÷!P¦(€aßv¡'ôÇk_ÑdÕ}¼Ï”£Å4¡‹Ò˜jŠZ`Ài¡)ş»qrz¼÷÷C‚JÁ-X¢rè)´$F¥¦5pêÎ¬#z¹9…ÖøÚvØr]˜`ô±M£ù‡Kn¯øVŒêåÆEÁùHŒÒxÇ\—„8;n59.ëŞÜNÖôk6½Ø•6+ŞšKÁÄª(Ú·'ŠX
+ Í5ä#UßÔÀE™²ş¼AÓ7 iĞ€1äÈ\ Dxyû6µf²qÙL7›ÄÊ~8…Ã‡Äe=$V{"‰K0Z G	¯ìs£Ù§(1†qbÿ†‚ÿüHÓe¨1A)dİ‰nˆ.2Â6Ø:3“±¶$ı¢0¹?y¹hµÌª´°zŞ>SÖˆ—(ƒ7®CË°mêSbõÕ—ÍççmàQ)Qıf3£ú®oÙDOxĞ²™ãÉ`KÛfà-*HĞ5à‡AVIÕ$ì2]2l‹rŞO/X¬1Js¶ºÌáÆ&«&rÍıİ®àõ-ÀÇ]¦ÍÚ·-™¤ÎŒ` j„OF¼³mKCW‘HDÑ}Üg: ="Ô›« =W)¾z¬”u–Ê°GÀ}÷Şå]ñYı9ıõ&½şz=?»ÂˆÌÂ¯à\ÙÆƒƒ¼XtUšÕ’1:"Ã/ÎËBÅé§E’Vb¡¸"õÖvePoµQm­%oMókşF
+8 •xóŠPÅ©~^0qCš°+Ã±‹ÁÁkN\»9où@K_©˜{öÏ‚–yáPDÖ¬¦?¢Ï·Ìºzkj_»­‘yø0`áC'NÚğ,<«s÷cè†…zw›N†‘@uzüQ~p}Y$]€Óò‡$9-D†ÊWj dl˜ğ’pNÄpI¥¾DJ`+¸'u&Ÿ
+AÃ–qæ)›n2POæh˜h„¶³´½±H¦¦P“‹ÍlÊ1\ (²£{:p!&·«Œ»‰dÏ]•°Ñd#$>æƒMïcG=ÖÚËëé#x#4)ìXÂPŸ‡Às¼qeÔ‘GÃ¸_X®/5‰£îc¶îªîa® f~qrHc,Š.Gü§¢fØzy?håjæ‰HœflOsò\¬É}½ c’ .7;WL&ÉMU¬Ù+P³} $²i@3{oEÜ¶
+ª¼„`†NìÑU„³86ã¹‘{ş(ë™øÜäaTq¾Bò.yt»¬’F…ĞÏ)§0åVñ`uiòSw´
+Õ‡é†ã›u$œÊ^á""²<?Ï» +]ô”í¾MÚmçWõëx¼Vÿ IÑKfŸx`7ÆÎ0=4X]B#£Rş6Ó™3’Ÿ&ƒ3@J«.~2©ş”méÊa¡‚RıD…Å~ı*äç¨ ¡ö£4–§¢MJâÙ|Vb›óW$„r„/Ë¥¥ï£'pŠ*9g‡Ä!Œ”à2Øû5fÌµîtr¥÷(¨±4R-uŠ‹*,”ó7=Ó÷‹}šŸ›[“™nn2Ic.¨Ia/²·Ó†ÚÒ}yÊÂÄÚ@Ó@cêiõ€x®8³)T¬3ºYWœÁBvf¢»0ÈÍfEÌUéMZóQü‰[W&fK„+-caÖÒ5¥xTÖ_%DÍU?#}&­ƒ
+6
+œ‡‹¼Õ¨¨wÒ4›¦‚ÅA’U{s.òU9ñøÖÊl\_2&€‹½H0`;Y…ûÜ‰T“ƒı‰K–¼šÀ2l*piT¯è®Âm¬†f},~¬:“ ¡µÁú5çq‰Çßˆæ«bdK9ß~î-´èE%± ÷£°nÉ!î{fĞpsöAAL4¬´Ø/ˆ±#½/­å„å,™šK)íKf{4„RE¯Ml^"v[XĞâ=DL+•¡‘›şC•e2_‰ÃÅßôôê~,VdDy™[zf’/8ÉÖ¾ÌÙ-Àİ=ß ¡¦€ØoŞ„}4Ã$˜İs]¿1ÊÿV”(®²ğŞ6f.qš£ßÇ¬b–ü}[°rú·†Ÿ€Û'm~Ò b{¤[‰=é“TöÎgçCõÑ§HYŒL;B"d¬
+©o-.	¦Ôtï{Y
+ĞÅ|±.¼Î”£iĞ¦ü·¹1&Ê€†Ò²z¤´©+ßãä¢Ÿ&%÷ÃP,¸ ^  ¢ŒRëõ„QÄJvCƒ…ÏÒ!35.†:Î£y2İ€7™ÉE½Z:v#7vxŠ£âÚŸjÏMÈÚ+/dTw<á€w©éÁÄ‹ÑTf³)²cŒ‹6oPyï£!8ñ[(µ›•(Ü­Ì>7qAõæWm©Õı]ŞİªÚA±[ı¦ïP4‹\G
+©zun(Ÿ¢)H
+yş–˜Ç˜ÅU›¸Ëø1ğ}Ì»lkƒ÷à5˜qŠ³Œ×Ÿñï1æS™D±N_{¥ÍsH"f¯fN²Øÿòï£İ§YÌïë|8q"Ø©¢>å%óx²Vôì
+ÿ·_¸íAIÔg[ƒ°6ª_ÚËIc–`ôèçëÑx©œûÅaI…W„»qÅS­pHÅbZ~£U]:³:ïw”›€DˆÜ”p\’1¼Å*Ûr9a™Ü“UÈUÈˆåhƒÏ8$İk·§wì#7©º°&"PÌ¿[ûÎ0+b‡s”áã@­ÔSû˜[“©ì9Ía7“ F±<ŸweÍ˜¾J¸áÔ‰n)Èû­~ˆzäÆI–Nx€$èNÃ/âã8îÚoæ¢6ä¯só‘$–I tıô’ÛîL.nÉlİ½m¾[èö‹’8HÖ(S¥GdË˜º¨_h¾ë?ÊPœ…q1(‡´¼lµ¾ÑNûÃËc&ìzxM''İËëô7·è£Ÿ(Ô1.Ó%F¼*ÔRhA‰¤ªµòbRrôlLšÚÁßâ¬9ïİ¶«¶Á×ö1Ú´¸Hs6¨s!ˆB,{Â™vgFHøDbNè¹ ¤³A}˜kKíxÄ>Ê£¬^*¬¬WC
+¬i£j^ ,Êcç8ƒõÃšÚµù•JX_SLå}“vRµ¥#œA%·‚‚ VÂya"¡
+KêtÙ{n“³´›h3#Ô¥øŠd-N’m1d`^—¨€
+ÍåÁ¨GEa”ŞÍ^A²å2ÉF`7Š•¾³®íŒr¬S®Hÿ"£»jHÂm³ä.èš2ÇïÇÙşK1:Ïù*¶-ëTÃ]R9ŸÇÚpjxí°(‡¼4ÈG ¸®ü1BÅQúØ[aÖ¥À	µ¹fßsUœeqUs»jŠ¦c›2‚™Œü)^yI»Iq @Y¡µßk*—-…ˆ>h$Å¶†¤MŠ}ı(eìTq“±–Ñ=ÆØéöè¬:ñR-ÿºäâ-{Dûcx¬ğ÷~äÕ%2ƒ²FşQª^E ó]"¥••{
+¢·ÖØÒ
+¶9ÚÄYVAIÒ+Û ĞÿM‡y1.$Ì ­mÄÃ«I^VÚØiŠ=ßÛ—óg¹F}†ı‰Ä]|vmŞYåÉjû¶ó¨kı‚âPİ)™LâïOZE/
+ê²Ãò&³x=ÌD“_àm„•·	G¾×%¬E.†ˆ<s¼+€"ƒ.©‹İƒı“gëäiË‰€EÃ4À0SĞmØTÊ÷ón>Æ@Û#&è©i<½ ×À˜˜[d$C~]PÌj@¤ƒ3Ã0àhLxc´Uk%9ğH-Ê¤½›Z^Z&vàÓQÑYb»ÖçwV<È1º{®Ï^®¢‘Ó ¥09m	sš—€:œXV¬íBúp‡‚nÕD tŒÇÂÈÆæä„8é\|İ¡Ì¤À…
+eUÛfºĞä6z‹ª‚ƒ›:.ãšAƒ1åğuÈ€I?ŞMìàqÜĞ59[i\evºD%Õ«-£L0¬É†¬5›Ü²1Cø’†¯}í®óBº—#µÒ-ÊÃh•·ÂJŒ"M©éâ"©]¬4ñQ²İYºÒ*L£¾Ôì§$½U]¨Í£—%ªõ*S$U°²Œ.×“CìTÃ‚¾è+4Å#©cd­'Ç‚8ˆ° %í’È‰Î¤- ô³9…ÌQâë]ÙØğÈG‚[Ü]©²d³i.	ïêè'w*oÇ@Pr$Ô°ùºÇˆè:r}[E©y™‰˜ÙÍUÑkÚ¬ğ”MÄ _q:¡–*›”íõsj©9%Ì¿±
+©LÏµuvß„P‚_ªÌ¡ d„ì[y=XiÉ¢V/ÚåÄÔDò(ÊMi’§£È³_5ó.p?)ŸOÛ¤z”"1·&HmÆö“YÇXoøXL¹ß—½p/:Tà%NìŸ³ª{,&9!…°cTB!¨pQ@¼‰^ôô%)¡ƒÄaŞzäŠüÖ=N•Ò2Ë]\ÄnµD'ı{ûvâò0òjVè;ñ6PAĞv†5(j/g#UÂµy$Í#Ò&@e Õ‡{/Lj@`:ëŠ¼X‹•@‡µØÔÂJ&½¢ºğHH`lFÛm¬Ó">Ü9İ1Öx7Q
+ûªW	+‘¡í¬ÃXÏÖ[rYÈ¤ ¯ÈF%|”¶ÊDO£ 	S¢|"kÀ6ÆXyĞÀ˜$"Y²†…‚ø’¯–k]¨‹)xê›¬ˆ	zÇ’d§‡íÔ„)EYã K9Ø±gs:¹‡V§5é¯æ±zÙW	¢[À„›@{ÌeÇ:K ­˜˜Uhá›‘¿ ¤³
+=:œŠ{¿?0#&@vº_-+eQcqFâSZT	Ç!ûl³×ù*+cÊ5=ˆìUhÉ9&)((cúye,FoØZ›æ5òˆ“`R/Jğ ø
+~íY¾õX•O}¤‚(ò©G"… Hk‚Ş3Y‘
+Ñ¥¨Ü0yéb—–e~1àµ»K¼Q ¬|.ëæ%y|U¥dÔëu­ZÓäŠÄ¼Ÿ„bõ=aSzÔÚÁUıíìÒ‚ĞBaÄ1ëH7’ÍLìyq@ÚìDÍ âË…ÍÉ5â#š—bL\²d÷ØÚ6KfT€OE‰
+
+ u„<×ñ*©€M¨T ŠÚXß¿“ûp^ÅÃ.vµÚOlhá–D¥ÿş7,IçÑÎÉéŞ1¿ó©ÈÇeEy$ĞGóu+nØ-Û³9F1¹sú°¬Áí{mJ˜_¡–ö(%`(’ƒZS‚âêŠí¬{¥¾—†¬@Jœ”ßÆx£ÆNÜÜøàrYºR6Åš üPMGiTBPÌ>êü\Jß°D1*¿HxÚt¿aå ı¦Ä#1%ÓD>@uk€‘şÍê¸P?…w:ı>Ö¡ú)ò‚osæ[¤U:+3BÇ'Ç‘A´ˆĞ±ğ®ÚÑ K%ç
+±ãÉêær)*$H¼”Õ„"÷ç²Æ*Ûcfå°è½<¥lqˆ¬3và—½`¦i<šd8ßıjæ€RñyÒ}_2sIXüsÀ¦ïÒ¼êNlä…ØúK^oqÌDhm”ó—Õè"×W‹¨ïMé‹ÂøåB!«hƒI‹¢ŞÅF*94&Ê³B(+>X,/q°o [Ü<}Ù¢çµD\z!ìª"È£-âd.EÀ/›¶5†ºt“s!±©¶‰Ã)lğøñj–áK”„…WyMˆ˜ŠV:²$ªIƒíëÚ¤;%„2ÑÃ¥…3E$ÏG	CAIJXO‹W¤ŠÇG#· ³üâB•€MtãY²ÁÕ5œáU–šŒ 09ü½ğŞZ‡HpnÉ)ãe
+’]ûU™Î0W¿µ’ê2iê®-¬¥Rst™* ïq³ŞI$ÿÅ<òn‘½ìÆ…âÇE„ìe}$®s+-¨†ú‚=2ş«ã³^f(·«ĞdCm&T±ˆÛÄTFßãá1 Új…2ˆP(ÿã¤ZÅIí—-±´4ßå7#˜I·¦›ê`Ë
+µ½%ªNb2œk–ÌªHDRh´‡p3!ô–IÀQhî¾WÉ.^Æz™×KŞôZÊ‘4bÑKè Ùƒá8¿B…ˆÂĞÂ1…|óaÅÁòä´Œ¬„;ìcÛUßİ¶z¤3Jr9íîP¶I,N¢PµfWÙ85^±xCPK?÷cı¶’•§í%‘[æ©=??Ä.±·8Â}¸òì`çeçtçÁ‰aO»§ÇŞ(»äBÿz¼Š¼¶{/9~şàèù©óØÆŠ~½jIKë^C“™ºyîN§ßõ0o|Cw“ÕVğñAíFî£šhÊVX8 ì(;ï œ41ĞÅ¼>Âã/“ğô2“.¡°	N á}jv-r³ ÓyttÜyÎsœt›ÂM#X¯E!mNhchCcl[^G<±ÿN¾#½a““§8Î”İòy²Ø®[®k:ì„­.«A«Çû‡§¼(0×M˜+–ù°ÌÄ¼6Ã'óA¡gW²îeÑNa“ÅŠ×f¬„k—½÷(SvTiŞF$kk !e±Ù«ò¢ƒ){{NL¿±œ³ç'{ìï?†Eò¾>;Ş{´wÜ99}š]Wpù§xm+©*;@¶’õõusğtÑwi'íÜÉ–Ác¯Û77B¼ÁïI:ºE˜2;ÄÄëÒEC™6lê€Sô5°‹VÂµtøŒìÊ R †?º0U¹ûfMÏOvşëyrH;ÿˆº.qà~ }¨âÌğÖM3¨V"#°C++õƒ’I"_^™Xdª]k=‚×š@÷‹ë<R&H;iN Ÿ!ÇSpWÅ”xÓ@9g¦`p_ö6=eIEƒ$ƒ&š×iâ[d¸eø2ê&€)0Šô—QahøUù¨¨úa©ÀË1#†ª9Ï1Y]CÀc‡TJq¨şÀ‚ÀhÌ½´¤˜(l¦®(P¼>SgZQö8*èÙ¤ÿnÉÁôOnñTĞ3•? gÂï‡Ÿm@ã•¬€›½?xS×›É½N×›5Êò.8 lŸgÁTÔ¹SuÍ"á&W`uÅh>ğP<Ë"ªZ™šr[k%Ôe»y„êáY³ƒ=)Û¢••ªFÙ@³7b+‚Ïsä,yp²])$ğBW–Ÿ›–ó×¯Ã–máXT)è(×®ÿŞ•ÜÅjÜÈ\ùø‘tõâßÕ´½ÃšÔøÄ³mTı’WÏôFÍ¦÷Ñ5¨›kÍ^mÍZ‡Ê<}8«.µGÇ{{²Ù¾–¡5cëT…×zŒXÛše¬B¡Z‹p" >mb€«ÊWv'¸óìÌ4 Ö³	w.¸F]‰ïqF¡ï*XÍà8R…áEP¤ÁšÈ–jˆ¼;Šc¢8Åƒ÷(nØ˜‚jÎ|#mÌqêk5;•¥Šé[ì(Eï”pmuÑ‘¥óVÖBÏNŞ"¨M¬q¯€†ZšK ¤]–Å[])iXÊø®%©¥ZEm¥˜‘yD5,UiGÎ+ê½nä ‹¶ğ:ÇğÉ€é¡L4Ñ¢Ï8’Sî»Á†PLûÆ\Í˜¡÷Z­ª¡GğVFè<>Á®É•Éğ1;â».ª"¬»¼÷Wi ãÜN¶<“
+N#fLtiÃF*“ö^AA¤qe»½÷·õk‰
+ RÊ²]˜›5¢mş6Ã~ôpêcP´‰p~G·¾1zßøsK¬â™ĞS‡¶D#Ëo!k`tFüÿ÷IŞ}«¼;)¦1í¡Y5)ÍCƒ2¬–uÒ1rÀâ\¨³¾:Æı¸½ØrE‘Ñw†•ˆº/ÒiZæÚ@óÑ˜ç$Ònû²w½£ {‚¯æ®Éú]¦d÷èùá©QX¡¤éjr…]GDĞ&µ‡¡ù[Ş"‡7“ÁXË¤9§Ä¯Ë ÛAyÉj'èÛœÂ}§Šr=‡®Cøae‘ğA<İß`t¨Ø˜¢ËÅR¸´…–zÈ[»¨Q_†Ès{(öœÊ{IoÉ0½¨İ.ø¶Àv-ãÖõÏéFä‘è2¼è¡£ëÉéñşác³oÆS—æ‰¨@t¤»GëáÂGFÅ)­EŒğ„$üy;Ø*‡[T£‘Cñ±~Ã}ñÕ«êjLË½q(© z-ì=xşø1N9fjX1tÙÜlyëšœQr@·½lºb¼¦îÂÀÏ&w«Á5îJ ÖÆŸzMi~“M¼Z>el·¿‹'FVB4Îd¢CZ$+8ŞÑŠq*G)·2¾Ó1[¼ë”7ˆõğ6o­¨åï%ã‹šÖµÉ’Èex¹ÊÜúÃ¹w°–ˆœjüóvºñN¤Ğz¸.mª7Û/;¿òªùĞ	áAÍ¯æš°74OÔfCfÛ21¹5q4‚Hk.ÆœNö5&(LÄ„ªA„X;Ÿn0Ÿ®J-,æ^˜í6e–ˆá¥¼;Ÿ™Ê5ãg6rÒ8{¯S1Ï¹ÿµkÇ„´İàósùi÷’xÑâhœ#ØÈúd¹¿>YÙï,_@AîD~ÎŠú8DæãŒ ©µL¨¸"„ì;·Ï ıTSæz^`Ê6‘ó­vÆ quèÙ[Ú‡»şÒ>œŠ‚f` ‡»
+M:QÁCRf¾­Š —H†5õŒQèÙÓ…:j·£½ùL/Êì•"óU Æ’âÔÃL¤òz=Ÿôûq€BrÇ>æŞù¨9Ÿ2¢0¸2óÈ”:1)L\€öY?¼UnfrÁŸ’0`¾Ä}eãD±Fãıx„æÛ‚ÛÈĞVÂ#Ûµ–ßÄ›7î×/âÒx«¡Ô”_½éVíš’ ÏmeÖÌŠwã=B }¥pl”›D-D]rÅÆ?öO:{‡áP¦në#e=3-Õî¨_Î½¶ÖB#–û^ÒŞÜv1û•Uêµ‰tnN³‡ûã¾I¡W&©z•_l€¥bÙ7ÿNd¼­ı*Òx=cÄ¥pC¸CKdO³4©e"u>!Ö¡»<¡ÖGª‚á»£81úßc¯¯ö#nÔÆó?vaŞ-*á°md&İ¦g#Fåèå7&òŸ-!Ô]ôtd3Y²b¥|‚ã[³aù%‰¥hÇ%½‹+ˆŞùnEcÉ‘;V[zı-ñõ|Öv­@3¦ëªˆó«JØñtõ+všşU}¦€UÅşg4°¼>u­µëÇÛQq2ËÌ ,@*­U"]‰ä69Ùübÿp÷	^œè‘¾½›&”êtÊüâ: è›O²…¾XDŒRéã¦MÆ5`°n£8ğøÉ›\ãù¿Ä[jPr|UfŠÌÍec‡xÉÌª,ãÿ%Xfúà|iQx{n/6…¨à­Â-,$uÃ?MiÖp#Äæ¼Nü¥ŒØns§€ÚˆQËú:d0ü.täl$ob¡6ü³„Ü°æã6¾}{\ˆÕ£ˆPX7€B¤ŸÊŞçc}Ù‘NÍ0àDu†SóÓD¨Æ*-ê®Å)4„L1	²§I¶Øm…Ëæ9wŠ5‰ˆ#4ÑJ¶@ÍXøæ9«êŸB¯)ŠÔág<—Ü)a gIbHÄ2Ê-Šä"‚ˆÅ¼F‰f3ü`Q4/‰|e ÇE5Ç>;·—’Çr ;°cFLx‘Ù‰z ÍƒÜ9Õ+HéõŠhD1·Ï*­ÊDWº»6Ena~Şö¬İ"W°Î’C3sÒ‡;ÕŠú„é0”Üz¶?^xÆ= Ù~Iƒİîd˜³ÏøÉé±^ïŸR¬ÌÃ‡ä´/=)Çh† %r0’lÍ	±%Jšfå.UG8'w2Q„ØrIçA	L‹—¿th£ÅÄ+±yæ<ÂJ(i¹+Ê$¦Îi¦´—«aËxUIhÊ+›Zšïïq»U6oå\iÀ—ñq\F¹{yŒË6—ø^÷dğæ˜Bˆ\1‘˜“CS&u¸»£ü¬àZñ‚Œ{n‰cñ+MÆ­´Ÿ÷ğ˜‹")/‹!”`˜ÇBüë"°ÓÙ‡m¶Q¼_QÙH\RT}i´aüïi–’¦Š‚	bÒÒ€Ss.Bø›–«É&.¼gh¨Kl¥ì—ñ˜¥Ãh1_ªwí(hv)ø¸²öœ“ü~QzÔ¤FCD24Ü¾‡{ofÆ*ã´Ê£Æ‡Ü$çâU ¥'hB!°Ú ’è?;BÑ¾sÿä ÎÔbÅ{Uïjƒ›hsÑfrt½xöÉX~Ê^eècdpÖy˜<ILÜ)^„6O"vV*™'íI×@~yİ¥ŒõŸÏ§T
+ú ÖåÒ(U«´5¦IÚlòÿï“O±ë.­KãºË†F»G=bPbrBÂßw½ !Ëª¨osÈÅ"´ƒ–rÇ²Ìşáÿ×W7å/ıö7ëß¬ıç;İ«ñAíÉ8ï—we{'»J»eçmvs•×»÷±ß~ı5ü»ùÍwßmÒóÆæ–ü»¹ùí×[ØÜúöëo7¾ùæ»¯ş°±µ	¿ÿlüó­üMé%É†g[pFµå€"Ïúÿ‰ıgÿ èıİ5<?“&–P”ì|àøFsİ8`j–ğ4v›Éæ_şü]ÿûüï_¶’G@=''Åùø‘8á…”ƒ‘ïºœö’<lÏñÒ¡$Nıøğ¹¼˜äg£ttÓ¢ŒôÓDüÄQ!ÌÖÅ@‚ÎwJëá7Åî¼ı¨/¬’E¼CòıÅI”2‰m“ƒ-Ù$m’“¹&4–,?¿A/Å±a(J=µÇÙ ×OMÎú@™äİlÀœ&À—å¥àU·ÛI–¿h¢ånaÄEl¥WuD~Éèø€}"?¤ìì™ëX»âáxYMd±&nà#Ãa^ìŸ>9z~šì¾L^ìï¾Ü¶9B³wÙ@"—`€ş^S¥ƒñ6ôtïxĞñéÎƒıƒıÓ—xå?Ú?=Ü;9I';É3 †öwŸì'Ï?;:Ù*ê$Ë\¿ºÔÜ
+¸AŒ´ZúKPS	ãçœ£Õdy™“¬’€+ °)Ô è7Ò¿ƒ4ä¬ˆŞba¹{ôì%şÀHöw÷iô@`"X±6Äa‹PŞ86ÊÍ00H#úÍ&|OoQÊs2†’@Ÿ=ÊÏaôúE”ÑƒÎœÆ§;IÈws£½ùÕÆf+y~²ÃGÜW¸?xşèdÿ¿›ğvĞíO +|_{y±~y_+Œ¹”T—‚Öiır…ãFÂºÀ¶ÓìlÜ0º¯ÉÆCõÂ„á6× &f°%µîÍPÈ"X÷ı“¿=İy&´7iN¸1C§½Ş£_p¾ÇTĞÏòo{/¡ngïğôøeö¥ >¸"`=G=A’@–üj$ä->˜ ^¿Â=?Ü%i-º]¥£·É‡ER¡ı×Ha`ì­kX>•—pb% ¬qÖhÇOf=$|î|­¹ñ~ƒjªŠİHW’‹ ì£)ªÍpÃòY¤¼cS©p©!ÕO%uÑ‹HÑÑ„ÒB„­^FŠ"c)l"Ò†e”}›‹V½RúmlÚH3¬Ğ_`(W‘² ”¼İ\~ÁÎ>dŠšÎL¦œº‡‘z¿LŠ19yåT8­_b»ŒAµÊLÜ8t_ªâh
+èM­XF*–ÈqŠS0­q¤Êd€Ş,(´‡ë´‹qÈ‚J“…×â]]7×LJÁ¾ªsíê0¢Œn1£½î¸ÿŞ <MŞGz¾ASœÊ©¼ùXú×¥°v 
+/·_}l÷¯cgEœâ+îÅ›íèŸÑMì¦r¥§8^KĞ=k°aCêÄÕ¶,apĞg;»{3KİšYbef‰/f–øãÌšYâË™%Vg–hÌ,ÑœYbmf‰Û3K´f–hÏ,1îHdNÇÙÅ¤×p/¿ÈÇs€ÏÆÌ›3KlÍ,ñÕÌ_Ï,ñÍÌßÎ,ñİÌYâ/îôî -?÷3fE†HıNRîuj+wg–ØYâû™%îÍ,qf‰f–ø«[‘çÀWH‚I9ıÎ²ñì¥Ø™YâÁÌ»3K<œYb6}4³Äã™%Ì,±?³ÄÍ,ñ·™%f–x:³ÄáÌG3K<›Yâï3KÏ¾%g–8YâùÌÿ˜YâÅÌ?Î,ñrf‰ÿvÓOzªP]•1òÊ/Q!¨*%b”“_¢3³ÄOn®ÅõÂÈ'Æ•û%*\x¥DŒİöKÄ¸l¿DŒ¯öKÄi¿DŒöKÄØf¿DŒWöKÄ8d¿DŒ+öKÄØ`¿DŒùõKTXİJ‰Oë—ˆq¯~‰·ê—ˆ±¥~‰ÿé—ˆ±›~‰oé—ˆñ’~‰ë™%b\¡_¢ÂVJüËÈGdJ½âùuf‰Ï,ñaf‰ÿ3]Ò„W
+¤© èT‹'ûÿ½‡‘£·şÌ|†‰uşÜ>ËÇÚ$¨ßÑà›¿4×—Ii
+l^©¬¿&%ËáÑE(ål²}6Qö¹ÄçŸKü?\‚1ÔşÉQr ¸wĞŞôQÔ·€¢¶¾ùfº$‰ü¢M6!l=>«ôş -–½eï»ıôŠ°~Bú“wÑ£ÜÎ*øŒŒRæ)¹KÖ»İ›¹
+¿D½àåŒŠ·x%~ï#é±2lVæ)&åÊ§“
+w´~fe-G=º‹)Y:.fş ítIóÆIÀ&œ¢P¤=ÿ¾óUŸÉåÍµ~3Š‹“~6<M»£bödd0ö'evRÎ7³É\w”£óÙõt¢4,~‰cšQa§‹†i·‹'hÖZä°óM2ïCÑëùV8ïa
+”^1³ÿİ¬—÷ûÓ™®`ŠÁÌxš–İIÿ£àü˜ÎÒoèÿ˜ô/RÌ˜ò±Çqÿ2IGãlæ bU/Óşt/RÁE:‰J,ªşe’•Xÿí\ó¤Û$é¦Ã|İÏÆìºF¶#4wø„R‚åOh ›º“«ó~6•™ÑÊ8ï÷>i½yñù´F8¨¥dú¨V>®ZWr¾“m"ûThÈ>²ß²ßb3óO]ŒüS#ÿM#ÿ-#CO•ınÖOAÏ¤=£m>õŒŸº#Å§îHñ›ìHñ-ÄÜ[ú”ÓLãÍ:/a;­ßrŒ´ôGµ0ùÔ-œ|êN~“-œü‡êå§Îe|Y`¶ŒEÏe‰10M%0—Ã8ËÇÙè*|L‹±ê,C¬ú¢kc«¾ 4ÄšX”tğÛø˜JC6x,N4Äªìî$ÁkãS¶oqb!Vıcá#	…XŸ²E$x-,N"xÕ'bÕ?v>’8ˆµñ‰0÷&>ÌÑ‰|!’ Öß"Wqr Vıc7ì#IXŸrln>m‹KÓ‡àÍÂ9T”høùÃö³}mêLöŸÂ[±×OşkB‘@ŞJîbö[!ÿ–üâ2AÅŒ¢ŒXL³î”>Úµ¦ş‹T®Ü…‹T^È ¬\±KX¤rÅda‘Êø[¤ò°xÌêÁúUé>SÇ:ŠYCŒÓ³@™âU‰™G¼Ë;â‚Æv‘*6‹¬GE"·Hå˜¥EuÀI¥^Åşb‘NòB+Wä‹T®t,R¹Ö3aì¼?Â:Ùî"V°ü"•+²öE*WÌI©\±4Y¤rÅe‘Êu^Áø’Æ¶h!†°²±fñºô<Â9,„•cVu“˜ò^ë.äÀV®˜â-Rù<;ÓvÔ¯aAU\æ©Tïı@UQ³¦JW<!æé¢â1O¥˜¿õÑè-YÅub*ŞóTª8XÌS© 4Šr2«Œyº©¸eÌS)æ©A.ˆU&²ÿî–Œ¹m¢èXPEoËG‘wÜ‘šíÒ1e¤1ÿ)ÅcÎSŠÇ<?¦¹L)ó	™R<æ 2¥xÌ[dJñ˜ëÈ”â1?’)Å?Ê©d8ªø™ÌS)æzbc–¡k°ïgIubÎ(Æß»î|ÇÜSÄù8ÒCÌUeV[©y¦¿°?K¯èôíyÇpPÆ<\fÕ‰ù¼Ìªó‚™U'æ3«NÌSfV˜ïÌ¬:1ošYubş5³êÄ<nfÕ‰ùàÌªóÊ™U'æ§3«NÌsgV˜/Ï¬:1ïYubş>³êÄ<€fÕ‰ùÍªóšU'æ74«NÌ“hV˜oÑ¬:1o£YubşG³êÄ<’fÕYØGi–;6µŠÌ>\§%‰F£âˆ1yª$8¹,Fù¿0<0"dáªYaÇæÄÂäT+æåÑ”¾ø«â5W'‹yKÍsYNkb$o¶tÌ™J”ÑJPÊ;º(æZåÉôlÉ’WN‹fRé¡"—œ§‡ŠtrJÁä<•*¢Éy*}”`2f"Ø+®tÔ+ËV‘@ÎÓEÌıkP ùÙB~èJ%v,À2?Z‰nì£Ä‹ˆ?JÜ8=ş	nXéºhğ“a|w?JøQÄÖ
+‡ÅĞ›ÇG		ru›§ÁŠ÷Û<•*qóTŠùÈÕ
+–bîrÓU,âL·6İ}î¹	c¾5eŸË}.÷¹ÜçrŸË}.÷¹ÜçrŸË}.÷¹ÜçrŸË}.÷¹ÜçrŸË}.÷¹Üÿuå>ÉY@»3¾ÿ”sXÑq Ğ2ş×»ØÿóV\H¦+.dì¯+~Jj€yûXH•¦+.¤NÓR©éŠÙùëŠiØtÅ…ŒüuÅß.ÍÀ¼Ò¬éŠqíZÓ˜tòA>îPN— ÒBj6]q!‹~]qÓ¹M"¿âMW\Hù¦+ÆÂGfï»—éà"ëP6a,¹UÍŠnŞ.‹Ü‹UüíÒÌ[ñ·Ë;0oÅO1×ŸÕÇÂfûXi!“}¬P1×ŸUa!‹}¬°µ>V¨XêÏª°µ>Vˆå=à,ŞoÏğØad/)K€€†µ® )Y1ÊŸ5Š…lò±ÂBöøX¡b‹?«BÅV……¡z~küY-UìñgU¨XäÏªP±ÉŸU¡b•?«Â×‹V¨XæÏªP±ÍŸU¡b?«BÅ>V…ßÜB]È:+T,ógU¨˜åÏªP±ÉŸU¡b–?«ÂB6ùXá7³Ç_ºÏ61­ü"vøtÉ.X~û{,¿ˆí=–_ÄîË/bså±·Çò‹ØÚcùEìì±ü"6öX~ûz2oZ°ü"võX~›z,¿ˆ==–_Ä–Ë/bGOà‚åO,¿ˆí<–_ÄnË/b3å±—Çò‹ØÊcùßÜN~agaÎfafaNfaã÷ßÎî[[Xª·°4oa)^,Ã&ªeï
+ƒ°°Ìn!ãw¬°°ÄnaIİÂº…%sKä–Ä-,[Xò¶°ÄmaI[EÂ6«ÂÂÒµ…¥jiÚ¬
+KÓ–¢-d¾š-,,ûÍÌ×±±…L×±ÂBfëX¡b²>«Âl³uí_1_Æ—Ï&ëŸË}.÷¹ÜçrŸË}.÷¹ÜçrŸË}.÷¹ÜçrŸË}.÷¹ÜçrŸË}.÷ÿP¹9LÖÿğ»ş]İ”¿ôÛß¬³şõŸït¯zmj¶'ã¼_ŞA+W|¼c¾J‡ëİìcş¾ıúkøwó›ï¾Û¤çÍ-şwckó«o¿ûÃæÖ·_»ñÍ7ßm|õ‡­¯6¿şC²ñ›Î´æo‚F
