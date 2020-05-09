@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab371202-d619-4cc8-800d-2bc79ab8b2b3" name="Default Changelist" comment="">
+    <list default="true" id="ab371202-d619-4cc8-800d-2bc79ab8b2b3" name="Default Changelist" comment="1231">
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/05_mysql操作/05_索引_插入10w条数据.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/05_mysql操作/05_索引_插入10w条数据.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +48,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2448" />
-          <entry key="txt" value="41" />
+          <entry key="py" value="2454" />
+          <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Python" value="2448" />
+          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="Python" value="2454" />
         </counts>
       </usages-collector>
     </session>
@@ -108,9 +107,9 @@
         <entry file="file://$PROJECT_DIR$/base_python/05_mysql操作/05_索引_插入10w条数据.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
-                <marker date="1589029186000" expanded="true" signature="122:127" ph="..." />
+                <marker date="1589029346025" expanded="true" signature="122:127" ph="..." />
               </folding>
             </state>
           </provider>
@@ -228,7 +227,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/base_python" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -422,12 +421,32 @@
       <option name="project" value="LOCAL" />
       <updated>1589028583502</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="提交先12">
+      <created>1589029197370</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589029197370</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1231">
+      <created>1589029247218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589029247218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="121">
+      <created>1589029363694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589029363694</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12899786" />
@@ -437,11 +456,11 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.35060638" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32962137" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35060638" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35060638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,7 +506,9 @@
     <MESSAGE value="添加10万条测试数据到数据库&#10;sql语句" />
     <MESSAGE value="提交先" />
     <MESSAGE value="提交先12" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交先12" />
+    <MESSAGE value="1231" />
+    <MESSAGE value="121" />
+    <option name="LAST_COMMIT_MESSAGE" value="121" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/base_python/01_网络编程/01-udp/01-udp发送数据demo.py">
@@ -650,9 +671,9 @@
     <entry file="file://$PROJECT_DIR$/base_python/05_mysql操作/05_索引_插入10w条数据.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
-            <marker date="1589029186000" expanded="true" signature="122:127" ph="..." />
+            <marker date="1589029346025" expanded="true" signature="122:127" ph="..." />
           </folding>
         </state>
       </provider>
