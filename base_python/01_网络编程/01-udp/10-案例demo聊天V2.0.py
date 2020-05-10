@@ -20,9 +20,18 @@ def main():
     udp_socket.bind(("", 7788))
     #循环进行处理事情
     while True:
-        send_msg(udp_socket)
-        recv_msg(udp_socket)
+        print("-----聊天器-----")
+        print("1：发送消息")
+        print("2：接收消息")
+        print("0：退出")
+        op = input("请输入功能：")
 
+        if op == "1":
+            send_msg(udp_socket)
+        elif op == "2":
+            recv_msg(udp_socket)
+        elif op =="0":
+            break
 
 
 if __name__ == '__main__':

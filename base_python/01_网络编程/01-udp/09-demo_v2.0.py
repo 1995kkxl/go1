@@ -9,6 +9,9 @@ def main():
     send_data = input("请输入发送的内容：")
     #可以使用套接字接发数据
     udp_socket.sendto(send_data.encode("utf-8"),(dest_ip,dest_port))
+    #接收回送的数据
+    recv_data = udp_socket.recvfrom(1024)
+    print(recv_data)
     #关闭套接字
     udp_socket.close()
 
