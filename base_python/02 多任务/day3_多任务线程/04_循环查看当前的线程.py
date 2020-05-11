@@ -19,7 +19,7 @@ def main():
 	t2.start()
 
 	while True:
-		print(threading.enumerate())
+		print("打印",threading.enumerate())
 		if len(threading.enumerate())<=1:
 			break
 		time.sleep(1)

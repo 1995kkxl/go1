@@ -1,1 +1,38 @@
-59*A=+HK)BH :@.3273:!=B:B$:A*BG":=25 3:7<'@A%==/KJ&AA-EE)EE/JK*EE*GE'EG5KK/JK*EE1EJ*AE.AE+BB/EH+HJ3KK6OL*KL/JG.JH/KK*GJ/LK/HH7OK/KK2JJ*KJ2LK/KK.KK5ON-KK6NQ.NQ5QO5RO/RR.LO.LL2RQ:bbN{JqsJpqEpmEmnJhyq—¦=Q_J^nH^nG[nBVm@Ue<Ob%+<$3$    !! !" !!$-)5D7EVOeyVn‡Tk„Rn‰Um‡=Td!1@p›»Vt™'>V1JdºÔKk’HgŠOvšV|žNp’_†§Vvš[Ÿ[ƒ§NmY~£Lp“)>YU¢NkU{Ÿ|©Ã.BUƒžLp’LnQq–Rt™V~¢Os–Rx—UyžTq^†«B\yHh†DgƒLhŒ\‡©@Y|Qs”X£_†¬)@YUŸ1Lge“¯Hd‡Y¤Tx–Qt—X£Qp’QxšRt”U|žUx—b²Gd†^‰¬aŠ­Hg†\~¢‰´Ë3KA_h²^¢_†¤.@R+Lj:^|':Q*A\%:Q*@V/A\-D\+B^+D\1Eb3Jg*>V+D^&<R1Kh1Gb)B\*@Y*>\)<R'<Q'=X>^~"7Q'>V*>X*AV*>.B^)@\X‰«&7 1:Vt5Nn'=5Nn6Rq.D^/@V/E_9Vq1Hd*>V&9N6Nk3Ok3Kj/Eb2Kk/AY*AV.Jg.Gb2Je1Ed-Da3Np1Hd1Nk+B^*=X/JdL¦$5Q'%57Qm*Eb5Kk/Eb1Je/Hd1Ed1Hd.Eb-Eb/He*B\*>Y3Kk'>V*@[/D^+=V/E^*:R6Qs2Kg5Qn1Jk3Qn1Eg+>X/Ge*=U%7L':O<_„L{™:Vn1Jb-B+@Y.D\.A[*@\1Gb%6K 1J+Eb):L
+import socket
+import threading
+import multiprocessing
+
+def download_from_web(q):
+    #æ¨¡æ‹Ÿä»Žç½‘ä¸Šä¸‹è½½æ•°æ®
+    data = [11,22,33,45,66,77]
+
+    #åƒé˜Ÿåˆ—ä¸­å†™å…¥æ•°æ®
+    for temp in data:
+        q.put(temp)
+    print("---ä¸‹è½½å™¨å·²ç»ä¸‹è½½å®Œæˆå¹¶ä¸”å­˜å…¥åˆ°é˜Ÿåˆ—ä¸­...")
+
+def analysis_data(q):
+    """æ•°æ®å¤„ç†"""
+    waitting_analysis_data = list()
+    #ä»Žé˜Ÿåˆ—ä¸­èŽ·å–æ•°æ®
+    while True:
+        data = q.get()
+        waitting_analysis_data.append(data)
+        if q.empty():
+            break
+    #æ¨¡æ‹Ÿæ•°æ®å¤„ç†
+    print(waitting_analysis_data)
+
+def main():
+    #1.åˆ›å»ºä¸€ä¸ªé˜Ÿåˆ—
+    q = multiprocessing.Queue()
+    p1 = multiprocessing.Process(target=download_from_web,args=(q,))
+    p2 = multiprocessing.Process(target=analysis_data,args=(q,))
+
+    p1.start()
+    p2.start()
+
+
+
+if __name__ == '__main__':
+    main()

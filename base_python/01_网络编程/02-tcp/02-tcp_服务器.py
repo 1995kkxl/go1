@@ -8,7 +8,7 @@ def main():
     #监听
     tcp_server_socket.listen(128)
     print("waiting....")
-    #等待连接
+    #accept等待连接
     new_client_socket,client_Addr = tcp_server_socket.accept()
     print("处理ing...")
     print(client_Addr)
