@@ -1,1 +1,28 @@
-:85:85:85:85$'' $&$&*$&*"%'$'*'+-',/*.2-15,/3,-3/2605727:04704727:047/36047259/36-14-23+01).0).0,12*01*01*00+11)./+1218:.47,23+21+12*00,23*32(10'02'11'/1%-0'01'/1 )/"*$+'0%1"+#+,8)1.95=49+1+0-5.9"+ )!+3)5>)4>'09*3:)29*3:29>49;18:5:;7<>6<;5::5;:49959;59:48:1571876<;:@@2898=?BHH<CB<BA<AA<AA9??:@@:@@<BA<BA<CB:@@8>>9@@5;>.89)?>!FB?:C=LBUE!cQOD.,:=TPGJ<@!DC!BA == @>GAQCXL$se#_UIC@>?:A9F:B8:0;2<2NAUFPF56 +0&+-)./,227>;P[TKSOAHEBHE/56.454;9*11076-33+21+125=:BIEELH?FC>DA=DACHFCJGBGFCHFAHE@FC<DADJGCIFBHEDJGCJGBHFCJGAGE?EDAFE>DC<B@<BAAGFJPOHNKGLJGMJGMJHOLGNKGMJFLIGLJIOLZ`]]baRXWJQNKRP>FC<C@DJGGMJGNKGNKGMJFLJCJGDKHDKHDKHCJGCIFCJGBIFBIF=FE7?>6?@5@?AJICLJ>LH>HHGPPFPN8DB7A@6@A5?A7@A6?@1<;+74)54*3608:7@@9CC>GGAJJ/>G/>G$5D6G=H?J?JJNROLKRL
+from multiprocessing import Pool
+import os,time,random
+
+def worker(msg):
+    t_start = time.time()
+    print("%s开始执行，进程号为%d" % (msg,os.getpid()))
+    # random.random()随机生成0~1之间的浮点数
+    time.sleep(random.random()*2)
+    t_stop = time.time()
+    print(msg,"执行完毕，耗时%0.2f" % (t_stop-t_start))
+
+
+def main():
+    po = Pool(3) #定义一个进程池，最大进程数3
+
+    for i in range(0,10):
+        #Pool().apply_async(要调用的目标，（传递给目标的参数元祖，））
+        #每次循环将会用空闲出来的子进程去调用目标
+        po.apply_async(worker,(i,))
+    print("-----start-----")
+    po.close() #关闭进程池，关闭后po不再接收新的请求
+    po.join() #等待po中所有子进程执行完成，必须放在close语句之后
+    print("-----stop-----")
+
+
+
+if __name__ == '__main__':
+    main()

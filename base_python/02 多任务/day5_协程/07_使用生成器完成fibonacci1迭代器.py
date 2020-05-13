@@ -1,7 +1,7 @@
 
 
 
-def current_num(all_num):
+def creat_num(all_num):
 	#a = 0
 	#b = 1
 	a,b = 0, 1
@@ -13,10 +13,7 @@ def current_num(all_num):
 		current_num += 1
 
 # 如果在调用create_num的时候,发现这个函数中有yield那么此时,不是调用函数,而是创建一个生成器对象
-obj = current_num(10)
-ret = next(obj)
-print(ret)
-
+obj = creat_num(10)
 ret = next(obj)
 print(ret)
 
