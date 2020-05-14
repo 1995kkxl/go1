@@ -1,7 +1,9 @@
 import re
 
+#re.match(正则表达式，需要处理的字符串)
+
 def main():
-	names = ["age", "_age", "1age" , "age1", "a_age", "age_1_", "age!", "a#123"]
+	names = ["age", "_age", "1age" , "ange1", "a_age", "age_1_", "age!", "a#123"]
 	for name in names:
 		# ret = re.match(r"[a-zA-Z_][a-zA-Z0-9_]*", name)
 		ret = re.match(r"^[a-zA-Z_][a-zA-Z0-9_]*$", name) #^符号开头,$符号结尾 匹配从头到尾

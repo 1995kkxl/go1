@@ -1,12 +1,264 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    
+  <!--     首页天气-->    
+  <link href="css/chinaz.css" rel="stylesheet" type="text/css" />
 
-<head>
-<title>我的第一个 HTML 页面</title>
-</head>
+    <link rel="stylesheet" href="css/1.css" type="text/css">
+  <script type="text/javascript" src="https://apip.weatherdt.com/view/static/js/r.js?v=1111"></script>
 
-<body>
-<p>body 元素的内容会显示在浏览器中。</p>
-<p>title 元素的内容会显示在浏览器的标题栏中。</p>
-</body>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Custom icon font-->
+    <link rel="stylesheet" href="css/fontastic.css">
+    <!-- Google fonts - Open Sans-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <!-- Fancybox-->
+    <link rel="stylesheet" href="vendor/@fancyapps/fancybox/jquery.fancybox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
+  </head>
+  <body>
+    <header class="header">
+      <!-- Main Navbar-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="search-area">
+          <div class="search-area-inner d-flex align-items-center justify-content-center">
+            <div class="close-btn"><i class="icon-close"></i></div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-8">
+                <form action="#">
+                  <div class="form-group">
+                    <input type="search" name="search" id="search" placeholder="What are you looking for?">
+                    <button type="submit" class="submit"><i class="icon-search-1"></i></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <!-- Navbar Brand -->
+          <div class="navbar-header d-flex align-items-center justify-content-between">
+            <!-- Navbar Brand --><a href="index.html" class="navbar-brand">博客LOGO</a>
+            <!-- Toggle Button-->
+            <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span></span><span></span><span></span></button>
+          </div>
+          <!-- Navbar Menu -->
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="index.html" class="nav-link active ">主页</a>
+              </li>
+              <li class="nav-item"><a href="blog.html" class="nav-link ">博客</a>
+              </li>
+              <li class="nav-item"><a href="post.html" class="nav-link ">热门</a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link ">其他</a>
+              </li>
+            </ul>
+            <div class="navbar-text"><a href="#" class="search-btn"><i class="icon-search-1"></i></a></div>
+            <ul class="langs navbar-text"><a href="#" class="active">英文</a><span>           </span><a href="#">其他</a></ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+     <!-- Hero Section 开始-->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="weather_cloudy_width">
+            <div class="shatan_width">
+                <div class="weather_cloudy_shatan"><i class="weather_cloudy_shatan_content"></i></div>
+              </div>
+               <div class="weather_cloudy">
+                <div class="weather_cloudy_xiong"><i class="weather_cloudy_xiong_content"></i></div>
+                <div class="weather_cloudy_shu"><i class="weather_cloudy_shu_content"></i></div>
+                <div class="weather_cloudy_xiongyingzi"><i class="weather_cloudy_xiongyingzi_content"></i></div>
+                <div class="weather_cloudy_shuye1"><i class="weather_cloudy_shuye1_content"></i></div>
+                <div class="weather_cloudy_shuye2"><i class="weather_cloudy_shuye2_content"></i></div>
+                <div class="weather_cloudy_yun1"><i class="weather_cloudy_yun1_content"></i></div>
+                <div class="weather_cloudy_yun2"><i class="weather_cloudy_yun2_content"></i></div>
+                <div class="weather_cloudy_yun3"><i class="weather_cloudy_yun3_content"></i></div>
+                <div class="weather_cloudy_yun4"><i class="weather_cloudy_yun4_content"></i></div>
+                <div class="weather_cloudy_taiyang"><i class="weather_cloudy_taiyang_content"></i></div>
+                <div class="weather_cloudy_xiaoniao"><i class="weather_cloudy_xiaoniao_content"></i></div>
+             </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!--结束-->
+
+
+
+
+
+    <!-- Hero Section-->
+    <!--<section style="background: url(img/hero.jpg); background-size: cover; background-position: center center" class="hero">-->
+      <!--<div class="container">-->
+        <!--<div class="row">-->
+          <!--<div class="col-lg-7">-->
+            <!--<h1>这是个人的一个博客网站，用于test和记录一些东东~</h1><a href="#" class="hero-link">查看更多</a>-->
+          <!--</div>-->
+        <!--</div><a href=".intro" class="continue link-scroll"><i class="fa fa-long-arrow-down"></i> 向下翻</a>-->
+      <!--</div>-->
+    <!--</section>-->
+
+
+    <section class="featured-posts no-padding-top">
+      <div style="margin-top: 15px;" class="container">
+        <!-- Post-->
+        <div class="row d-flex align-items-stretch">
+          <div class="text col-lg-7">
+            <div class="text-inner d-flex align-items-center">
+              <div class="content">
+                <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+              <div id="main" style="width: 600px;height:400px;"></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="bigBox">
+            <!--  日期--> 
+              <div class="bigBox_date1">
+                <div class="topBar1"><span class="font1">我的日历</span></div>
+                <div id="date" class="date1"></div>
+                <div id="week" class="week1"></div>
+                <div id="year" class="year1"></div>
+                <div>
+                  </div>
+                    </div>
+              <div class="weather_box">
+                <!-- weather -->
+              <div id="weather-view-he"></div>
+              </div>
+            </div>
+          
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page Footer-->
+    <footer class="main-footer">
+      <div class="copyrights">
+        <div class="container">
+          <div class="row">
+            <div style="text-align: center" class="col-md-6">
+              <p>粤ICP备粤ICP备17163313号-3 Copyright©2019 kkxl95.cn 版权所有</p>
+              <span>意见反馈或联系我（mrc2017@foxmai.com）</span>
+            </div>
+            <div class="col-md-6 text-right">
+              
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/@fancyapps/fancybox/jquery.fancybox.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+
+  <script>
+WIDGET = {ID: 'jxIHMKF1Um'};
+</script>
+
+
+
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // 指定图表的配置项和数据
+        var option = {
+            title: {
+                text: 'ECharts 入门示例'
+            },
+            tooltip: {},
+            legend: {
+                data:['销量']
+            },
+            xAxis: {
+                data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+            },
+            yAxis: {},
+            series: [{
+                name: '销量',
+                type: 'bar',
+                data: [5, 20, 36, 10, 10, 20]
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+    <script>
+      let date = new Date();
+let day  = date.getDate();
+
+
+let week = date.getDay()
+let weeks = ["日","一","二","三","四","五","六"]
+for(var i=0;i<7;i++){
+  if(week===i){
+    week="星期"+weeks[i];
+  }
+}
+
+
+let year  = date.getFullYear();
+let month = date.getMonth()+1;
+month < 10 ? month='0'+month : month;
+let ym = year+ '.' +month;
+
+
+window.onload = function () {
+  //日期
+  let node1=document.createElement("P")
+  let dateNode=document.createTextNode(day);
+  node1.appendChild(dateNode);
+  document.getElementById('date').appendChild(node1)
+  //星期
+  let node2=document.createElement("P")
+  let weekNode=document.createTextNode(week);
+  node2.appendChild(weekNode);
+  document.getElementById('week').appendChild(node2)
+  //年月
+  let node3=document.createElement("P")
+  let ymNode=document.createTextNode(ym);
+  node3.appendChild(ymNode);
+  document.getElementById('year').appendChild(node3)
+};
+
+    </script>
 </html>
