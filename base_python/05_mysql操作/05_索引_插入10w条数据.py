@@ -1,4 +1,4 @@
-from pymysql import connect
+rom pymysql import connect
 
 
 # 创建索引

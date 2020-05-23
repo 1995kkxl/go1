@@ -1,2 +1,90 @@
-u‡s‚nY‚Vyi
-yl‚r†o‚s‰|Šu†u‚rvb£™ÓÉ+ÓÊ+ËÀ%ËÁ"ĞÅ'¿´,‰|'‰Šv}Á³‚Áª·§­ŸÑÄ-¿¬6ÛÒ¡ãŞ·ÚÙ²ÎÏ¢Å½›-‘nºªµ¬Á¯ØÅ1Î·+Ï¹)¿¯Åµ¹¥!±£Æ´Ã´Ë²"Ñ¿=çà\èáEçİCèßCİÖA×Í9àÖ.ÓÈ-ÑÀ-Ñ¿,İÌDÉ¹2§Ÿ´©µ™˜€€•œ…oÙÆ2ãÒ9åÑ1Ì²!×Å6ãÖH¾§(µ!É±"ŞÊ4İÉ-İÌ4ÛÉ4áÑ4İÊ<ÙÆ6ÙÅ0ÔÃ1ÜÍ-İÌ,×Â)ØÁ%ÚÆ%ÜÎ0İÔ=İÖ>ÙÎ,ÔÁ)ÚÈ(Æ¸Êµ2ÖÉD­¥,© '©¥@ÇÅƒ½ÅŸ¨«l¹©"­Ÿ¨™ªŸ!¡Ÿ”·Á4ÉÏCª¥,˜ ˜'¥¡8ÆÀnØÕ ÕÔ£ÌÇŒ¬¡?—Šœ‘‰|”††€Vb	Áº9éÛ\ÆªÔÀ.ÖÃ2ĞÄ+ÕÈ0Ô»)ÀªĞ»,Ï¹%É§"¿Ê±%ãØoã×sÛÏHÕÆ1ØÃ1ãÖ=áÚfÛÒVØÍ8ÕÊJÑÆ<Ôº.Ñ¬(ÖÁÔÁÁ¯ÅºÊº#Ê»$Ì»#ÔÀ,±Ã»Aàé®ËÊU`JDYD?[F@[F@[F@[F@[F@[F@[F@[F@\F@[F@D.<sBºªC©•A©š@¨D§™F´ªF·«D¬ ?¥˜=£–> “>•ˆD£”U‚sNH29\F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[E@[E@[G@[H<^L:YH5J>,C7(C6&I<)K:'K8'K:+J>(K?+K?-M?'K;'?3$9/!;3!ME-NA*N@+H=%?4?2$@3%B3C4B6"E7#H9$H9#D7(F8(H7(H7(K8'K8'K9'K:'K;'K;'K;'K;'F8(D7(M;(M:)D6"I<*TI:UJ<WF>XG>[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@YC?P7<[HB®¥<bR=P=;\HA\HAO7<jXB£™9…4“…9”…;š‰:˜†6™†5—†7‘ƒ6‘‚5€55555’ƒ5“„5‘ƒ5‘†0’‡1’‡4Œ1Œ2–‰7Ÿ’==šŒ;›<’ˆ7¡–;®7©:ª¢=¯¦9Š}7YJ?V>=\F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@ZH@U@B]I=hV'fT%eT&eT&eU#eVeVdVeVnZ!o[%mZ'mZ&mZ&mZ&n[$n\"n\n\n]n_$m_-m\+mW%mZ&mZ&mZ&lZ%n\"v`wdvbwbxfs`ua#va!vcua€m…rŠvŒwˆs‡r‡r…qm€n€q~n~ll†m'“{š‚¯›"°$©—%˜ˆ¯£+ëéYÇ³1¿²/º¨+»¨+ÎÆ?ÈÅCÅÀ?ÊÃ<ÊÂ;ÔÊAÕÍCÍÊ@ÎÊDÁ³?¢Š* ƒ3ª;©5¦Œ3«’9¶A¬4¤†-©Š+®“2¯“7¥ˆ+±–/¬‘,›„›…Ÿ‡#§)«$°–"´Ÿ'«•%¨˜'­(£$s%“w&•z$‰vˆx†w‚r‰tŠv‡xqZE?U<=[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@[F@]GAU?:L85‹|m˜‡v…q^§–WÀ·M£‘\˜‚`¯¢O¥•U{_„o`ˆt_Œxb‰tcƒqa„peŸŠQ·¯?«™K‘u^zh–„kœ†b–X´§G·¬D£™D‚tBdNAK0:G.<Q8<[F@\F@\F@^JAI6<aR=Â·1´¨3¹©?¹§B¹¥F¹¥J¸¡Pº£Qº§S¹¦P¹¥F¾ªJÊ¼TÑÆWÛÖVíê^äàUÙÒMÒÎCÍÊ=ÎÇ>ÍÆ=ÍÉ?ÑÍBÓÎBĞË@ĞÌ?ÒÍ?ÔÏ@ÖÕEáßJóïZöôbñôcïø\îúeèüiêıdğÿ^æıaÙîtÅÉD°Ÿ'µ¨/²¨,²¨,°¢*»±4Ä»AÂ¹BŸ“?šŒ=‹x1Šv,Ÿ‹,ƒq3|l0q/yj1{k0o.•ƒ(}2y6¸¦BİÌD×È:µ£6¿§0Ê²1Ã­2Ç´?Ê»4ÚÒ8ßÜ1ŞÛ-ßØ,ÜÔ+ÜÒ,İÑ*ÛĞ,İÖ0ßØ.ß×+ãà.áä.áé:áé8åê0çğ9éñ8éô>êó?çóDãî;ãî9äğBãôIêøAé÷@ãö?æõ7äöEãöLæõSéıOãÿQ€xDB(:]HA[F@[F@YD?bMDxnd¸˜]Î²iÎ²iÎ²iË¬bË¬bË¬bÌ±fÌ±fÌ±fÎ²iÎ²iÎ²iÑ»rĞ¸mĞ¹mĞ¹mĞ¹mĞ¹mÑÂrÑÂrÑÂrĞ¹mÌ¸mË¬gÉ¢^xndxndxndxndxnd›ˆ\n4YH ‡d)ÓŸDj,bL`KaO&bP$eRhT"kU%q]'rc,rd,r]&lY#cQ#aN#aN#dN#jS#pU#kU&kU&pX&s]*q[,yc/r5r5ˆk0„g/†j0‹p3‰n1r5h/Œi/m0†e,za'u^&r\"r\+r\+{a,y`*t^%u^&y`'~d+d,d,e-g.c+~f.ƒh/†i/‰m1‰m1†o5‰q5ˆq5t8t7Œr5“v9—};“w9“x9x;w<|@~B~A‹v;‹v9Œr5Œr5Œr5’y;œ{>”y;’x;‰w9‰x9|;›‚>y>Œx>y?‹w>m5ua.p[,ta.ud/ud/ve/uf1uf1{i3p9n:m9p:“vA­ŒM¸›U¼¦[Ä±iÉ¹uÆ³nÄ³jÅ³jÅ³jÄ³jÁ©c¿£_¤‰N•~?”~?|?‚q>r?‘t@k[/`Z+uf1vf1€j5j5|g3’zBº\´›Z±—W™FŠy=›…EÈ¸oÏË}ÌÈzÌÈyÑÌÍÊ~ËÃuË¼sË²hÉ©]Ë±fË±gÆ©cÇ«eÄ¡^ÀŸ^¾›^¾›^Â¡b¾›^Â£bÁ¡a¾›^½›^½›]¼š]Á ]Æ§bÇªdÈ¯hÆ®bÅª_È¯eÈ±iË³iÊ²hËµiÊ¼k½§`­R³›V•…D€s6p5i5~i4xg0se-qd,qa'qd,vf,tf,pd,yd,€e,|`,rW,s[4xndxndxndxndxndxndxndxndxndxndxndxndxndxndxndxndxndxndxndxndxnd
+import socket
+import re
+import multiprocessing
+
+class WSGIServer(object):
+    #é¦–å…ˆæ‰§è¡Œinitæ–¹æ³•
+    def __init__(self):
+        # 1.åˆ›å»ºå¥—æ¥å­—
+        self.tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+        # é€šè¿‡è®¾å®šå¥—æ¥å­—é€‰é¡¹è§£å†³[Errno 98]é”™è¯¯
+        self.tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+
+        # 2.ç»‘å®šç«¯å£
+        self.tcp_server_socket.bind(("", 7899))
+
+        # 3.å˜ä¸ºç›‘å¬å¥—æ¥å­—
+        self.tcp_server_socket.listen(128)
+
+    def serve_client(self,new_client_socket):
+        """ä¸ºè¿™ä¸ªå®¢æˆ·ç«¯è¿”å›æ•°æ®"""
+        # 6.æ¥æ”¶æµè§ˆå™¨å‘é€è¿‡æ¥çš„httpè¯·æ±‚
+        request = new_client_socket.recv(1024).decode("utf-8")
+
+        # 7.å°†è¯·æ±‚æŠ¥æ–‡åˆ†å‰²æˆå­—ç¬¦ä¸²åˆ—è¡¨
+        request_lines = request.splitlines()
+
+        print(request_lines)
+
+        # 8.é€šè¿‡æ­£åˆ™è¡¨è¾¾å¼æå–æµè§ˆå™¨è¯·æ±‚çš„æ–‡ä»¶å
+        file_name = None
+        ret = re.match(r"^[^/]+(/[^ ]*)", request_lines[0])
+        if ret:
+            file_name = ret.group(1)
+            print("file_name:", file_name)
+            if file_name == "/":
+                file_name = "/index.html"
+
+        # 9.è¿”å›httpæ ¼å¼çš„åº”ç­”æ•°æ®ç»™æµè§ˆå™¨
+        try:
+            f = open("./html" + file_name, "rb")
+        except Exception:
+            response = "HTTP/1.1 404 NOT FOUND\r\n"
+            response += "\r\n"
+            response += "-----file not found-----"
+            new_client_socket.send(response.encode("utf-8"))
+        else:
+            # 9.1 è¯»å–å‘é€ç»™æµè§ˆå™¨çš„æ•°æ®-->body
+            html_content = f.read()
+            f.close()
+
+            # 9.2 å‡†å¤‡å‘é€ç»™æµè§ˆå™¨çš„æ•°æ®-->header
+            response = "HTTP/1.1 200 OK\r\n"
+            response += "\r\n"
+
+            # å°†response headerå‘é€ç»™æµè§ˆå™¨--å…ˆä»¥utf-8æ ¼å¼ç¼–ç 
+            new_client_socket.send(response.encode("utf-8"))
+            # å°†response bodyå‘é€ç»™æµè§ˆå™¨--ç›´æ¥æ˜¯ä»¥å­—èŠ‚å½¢å¼å‘é€
+            new_client_socket.send(html_content)
+
+        # 10. å…³é—­æ­¤æ¬¡æœåŠ¡çš„å¥—æ¥å­—
+        new_client_socket.close()
+
+
+    def run_forever(self):
+        """ç”¨æ¥å®Œæˆç¨‹åºæ•´ä½“æ§åˆ¶"""
+        # å®šä¹‰è®¡æ•°å™¨ï¼Œè®°å½•æµè§ˆå™¨å‘èµ·çš„è¯·æ±‚æ¬¡æ•°
+        request_counter = 0
+
+        while True:
+            # 4.ç­‰å¾…æ–°å®¢æˆ·ç«¯è¿æ¥
+            new_client_socket, client_addr = self.tcp_server_socket.accept()
+
+            # 5.ä¸ºè¿æ¥ä¸Šçš„å®¢æˆ·ç«¯æœåŠ¡
+            process = multiprocessing.Process(target=self.serve_client, args=(new_client_socket,))
+            process.start()
+
+            new_client_socket.close()
+
+        # å…³é—­ç›‘å¬å¥—æ¥å­—
+        self.tcp_server_socket.close()
+
+def main():
+    '''æ§åˆ¶æ•´ä½“ï¼Œåˆ›å»ºä¸€ä¸ªwebæœåŠ¡å™¨å¯¹è±¡ï¼Œç„¶åè°ƒç”¨è¿™ä¸ªå¯¹è±¡çš„run_foreveræ–¹æ³•è¿è¡Œ'''
+    wsgi_server = WSGIServer()
+    wsgi_server.run_forever()
+
+
+if __name__ == "__main__":
+    main()
