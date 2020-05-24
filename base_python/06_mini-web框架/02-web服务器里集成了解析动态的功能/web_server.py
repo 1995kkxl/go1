@@ -1,6 +1,7 @@
 import socket
 import re
 import multiprocessing
+import time
 
 class WSGIServer(object):
     #首先执行init方法
@@ -37,27 +38,37 @@ class WSGIServer(object):
                 file_name = "/index.html"
 
         # 9.返回http格式的应答数据给浏览器
-        try:
-            f = open("./html" + file_name, "rb")
-        except Exception:
-            response = "HTTP/1.1 404 NOT FOUND\r\n"
-            response += "\r\n"
-            response += "-----file not found-----"
-            new_client_socket.send(response.encode("utf-8"))
+        #如果请求的资源部署.py结尾，那么认为是静态资源
+        #endswith是判断啥结尾哦
+        if not file_name.endswith(".py"):
+            try:
+                f = open("./html" + file_name, "rb")
+            except Exception:
+                response = "HTTP/1.1 404 NOT FOUND\r\n"
+                response += "\r\n"
+                response += "-----file not found-----"
+                new_client_socket.send(response.encode("utf-8"))
+            else:
+                # 9.1 读取发送给浏览器的数据-->body
+                html_content = f.read()
+                f.close()
+
+                # 9.2 准备发送给浏览器的数据-->header
+                response = "HTTP/1.1 200 OK\r\n"
+                response += "\r\n"
+
+                # 将response header发送给浏览器--先以utf-8格式编码
+                new_client_socket.send(response.encode("utf-8"))
+                # 将response body发送给浏览器--直接是以字节形式发送
+                new_client_socket.send(html_content)
         else:
-            # 9.1 读取发送给浏览器的数据-->body
-            html_content = f.read()
-            f.close()
-
-            # 9.2 准备发送给浏览器的数据-->header
-            response = "HTTP/1.1 200 OK\r\n"
-            response += "\r\n"
-
-            # 将response header发送给浏览器--先以utf-8格式编码
+            #2.2如果是以.py结尾，那么就是请求的是动态资源
+            header = "HTTP/1.1 200 OK\r\n"
+            header += "\r\n"
+            body = "now time:%s" % time.ctime()
+            response = header + body
+            #发送给浏览器
             new_client_socket.send(response.encode("utf-8"))
-            # 将response body发送给浏览器--直接是以字节形式发送
-            new_client_socket.send(html_content)
-
         # 10. 关闭此次服务的套接字
         new_client_socket.close()
 

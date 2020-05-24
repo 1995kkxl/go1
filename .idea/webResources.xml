@@ -6,6 +6,7 @@
         <entryData>
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/base_python/A_con_ssh" />
+            <path value="file://$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件" />
           </resourceRoots>
         </entryData>
       </entry>

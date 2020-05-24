@@ -57,7 +57,7 @@
     // Should display counter at the top left corner
     infobar: true,
 
-    // Should display close button (using `btnTpl.smallBtn` template) over the content
+    // Should display close button (using `btnTpl.smallBtn` templates) over the content
     // Can be true, false, "auto"
     // If "auto" - will be automatically enabled for "html", "inline" or "ajax" items
     smallBtn: "auto",
@@ -109,7 +109,7 @@
     },
 
     iframe: {
-      // Iframe template
+      // Iframe templates
       tpl:
         '<iframe id="fancybox-frame{rnd}" name="fancybox-frame{rnd}" class="fancybox-iframe" allowfullscreen="allowfullscreen" allow="autoplay; fullscreen" src=""></iframe>',
 
@@ -180,7 +180,7 @@
     // Custom CSS class for layout
     baseClass: "",
 
-    // Base template for layout
+    // Base templates for layout
     baseTpl:
       '<div class="fancybox-container" role="dialog" tabindex="-1">' +
       '<div class="fancybox-bg"></div>' +
@@ -193,10 +193,10 @@
       "</div>" +
       "</div>",
 
-    // Loading indicator template
+    // Loading indicator templates
     spinnerTpl: '<div class="fancybox-loading"></div>',
 
-    // Error message template
+    // Error message templates
     errorTpl: '<div class="fancybox-error"><p>{{ERROR}}</p></div>',
 
     btnTpl: {
@@ -597,14 +597,14 @@
       // Build html markup and set references
       // ====================================
 
-      // Build html code for buttons and insert into main template
+      // Build html code for buttons and insert into main templates
       buttonStr = "";
 
       $.each(firstItemOpts.buttons, function(index, value) {
         buttonStr += firstItemOpts.btnTpl[value] || "";
       });
 
-      // Create markup from base template, it will be initially hidden to
+      // Create markup from base templates, it will be initially hidden to
       // avoid unnecessary work like painting while initializing is not complete
       $container = $(
         self.translate(
@@ -637,7 +637,7 @@
       self.jumpTo(self.currIndex);
     },
 
-    // Simple i18n support - replaces object keys found in template
+    // Simple i18n support - replaces object keys found in templates
     // with corresponding values
     // ============================================================
 
