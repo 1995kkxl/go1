@@ -3,7 +3,7 @@ import re
 import multiprocessing
 
 class WSGIServer(object):
-    #首先执行init方法
+    #首先执行init方法 123
     def __init__(self):
         # 1.创建套接字
         self.tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
