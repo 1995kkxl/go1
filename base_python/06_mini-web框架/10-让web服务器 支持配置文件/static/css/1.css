@@ -1,0 +1,63 @@
+.bigBox{
+    width: 400px;
+    height: 800px;
+}
+.weather_box{
+    width: 400px;
+    height:480px;
+    margin-top: 25px;
+}
+.bigBox_date1{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #6ec884;
+    position: relative;
+}
+.topBar1{
+    position: relative;
+    top: 0;
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    background-color: #6ec884;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+.font1{
+    position: absolute;
+    float: left;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.date1{
+    position: relative;
+    text-align: center;
+    color: #6ec884;
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bolder;
+}
+.week1{
+    position: relative;
+    text-align: center;
+    color: #6ec884;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    /*font-weight: lighter;*/
+}
+.year1{
+    position: relative;
+    text-align: center;
+    color: #6ec884;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    /*font-weight: lighter;*/
+}

@@ -1,439 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab371202-d619-4cc8-800d-2bc79ab8b2b3" name="Default Changelist" comment="宿舍">
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/dynamic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/chinaz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/fontastic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/style.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/style.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/style.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/style.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/style.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/style.sea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/style.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/blog.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/blog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/blog.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/blog.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/icons-reference/fonts/blog.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/icons-reference/fonts/blog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/icons-reference/fonts/blog.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/icons-reference/fonts/blog.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/icons-reference/icons-reference.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/icons-reference/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/cloudyshu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/cloudyxiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/cloudyxiong_yingzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/cloudyyun1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/cloudyyun2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/cloudyyun3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/shuye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/taiyang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_cloudy/xiaoniao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/dengta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/fogxiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/fogxiong_yingzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/fogyun1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/fogyun2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/ghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/hongqi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/leftfog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/rightfog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_fog/sun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_neight/liuxing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_neight/paiwu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_neight/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_neight/shu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_neight/yueliang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_neight/z.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_neight/zhangpeng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/shuikeng1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/shuikeng2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/shuikeng3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/wuyun_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/xiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/yu_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/yun_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_rain/yusan_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/gouhuo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/saoba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/snowxiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/snowxiong_yingzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/snowyun1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/snowyun2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/snowyun3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/songshu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/xuehua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_snow/xueren.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/dashu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/dayu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/dayun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/qiqiu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/shuitong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/taiyang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/xiaoshu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/xiaoyu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/xiaoyun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/xiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/yingzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/yugan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/weather_sunny/yugou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/avatar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/avatar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/avatar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/blog-post-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/blog-post-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/blog-post-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/blog-post-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/divider-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/featured-pic-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/featured-pic-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/featured-pic-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/gallery-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/small-thumbnail-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/small-thumbnail-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/small-thumbnail-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/template-mac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/img/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/js/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/js/front.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/@fancyapps/fancybox/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/@fancyapps/fancybox/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/@fancyapps/fancybox/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/jquery.cookie/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/jquery/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/esm/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/esm/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/esm/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/esm/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/umd/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/umd/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/umd/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/umd/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/vendor/popper.js/umd/poppper.js.flow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/rili.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/dynamic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/chinaz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/fontastic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/style.blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/style.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/style.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/style.pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/style.red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/style.sea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/style.violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/blog.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/blog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/blog.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/blog.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/icons-reference/fonts/blog.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/icons-reference/fonts/blog.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/icons-reference/fonts/blog.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/icons-reference/fonts/blog.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/icons-reference/icons-reference.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/icons-reference/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/cloudyshu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/cloudyxiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/cloudyxiong_yingzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/cloudyyun1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/cloudyyun2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/cloudyyun3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/shuye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/taiyang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_cloudy/xiaoniao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/dengta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/fogxiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/fogxiong_yingzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/fogyun1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/fogyun2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/ghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/hongqi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/leftfog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/rightfog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_fog/sun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_neight/liuxing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_neight/paiwu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_neight/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_neight/shu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_neight/yueliang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_neight/z.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_neight/zhangpeng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/shuikeng1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/shuikeng2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/shuikeng3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/wuyun_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/xiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/yu_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/yun_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_rain/yusan_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/gouhuo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/saoba.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/snowxiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/snowxiong_yingzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/snowyun1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/snowyun2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/snowyun3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/songshu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/xuehua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_snow/xueren.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/dashu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/dayu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/dayun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/qiqiu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/shatan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/shuitong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/taiyang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/xiaoshu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/xiaoyu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/xiaoyun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/xiong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/yingzi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/yugan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/weather_sunny/yugou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/avatar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/avatar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/avatar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/blog-post-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/blog-post-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/blog-post-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/blog-post-4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/divider-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/featured-pic-1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/featured-pic-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/featured-pic-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/gallery-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/gallery-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/gallery-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/gallery-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/gallery-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/small-thumbnail-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/small-thumbnail-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/small-thumbnail-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/template-mac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/img/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/js/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/js/front.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/@fancyapps/fancybox/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/@fancyapps/fancybox/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/@fancyapps/fancybox/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/jquery.cookie/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/jquery/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/esm/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/esm/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/esm/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/esm/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/umd/popper-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/umd/popper-utils.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/umd/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/umd/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/vendor/popper.js/umd/poppper.js.flow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/rili.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_python/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+    <list default="true" id="ab371202-d619-4cc8-800d-2bc79ab8b2b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/dynamic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/dynamic/web_server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/chinaz.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/fontastic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/style.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/style.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/style.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/style.pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/style.red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/style.sea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/style.violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/blog.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/blog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/blog.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/blog.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/icons-reference/fonts/blog.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/icons-reference/fonts/blog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/icons-reference/fonts/blog.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/icons-reference/fonts/blog.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/icons-reference/icons-reference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/icons-reference/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/cloudyshu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/cloudyxiong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/cloudyxiong_yingzi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/cloudyyun1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/cloudyyun2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/cloudyyun3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/shatan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/shuye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/taiyang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_cloudy/xiaoniao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/dengta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/fogxiong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/fogxiong_yingzi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/fogyun1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/fogyun2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/ghost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/hongqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/leftfog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/rightfog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/shatan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_fog/sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_neight/liuxing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_neight/paiwu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_neight/shatan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_neight/shu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_neight/yueliang.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_neight/z.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_neight/zhangpeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/shatan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/shuikeng1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/shuikeng2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/shuikeng3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/wuyun_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/xiong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/yu_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/yun_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_rain/yusan_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/gouhuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/saoba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/shatan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/snowxiong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/snowxiong_yingzi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/snowyun1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/snowyun2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/snowyun3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/songshu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/xuehua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_snow/xueren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/dashu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/dayu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/dayun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/qiqiu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/shatan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/shuitong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/taiyang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/xiaoshu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/xiaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/xiaoyun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/xiong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/yingzi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/yugan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/weather_sunny/yugou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/blog-post-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/blog-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/blog-post-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/blog-post-4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/divider-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/featured-pic-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/featured-pic-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/featured-pic-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/gallery-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/gallery-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/gallery-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/gallery-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/gallery-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/small-thumbnail-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/small-thumbnail-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/small-thumbnail-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/template-mac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/img/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/js/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/js/front.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/@fancyapps/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/@fancyapps/fancybox/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/@fancyapps/fancybox/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/jquery.cookie/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/jquery.cookie/cookie.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/jquery.cookie/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/jquery/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/esm/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/esm/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/esm/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/esm/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/umd/popper-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/umd/popper-utils.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/umd/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/umd/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/vendor/popper.js/umd/poppper.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/rili.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/字典.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/03web服务器3.1/03-简单的web服务器的实现/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/03web服务器3.1/03-简单的web服务器的实现/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/03web服务器3.1/03-简单的web服务器的实现/html/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/03web服务器3.1/03-简单的web服务器的实现/html/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/03web服务器3.1/03-简单的web服务器的实现/html/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/03web服务器3.1/03-简单的web服务器的实现/html/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/03web服务器3.1/04_并发web服务器的实现/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/03web服务器3.1/04_并发web服务器的实现/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/03web服务器3.1/04_并发web服务器的实现/html/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/03web服务器3.1/04_并发web服务器的实现/html/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/03web服务器3.1/04_并发web服务器的实现/html/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/03web服务器3.1/04_并发web服务器的实现/html/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/01-多进程-面向对象-web服务器/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/01-多进程-面向对象-web服务器/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/01-多进程-面向对象-web服务器/html/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/01-多进程-面向对象-web服务器/html/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/01-多进程-面向对象-web服务器/html/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/01-多进程-面向对象-web服务器/html/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能/html/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能/html/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能/html/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能/html/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能/web_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/html/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/html/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/html/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/html/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/web_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/html/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/html/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/html/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/html/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/web_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/html/vendor/@fancyapps/fancybox/jquery.fancybox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/html/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/html/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/html/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/html/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/web_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/dynamic/mini_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/dynamic/mini_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/2_000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/move_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/te2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/team.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/team1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/team2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/static/images/team_000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/features.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件/web_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/dynamic/mini_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/dynamic/mini_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/move_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/te2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/team.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/team1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/static/images/team2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/features.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/dynamic/mini_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/dynamic/mini_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/move_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/te2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/team.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/team1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/static/images/team2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/features.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/web_server.conf" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/web_server.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/web_server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -530,7 +303,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -542,21 +315,43 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\go1\base_python\06_mini-web框架\09-运行web服务器时指定端口以及框架" />
-      <recent name="D:\go1\base_python\06_mini-web框架\09-运行web服务器时指定端口以及框架\dynamic" />
-      <recent name="D:\go1\base_python\06_mini-web框架\07-实现模板文件\dynami" />
-      <recent name="D:\go1\base_python\06_mini-web框架\07-实现模板文件\status" />
-      <recent name="D:\go1\base_python\06_mini-web框架\07-实现模板文件\template" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\go1\base_python\06_mini-web框架\07-实现模板文件" />
       <recent name="D:\go1\base_python\03web服务器3.1\03-简单的web服务器的实现" />
       <recent name="D:\go1\01_network_programming\01_base_concepts\02-udp" />
       <recent name="D:\go1\01_network_programming\01_base_concepts" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\go1\base_python\06_mini-web框架\10-让web服务器 支持配置文件" />
+      <recent name="D:\go1\base_python\06_mini-web框架\10-让web服务器 支持配置文件\dynamic" />
+      <recent name="D:\go1\base_python\06_mini-web框架\09-运行web服务器时指定端口以及框架" />
+      <recent name="D:\go1\base_python\06_mini-web框架\09-运行web服务器时指定端口以及框架\dynamic" />
+      <recent name="D:\go1\base_python\06_mini-web框架\07-实现模板文件\dynami" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.web_server (5)">
+  <component name="RunManager" selected="Shell Script.run.sh">
+    <configuration name="字典" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/字典.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed04_循环查看当前的线程.py" type="PythonConfigurationType" factoryName="Python">
       <module name="go1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -571,28 +366,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/02 多任务/day3_多任务线程/04_循环查看当前的线程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="进程测试其他" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="go1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python/04Py高级语法/GIL" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/04Py高级语法/GIL/进程测试其他.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -667,72 +440,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="web_server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开/web_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="web_server (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议/web_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="web_server (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样/web_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="web_server (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -755,23 +462,53 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="web_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/web_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件/run.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.pytest in 06_函数里面修改全局变量.py" />
       <item itemvalue="Python.Unnamed04_循环查看当前的线程.py" />
       <item itemvalue="Python.pytest in 05_创建线程以及运行.py" />
       <item itemvalue="Python.web_server (1)" />
-      <item itemvalue="Python.web_server (2)" />
-      <item itemvalue="Python.web_server (3)" />
-      <item itemvalue="Python.web_server (4)" />
       <item itemvalue="Python.web_server (5)" />
+      <item itemvalue="Python.web_server" />
+      <item itemvalue="Python.字典" />
+      <item itemvalue="Shell Script.run.sh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.run.sh" />
+        <item itemvalue="Python.字典" />
+        <item itemvalue="Python.web_server" />
         <item itemvalue="Python.web_server (5)" />
         <item itemvalue="Python.web_server (1)" />
-        <item itemvalue="Python.web_server (4)" />
-        <item itemvalue="Python.web_server (3)" />
-        <item itemvalue="Python.web_server (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -785,7 +522,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588993895666</updated>
-      <workItem from="1590311845797" duration="10627000" />
+      <workItem from="1590311845797" duration="12567000" />
+      <workItem from="1590332867882" duration="322000" />
+      <workItem from="1590333201074" duration="2186000" />
+      <workItem from="1590335399097" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="添加10万条测试数据到数据库">
       <created>1589019546949</created>
@@ -899,49 +639,15 @@
       <option name="project" value="LOCAL" />
       <updated>1590311911855</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="整理代码">
+      <created>1590329767153</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1590329767153</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="pytest_in_05_创建线程以及运行_py - 2020.05.11 at 17h 08m 55s.xml">
-      <configuration name="pytest in 05_创建线程以及运行.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_04_循环查看当前的线程_py - 2020.05.11 at 17h 16m 31s.xml">
-      <configuration name="pytest in 04_循环查看当前的线程.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_04_循环查看当前的线程_test2 - 2020.05.11 at 17h 16m 50s.xml">
-      <configuration name="pytest for 04_循环查看当前的线程.test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_04_循环查看当前的线程_test2 - 2020.05.11 at 17h 16m 52s.xml">
-      <configuration name="pytest for 04_循环查看当前的线程.test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_06_函数里面修改全局变量_py - 2020.05.11 at 17h 28m 10s.xml">
-      <configuration name="pytest in 06_函数里面修改全局变量.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_06_函数里面修改全局变量_py - 2020.05.11 at 17h 28m 24s.xml">
-      <configuration name="pytest in 06_函数里面修改全局变量.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_07_线程共享全局变量_py - 2020.05.11 at 17h 51m 26s.xml">
-      <configuration name="pytest in 07_线程共享全局变量.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_12_使用greenlet完成多任务_py - 2020.05.13 at 14h 24m 41s.xml">
-      <configuration name="pytest in 12_使用greenlet完成多任务.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_12_使用greenlet完成多任务_py - 2020.05.13 at 14h 25m 21s.xml">
-      <configuration name="pytest in 12_使用greenlet完成多任务.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_01_agrs_kwagrs_py - 2020.05.14 at 19h 47m 18s.xml">
-      <configuration name="pytest in 01_agrs_kwagrs.py" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TodoView" selected-index="4">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -959,7 +665,8 @@
     <MESSAGE value="如果html找不到本地资源，http服务器会崩溃" />
     <MESSAGE value="好饿啊丢" />
     <MESSAGE value="宿舍" />
-    <option name="LAST_COMMIT_MESSAGE" value="宿舍" />
+    <MESSAGE value="整理代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="211" width="1089" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590324751206">
@@ -970,54 +677,62 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="712" y="358" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590321668905" />
+    <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590334405962">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="755" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590334405962" />
     <state x="733" y="181" key="#web_server_(5)" timestamp="1590325214409">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="733" y="181" key="#web_server_(5)/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325214409" />
-    <state x="602" y="146" key="CommitChangelistDialog2" timestamp="1590311936842">
+    <state x="602" y="146" key="CommitChangelistDialog2" timestamp="1590329764753">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="602" y="146" key="CommitChangelistDialog2/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590311936842" />
-    <state width="2005" height="354" key="GridCell.Tab.0.bottom" timestamp="1590325436062">
+    <state x="602" y="146" key="CommitChangelistDialog2/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590329764753" />
+    <state width="997" height="354" key="GridCell.Tab.0.bottom" timestamp="1590335387693">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="354" key="GridCell.Tab.0.bottom/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325436062" />
-    <state width="2005" height="354" key="GridCell.Tab.0.center" timestamp="1590325436062">
+    <state width="997" height="354" key="GridCell.Tab.0.bottom/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590335387693" />
+    <state width="997" height="354" key="GridCell.Tab.0.center" timestamp="1590335387693">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="354" key="GridCell.Tab.0.center/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325436062" />
-    <state width="2005" height="354" key="GridCell.Tab.0.left" timestamp="1590325436062">
+    <state width="997" height="354" key="GridCell.Tab.0.center/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590335387693" />
+    <state width="997" height="354" key="GridCell.Tab.0.left" timestamp="1590335387692">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="354" key="GridCell.Tab.0.left/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325436062" />
-    <state width="2005" height="354" key="GridCell.Tab.0.right" timestamp="1590325436062">
+    <state width="997" height="354" key="GridCell.Tab.0.left/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590335387692" />
+    <state width="997" height="354" key="GridCell.Tab.0.right" timestamp="1590335387693">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="354" key="GridCell.Tab.0.right/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325436062" />
-    <state width="2005" height="371" key="GridCell.Tab.1.bottom" timestamp="1590325232027">
+    <state width="997" height="354" key="GridCell.Tab.0.right/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590335387693" />
+    <state width="1000" height="371" key="GridCell.Tab.1.bottom" timestamp="1590332849682">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="371" key="GridCell.Tab.1.bottom/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325232027" />
-    <state width="2005" height="371" key="GridCell.Tab.1.center" timestamp="1590325232027">
+    <state width="1000" height="371" key="GridCell.Tab.1.bottom/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590332849682" />
+    <state width="1000" height="371" key="GridCell.Tab.1.center" timestamp="1590332849681">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="371" key="GridCell.Tab.1.center/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325232027" />
-    <state width="2005" height="371" key="GridCell.Tab.1.left" timestamp="1590325232027">
+    <state width="1000" height="371" key="GridCell.Tab.1.center/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590332849681" />
+    <state width="1000" height="371" key="GridCell.Tab.1.left" timestamp="1590332849681">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="371" key="GridCell.Tab.1.left/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325232027" />
-    <state width="2005" height="371" key="GridCell.Tab.1.right" timestamp="1590325232027">
+    <state width="1000" height="371" key="GridCell.Tab.1.left/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590332849681" />
+    <state width="1000" height="371" key="GridCell.Tab.1.right" timestamp="1590332849682">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="371" key="GridCell.Tab.1.right/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590325232027" />
+    <state width="1000" height="371" key="GridCell.Tab.1.right/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590332849682" />
     <state x="526" y="198" key="SettingsEditor" timestamp="1590324550128">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="198" key="SettingsEditor/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590324550128" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1590311945435">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1590329815623">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590311945435" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590329815623" />
+    <state x="705" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1590335400301">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="705" y="380" key="com.intellij.ide.util.TipDialog/-1920.0.1280.687/0.0.2048.1112@0.0.2048.1112" timestamp="1590335400301" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1590326095228">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -1026,6 +741,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go1$web_server__2_.coverage" NAME="web_server (2) Coverage Results" MODIFIED="1590320297171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python/06_mini-web框架/03-将web服务器和逻辑处理的代码分开" />
     <SUITE FILE_PATH="coverage/go1$web_server__3_.coverage" NAME="web_server (3) Coverage Results" MODIFIED="1590320606887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python/06_mini-web框架/04-让web服务器支持uwsgi协议" />
+    <SUITE FILE_PATH="coverage/go1$.coverage" NAME="字典 Coverage Results" MODIFIED="1590335250614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件" />
+    <SUITE FILE_PATH="coverage/go1$web_server.coverage" NAME="web_server Coverage Results" MODIFIED="1590334848266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python/06_mini-web框架/10-让web服务器 支持配置文件" />
     <SUITE FILE_PATH="coverage/go1$web_server__4_.coverage" NAME="web_server (4) Coverage Results" MODIFIED="1590321605429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python/06_mini-web框架/06-通过传递字典实现浏览器请求的资源不一样相应不一样" />
     <SUITE FILE_PATH="coverage/go1$web_server__1_.coverage" NAME="web_server (1) Coverage Results" MODIFIED="1590325232013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python/06_mini-web框架/02-web服务器里集成了解析动态的功能" />
     <SUITE FILE_PATH="coverage/go1$web_server__5_.coverage" NAME="web_server (5) Coverage Results" MODIFIED="1590325436053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base_python/06_mini-web框架/07-实现模板文件" />
