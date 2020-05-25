@@ -1,0 +1,5 @@
+[total]
+req=1
+[files]
+t1.txt=3
+t2.txt=2
