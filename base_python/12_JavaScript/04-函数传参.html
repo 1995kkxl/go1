@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload =function () {
+            function fnmyalert(a) {
+                alert(a);
+            }
+
+            function fnchangestyle(mystyle,val) {
+                var oDiv = document.getElementById('div1');
+                oDiv.style[mystyle] = val;
+            }
+
+            fnchangestyle('color','red');
+            fnchangestyle('fontSize','223px');
+        }
+    </script>
+</head>
+<body>
+<div id="div1">这是div</div>
+</body>
+</html>

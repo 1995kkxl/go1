@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        //当整个页面加载完之后 再执行花括号里面的语句
+        window.onload = function () {
+            var oDiv = document.getElementById('div1');
+            var oA = document.getElementById('link')
+
+            //读取属性
+            var sID = oDiv.id;
+
+            //alert(sID);
+            //修改元素里面的内容
+            var str = oDiv.innerHTML;
+            oDiv.innerHTML="修改的文字";
+            //写属性
+            oDiv.style.color = 'red';
+            oA.href = "https://www.baidu.com"
+            oA.title = "网站";
+        }
+    </script>
+    <style type="text/css">
+        .box{
+            font-size: 20px;
+            color: gold;
+        }
+        .box2{
+            font-size: 33px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">这是一个div元素</div>
+    <a href="" id="link">这是一个链接</a>
+    <div class="box" id="div2">第二个div</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>padding</title>
+    <style>
+        span{
+            border: 1px solid red;
+            float: left;
+            /*padding-top: 10px;*/
+            /*padding-left:10px;*/
+            /*padding-right: 10px;*/
+            /*padding-bottom: 10px;*/
+            /*简写 上右下左都是10px*/
+            /*padding: 10px;*/
+            /*padding:10px 20px;*/
+            padding: 10px 20px 30px 40px;
+        }
+        div{
+            width: 150px;
+            height: 150px;
+            background: red;
+            clear: both;
+            border: 5px solid red;
+            padding: 20px;
+            /*margin: 20px;*/
+            /* padding 的宽高要记录在盒子模型的宽高之内，于此相同的是border也要记录在盒子模型的宽高之内，但是margin并不在算宽高之内，所以
+            在书写宽高在要剪掉内边距+边框值，才是你要的div真正的大小px*/
+
+        }
+    </style>
+</head>
+<body>
+<span>这是内容</span>
+<div></div>
+</body>
+</html>

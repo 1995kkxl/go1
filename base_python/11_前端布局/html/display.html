@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display</title>
+    <style>
+        div,span{
+            width: 200px;
+            height: 200px;
+        }
+        div{
+            background: red;
+            /*设置行内属性*/
+            /*display: inline;*/
+            /*设置元素为行内块元素，具有宽高属性，并且不会独占一行*/
+            /*display: inline-block;*/
+            /*display: table-cell;*/
+            /*none值为隐藏元素*/
+            /*display: none;*/
+            /*display: block;*/
+            /*隐藏内容 占据原有物理位置*/
+            /*visibility: hidden;*/
+            /*visible值为显示*/
+            /*visibility: visible;*/
+
+            /*
+                visible 显示
+                hidden 隐藏
+                注意：visibility和display：none的区别：visibility的隐藏方式仅隐藏了内容的显示，其占用的空间依旧占用，而display：none的隐藏方式是
+                直接隐藏该元素的内容and位置！
+            */
+            /*设置元素透明度*/
+            opacity: 0.3;
+        }
+        span{
+            /*设置为块状元素*/
+            /*display: block;*/
+            background: fuchsia;
+        }
+
+    </style>
+</head>
+<body>
+    <!--块状元素：具有宽高属性，并且独占一行-->
+<div> 这是块状元素</div>
+<!--<div> 这是块状元素</div>-->
+<!--<div> 这是块状元素</div>-->
+<!--<div> 这是块状元素</div>-->
+<!--<div> 这是块状元素</div>-->
+<!--<div> 这是块状元素</div>-->
+<!--<div> 这是块状元素</div>-->
+    <!--行业元素：没有宽高属性，不会独占一行-->
+<span>这是行内元素</span>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width:200px;
+            height: 200px;
+        }
+        #box1{
+            background: red;
+        }
+        #box2{
+            width:500px;
+            height: 500px;
+            background: green;
+            border: 1px solid revert;
+            /*绝对定位
+                绝对定位的元素不会占据原有的位置
+                参考点是0,0
+                以其他元素作为参照物  移动指定距离的定位方式
+                关于绝对定位的参考点
+                1.如果元素的外层元素是非static（有了除默认值之外的定位位置；那么这个外层元素就成为该元素的定位参考点
+                2.如果元素的外城元素没有设置任何position的值，那么该元素将寻找距离自己最近的其他设定过position的外层元素作为参照物（必须为嵌套层
+                3.如果该元素的外层元素没有任何一个元素才用position，那么此时定位参考元素变为body或者说顶面
+            */
+            /*position: absolute;*/
+            /*top: 200px;*/
+            /*left: 200px;*/
+
+        }
+        #father{
+            width: 200px;
+            height: 200px;
+            background: aquamarine;
+            position: relative;
+            margin: 20px;
+
+            /*top: 100px;*/
+            /*left: 100px;*/
+
+        }
+        #son{
+            width: 100px;
+            height: 100px;
+            background: fuchsia;
+            /*position: absolute;*/
+            /*top: 100px;*/
+            /*left: 100px;*/
+        }
+        #box3{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2">
+        <div id="father">
+            <div id="son">
+
+            </div>
+        </div>
+    </div>
+    <div id="box3"></div>
+</body>
+</html>

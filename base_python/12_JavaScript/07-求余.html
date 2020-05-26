@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+//取整
+function getResult(num){
+return parseInt(num);
+}
+//四舍五入到num后面的n位
+function getResult(num,n){
+return Math.round(num*Math.pow(10,n))/Math.pow(10,n);
+}
+//截取n位
+function getresult(num,n){
+return num.toString().replace(new RegExp("^(\\-?\\d*\\.?\\d{0,"+n+"})(\\d*)$"),"$1")+0;
+}
+
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+			for (var i =1; i<=9;i++) {
+				for (var j = 1;j<=i;j++) {
+					document.write(i+"*"+j+"="+i*j+"&nbsp;&nbsp;")
+				}
+				document.write("<br />")
+			}
+		</script>
+</body>
+</html>

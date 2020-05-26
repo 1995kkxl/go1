@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index设置定位元素z轴的距离（定位元素的显示顺序</title>
+    <style>
+        #one{
+            width: 200px;
+            height: 200px;
+            background: red;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            /* 1是往前一层*/
+            z-index: 1;
+        }
+        #two{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            position: absolute;
+            top: 150px;
+            left: 150px;
+            /* 我也往前一层*/
+            z-index: 1;
+
+        }
+    </style>
+</head>
+<body>
+<!--/* 注意：z-index属性只支持定位元素*/-->
+<div id="one"></div>
+<div id="two"></div>
+</body>
+</html>

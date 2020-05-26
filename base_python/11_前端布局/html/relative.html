@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width:200px;
+            height: 200px;
+        }
+        #box1{
+            background: red;
+        }
+        #box2{
+            background: green;
+            /*相对定位 有左右有
+            以当前为参照物移动指定的距离
+            注意：相对定位，被定位的元素会占据原有的物理位置
+            */
+            position: relative;
+            top: 200px; /*bottom*/
+            left: 200px; /*rigth*/
+        }
+        #box3{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+</body>
+</html>
