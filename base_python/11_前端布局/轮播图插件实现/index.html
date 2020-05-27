@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>轮播图</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+
+		<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+		.swiper-container{
+			width:480px;
+			height:270px;
+			margin:50px auto;
+		}
+		.swiper-slide{
+			line-height:300px;
+			text-align:center;
+			font-size:40px;
+			background:aqua;
+		}
+		.swiper-slide:nth-child(2){
+			background:pink;
+		}
+		.swiper-slide:nth-child(3){
+			background:yellow;
+		}
+		.swiper-slide:nth-child(4){
+			background:lime;
+		}
+		.swiper-slide:nth-child(5){
+			background:silver;
+		}
+		.swiper-slide:nth-child(6){
+			background:purple;
+		}
+	</style>
+	</head>
+</body>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/1.jpg"/></div>
+				<div class="swiper-slide"><img src="img/3.jpg"/></div>
+				<div class="swiper-slide"><img src="img/123.png"/></div>
+			</div>
+		</div>
+		<div class="swiper-pagination swiper-pagination-white"></div>
+		<div class="swiper-button-prev swiper-button-white"></div>
+		<div class="swiper-button-next swiper-button-white"></div>
+    </body>
+	<script>
+		//初始化 默认自适应
+		var myswiper = new Swiper('.swiper-container',{
+			autoplay:1000,//逗号结尾
+			/*自动切换的时间间隔(单位ms),不写不自动切换
+			类型:数字 默认是0
+			*/
+
+			initialSlide:0,
+			/*
+				设定初始化时的slide索引(默认显示第几张)
+				类型:数字
+				索引从0开始
+			*/
+
+			direction:'horizontal',
+			/*
+			滑动的方向 可以是水平,垂直
+			可选值horizontal,vertical
+			*/
+
+			speed:100,
+			/*
+				滑动速度,自动滑动开始到结束的时间(ms)
+				类型:数字    默认:300
+				配合autoplay
+			*/
+
+			autoplayDisabledOninteraction:true,
+			/*
+			用户操作swiper,是否禁止autoplay
+			操作:触碰 拖动 点击 (分页)
+			默认是true  可选的值false
+			*/
+
+			autoplayStopOnLast:true,
+			/*
+				切换到最后一个slide停止自动切换
+				ps:loop时无效
+				默认:false不停
+			*/
+
+			grabCursor:true,
+			/*
+				鼠标指针形状(鼠标覆盖的时候是手,拖动的时候是抓手)
+				可选值:true false
+				默认:flase没有抓手
+
+			*/
+			//freeMode:true,
+			effect:'slider',
+			pagination:'.swiper-pagination',
+			prevButton:'.swiper-button-prev',
+			nextButton:'.swiper-button-next',
+			loop:true,
+		});
+		setInterval("myswiper.slidePrev()",2000);
+	</script>
+</html>
