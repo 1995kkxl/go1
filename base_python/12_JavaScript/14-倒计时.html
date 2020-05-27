@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>倒计时</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            function down(){
+                var oDiv = document.getElementById('div1');
+                /*实际开发中需要读取后台数据的时间，可以通过ajax来读取*/
+                var sNow = new Date();
+                /*alert(sNow);*/
+                /*未来时间,月份是0-11表示一到十二月*/
+                var sFuture = new Date(2020,5,1,12,0,0);
+                /*计算多少秒*/
+                var sLast = parseInt((sFuture-sNow)/1000);
+                /*alert(sLast);单位s*/
+                var iDay = parseInt(sLast/86400);
+                /*alert(iDay);日*/
+                var iHour = parseInt((sLast%86400)/3600);
+                /*alert(iHour);时*/
+                var iMinutes = parseInt((sLast%86400)%3600/60);
+                /*alert(iMinutes);分*/
+                var iSecond = sLast%60;
+                /*alert(iSecond);秒*/
+                var sTr = '距离六月一日12点还剩:' + add(iDay) + '天' + add(iHour) + '时' + add(iMinutes) + '分' + add(iSecond) + '秒';
+                oDiv.innerHTML = sTr;
+            }
+                function add(n){
+                /*补零函数*/
+                    if(n<10){
+                        return '0'+n;
+                    }else{
+                        return n;}
+                        }
+                        down();
+            /*setIterval执行需要大概一秒，先执行一遍down*/
+            setInterval(down,1000);
+
+        }
+    </script>
+</head>
+<body>
+<div id="div1"></div>
+</body>
+</html>

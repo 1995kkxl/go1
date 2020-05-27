@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $btn = $('.btns input');
+            var $div = $('.cons div');
+
+            $btn.click(function () {
+                //this指的是原生的this,表示当前点击的对象
+                //当前点击的按钮加上current样式后，除了当前，其他按钮去掉current样式
+                $(this).addClass('current').siblings().removeClass('current');
+
+                //当前点击的按钮对应的索引值的div加上active样式，让其他的去掉active样式
+                $div.eq($(this).index()).addClass('active').siblings().removeClass('active');
+
+            })
+        })
+    </script>
+    <style type="text/css">
+            .btns input{
+                width: 100px;
+                height: 40px;
+                background-color: yellowgreen;
+                border: 0;
+            }
+        .btns .current{
+            background-color: gold;
+        }
+        .cons div{
+            width: 500px;
+            height: 300px;
+            background-color: gold;
+            display: none;
+            text-align: center;
+            line-height: 300px;
+            font-size: 30px;
+        }
+        .cons .active{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+<div class="btns">
+    <input type="button" value="01" class="current">
+    <input type="button" value="02">
+    <input type="button" value="03" >
+</div>
+    <div class="cons">
+        <div class="active">选项卡1的内容</div>
+        <div>选项卡2的内容</div>
+        <div>选项卡3的内容</div>
+    </div>
+</body>
+</html>

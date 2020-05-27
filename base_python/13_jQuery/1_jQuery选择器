@@ -1,0 +1,221 @@
+1.基本选择器
+
+//选择 id为 one 的元素
+            $("#btn1").click(function() {
+                $("#one").css("background-color", "red");
+            });
+            //选择 class 为 mini 的所有元素
+            $("#btn2").click(function() {
+                $(".mini").css("background-color", "blue");
+            });
+            //选择 元素名是 div 的所有元素
+            $("#btn3").click(function() {
+                $("div").css("background-color", "#ffeecc");
+            });
+            //选择 所有的元素
+            $("#btn4").click(function() {
+                $("*").css("background-color", "#ff80ff");
+            });
+            //选择 所有的span元素和id为two的div元素
+            $("#btn5").click(function() {
+                $("span,#two").css("background-color", "#ff0080");
+            });
+
+2.层次选择器
+
+     //选择 body内的所有div元素.
+            $("#btn1").click(function() {
+                $("body div").css("background-color", "aqua");
+            });
+            //在body内,选择子元素是div的。
+            $("#btn2").click(function() {
+                $("body>div").css("background-color", "#ffffff");
+            });
+
+            //选择 所有class为one 的下一个div元素.
+            $("#btn3").click(function() {
+                $(".one").next("div").css("background-color", "red");
+            });
+
+            //选择 id为two的元素后面的所有div兄弟元素.
+            $("#btn4").click(function() {
+                $("#two~div").css("background-color", "blue");
+            });
+　　3.基本过滤选择器
+
+
+//选择第一个div元素.
+            $("#btn1").click(function() {
+                $("div:first").css("background-color", "aqua");
+
+            });
+
+            //选择最后一个div元素.
+            $("#btn2").click(function() {
+                $("div:last").css("background-color", "red");
+
+            });
+
+            //选择class不为one的 所有div元素.
+            $("#btn3").click(function() {
+                $("div:[class!='one']").css("background-color", "blue");
+
+            });
+
+            //选择 索引值为偶数 的div元素。
+            $("#btn4").click(function() {
+                $("div:even").css("background-color", "#fdeecc");
+
+            });
+
+            //选择 索引值为奇数 的div元素。
+            $("#btn5").click(function() {
+                $("div:odd").css("background-color", "#feec00");
+
+            });
+
+            //选择 索引等于 3 的元素
+            $("#btn6").click(function() {
+                $("div.*:eq(3)").css("background-color", "coral");
+            });
+
+            //选择 索引大于 3 的元素
+            $("#btn7").click(function() {
+                $("div:gt(3)").css("background-color", "orange");
+
+            });
+
+            //选择 索引小于 3 的元素
+            $("#btn8").click(function() {
+                $("div:lt(3)").css("background-color", "orchid");
+
+            });
+
+            //选择 所有的标题元素.比如h1, h2, h3等等...
+            $("#btn9").click(function() {
+                $(":header").css("background-color", "gold");
+
+            });
+
+            //选择 当前正在执行动画的所有元素.
+            $("#btn10").click(function() {
+                $(":animated").css("background-color", "#acdf45");
+
+            });
+View Code
+4.内容过滤选择器
+
+//选取含有文本"di"的div元素.
+            $("#btn1").click(function() {
+                $("div:contains('di')").css("background-color", "#fdeecc");
+            });
+
+            //选取不包含子元素(或者文本元素)的div空元素.
+            $("#btn2").click(function() {
+                $("div:empty").css("background-color", "red ");
+            });
+
+            //选取含有class为mini元素 的div元素.
+            $("#btn3").click(function() {
+                $("div:has('.mini')").children(".mini").css("background-color", "blue");
+                //$("div:[class = 'mini']").css("background-color", "blue ");
+            });
+
+            //选取含有子元素(或者文本元素)的div元素.
+            $("#btn4").click(function() {
+                $("div:parent").css("background-color", "orange ");
+            });
+　　5.属性选择器
+
+//选取含有 属性title 的div元素.
+            $("#btn1").click(function() {
+                $("div:[title]").css("background-color", "#fdeecc");
+            });
+
+            //选取 属性title值等于 test 的div元素.
+            $("#btn2").click(function() {
+                $("div[title='test']").css("background-color", "red");
+            });
+            //选取 属性title值不等于 test 的div元素.B
+            $("#btn3").click(function() {
+                $("div[title!='test']").css("background-color", "blue");
+            });
+
+            //选取 属性title值 以 te 开始 的div元素.
+            $("#btn4").click(function() {
+                $("div[title^='te']").css("background-color", "orange");
+            });
+
+            //选取 属性title值 以 est 结束 的div元素.
+            $("#btn5").click(function() {
+                $("div[title$='est']").css("background-color", "gold");
+            });
+            //选取 属性title值 含有 es  的div元素.
+            //属性过滤选择器
+            $("#btn6").click(function() {
+                $("div[title*='es']").css("background-color", "orchid");
+            });
+
+            //组合属性选择器,首先选取有属性id的div元素，然后在结果中 选取属性title值 含有 es 的元素.
+            $("#btn7").click(function() {
+                $("div[id][title*='es']").css("background", "#ffbbaa");
+            });
+6.子元素过滤选择器
+
+//选取每个class为one的div父元素下的第2个子元素
+            $('#btn1').click(function() {
+                $("div[class='one'] :nth-child(2)").css("background-color", "yellow");
+            });
+
+
+            //选取每个class为one的div父元素下的第一个子元素
+            $("#btn2").click(function() {
+                $("div.one :first-child").css("background-color", "red");
+            });
+
+
+            //选取每个class为one的div父元素下的最后一个子元素
+            $("#btn3").click(function() {
+                $("div.one :last-child").css("background-color", "blue");
+            });
+
+
+            //如果class为one的div父元素下的仅仅只有一个子元素，那么选中这个子元素
+            $("#btn4").click(function() {
+                $("div.one :only-child").css("background-color", "orange");
+            });
+　　7.表单对象属性过滤器
+
+//想知道为什么<a>和<input>里都需要加return false;,而<botton>里不需要吗?
+            //因为<a>和<input>的onclick事件本身就包含了form.submit();,如果不加return false;那么实际上submit处理被调用了2次,
+            //如果debug的话可以看出来的!
+            //而<botton>的onclick事件本身没有包含form.submit();,所以不需要追加return false;来控制2重调用!
+
+            //1对表单内 可用input 赋值操作
+            $('#btn1').click(function() {
+                $("input:enabled").val("曾共清辉枕山川");
+                return false;
+            });
+            //2对表单内 不可用input 赋值操作.
+            $('#btn2').click(function() {
+                $("input:disabled").val("袖侧旧友推一盏");
+                return false;
+            });
+            //3点击多选框时，找到索引值为0的div展示多选框选中的个数
+            $("input[type=checkbox]").click(function() {
+                var count = $("input[type=checkbox]:checked").length;
+                $("div:eq(0)").html("<b>有" + count + "个多选框被选中了</b>");
+            });
+
+            //4点击下拉列表时，找到索引值为1的div展示每个下拉列表选中的文本信息展示
+            $("select").change(function() {
+                var str = "";
+                $("select").children("option:selected").each(function(index, domEle) {
+                    str += $(domEle).text() + "、";
+                });
+                $("div:eq(1)").html("<b>你选择的是：" + str + "</b>");
+            });
+　　遇到的问题：
+
+//div.one :only-child
+ //空格是选择它下面的元素，不加空格选的是它自己

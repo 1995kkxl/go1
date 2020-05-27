@@ -166,44 +166,39 @@ html,body{height:100%}
 
 
 
-.slide_con{
+.slide{
     width: 760px;
     height: 270px;
-    background-color: pink;
     position: relative;
     overflow: hidden;
 }
 
-.slide_con .slide{
-    position: absolute;
-    width:4560px;
-    height: 270px;
-    left: 0;
-    top: 0;
+.slide .slide_list{
+    position:relative;
+    left:0;
+    top:0;
+    width:760px;
+    height:270px;
 }
 
-.slide_con .slide li{
-    float: left;
+.slide .slide_list li{
+    width:760px;height:270px;position:absolute;left:0;top:0
 }
 
-.prev,.next{
-    position: absolute;
-    width: 15px;
-    height: 24px;
-    background: url("../images/icons.png") left -388px no-repeat;
-    left: 0;
-    right: 0;
-}
-.prev{
-    left: 11px;
-    top: 122px;
-}
+.slide .prev,.slide .next{
+    width:17px;
+    height:23px;
+    background:url(../images/icons.png) left -388px no-repeat;
+    position:absolute;
+    left:11px;
+    top:122px;
+    cursor:pointer;}
 
-.next{
-    background-position: left -427px;
-    left: 732px;
-    top: 122px;
-}
+
+.slide .next{
+    background-position:left -428px;
+    left:732px;}
+
 
 .abvs{
     width: 240px;

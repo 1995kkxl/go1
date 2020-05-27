@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var odiv = document.getElementById('div1');
+
+            //刷新时间
+            function  fntimego() {
+                        var snow = new Date();
+
+                        var iyear = snow.getFullYear();
+                        //月份是0-11 需要+1 0表示1月 11表示12月
+                        var imont = snow.getMonth()+1;
+
+                        var idate = snow.getDate();
+
+                        //星期从0-6 0表示星期天
+                        var iweek = snow.getDay();
+
+                        var ihour = snow.getHours();
+
+                        var iminute = snow.getMinutes();
+
+                        var isecond = snow.getSeconds();
+
+                        var str = '当前时间：' + iyear + '年' + imont + '月' + idate + '日' + fntodou(ihour) + ':' + fntodou(iminute) + ':' + fntodou(isecond) + ' '+ fntoweek(iweek);
+
+                        odiv.innerHTML = str;
+                }
+                //刚开始调用一次，解决刚开始一秒钟空白问题
+                fntimego();
+                //定时器 1000毫秒定时执行一次
+                    setInterval(fntimego,1000)
+            //单数时间处理
+            function fntodou(n) {
+                if(n<10){
+                    return '0'+n;
+                }else {
+                    return n;
+                }
+            }
+
+
+            //传入星期
+            function fntoweek(n) {
+                if(n==0){
+                    return '星期日';
+                }else  if (n==1){
+                    return '星期一';
+                }else  if (n==2){
+                    return '星期二';
+                }else  if (n==3){
+                    return '星期三';
+                }else  if (n==4){
+                    return '星期四';
+                }else  if (n==5){
+                    return '星期五';
+                }else  if (n==6){
+                    return '星期六';
+                }
+            }
+
+
+        }
+
+    </script>
+</head>
+<body>
+    <div id="div1"></div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $div = $('.box');
+            //var str =$div.css('fontSize');
+            //读取属性
+            //#alert(str);
+
+            //$div.css({'color':'red'});
+
+            //添加样式 big的
+            $div.addClass('big');
+
+            //去掉样式
+            $div.removeClass('red')
+
+
+        })
+        
+        
+    </script>
+    <style>
+        .box{
+            background-color: yellow;
+            width: 59px;
+            height: 99px;
+        }
+        .big{
+            font-size: 62px;
+        }
+
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="box red">aaaaa</div>
+</body>
+</html>

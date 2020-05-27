@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            var oUl = document.getElementById('list');
+            var aList = ['美人鱼','大黄蜂','变形金刚','海王'];
+            var sTr = '';
+            for(var i=0;i<aList.length;i++){
+                sTr += '<li>' + aList[i] + '</li>';
+            }
+            /*alert(sTr);*/
+            oUl.innerHTML = sTr;
+        }
+</script>
+
+    <style type="text/css">
+        .list{
+            list-style: none;
+            margin: 50px auto;
+            padding: 0;
+            width: 300px;
+            height: 305px;
+        }
+        .list li{
+            height: 60px;
+            border-bottom: 1px solid red;
+            line-height: 60px;
+        }
+    </style>
+</head>
+<body>
+ <ul class="list" id="list">
+ </ul>
+</body>
+</html>

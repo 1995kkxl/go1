@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#btn').click(function () {
+                // if ($('.box').hasClass('co1'))
+                // {
+                // $('.box').removeClass('co1');
+                // }else {
+                //      $('.box').addClass('co1');
+                // }
+
+                //简写
+                $('.box').toggleClass('co1');
+            })
+
+
+        })
+
+
+    </script>
+    <style type="text/css">
+        .box{
+            background-color: gold;
+            width: 220px;
+            height: 220px;
+        }
+
+        .co1{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+<input type="button" value="切换样式" id="btn">
+<div class="box red">aaaaa</div>
+</body>
+</html>
