@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript">
+    $(function () {
+        $.ajax({
+			url:'data.json',
+			type:'get',
+			dataType:'json'
+		})
+			.done(function (dat) {
+				$('#username').html(dat.name);
+				$('#userage').html(dat.age);
+        })
+			.fail(function () {
+				alert("服务器超时！")
+        })
+        
+    })
+        
+
+
+	</script>
+
+
+</head>
+<body>
+	<h1>this is node server</h1>
+<p>姓名：<span id="username"></span></p>
+<p>年龄：<span id="userage"></span></p>
+</body>
+</html>
