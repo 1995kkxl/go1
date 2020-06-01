@@ -7,13 +7,14 @@
       <sourceFolder url="file://$MODULE_DIR$/base_python/06_mini-web框架/09-运行web服务器时指定端口以及框架/dynamic" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/base_python/06_mini-web框架/07-实现模板文件" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/base_python/06_mini-web框架/07-实现模板文件/static" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/base_python/15_Django/1_first/first2" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/base_python/15_Django/2_second/first3/bookst" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
+    <option name="projectConfiguration" value="pytest" />
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
   </component>
 </module>
