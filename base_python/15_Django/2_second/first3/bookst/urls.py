@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'^set_session$',views.set_session),
     url(r'^get_session$',views.get_session),
     url(r'^clear_session$',views.clear_session),
+    url(r'^change_pwd$',views.change_pwd),#修改密码
+    url(r'^change_pwd_action',views.change_pwd_action),#修改密码
     url(r'^set_cookie$',views.set_cookie), #设置cookie
     url(r'^get_cookie$',views.get_cookie),#获取cookie
     url(r'^login_ajax$',views.login_ajax),
